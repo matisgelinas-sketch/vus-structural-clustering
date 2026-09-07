@@ -1,0 +1,74 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_020975.6(RET):c.1303G>A (p.Gly435Ser),435,G,S,Cadherin-like region 4 (CLD4),87.75,False,287.0,5.12591552734375,148.0,28.872890942214497,"Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+NM_020975.6(RET):c.553T>G (p.Phe185Val),185,F,V,Cadherin,94.94,False,32.0,5.582608699798584,153.0,27.406542035718914,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.555C>A (p.Phe185Leu),185,F,L,Cadherin,94.94,False,32.0,5.582608699798584,153.0,27.406542035718914,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.524G>C (p.Arg175Pro),175,R,P,Cadherin,94.31,False,32.0,5.30385160446167,143.0,26.961538644804186,not provided
+NM_020975.6(RET):c.523C>T (p.Arg175Cys),175,R,C,Cadherin,94.31,False,32.0,5.30385160446167,143.0,26.961538644804186,"Hereditary cancer-predisposing syndrome; not provided; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.524G>A (p.Arg175His),175,R,H,Cadherin,94.31,False,32.0,5.30385160446167,143.0,26.961538644804186,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.523C>A (p.Arg175Ser),175,R,S,Cadherin,94.31,False,32.0,5.30385160446167,143.0,26.961538644804186,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.524G>T (p.Arg175Leu),175,R,L,Cadherin,94.31,False,32.0,5.30385160446167,143.0,26.961538644804186,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1300A>G (p.Ser434Gly),434,S,G,Cadherin-like region 4 (CLD4),91.12,False,287.0,5.64761209487915,147.0,26.028699834623744,"not provided; Pheochromocytoma; Multiple endocrine neoplasia type 2B; Hirschsprung disease, susceptibility to, 1; Familial medullary thyroid carcinoma; Multiple endocrine neoplasia type 2A; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.520T>G (p.Phe174Val),174,F,V,Cadherin,94.81,False,32.0,5.544073104858398,142.0,25.6129378733412,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.113A>T (p.Glu38Val),38,E,V,Cadherin-like region 1 (CLD1),94.5,False,147.0,4.882510185241699,109.0,22.32458220557796,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+NM_020975.6(RET):c.2420C>T (p.Ala807Val),807,A,V,Protein kinase,93.69,False,883.0,3.9120595455169678,76.0,19.42710715819557,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+NM_020975.6(RET):c.2419G>T (p.Ala807Ser),807,A,S,Protein kinase,93.69,False,883.0,3.9120595455169678,76.0,19.42710715819557,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2419G>A (p.Ala807Thr),807,A,T,Protein kinase,93.69,False,883.0,3.9120595455169678,76.0,19.42710715819557,"See cases; Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+NM_020975.6(RET):c.2420C>G (p.Ala807Gly),807,A,G,Protein kinase,93.69,False,883.0,3.9120595455169678,76.0,19.42710715819557,Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia type 2A
+NM_020975.6(RET):c.2362A>G (p.Ile788Val),788,I,V,Protein kinase,96.0,False,891.0,5.556802749633789,103.0,18.535838798090868,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2363T>A (p.Ile788Asn),788,I,N,Protein kinase,96.0,False,891.0,5.556802749633789,103.0,18.535838798090868,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1558G>T (p.Ala520Ser),520,A,S,Unannotated / linker,96.62,False,611.0,5.2058210372924805,91.0,17.48043187580044,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1562T>C (p.Val521Ala),521,V,A,Unannotated / linker,96.19,False,611.0,5.457865238189697,90.0,16.489963762801118,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2424A>C (p.Lys808Asn),808,K,N,Protein kinase,90.38,False,883.0,5.4275407791137695,75.0,13.818412988920242,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2423A>C (p.Lys808Thr),808,K,T,Protein kinase,90.38,False,883.0,5.4275407791137695,75.0,13.818412988920242,"Pheochromocytoma; Multiple endocrine neoplasia type 2A; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2B; Familial medullary thyroid carcinoma; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2422A>G (p.Lys808Glu),808,K,E,Protein kinase,90.38,False,883.0,5.4275407791137695,75.0,13.818412988920242,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+NM_020975.6(RET):c.1082A>G (p.Asn361Ser),361,N,S,Cadherin-like region 3 (CLD3),93.75,False,287.0,5.514462947845459,74.0,13.419257813476168,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1082A>T (p.Asn361Ile),361,N,I,Cadherin-like region 3 (CLD3),93.75,False,287.0,5.514462947845459,74.0,13.419257813476168,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2437C>G (p.Arg813Gly),813,R,G,Protein kinase,94.38,False,877.0,4.879866123199463,64.0,13.11511389538668,Hereditary cancer-predisposing syndrome; not provided
+NM_020975.6(RET):c.2438G>A (p.Arg813Gln),813,R,Q,Protein kinase,94.38,False,877.0,4.879866123199463,64.0,13.11511389538668,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2437C>T (p.Arg813Trp),813,R,W,Protein kinase,94.38,False,877.0,4.879866123199463,64.0,13.11511389538668,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2819T>C (p.Leu940Pro),940,L,P,Protein kinase,98.06,False,877.0,5.897866725921631,63.0,10.681828350428738,"Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2A"
+NM_020975.6(RET):c.1670C>T (p.Thr557Ile),557,T,I,Unannotated / linker,96.69,False,609.0,5.391651153564453,52.0,9.644540887186755,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1814G>T (p.Gly605Val),605,G,V,Unannotated / linker,93.31,False,555.0,5.3645453453063965,50.0,9.320454350105646,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+NM_020975.6(RET):c.734T>C (p.Val245Ala),245,V,A,Cadherin,90.31,False,202.0,4.6565656661987305,43.0,9.234273299769004,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.734T>G (p.Val245Gly),245,V,G,Cadherin,90.31,False,202.0,4.6565656661987305,43.0,9.234273299769004,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.733G>T (p.Val245Leu),245,V,L,Cadherin,90.31,False,202.0,4.6565656661987305,43.0,9.234273299769004,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2267C>G (p.Ala756Gly),756,A,G,Protein kinase,96.25,False,804.0,5.258381366729736,48.0,9.12828428605434,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2267C>A (p.Ala756Asp),756,A,D,Protein kinase,96.25,False,804.0,5.258381366729736,48.0,9.12828428605434,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1820G>A (p.Gly607Asp),607,G,D,Unannotated / linker,92.19,False,555.0,5.961410045623779,52.0,8.722768539998814,"Hirschsprung disease, susceptibility to, 1"
+NM_020975.6(RET):c.1820G>T (p.Gly607Val),607,G,V,Unannotated / linker,92.19,False,555.0,5.961410045623779,52.0,8.722768539998814,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1819G>C (p.Gly607Arg),607,G,R,Unannotated / linker,92.19,False,555.0,5.961410045623779,52.0,8.722768539998814,"not provided; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2263G>T (p.Val755Leu),755,V,L,Protein kinase,95.5,False,804.0,5.8204121589660645,49.0,8.418647797049537,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.2264T>C (p.Val755Ala),755,V,A,Protein kinase,95.5,False,804.0,5.8204121589660645,49.0,8.418647797049537,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2263G>A (p.Val755Met),755,V,M,Protein kinase,95.5,False,804.0,5.8204121589660645,49.0,8.418647797049537,"not provided; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.157G>A (p.Val53Ile),53,V,I,Cadherin-like region 1 (CLD1),94.88,False,93.0,4.996810436248779,40.0,8.005106559541394,"Multiple endocrine neoplasia, type 2; Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Multiple endocrine neoplasia type 2A; Hirschsprung disease, susceptibility to, 1; Hereditary cancer-predisposing syndrome"
+NM_020975.6(RET):c.158T>C (p.Val53Ala),53,V,A,Cadherin-like region 1 (CLD1),94.88,False,93.0,4.996810436248779,40.0,8.005106559541394,"Hirschsprung disease, susceptibility to, 1"
+NM_020975.6(RET):c.154T>C (p.Tyr52His),52,Y,H,Cadherin-like region 1 (CLD1),95.56,False,93.0,5.314209461212158,41.0,7.7151644659952865,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.155A>C (p.Tyr52Ser),52,Y,S,Cadherin-like region 1 (CLD1),95.56,False,93.0,5.314209461212158,41.0,7.7151644659952865,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.731C>A (p.Thr244Asn),244,T,N,Cadherin,92.12,False,202.0,5.672701358795166,42.0,7.403879975962712,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1768A>G (p.Ile590Val),590,I,V,Unannotated / linker,94.69,False,618.0,4.6313252449035645,28.0,6.045785713454687,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1769T>C (p.Ile590Thr),590,I,T,Unannotated / linker,94.69,False,618.0,4.6313252449035645,28.0,6.045785713454687,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1769T>G (p.Ile590Ser),590,I,S,Unannotated / linker,94.69,False,618.0,4.6313252449035645,28.0,6.045785713454687,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1775G>A (p.Gly592Glu),592,G,E,Unannotated / linker,90.81,False,620.0,4.982464790344238,28.0,5.619708553538113,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.358A>G (p.Thr120Ala),120,T,A,Cadherin-like region 1 (CLD1),88.31,False,147.0,5.496589183807373,27.0,4.912137163086593,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.359C>T (p.Thr120Ile),120,T,I,Cadherin-like region 1 (CLD1),88.31,False,147.0,5.496589183807373,27.0,4.912137163086593,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.362T>A (p.Val121Asp),121,V,D,Cadherin-like region 1 (CLD1),91.69,False,147.0,5.305057525634766,26.0,4.900983613158657,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2611G>C (p.Val871Leu),871,V,L,Protein kinase,90.12,False,897.0,5.353765964508057,26.0,4.8563945776417725,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.196T>A (p.Phe66Ile),66,F,I,Cadherin-like region 1 (CLD1),91.62,False,93.0,5.898731231689453,27.0,4.577255504531089,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.164C>T (p.Ala55Val),55,A,V,Cadherin-like region 1 (CLD1),93.94,False,32.0,5.627085208892822,23.0,4.08737368391929,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.163G>T (p.Ala55Ser),55,A,S,Cadherin-like region 1 (CLD1),93.94,False,32.0,5.627085208892822,23.0,4.08737368391929,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1679C>T (p.Pro560Leu),560,P,L,Unannotated / linker,96.38,False,541.0,4.801614284515381,19.0,3.9570025566761324,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1678C>G (p.Pro560Ala),560,P,A,Unannotated / linker,96.38,False,541.0,4.801614284515381,19.0,3.9570025566761324,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.160C>T (p.His54Tyr),54,H,Y,Cadherin-like region 1 (CLD1),95.0,False,32.0,5.9430084228515625,22.0,3.701828844025768,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.161A>G (p.His54Arg),54,H,R,Cadherin-like region 1 (CLD1),95.0,False,32.0,5.9430084228515625,22.0,3.701828844025768,"Hereditary cancer-predisposing syndrome; not provided; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1553C>A (p.Ser518Tyr),518,S,Y,Unannotated / linker,95.81,False,533.0,4.535912990570068,15.0,3.306941740545781,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1553C>T (p.Ser518Phe),518,S,F,Unannotated / linker,95.81,False,533.0,4.535912990570068,15.0,3.306941740545781,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1552T>A (p.Ser518Thr),518,S,T,Unannotated / linker,95.81,False,533.0,4.535912990570068,15.0,3.306941740545781,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1550T>C (p.Leu517Pro),517,L,P,Unannotated / linker,93.62,False,533.0,5.067898750305176,16.0,3.157127004369715,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1549C>A (p.Leu517Met),517,L,M,Unannotated / linker,93.62,False,533.0,5.067898750305176,16.0,3.157127004369715,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1550T>G (p.Leu517Arg),517,L,R,Unannotated / linker,93.62,False,533.0,5.067898750305176,16.0,3.157127004369715,"Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2A; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.1549C>G (p.Leu517Val),517,L,V,Unannotated / linker,93.62,False,533.0,5.067898750305176,16.0,3.157127004369715,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2; Multiple endocrine neoplasia type 2A"
+NM_020975.6(RET):c.1675T>A (p.Ser559Thr),559,S,T,Unannotated / linker,97.25,False,541.0,5.7112555503845215,18.0,3.1516712640862505,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1676C>T (p.Ser559Phe),559,S,F,Unannotated / linker,97.25,False,541.0,5.7112555503845215,18.0,3.1516712640862505,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1801G>A (p.Gly601Arg),601,G,R,Unannotated / linker,91.19,False,585.0,5.165788650512695,16.0,3.097300544499053,Hereditary cancer-predisposing syndrome
+NM_020975.6(RET):c.1585G>A (p.Glu529Lys),529,E,K,Unannotated / linker,93.56,False,541.0,5.588988780975342,12.0,2.1470789207606646,"Multiple endocrine neoplasia, type 2"
+NM_020975.6(RET):c.2335C>G (p.Leu779Val),779,L,V,Protein kinase,93.75,False,790.0,5.9234299659729,11.0,1.8570321694000635,Hereditary cancer-predisposing syndrome

@@ -1,0 +1,9 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_001040142.2(SCN2A):c.2329_2330delinsAG (p.Ala777Ser),777,A,S,II,89.56,False,1353.0,5.875679016113281,576.0,98.03122301616466,not provided
+NM_001040142.2(SCN2A):c.526G>C (p.Ala176Pro),176,A,P,I,86.0,False,119.0,5.481382369995117,57.0,10.398836671569544,"Developmental and epileptic encephalopathy, 11"
+NM_001040142.2(SCN2A):c.527C>T (p.Ala176Val),176,A,V,I,86.0,False,119.0,5.481382369995117,57.0,10.398836671569544,not provided
+NM_001040142.2(SCN2A):c.526G>T (p.Ala176Ser),176,A,S,I,86.0,False,119.0,5.481382369995117,57.0,10.398836671569544,"Seizures, benign familial infantile, 3; Developmental and epileptic encephalopathy, 11; not provided"
+NM_001040142.2(SCN2A):c.5287T>A (p.Ser1763Thr),1763,S,T,IV,87.56,False,1711.0,5.702942371368408,52.0,9.118100204039536,not provided
+NM_001040142.2(SCN2A):c.5552G>A (p.Arg1851Gln),1851,R,Q,Unannotated / linker,84.88,False,1812.0,5.870907783508301,39.0,6.642924985051396,"Seizures, benign familial infantile, 3; Developmental and epileptic encephalopathy, 11; Episodic ataxia, type 9"
+NM_001040142.2(SCN2A):c.5195A>C (p.Asp1732Ala),1732,D,A,IV,89.94,False,1744.0,5.7772440910339355,12.0,2.077114937660942,Inborn genetic diseases
+NM_001040142.2(SCN2A):c.5196C>A (p.Asp1732Glu),1732,D,E,IV,89.94,False,1744.0,5.7772440910339355,12.0,2.077114937660942,"Seizures, benign familial infantile, 3; Developmental and epileptic encephalopathy, 11"

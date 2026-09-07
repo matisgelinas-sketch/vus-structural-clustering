@@ -1,0 +1,41 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_001114753.3(ENG):c.100C>G (p.Pro34Ala),34,P,A,Required for interaction with GDF2,92.56,False,205.0,4.365235805511475,171.0,39.17314152516073,Cardiovascular phenotype
+NM_001114753.3(ENG):c.103G>T (p.Val35Leu),35,V,L,Required for interaction with GDF2,89.19,False,205.0,5.074446678161621,170.0,33.501189544785575,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.137C>T (p.Thr46Ile),46,T,I,Required for interaction with GDF2,93.94,False,196.0,5.594384670257568,150.0,26.812600284258593,not provided; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.475G>T (p.Ala159Ser),159,A,S,Required for interaction with GDF2,96.06,False,53.0,5.297107696533203,106.0,20.010920312111796,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.475G>C (p.Ala159Pro),159,A,P,Required for interaction with GDF2,96.06,False,53.0,5.297107696533203,106.0,20.010920312111796,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.473C>G (p.Ser158Cys),158,S,C,Required for interaction with GDF2,94.56,False,53.0,5.481652736663818,105.0,19.15480696135887,Cardiovascular phenotype
+NM_001114753.3(ENG):c.943G>T (p.Val315Leu),315,V,L,Required for interaction with GDF2,96.0,False,221.0,5.053783416748047,94.0,18.599926480523,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.943G>C (p.Val315Leu),315,V,L,Required for interaction with GDF2,96.0,False,221.0,5.053783416748047,94.0,18.599926480523,Cardiovascular phenotype
+NM_001114753.3(ENG):c.712G>T (p.Val238Leu),238,V,L,Required for interaction with GDF2,93.38,False,325.0,4.923595905303955,87.0,17.670012257967606,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.728C>A (p.Ala243Glu),243,A,E,Required for interaction with GDF2,66.38,True,329.0,5.761796474456787,86.0,14.925900347444664,Cardiovascular phenotype
+NM_001114753.3(ENG):c.728C>T (p.Ala243Val),243,A,V,Required for interaction with GDF2,66.38,True,329.0,5.761796474456787,86.0,14.925900347444664,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1427A>G (p.Gln476Arg),476,Q,R,ZP,93.0,False,529.0,4.529726982116699,53.0,11.700484424170217,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1160T>C (p.Leu387Pro),387,L,P,ZP,90.0,False,427.0,4.711715221405029,40.0,8.489477423907644,"Telangiectasia, hereditary hemorrhagic, type 1"
+NM_001114753.3(ENG):c.593C>G (p.Pro198Arg),198,P,R,Required for interaction with GDF2,95.31,False,165.0,4.4180121421813965,33.0,7.46942265842353,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.592C>A (p.Pro198Thr),198,P,T,Required for interaction with GDF2,95.31,False,165.0,4.4180121421813965,33.0,7.46942265842353,Hereditary hemorrhagic telangiectasia; ENG-related disorder; Cardiovascular phenotype
+NM_001114753.3(ENG):c.194A>G (p.His65Arg),65,H,R,Required for interaction with GDF2,95.56,False,97.0,4.934412479400635,32.0,6.4850679049609825,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.199C>T (p.Leu67Phe),67,L,F,Required for interaction with GDF2,97.69,False,99.0,5.105880260467529,32.0,6.267283674425585,not provided
+NM_001114753.3(ENG):c.596G>T (p.Arg199Leu),199,R,L,Required for interaction with GDF2,92.69,False,165.0,5.477550506591797,34.0,6.2071540844915445,Cardiovascular phenotype
+NM_001114753.3(ENG):c.595C>G (p.Arg199Gly),199,R,G,Required for interaction with GDF2,92.69,False,165.0,5.477550506591797,34.0,6.2071540844915445,Cardiovascular phenotype
+NM_001114753.3(ENG):c.223C>T (p.Pro75Ser),75,P,S,Required for interaction with GDF2,89.19,False,105.0,5.479639530181885,30.0,5.474812683345289,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.223C>A (p.Pro75Thr),75,P,T,Required for interaction with GDF2,89.19,False,105.0,5.479639530181885,30.0,5.474812683345289,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.500G>T (p.Ser167Ile),167,S,I,Required for interaction with GDF2,97.06,False,196.0,5.605442523956299,29.0,5.1735433689777475,Hereditary hemorrhagic telangiectasia; Cardiovascular phenotype
+NM_001114753.3(ENG):c.501C>A (p.Ser167Arg),167,S,R,Required for interaction with GDF2,97.06,False,196.0,5.605442523956299,29.0,5.1735433689777475,"Telangiectasia, hereditary hemorrhagic, type 1; Cardiovascular phenotype"
+NM_001114753.3(ENG):c.359A>G (p.Tyr120Cys),120,Y,C,Required for interaction with GDF2,94.5,False,99.0,5.001716136932373,21.0,4.198558939588206,"Cardiovascular phenotype; Telangiectasia, hereditary hemorrhagic, type 1; Hereditary hemorrhagic telangiectasia"
+NM_001114753.3(ENG):c.1171G>C (p.Asp391His),391,D,H,ZP,88.0,False,412.0,5.075579643249512,21.0,4.137458472931238,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1172A>G (p.Asp391Gly),391,D,G,ZP,88.0,False,412.0,5.075579643249512,21.0,4.137458472931238,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.745G>T (p.Ala249Ser),249,A,S,Required for interaction with GDF2,90.75,False,269.0,5.091526985168457,20.0,3.9280946675250283,Cardiovascular phenotype
+NM_001114753.3(ENG):c.374T>C (p.Val125Ala),125,V,A,Required for interaction with GDF2,93.06,False,105.0,5.129855632781982,20.0,3.8987451951262337,"not specified; not provided; Telangiectasia, hereditary hemorrhagic, type 1; Hereditary hemorrhagic telangiectasia"
+NM_001114753.3(ENG):c.373G>C (p.Val125Leu),125,V,L,Required for interaction with GDF2,93.06,False,105.0,5.129855632781982,20.0,3.8987451951262337,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1528C>T (p.Arg510Trp),510,R,W,ZP,87.62,False,490.0,5.835883140563965,20.0,3.4270734211561424,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1529G>T (p.Arg510Leu),510,R,L,ZP,87.62,False,490.0,5.835883140563965,20.0,3.4270734211561424,Cardiovascular phenotype
+NM_001114753.3(ENG):c.1699A>G (p.Thr567Ala),567,T,A,Unannotated / linker,89.62,False,549.0,5.51436710357666,18.0,3.2642005259905646,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.818C>T (p.Thr273Ile),273,T,I,Required for interaction with GDF2,95.19,False,289.0,4.963310241699219,16.0,3.223655024740566,not specified; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.821C>T (p.Thr274Ile),274,T,I,Required for interaction with GDF2,93.88,False,289.0,4.896555423736572,15.0,3.0633779671492958,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.839A>G (p.Lys280Arg),280,K,R,Required for interaction with GDF2,88.56,False,263.0,5.963763236999512,17.0,2.8505491120993995,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.824G>A (p.Gly275Glu),275,G,E,Required for interaction with GDF2,90.38,False,289.0,5.061717510223389,14.0,2.765859606294413,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.826G>A (p.Glu276Lys),276,E,K,Required for interaction with GDF2,93.31,False,289.0,4.941848278045654,13.0,2.630594722576366,Cardiovascular phenotype
+NM_001114753.3(ENG):c.1273G>A (p.Ala425Thr),425,A,T,ZP,90.25,False,437.0,5.654905319213867,12.0,2.1220514442968983,Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1274C>A (p.Ala425Glu),425,A,E,ZP,90.25,False,437.0,5.654905319213867,12.0,2.1220514442968983,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+NM_001114753.3(ENG):c.1274C>T (p.Ala425Val),425,A,V,ZP,90.25,False,437.0,5.654905319213867,12.0,2.1220514442968983,"Hereditary hemorrhagic telangiectasia; Telangiectasia, hereditary hemorrhagic, type 1"

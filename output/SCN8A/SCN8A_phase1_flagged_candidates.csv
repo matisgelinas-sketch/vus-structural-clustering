@@ -1,0 +1,9 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_001330260.2(SCN8A):c.2323C>T (p.His775Tyr),775,H,Y,II,89.25,False,1350.0,5.852187633514404,575.0,98.25385582428707,Early-infantile DEE
+NM_001330260.2(SCN8A):c.3934G>C (p.Gly1312Arg),1312,G,R,III,75.12,False,1653.0,5.1661696434021,341.0,66.00634968220669,Early-infantile DEE; not provided
+NM_001330260.2(SCN8A):c.1014G>T (p.Gln338His),338,Q,H,I,90.12,False,281.0,5.267068862915039,57.0,10.821958376381199,Early-infantile DEE; Inborn genetic diseases; not provided
+NM_001330260.2(SCN8A):c.1142G>A (p.Arg381Gln),381,R,Q,I,93.62,False,324.0,5.822604656219482,57.0,9.789433314713337,not provided
+NM_001330260.2(SCN8A):c.5531G>C (p.Cys1844Ser),1844,C,S,Unannotated / linker,82.69,False,1801.0,5.394140243530273,43.0,7.971613280091143,not provided
+NM_001330260.2(SCN8A):c.1193G>C (p.Gly398Ala),398,G,A,I,81.69,False,367.0,4.745851516723633,31.0,6.532020627017277,Early-infantile DEE
+NM_001330260.2(SCN8A):c.934T>G (p.Phe312Val),312,F,V,I,90.75,False,281.0,5.756561279296875,31.0,5.38515938525481,Cognitive impairment with or without cerebellar ataxia
+NM_001330260.2(SCN8A):c.274A>C (p.Lys92Gln),92,K,Q,Unannotated / linker,83.88,False,108.0,5.109174728393555,16.0,3.131621220758441,Early-infantile DEE

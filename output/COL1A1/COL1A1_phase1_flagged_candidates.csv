@@ -1,0 +1,27 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000088.4(COL1A1):c.1215T>G (p.Ile405Met),405,I,M,Disordered,36.06,True,1184.0,4.294314861297607,779.0,181.40262769754395,Osteogenesis imperfecta type I; not specified
+NM_000088.4(COL1A1):c.3923C>A (p.Ala1308Asp),1308,A,D,Fibrillar collagen NC1,96.69,False,1455.0,5.209040641784668,147.0,28.220167610294624,not provided
+NM_000088.4(COL1A1):c.3952C>G (p.Pro1318Ala),1318,P,A,Fibrillar collagen NC1,76.19,False,1448.0,5.861146450042725,130.0,22.179961055068393,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4081G>A (p.Glu1361Lys),1361,E,K,Fibrillar collagen NC1,96.75,False,1464.0,5.228391647338867,103.0,19.70013092887268,Osteogenesis imperfecta; Osteogenesis imperfecta type I; not provided
+NM_000088.4(COL1A1):c.4369G>C (p.Asp1457His),1457,D,H,Fibrillar collagen NC1,97.69,False,1367.0,4.954493045806885,90.0,18.165329765912038,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4370A>T (p.Asp1457Val),1457,D,V,Fibrillar collagen NC1,97.69,False,1367.0,4.954493045806885,90.0,18.165329765912038,not provided
+NM_000088.4(COL1A1):c.4117A>G (p.Ser1373Gly),1373,S,G,Fibrillar collagen NC1,96.94,False,1446.0,5.237894058227539,73.0,13.93689891175512,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4118G>C (p.Ser1373Thr),1373,S,T,Fibrillar collagen NC1,96.94,False,1446.0,5.237894058227539,73.0,13.93689891175512,not provided
+NM_000088.4(COL1A1):c.3832C>T (p.Pro1278Ser),1278,P,S,Fibrillar collagen NC1,96.69,False,1351.0,5.445523262023926,73.0,13.405506961854066,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4084G>T (p.Ala1362Ser),1362,A,S,Fibrillar collagen NC1,97.44,False,1431.0,5.45232629776001,69.0,12.655148689165468,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4172A>G (p.Gln1391Arg),1391,Q,R,Fibrillar collagen NC1,97.44,False,1441.0,4.948425769805908,50.0,10.10422350984587,Cardiovascular phenotype
+NM_000088.4(COL1A1):c.4178C>T (p.Ser1393Phe),1393,S,F,Fibrillar collagen NC1,93.5,False,1439.0,5.864758491516113,46.0,7.843460232257309,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4177T>A (p.Ser1393Thr),1393,S,T,Fibrillar collagen NC1,93.5,False,1439.0,5.864758491516113,46.0,7.843460232257309,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.3763C>T (p.Pro1255Ser),1255,P,S,Fibrillar collagen NC1,95.44,False,1276.0,4.559946537017822,21.0,4.605317152190533,Osteogenesis imperfecta type I; not provided
+NM_000088.4(COL1A1):c.3763C>G (p.Pro1255Ala),1255,P,A,Fibrillar collagen NC1,95.44,False,1276.0,4.559946537017822,21.0,4.605317152190533,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.3752G>A (p.Ser1251Asn),1251,S,N,Fibrillar collagen NC1,93.88,False,1275.0,5.3037214279174805,24.0,4.5251245424900945,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.3754C>A (p.Arg1252Ser),1252,R,S,Fibrillar collagen NC1,92.81,False,1275.0,5.3001251220703125,23.0,4.339520194386625,Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.3755G>T (p.Arg1252Leu),1252,R,L,Fibrillar collagen NC1,92.81,False,1275.0,5.3001251220703125,23.0,4.339520194386625,Osteogenesis imperfecta type I; Cardiovascular phenotype
+NM_000088.4(COL1A1):c.3755G>C (p.Arg1252Pro),1252,R,P,Fibrillar collagen NC1,92.81,False,1275.0,5.3001251220703125,23.0,4.339520194386625,Ehlers-Danlos syndrome
+NM_000088.4(COL1A1):c.4285T>C (p.Tyr1429His),1429,Y,H,Fibrillar collagen NC1,97.44,False,1408.0,4.855807304382324,21.0,4.324718565550919,Cardiovascular phenotype; not provided; Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.3766G>T (p.Ala1256Ser),1256,A,S,Fibrillar collagen NC1,95.12,False,1276.0,4.744357109069824,20.0,4.215534273709254,Osteogenesis imperfecta type I; not provided
+NM_000088.4(COL1A1):c.3770G>A (p.Arg1257His),1257,R,H,Fibrillar collagen NC1,94.88,False,1276.0,5.369165420532227,19.0,3.538725018108419,Cardiovascular phenotype; not specified; Osteogenesis imperfecta type I
+NM_000088.4(COL1A1):c.4282G>A (p.Glu1428Lys),1428,E,K,Fibrillar collagen NC1,97.5,False,1408.0,5.851291179656982,20.0,3.4180490059242703,Cardiovascular phenotype
+NM_000088.4(COL1A1):c.4274C>T (p.Thr1425Ile),1425,T,I,Fibrillar collagen NC1,98.25,False,1413.0,4.298069477081299,12.0,2.7919511455056494,not provided
+NM_000088.4(COL1A1):c.3865G>T (p.Val1289Phe),1289,V,F,Fibrillar collagen NC1,96.69,False,1274.0,5.535247325897217,15.0,2.70990601085176,COL1A1-related disorder
+NM_000088.4(COL1A1):c.4123G>A (p.Ala1375Thr),1375,A,T,Fibrillar collagen NC1,97.06,False,1387.0,5.074550151824951,12.0,2.3647416304841253,Osteogenesis imperfecta

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #2a78d6; }
+    a:hover { color: #184f95; }
+  </style>
+</helmet>
+<div style="width: 1280px; height: 720px; background: #fbfbfa; display: flex; flex-direction: column; padding: 100px 120px; box-sizing: border-box; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+  <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #8892a0; margin-bottom: 14px;">07 &mdash; Honest caveats</div>
+  <h1 style="font-size: 38px; font-weight: 600; color: #14181c; margin: 0 0 48px 0;">Limitations</h1>
+
+  <div style="display: flex; flex-direction: column; gap: 0; max-width: 900px;">
+    <div style="display: flex; gap: 28px; padding: 22px 0; border-bottom: 1px solid #e3e7ed;">
+      <div style="width: 220px; flex: none; font-size: 17px; font-weight: 500; color: #14181c;">Small dataset</div>
+      <div style="font-size: 17px; color: #4b5563; line-height: 1.5;">~28,000 variants vs. ~71 million for genome-scale tools like AlphaMissense</div>
+    </div>
+    <div style="display: flex; gap: 28px; padding: 22px 0; border-bottom: 1px solid #e3e7ed;">
+      <div style="width: 220px; flex: none; font-size: 17px; font-weight: 500; color: #14181c;">Uneven performance</div>
+      <div style="font-size: 17px; color: #4b5563; line-height: 1.5;">Accuracy varies a great deal from gene to gene &mdash; not a single reliable number</div>
+    </div>
+    <div style="display: flex; gap: 28px; padding: 22px 0; border-bottom: 1px solid #e3e7ed;">
+      <div style="width: 220px; flex: none; font-size: 17px; font-weight: 500; color: #14181c;">Static structures</div>
+      <div style="font-size: 17px; color: #4b5563; line-height: 1.5;">No protein flexibility, complexes, or bound states modeled</div>
+    </div>
+    <div style="display: flex; gap: 28px; padding: 22px 0;">
+      <div style="width: 220px; flex: none; font-size: 17px; font-weight: 500; color: #14181c;">Not diagnostic</div>
+      <div style="font-size: 17px; color: #4b5563; line-height: 1.5;">A hypothesis-generation tool throughout &mdash; every output is a candidate for further investigation, never a classification</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

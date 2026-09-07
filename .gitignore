@@ -1,0 +1,22 @@
+# --- Regenerable raw/bulk data (fetch again via scripts/gene_pipeline.py) ---
+Genes/*/*.pdb
+Genes/*/*_clinvar_germline_missense.csv
+Genes/*/_unused/
+
+# --- Regenerable bulky/intermediate outputs (rerun the Phase 1/2 scripts) ---
+output/*/*_structure_viz.html
+output/*/*_all_VUS_annotated.csv
+output/*/low_confidence_flagged.csv
+output/*/numbering_mismatches.csv
+output/*/*_vus_distances_full.csv
+output/phase2/all_genes_features.csv
+output/phase2/all_genes_features_with_alphamissense.csv
+output/phase2/vus_scored_phase1_vs_phase2.csv
+output/phase2/training_pooled.csv
+
+# --- Python / editor / OS cruft ---
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/

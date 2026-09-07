@@ -1,0 +1,28 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000527.5(LDLR):c.1585G>T (p.Gly529Cys),529,G,C,LDL-receptor class B 4,94.12,False,685.0,4.390709400177002,156.0,35.52956613200391,Familial hypercholesterolemia
+NM_000527.5(LDLR):c.1585G>A (p.Gly529Ser),529,G,S,LDL-receptor class B 4,94.12,False,685.0,4.390709400177002,156.0,35.52956613200391,not provided
+NM_000527.5(LDLR):c.1583A>G (p.His528Arg),528,H,R,LDL-receptor class B 3,91.75,False,686.0,5.387417316436768,158.0,29.327596271027513,Familial hypercholesterolemia
+NM_000527.5(LDLR):c.1403T>C (p.Val468Ala),468,V,A,LDL-receptor class B 2,93.69,False,505.0,4.392460346221924,37.0,8.423525105200943,Familial hypercholesterolemia
+NM_000527.5(LDLR):c.1402G>A (p.Val468Ile),468,V,I,LDL-receptor class B 2,93.69,False,505.0,4.392460346221924,37.0,8.423525105200943,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1403T>A (p.Val468Asp),468,V,D,LDL-receptor class B 2,93.69,False,505.0,4.392460346221924,37.0,8.423525105200943,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1907G>T (p.Gly636Val),636,G,V,LDL-receptor class B 6,87.25,False,599.0,4.894781589508057,37.0,7.559070680356676,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1906G>A (p.Gly636Ser),636,G,S,LDL-receptor class B 6,87.25,False,599.0,4.894781589508057,37.0,7.559070680356676,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1907G>A (p.Gly636Asp),636,G,D,LDL-receptor class B 6,87.25,False,599.0,4.894781589508057,37.0,7.559070680356676,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.2126G>A (p.Arg709Lys),709,R,K,EGF-like 3,89.69,False,677.0,4.637969970703125,32.0,6.8995703297209445,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.2125A>G (p.Arg709Gly),709,R,G,EGF-like 3,89.69,False,677.0,4.637969970703125,32.0,6.8995703297209445,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1406T>A (p.Ile469Asn),469,I,N,LDL-receptor class B 2,95.0,False,451.0,5.048919677734375,18.0,3.5651191044649817,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1765G>C (p.Asp589His),589,D,H,LDL-receptor class B 5,93.06,False,574.0,4.378284454345703,15.0,3.4259994197297123,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1765G>A (p.Asp589Asn),589,D,N,LDL-receptor class B 5,93.06,False,574.0,4.378284454345703,15.0,3.4259994197297123,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1765G>T (p.Asp589Tyr),589,D,Y,LDL-receptor class B 5,93.06,False,574.0,4.378284454345703,15.0,3.4259994197297123,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1540G>A (p.Glu514Lys),514,E,K,LDL-receptor class B 3,90.62,False,496.0,5.260867595672607,18.0,3.4214888842300697,Familial hypercholesterolemia
+NM_000527.5(LDLR):c.1849A>G (p.Lys617Glu),617,K,E,LDL-receptor class B 6,92.06,False,633.0,4.821242332458496,16.0,3.318646709019731,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1367T>C (p.Leu456Pro),456,L,P,LDL-receptor class B 2,85.62,False,439.0,5.653194427490234,17.0,3.007149359189339,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1366C>T (p.Leu456Phe),456,L,F,LDL-receptor class B 2,85.62,False,439.0,5.653194427490234,17.0,3.007149359189339,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1367T>A (p.Leu456His),456,L,H,LDL-receptor class B 2,85.62,False,439.0,5.653194427490234,17.0,3.007149359189339,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1768G>A (p.Val590Ile),590,V,I,LDL-receptor class B 5,92.75,False,574.0,5.5590081214904785,16.0,2.8782113014272928,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1507A>T (p.Thr503Ser),503,T,S,LDL-receptor class B 3,92.38,False,488.0,5.613061904907227,15.0,2.672338244993562,not specified
+NM_000527.5(LDLR):c.752G>A (p.Gly251Asp),251,G,D,LDL-receptor class A 6,71.12,False,240.0,4.254295349121094,11.0,2.585622082461322,"Familial hypercholesterolemia; Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1790C>A (p.Thr597Asn),597,T,N,LDL-receptor class B 5,93.12,False,586.0,4.2888641357421875,11.0,2.564781641910522,not specified
+NM_000527.5(LDLR):c.371G>C (p.Arg124Pro),124,R,P,LDL-receptor class A 3,76.19,False,113.0,4.921597480773926,11.0,2.2350466577104635,"Familial hypercholesterolemia; Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1394A>G (p.Tyr465Cys),465,Y,C,LDL-receptor class B 2,84.81,False,454.0,5.907573699951172,11.0,1.8620165500586,"Hypercholesterolemia, familial, 1"
+NM_000527.5(LDLR):c.1393T>A (p.Tyr465Asn),465,Y,N,LDL-receptor class B 2,84.81,False,454.0,5.907573699951172,11.0,1.8620165500586,"Hypercholesterolemia, familial, 1"

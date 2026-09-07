@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #2a78d6; }
+    a:hover { color: #184f95; }
+  </style>
+</helmet>
+<div style="width: 1280px; height: 720px; background: #fbfbfa; display: flex; flex-direction: column; padding: 100px 120px; box-sizing: border-box; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+  <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #8892a0; margin-bottom: 14px;">05 &mdash; Phase 2</div>
+  <h1 style="font-size: 38px; font-weight: 600; color: #14181c; margin: 0 0 12px 0;">Does the signal generalize?</h1>
+  <div style="font-size: 18px; color: #4b5563; margin-bottom: 44px; max-width: 820px;">Each gene held out in turn; model trained on the other 14. Balanced accuracy averaged 0.72 across all 15 &mdash; real, but modest and uneven.</div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px; max-width: 820px;">
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">TP53</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 85%; background: #2a78d6; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.85</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">BRCA1</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 82%; background: #2a78d6; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.82</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">MSH2</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 79%; background: #2a78d6; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.79</div>
+    </div>
+
+    <div style="height: 1px; background: #e3e7ed; margin: 6px 0; position: relative;">
+      <div style="position: absolute; left: 90px; top: -8px; font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 12px; color: #8892a0;">&hellip;</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">LDLR</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 65%; background: #9ec5f4; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.65</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">PMS2</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 63%; background: #9ec5f4; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.63</div>
+    </div>
+    <div style="display: grid; grid-template-columns: 90px 1fr 50px; align-items: center; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; font-weight: 500; color: #14181c;">MYBPC3</div>
+      <div style="position: relative; height: 22px; background: #e3e7ed; border-radius: 3px;"><div style="position: absolute; left: 0; top: 0; height: 100%; width: 51%; background: #9ec5f4; border-radius: 3px;"></div></div>
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 15px; color: #4b5563;">0.51</div>
+    </div>
+  </div>
+
+  <div style="flex: 1;"></div>
+  <div style="font-size: 15px; color: #8892a0; font-family: 'IBM Plex Mono', ui-monospace, monospace;">0.50 = random baseline &nbsp;&middot;&nbsp; balanced accuracy, random forest, gene-held-out</div>
+</div>
+</x-dc>
+</body>
+</html>

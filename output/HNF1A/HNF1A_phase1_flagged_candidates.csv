@@ -1,0 +1,3 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000545.8(HNF1A):c.542G>A (p.Gly181Glu),181,G,E,POU-specific atypical,48.31,True,250.0,5.554740905761719,69.0,12.421821498178062,"Type 1 diabetes mellitus 20; Type 2 diabetes mellitus; Diabetes mellitus type 1; Nonpapillary renal cell carcinoma; Maturity-onset diabetes of the young type 3; Hepatic adenomas, familial"
+NM_000545.8(HNF1A):c.539C>G (p.Ala180Gly),180,A,G,POU-specific atypical,61.34,True,250.0,5.813026428222656,70.0,12.041920136496374,Monogenic diabetes

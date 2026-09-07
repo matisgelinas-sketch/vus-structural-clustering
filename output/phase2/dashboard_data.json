@@ -1,0 +1,430 @@
+{
+  "panelA": [
+    {
+      "gene": "TP53",
+      "logreg": 0.84,
+      "rf": 0.847,
+      "n_benign": 97,
+      "n_patho": 142,
+      "reliable": true
+    },
+    {
+      "gene": "BRCA1",
+      "logreg": 0.793,
+      "rf": 0.815,
+      "n_benign": 360,
+      "n_patho": 120,
+      "reliable": true
+    },
+    {
+      "gene": "PTEN",
+      "logreg": 0.639,
+      "rf": 0.811,
+      "n_benign": 3,
+      "n_patho": 180,
+      "reliable": false
+    },
+    {
+      "gene": "VHL",
+      "logreg": 0.646,
+      "rf": 0.723,
+      "n_benign": 35,
+      "n_patho": 180,
+      "reliable": true
+    },
+    {
+      "gene": "MLH1",
+      "logreg": 0.702,
+      "rf": 0.723,
+      "n_benign": 37,
+      "n_patho": 200,
+      "reliable": true
+    },
+    {
+      "gene": "MSH2",
+      "logreg": 0.785,
+      "rf": 0.79,
+      "n_benign": 304,
+      "n_patho": 153,
+      "reliable": true
+    },
+    {
+      "gene": "MSH6",
+      "logreg": 0.621,
+      "rf": 0.69,
+      "n_benign": 81,
+      "n_patho": 73,
+      "reliable": true
+    },
+    {
+      "gene": "PMS2",
+      "logreg": 0.602,
+      "rf": 0.632,
+      "n_benign": 50,
+      "n_patho": 37,
+      "reliable": true
+    },
+    {
+      "gene": "RB1",
+      "logreg": 0.627,
+      "rf": 0.66,
+      "n_benign": 64,
+      "n_patho": 41,
+      "reliable": true
+    },
+    {
+      "gene": "RET",
+      "logreg": 0.749,
+      "rf": 0.768,
+      "n_benign": 47,
+      "n_patho": 81,
+      "reliable": true
+    },
+    {
+      "gene": "TSC2",
+      "logreg": 0.698,
+      "rf": 0.756,
+      "n_benign": 198,
+      "n_patho": 186,
+      "reliable": true
+    },
+    {
+      "gene": "LDLR",
+      "logreg": 0.668,
+      "rf": 0.653,
+      "n_benign": 41,
+      "n_patho": 739,
+      "reliable": true
+    },
+    {
+      "gene": "MYBPC3",
+      "logreg": 0.525,
+      "rf": 0.51,
+      "n_benign": 35,
+      "n_patho": 37,
+      "reliable": true
+    },
+    {
+      "gene": "HNF1A",
+      "logreg": 0.704,
+      "rf": 0.763,
+      "n_benign": 35,
+      "n_patho": 143,
+      "reliable": true
+    },
+    {
+      "gene": "ENG",
+      "logreg": 0.644,
+      "rf": 0.693,
+      "n_benign": 110,
+      "n_patho": 94,
+      "reliable": true
+    }
+  ],
+  "panelB_15": {
+    "dist3d_A": 0.3656,
+    "n_pathogenic_within_threshold": 0.2345,
+    "plddt": 0.1541,
+    "seqdist_nearest3d": 0.1017,
+    "seq_minus_3d_diff": 0.0719,
+    "seq_over_3d_ratio": 0.0672,
+    "disordered_region": 0.005
+  },
+  "panelB_3gene": {
+    "plddt": 0.2699,
+    "dist3d_A": 0.2946,
+    "n_pathogenic_within_threshold": 0.1541,
+    "seq_minus_3d_diff": 0.1023,
+    "seqdist_nearest3d": 0.091,
+    "seq_over_3d_ratio": 0.0496,
+    "disordered_region": 0.0384
+  },
+  "panelC": [
+    {
+      "gene": "BRCA1",
+      "pathogenic": 120,
+      "benign": 360,
+      "vus": 1832
+    },
+    {
+      "gene": "ENG",
+      "pathogenic": 94,
+      "benign": 110,
+      "vus": 420
+    },
+    {
+      "gene": "HNF1A",
+      "pathogenic": 143,
+      "benign": 35,
+      "vus": 332
+    },
+    {
+      "gene": "LDLR",
+      "pathogenic": 739,
+      "benign": 41,
+      "vus": 857
+    },
+    {
+      "gene": "MLH1",
+      "pathogenic": 200,
+      "benign": 37,
+      "vus": 1774
+    },
+    {
+      "gene": "MSH2",
+      "pathogenic": 153,
+      "benign": 304,
+      "vus": 1724
+    },
+    {
+      "gene": "MSH6",
+      "pathogenic": 73,
+      "benign": 81,
+      "vus": 3988
+    },
+    {
+      "gene": "MYBPC3",
+      "pathogenic": 37,
+      "benign": 35,
+      "vus": 1617
+    },
+    {
+      "gene": "PMS2",
+      "pathogenic": 37,
+      "benign": 50,
+      "vus": 2539
+    },
+    {
+      "gene": "PTEN",
+      "pathogenic": 180,
+      "benign": 3,
+      "vus": 715
+    },
+    {
+      "gene": "RB1",
+      "pathogenic": 41,
+      "benign": 64,
+      "vus": 1475
+    },
+    {
+      "gene": "RET",
+      "pathogenic": 81,
+      "benign": 47,
+      "vus": 1861
+    },
+    {
+      "gene": "TP53",
+      "pathogenic": 142,
+      "benign": 97,
+      "vus": 508
+    },
+    {
+      "gene": "TSC2",
+      "pathogenic": 186,
+      "benign": 198,
+      "vus": 3776
+    },
+    {
+      "gene": "VHL",
+      "pathogenic": 180,
+      "benign": 35,
+      "vus": 382
+    }
+  ],
+  "panelD": [
+    {
+      "gene": "BRCA1",
+      "both": 34,
+      "model_only": 206,
+      "geometric_only": 0,
+      "neither": 1592
+    },
+    {
+      "gene": "ENG",
+      "both": 40,
+      "model_only": 134,
+      "geometric_only": 0,
+      "neither": 246
+    },
+    {
+      "gene": "HNF1A",
+      "both": 1,
+      "model_only": 142,
+      "geometric_only": 1,
+      "neither": 188
+    },
+    {
+      "gene": "LDLR",
+      "both": 27,
+      "model_only": 642,
+      "geometric_only": 0,
+      "neither": 188
+    },
+    {
+      "gene": "MLH1",
+      "both": 127,
+      "model_only": 714,
+      "geometric_only": 0,
+      "neither": 933
+    },
+    {
+      "gene": "MSH2",
+      "both": 90,
+      "model_only": 521,
+      "geometric_only": 0,
+      "neither": 1113
+    },
+    {
+      "gene": "MSH6",
+      "both": 129,
+      "model_only": 539,
+      "geometric_only": 0,
+      "neither": 3320
+    },
+    {
+      "gene": "MYBPC3",
+      "both": 83,
+      "model_only": 147,
+      "geometric_only": 0,
+      "neither": 1387
+    },
+    {
+      "gene": "PMS2",
+      "both": 76,
+      "model_only": 299,
+      "geometric_only": 0,
+      "neither": 2164
+    },
+    {
+      "gene": "PTEN",
+      "both": 47,
+      "model_only": 361,
+      "geometric_only": 0,
+      "neither": 307
+    },
+    {
+      "gene": "RB1",
+      "both": 22,
+      "model_only": 211,
+      "geometric_only": 0,
+      "neither": 1242
+    },
+    {
+      "gene": "RET",
+      "both": 73,
+      "model_only": 169,
+      "geometric_only": 0,
+      "neither": 1619
+    },
+    {
+      "gene": "TP53",
+      "both": 15,
+      "model_only": 215,
+      "geometric_only": 1,
+      "neither": 277
+    },
+    {
+      "gene": "TSC2",
+      "both": 86,
+      "model_only": 966,
+      "geometric_only": 0,
+      "neither": 2724
+    },
+    {
+      "gene": "VHL",
+      "both": 11,
+      "model_only": 169,
+      "geometric_only": 0,
+      "neither": 202
+    }
+  ],
+  "panelE": [
+    {
+      "gene": "TP53",
+      "pct_flagged": 3.1,
+      "n_flagged": 16
+    },
+    {
+      "gene": "BRCA1",
+      "pct_flagged": 1.9,
+      "n_flagged": 34
+    },
+    {
+      "gene": "PTEN",
+      "pct_flagged": 6.6,
+      "n_flagged": 47
+    },
+    {
+      "gene": "VHL",
+      "pct_flagged": 2.88,
+      "n_flagged": 11,
+      "n_vus": null
+    },
+    {
+      "gene": "MLH1",
+      "pct_flagged": 7.16,
+      "n_flagged": 127,
+      "n_vus": null
+    },
+    {
+      "gene": "MSH2",
+      "pct_flagged": 5.22,
+      "n_flagged": 90,
+      "n_vus": null
+    },
+    {
+      "gene": "MSH6",
+      "pct_flagged": 3.23,
+      "n_flagged": 129,
+      "n_vus": null
+    },
+    {
+      "gene": "PMS2",
+      "pct_flagged": 2.99,
+      "n_flagged": 76,
+      "n_vus": null
+    },
+    {
+      "gene": "RB1",
+      "pct_flagged": 1.49,
+      "n_flagged": 22,
+      "n_vus": null
+    },
+    {
+      "gene": "RET",
+      "pct_flagged": 3.92,
+      "n_flagged": 73,
+      "n_vus": null
+    },
+    {
+      "gene": "TSC2",
+      "pct_flagged": 2.28,
+      "n_flagged": 86,
+      "n_vus": null
+    },
+    {
+      "gene": "LDLR",
+      "pct_flagged": 3.15,
+      "n_flagged": 27,
+      "n_vus": null
+    },
+    {
+      "gene": "MYBPC3",
+      "pct_flagged": 5.13,
+      "n_flagged": 83,
+      "n_vus": null
+    },
+    {
+      "gene": "HNF1A",
+      "pct_flagged": 0.6,
+      "n_flagged": 2,
+      "n_vus": null
+    },
+    {
+      "gene": "ENG",
+      "pct_flagged": 9.52,
+      "n_flagged": 40,
+      "n_vus": null
+    }
+  ]
+}

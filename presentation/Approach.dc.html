@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #2a78d6; }
+    a:hover { color: #184f95; }
+  </style>
+</helmet>
+<div style="width: 1280px; height: 720px; background: #fbfbfa; display: flex; flex-direction: column; padding: 100px 120px; box-sizing: border-box; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+  <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #8892a0; margin-bottom: 14px;">02 &mdash; Method</div>
+  <h1 style="font-size: 38px; font-weight: 600; color: #14181c; margin: 0 0 60px 0;">A two-phase approach</h1>
+
+  <div style="display: flex; align-items: stretch; gap: 0; flex: 1;">
+    <div style="flex: 1; border: 1px solid #e3e7ed; background: #ffffff; border-radius: 4px; padding: 40px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; color: #2a78d6; font-weight: 500;">PHASE 1</div>
+      <div style="font-size: 26px; font-weight: 600; color: #14181c;">Structural flagging</div>
+      <div style="width: 40px; height: 3px; background: #2a78d6; margin: 4px 0;"></div>
+      <div style="font-size: 18px; color: #4b5563; line-height: 1.6;">Flag VUS that sit close to a known disease-causing residue in 3D space &mdash; but far apart in the raw sequence, where a naive lookup would miss them</div>
+    </div>
+
+    <div style="width: 100px; display: flex; align-items: center; justify-content: center; flex: none;">
+      <svg width="60" height="24" viewBox="0 0 60 24" fill="none">
+        <line x1="0" y1="12" x2="48" y2="12" stroke="#8892a0" stroke-width="2"/>
+        <path d="M40 4 L50 12 L40 20" stroke="#8892a0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div style="flex: 1; border: 1px solid #e3e7ed; background: #ffffff; border-radius: 4px; padding: 40px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 14px; color: #2a78d6; font-weight: 500;">PHASE 2</div>
+      <div style="font-size: 26px; font-weight: 600; color: #14181c;">Cross-gene validation</div>
+      <div style="width: 40px; height: 3px; background: #2a78d6; margin: 4px 0;"></div>
+      <div style="font-size: 18px; color: #4b5563; line-height: 1.6;">Pool the structural signal across genes and test with machine learning whether it actually predicts pathogenicity &mdash; on genes the model has never seen</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

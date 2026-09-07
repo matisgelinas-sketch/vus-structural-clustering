@@ -1,0 +1,23 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000321.3(RB1):c.1024A>T (p.Thr342Ser),342,T,S,Unannotated / linker,93.5,False,127.0,4.065821647644043,215.0,52.87984044371022,not provided; not specified; Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1025C>T (p.Thr342Ile),342,T,I,Unannotated / linker,93.5,False,127.0,4.065821647644043,215.0,52.87984044371022,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1688G>C (p.Trp563Ser),563,W,S,Pocket; binds T and E1A,98.5,False,695.0,5.982241630554199,132.0,22.065307313200492,Retinoblastoma
+NM_000321.3(RB1):c.1673T>C (p.Met558Thr),558,M,T,Pocket; binds T and E1A,98.12,False,654.0,5.6768879890441895,96.0,16.910673627041813,Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1672A>C (p.Met558Leu),558,M,L,Pocket; binds T and E1A,98.12,False,654.0,5.6768879890441895,96.0,16.910673627041813,Hereditary cancer-predisposing syndrome; Malignant tumor of urinary bladder; Retinoblastoma
+NM_000321.3(RB1):c.1672A>G (p.Met558Val),558,M,V,Pocket; binds T and E1A,98.12,False,654.0,5.6768879890441895,96.0,16.910673627041813,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1219T>C (p.Cys407Arg),407,C,R,Pocket; binds T and E1A,98.12,False,474.0,4.489761829376221,67.0,14.922840575110987,Retinoblastoma
+NM_000321.3(RB1):c.1220G>A (p.Cys407Tyr),407,C,Y,Pocket; binds T and E1A,98.12,False,474.0,4.489761829376221,67.0,14.922840575110987,Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1223C>G (p.Thr408Arg),408,T,R,Pocket; binds T and E1A,97.5,False,474.0,5.689953804016113,66.0,11.599391185463674,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1222A>T (p.Thr408Ser),408,T,S,Pocket; binds T and E1A,97.5,False,474.0,5.689953804016113,66.0,11.599391185463674,Retinoblastoma; Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1223C>T (p.Thr408Ile),408,T,I,Pocket; binds T and E1A,97.5,False,474.0,5.689953804016113,66.0,11.599391185463674,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1226T>C (p.Val409Ala),409,V,A,Pocket; binds T and E1A,97.81,False,474.0,5.908054351806641,65.0,11.001929929795494,Retinal dystrophy
+NM_000321.3(RB1):c.1225G>T (p.Val409Leu),409,V,L,Pocket; binds T and E1A,97.81,False,474.0,5.908054351806641,65.0,11.001929929795494,Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1226T>G (p.Val409Gly),409,V,G,Pocket; binds T and E1A,97.81,False,474.0,5.908054351806641,65.0,11.001929929795494,Retinoblastoma
+NM_000321.3(RB1):c.1225G>A (p.Val409Met),409,V,M,Pocket; binds T and E1A,97.81,False,474.0,5.908054351806641,65.0,11.001929929795494,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1373A>C (p.Glu458Ala),458,E,A,Pocket; binds T and E1A,98.19,False,400.0,5.72097635269165,58.0,10.138129652067466,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1374A>C (p.Glu458Asp),458,E,D,Pocket; binds T and E1A,98.19,False,400.0,5.72097635269165,58.0,10.138129652067466,Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1472T>A (p.Leu491His),491,L,H,Pocket; binds T and E1A,98.69,False,449.0,4.452255725860596,42.0,9.433420402167407,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1472T>C (p.Leu491Pro),491,L,P,Pocket; binds T and E1A,98.69,False,449.0,4.452255725860596,42.0,9.433420402167407,not provided; Retinoblastoma
+NM_000321.3(RB1):c.1471C>T (p.Leu491Phe),491,L,F,Pocket; binds T and E1A,98.69,False,449.0,4.452255725860596,42.0,9.433420402167407,Hereditary cancer-predisposing syndrome
+NM_000321.3(RB1):c.1468G>T (p.Ala490Ser),490,A,S,Pocket; binds T and E1A,98.75,False,449.0,4.9269022941589355,41.0,8.321658833910172,Hereditary cancer-predisposing syndrome; Retinoblastoma
+NM_000321.3(RB1):c.1469C>A (p.Ala490Asp),490,A,D,Pocket; binds T and E1A,98.75,False,449.0,4.9269022941589355,41.0,8.321658833910172,not provided

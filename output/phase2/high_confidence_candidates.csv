@@ -1,0 +1,862 @@
+gene,variation,position,domain,structure_confidence_plddt,dist3d_angstrom,seqdist_nearest3d,phase2_model_probability,condition
+MSH2,NM_000251.3(MSH2):c.797C>A (p.Ala266Glu),266,Unannotated / linker,93.25,3.713005781173706,104.0,0.965314063753752,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.796G>A (p.Ala266Thr),266,Unannotated / linker,93.25,3.713005781173706,104.0,0.965314063753752,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+VHL,NM_000551.4(VHL):c.307C>T (p.Pro103Ser),103,Involved in binding to CCT complex,98.81,4.9237189292907715,22.0,0.9623940091976356,Chuvash polycythemia; Von Hippel-Lindau syndrome
+LDLR,NM_000527.5(LDLR):c.1849A>G (p.Lys617Glu),617,LDL-receptor class B 6,92.06,4.821242332458496,16.0,0.9225434149734918,"Hypercholesterolemia, familial, 1"
+TSC2,NM_000548.5(TSC2):c.3605C>T (p.Pro1202Leu),1202,Unannotated / linker,89.0,5.052975654602051,542.0,0.8949993788709174,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.3604C>T (p.Pro1202Ser),1202,Unannotated / linker,89.0,5.052975654602051,542.0,0.8949993788709174,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+LDLR,NM_000527.5(LDLR):c.1585G>A (p.Gly529Ser),529,LDL-receptor class B 4,94.12,4.390709400177002,156.0,0.8792014132789745,not provided
+LDLR,NM_000527.5(LDLR):c.1585G>T (p.Gly529Cys),529,LDL-receptor class B 4,94.12,4.390709400177002,156.0,0.8792014132789745,Familial hypercholesterolemia
+MSH6,NM_000179.3(MSH6):c.2294G>C (p.Cys765Ser),765,Unannotated / linker,95.44,5.652737140655518,293.0,0.8791130789658559,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome
+MSH6,NM_000179.3(MSH6):c.2294_2295delinsAT (p.Cys765Tyr),765,Unannotated / linker,95.44,5.652737140655518,293.0,0.8791130789658559,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2294G>A (p.Cys765Tyr),765,Unannotated / linker,95.44,5.652737140655518,293.0,0.8791130789658559,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1856A>C (p.Tyr619Ser),619,Interaction with EXO1,98.44,4.591196537017822,77.0,0.8764917464169495,Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2
+TP53,NM_000546.6(TP53):c.767C>T (p.Thr256Ile),256,DNA-binding domain,98.69,4.408700466156006,11.0,0.8717808707839473,"Li-Fraumeni syndrome, Hereditary cancer-predisposing syndrome"
+TP53,NM_000546.6(TP53):c.767C>A (p.Thr256Lys),256,DNA-binding domain,98.69,4.408700466156006,11.0,0.8717808707839473,Li-Fraumeni syndrome
+TP53,NM_000546.6(TP53):c.647T>A (p.Val216Glu),216,DNA-binding domain,97.81,4.585881233215332,11.0,0.869318408581551,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+VHL,NM_000551.4(VHL):c.325A>G (p.Ile109Val),109,Involved in binding to CCT complex,97.56,5.124265670776367,35.0,0.8676326059953232,not provided
+BRCA1,NM_007294.4(BRCA1):c.5281T>C (p.Phe1761Leu),1761,BRCT domain 2,95.0,4.855611801147461,28.0,0.8646669156334673,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.313G>A (p.Ala105Thr),105,Unannotated / linker,91.62,4.423670291900635,28.0,0.8620469455394926,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.314C>T (p.Ala105Val),105,Unannotated / linker,91.62,4.423670291900635,28.0,0.8620469455394926,Hereditary cancer-predisposing syndrome; not specified; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.314C>A (p.Ala105Asp),105,Unannotated / linker,91.62,4.423670291900635,28.0,0.8620469455394926,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.313G>T (p.Ala105Ser),105,Unannotated / linker,91.62,4.423670291900635,28.0,0.8620469455394926,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.440T>A (p.Val147Asp),147,Unannotated / linker,92.38,5.051132678985596,51.0,0.8610449859373153,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5284A>T (p.Arg1762Trp),1762,BRCT domain 2,91.38,4.657547473907471,26.0,0.8598152342785256,Hereditary breast ovarian cancer syndrome
+MSH2,NM_000251.3(MSH2):c.452A>C (p.Lys151Thr),151,Unannotated / linker,93.88,5.3222150802612305,11.0,0.8582321298302118,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+LDLR,NM_000527.5(LDLR):c.2126G>A (p.Arg709Lys),709,EGF-like 3,89.69,4.637969970703125,32.0,0.8576978777194699,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.2125A>G (p.Arg709Gly),709,EGF-like 3,89.69,4.637969970703125,32.0,0.8576978777194699,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1907G>A (p.Gly636Asp),636,LDL-receptor class B 6,87.25,4.894781589508057,37.0,0.8520889104365097,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1906G>A (p.Gly636Ser),636,LDL-receptor class B 6,87.25,4.894781589508057,37.0,0.8520889104365097,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1907G>T (p.Gly636Val),636,LDL-receptor class B 6,87.25,4.894781589508057,37.0,0.8520889104365097,"Hypercholesterolemia, familial, 1"
+ENG,NM_001114753.3(ENG):c.1172A>G (p.Asp391Gly),391,ZP,88.0,5.075579643249512,21.0,0.8505663472292638,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.1171G>C (p.Asp391His),391,ZP,88.0,5.075579643249512,21.0,0.8505663472292638,Hereditary hemorrhagic telangiectasia
+LDLR,NM_000527.5(LDLR):c.371G>C (p.Arg124Pro),124,LDL-receptor class A 3,76.19,4.921597480773926,11.0,0.8284702124330439,"Familial hypercholesterolemia; Hypercholesterolemia, familial, 1"
+MSH6,NM_000179.3(MSH6):c.1548C>G (p.Ile516Met),516,Unannotated / linker,97.88,4.498068809509277,178.0,0.7982259172041833,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1546A>T (p.Ile516Phe),516,Unannotated / linker,97.88,4.498068809509277,178.0,0.7982259172041833,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4554C>G (p.Ile1518Met),1518,Unannotated / linker,83.25,5.108318328857422,457.0,0.7891216974025054,not provided; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4552A>C (p.Ile1518Leu),1518,Unannotated / linker,83.25,5.108318328857422,457.0,0.7891216974025054,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4552A>T (p.Ile1518Phe),1518,Unannotated / linker,83.25,5.108318328857422,457.0,0.7891216974025054,Tuberous sclerosis 2
+PMS2,NM_000535.7(PMS2):c.460G>A (p.Gly154Arg),154,Unannotated / linker,96.31,3.896627426147461,80.0,0.7879776629104195,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.460G>C (p.Gly154Arg),154,Unannotated / linker,96.31,3.896627426147461,80.0,0.7879776629104195,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.650T>G (p.Val217Gly),217,C2 (tensin-type) domain,98.69,4.643876552581787,38.0,0.7782106188018452,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+PTEN,NM_000314.8(PTEN):c.649G>C (p.Val217Leu),217,C2 (tensin-type) domain,98.69,4.643876552581787,38.0,0.7782106188018452,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.648_650delinsTGG (p.Val217Gly),217,C2 (tensin-type) domain,98.69,4.643876552581787,38.0,0.7782106188018452,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1270G>A (p.Val424Ile),424,Unannotated / linker,98.25,4.786152362823486,56.0,0.7781721351065792,Lynch syndrome; Hereditary cancer-predisposing syndrome; Lynch syndrome 5; Endometrial carcinoma; Mismatch repair cancer syndrome 1; Endometrial carcinoma; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1271T>C (p.Val424Ala),424,Unannotated / linker,98.25,4.786152362823486,56.0,0.7781721351065792,Hereditary cancer-predisposing syndrome; Lynch syndrome; Hereditary nonpolyposis colorectal neoplasms
+ENG,NM_001114753.3(ENG):c.475G>C (p.Ala159Pro),159,Required for interaction with GDF2,96.06,5.297107696533203,106.0,0.7733435532482246,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.475G>T (p.Ala159Ser),159,Required for interaction with GDF2,96.06,5.297107696533203,106.0,0.7733435532482246,Hereditary hemorrhagic telangiectasia
+PTEN,NM_000314.8(PTEN):c.254T>G (p.Val85Gly),85,Phosphatase (tensin-type) domain,97.69,4.608462810516357,18.0,0.7732060874803017,"Hereditary cancer-predisposing syndrome, not provided"
+PTEN,NM_000314.8(PTEN):c.253G>A (p.Val85Ile),85,Phosphatase (tensin-type) domain,97.69,4.608462810516357,18.0,0.7732060874803017,not provided
+MSH6,NM_000179.3(MSH6):c.1276T>G (p.Cys426Gly),426,Unannotated / linker,97.94,5.170748710632324,56.0,0.7732031963097836,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1277G>A (p.Cys426Tyr),426,Unannotated / linker,97.94,5.170748710632324,56.0,0.7732031963097836,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.464C>T (p.Thr155Ile),155,Unannotated / linker,97.19,5.328256607055664,85.0,0.7731775829346317,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.181A>T (p.Ile61Phe),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.181A>G (p.Ile61Val),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary nonpolyposis colorectal neoplasms; not provided; Lynch syndrome; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.182T>G (p.Ile61Ser),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.183C>G (p.Ile61Met),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.182T>A (p.Ile61Asn),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.182T>C (p.Ile61Thr),61,Unannotated / linker,97.5,4.5662384033203125,12.0,0.7722486909654727,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.592G>A (p.Asp198Asn),198,Ig-like C2-type 1,87.12,5.707703113555908,333.0,0.7713449996419746,Left ventricular noncompaction 10; Hypertrophic cardiomyopathy 4; Cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.594C>A (p.Asp198Glu),198,Ig-like C2-type 1,87.12,5.707703113555908,333.0,0.7713449996419746,Cardiomyopathy; Hypertrophic cardiomyopathy
+LDLR,NM_000527.5(LDLR):c.1402G>A (p.Val468Ile),468,LDL-receptor class B 2,93.69,4.392460346221924,37.0,0.7684897259272414,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1403T>A (p.Val468Asp),468,LDL-receptor class B 2,93.69,4.392460346221924,37.0,0.7684897259272414,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1403T>C (p.Val468Ala),468,LDL-receptor class B 2,93.69,4.392460346221924,37.0,0.7684897259272414,Familial hypercholesterolemia
+MSH6,NM_000179.3(MSH6):c.1544G>C (p.Arg515Thr),515,Unannotated / linker,97.38,5.236443042755127,33.0,0.7682183479528697,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1543A>G (p.Arg515Gly),515,Unannotated / linker,97.38,5.236443042755127,33.0,0.7682183479528697,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1544G>A (p.Arg515Lys),515,Unannotated / linker,97.38,5.236443042755127,33.0,0.7682183479528697,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1544G>T (p.Arg515Met),515,Unannotated / linker,97.38,5.236443042755127,33.0,0.7682183479528697,Hereditary cancer-predisposing syndrome
+LDLR,NM_000527.5(LDLR):c.1583A>G (p.His528Arg),528,LDL-receptor class B 3,91.75,5.387417316436768,158.0,0.7678289634676008,Familial hypercholesterolemia
+TP53,NM_000546.6(TP53):c.319T>A (p.Tyr107Asn),107,DNA-binding domain,97.56,5.458457946777344,40.0,0.7672386651667029,Li-Fraumeni syndrome
+TP53,NM_000546.6(TP53):c.320A>C (p.Tyr107Ser),107,DNA-binding domain,97.56,5.458457946777344,40.0,0.7672386651667029,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.150T>G (p.Ile50Met),50,Phosphatase (tensin-type) domain,94.62,4.384884834289551,12.0,0.7668554209090789,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.149T>A (p.Ile50Asn),50,Phosphatase (tensin-type) domain,94.62,4.384884834289551,12.0,0.7668554209090789,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.713T>C (p.Phe238Ser),238,C2 (tensin-type) domain,97.06,5.448409080505371,38.0,0.7658530699150494,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.712T>G (p.Phe238Val),238,C2 (tensin-type) domain,97.06,5.448409080505371,38.0,0.7658530699150494,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5419A>C (p.Ile1807Leu),1807,BRCT domain 2,94.5,4.944842338562012,41.0,0.7651330514450995,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+MLH1,NM_000249.4(MLH1):c.345T>G (p.Ile115Met),115,Unannotated / linker,97.25,5.335875034332275,13.0,0.7644000298976081,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.344T>C (p.Ile115Thr),115,Unannotated / linker,97.25,5.335875034332275,13.0,0.7644000298976081,Hereditary nonpolyposis colorectal neoplasms
+TSC2,NM_000548.5(TSC2):c.4655_4656delinsGC (p.Glu1552Gly),1552,Rap-GAP,85.06,3.936871290206909,101.0,0.7639190005638977,Isolated focal cortical dysplasia type II; not provided
+TSC2,NM_000548.5(TSC2):c.4655A>G (p.Glu1552Gly),1552,Rap-GAP,85.06,3.936871290206909,101.0,0.7639190005638977,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4656A>T (p.Glu1552Asp),1552,Rap-GAP,85.06,3.936871290206909,101.0,0.7639190005638977,Tuberous sclerosis 2
+LDLR,NM_000527.5(LDLR):c.1765G>C (p.Asp589His),589,LDL-receptor class B 5,93.06,4.378284454345703,15.0,0.76349169865723,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1765G>A (p.Asp589Asn),589,LDL-receptor class B 5,93.06,4.378284454345703,15.0,0.76349169865723,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1765G>T (p.Asp589Tyr),589,LDL-receptor class B 5,93.06,4.378284454345703,15.0,0.76349169865723,"Hypercholesterolemia, familial, 1"
+MLH1,NM_000249.4(MLH1):c.683T>G (p.Leu228Arg),228,Unannotated / linker,93.81,4.641087055206299,19.0,0.7633822028996365,Hereditary nonpolyposis colorectal neoplasms
+ENG,NM_001114753.3(ENG):c.818C>T (p.Thr273Ile),273,Required for interaction with GDF2,95.19,4.963310241699219,16.0,0.76322626314049,not specified; Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.501C>A (p.Ser167Arg),167,Required for interaction with GDF2,97.06,5.605442523956299,29.0,0.7631824287777454,"Telangiectasia, hereditary hemorrhagic, type 1; Cardiovascular phenotype"
+ENG,NM_001114753.3(ENG):c.500G>T (p.Ser167Ile),167,Required for interaction with GDF2,97.06,5.605442523956299,29.0,0.7631824287777454,Hereditary hemorrhagic telangiectasia; Cardiovascular phenotype
+TSC2,NM_000548.5(TSC2):c.4652G>A (p.Gly1551Glu),1551,Rap-GAP,89.62,4.843456268310547,102.0,0.7626349554098173,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4652G>C (p.Gly1551Ala),1551,Rap-GAP,89.62,4.843456268310547,102.0,0.7626349554098173,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4829G>T (p.Trp1610Leu),1610,Rap-GAP,91.25,4.313307762145996,31.0,0.7622425258121421,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4828T>G (p.Trp1610Gly),1610,Rap-GAP,91.25,4.313307762145996,31.0,0.7622425258121421,Tuberous sclerosis 2
+MSH2,NM_000251.3(MSH2):c.531A>T (p.Glu177Asp),177,Unannotated / linker,92.69,4.415143966674805,15.0,0.7621885446630496,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.530A>T (p.Glu177Val),177,Unannotated / linker,92.69,4.415143966674805,15.0,0.7621885446630496,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+MSH2,NM_000251.3(MSH2):c.530A>G (p.Glu177Gly),177,Unannotated / linker,92.69,4.415143966674805,15.0,0.7621885446630496,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.529G>A (p.Glu177Lys),177,Unannotated / linker,92.69,4.415143966674805,15.0,0.7621885446630496,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+LDLR,NM_000527.5(LDLR):c.1406T>A (p.Ile469Asn),469,LDL-receptor class B 2,95.0,5.048919677734375,18.0,0.7621727539784493,"Hypercholesterolemia, familial, 1"
+MLH1,NM_000249.4(MLH1):c.416C>A (p.Pro139His),139,Unannotated / linker,94.06,4.738701820373535,11.0,0.7618514448660035,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.416C>T (p.Pro139Leu),139,Unannotated / linker,94.06,4.738701820373535,11.0,0.7618514448660035,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.415C>A (p.Pro139Thr),139,Unannotated / linker,94.06,4.738701820373535,11.0,0.7618514448660035,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.416C>G (p.Pro139Arg),139,Unannotated / linker,94.06,4.738701820373535,11.0,0.7618514448660035,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.458A>G (p.Glu153Gly),153,Unannotated / linker,96.31,5.797721862792969,42.0,0.7607793251518213,Hereditary cancer-predisposing syndrome; not provided; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.457G>A (p.Glu153Lys),153,Unannotated / linker,96.31,5.797721862792969,42.0,0.7607793251518213,Hereditary cancer-predisposing syndrome; not specified
+MSH2,NM_000251.3(MSH2):c.1648A>G (p.Lys550Glu),550,Unannotated / linker,92.25,4.642810821533203,26.0,0.7604746745407,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1649A>C (p.Lys550Thr),550,Unannotated / linker,92.25,4.642810821533203,26.0,0.7604746745407,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1649A>T (p.Lys550Ile),550,Unannotated / linker,92.25,4.642810821533203,26.0,0.7604746745407,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2342C>T (p.Ala781Val),781,Unannotated / linker,92.5,4.802622318267822,33.0,0.7604661325355949,not specified
+MSH2,NM_000251.3(MSH2):c.2341G>A (p.Ala781Thr),781,Unannotated / linker,92.5,4.802622318267822,33.0,0.7604661325355949,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+PTEN,NM_000314.8(PTEN):c.252A>C (p.Arg84Ser),84,Phosphatase (tensin-type) domain,94.44,5.137352466583252,18.0,0.7598695672533484,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.250A>G (p.Arg84Gly),84,Phosphatase (tensin-type) domain,94.44,5.137352466583252,18.0,0.7598695672533484,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.1459C>A (p.Leu487Met),487,Ig-like C2-type 3,92.38,4.938462734222412,39.0,0.759556163702722,Cardiovascular phenotype; Hypertrophic cardiomyopathy
+RET,NM_020975.6(RET):c.1814G>T (p.Gly605Val),605,Unannotated / linker,93.31,5.3645453453063965,50.0,0.7587279457493921,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+BRCA1,NM_007294.4(BRCA1):c.224A>T (p.Glu75Val),75,Unannotated / linker,88.88,4.4770989418029785,40.0,0.7558512460513322,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+BRCA1,NM_007294.4(BRCA1):c.223G>C (p.Glu75Gln),75,Unannotated / linker,88.88,4.4770989418029785,40.0,0.7558512460513322,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5417C>A (p.Pro1806Gln),1806,BRCT domain 2,93.44,5.543405055999756,24.0,0.7539565154438115,Hereditary breast ovarian cancer syndrome
+TSC2,NM_000548.5(TSC2):c.5005G>T (p.Val1669Phe),1669,Rap-GAP,91.06,4.966275215148926,23.0,0.7536033807710418,Hereditary cancer-predisposing syndrome; not provided
+TSC2,NM_000548.5(TSC2):c.5006_5007delinsAT (p.Val1669Asp),1669,Rap-GAP,91.06,4.966275215148926,23.0,0.7536033807710418,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5005G>A (p.Val1669Ile),1669,Rap-GAP,91.06,4.966275215148926,23.0,0.7536033807710418,Tuberous sclerosis 2; not provided; Tuberous sclerosis syndrome
+MSH2,NM_000251.3(MSH2):c.674C>G (p.Thr225Arg),225,Unannotated / linker,89.31,4.726318836212158,25.0,0.7518673648972689,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.673A>G (p.Thr225Ala),225,Unannotated / linker,89.31,4.726318836212158,25.0,0.7518673648972689,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.674C>T (p.Thr225Ile),225,Unannotated / linker,89.31,4.726318836212158,25.0,0.7518673648972689,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.673A>C (p.Thr225Pro),225,Unannotated / linker,89.31,4.726318836212158,25.0,0.7518673648972689,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.667C>G (p.Leu223Val),223,Unannotated / linker,88.44,4.546609878540039,25.0,0.7515165706420827,Hereditary nonpolyposis colorectal neoplasms; not specified
+MSH2,NM_000251.3(MSH2):c.671T>G (p.Ile224Ser),224,Unannotated / linker,89.94,4.929287910461426,25.0,0.7513618179574948,Hereditary nonpolyposis colorectal neoplasms; not provided
+LDLR,NM_000527.5(LDLR):c.1768G>A (p.Val590Ile),590,LDL-receptor class B 5,92.75,5.5590081214904785,16.0,0.7510307551416281,"Hypercholesterolemia, familial, 1"
+MSH2,NM_000251.3(MSH2):c.1535A>C (p.Lys512Thr),512,Unannotated / linker,90.81,5.112231254577637,12.0,0.7499245224084936,Hereditary cancer-predisposing syndrome
+LDLR,NM_000527.5(LDLR):c.1507A>T (p.Thr503Ser),503,LDL-receptor class B 3,92.38,5.613061904907227,15.0,0.7493970710434028,not specified
+LDLR,NM_000527.5(LDLR):c.1540G>A (p.Glu514Lys),514,LDL-receptor class B 3,90.62,5.260867595672607,18.0,0.7487287465187255,Familial hypercholesterolemia
+RET,NM_020975.6(RET):c.2611G>C (p.Val871Leu),871,Protein kinase,90.12,5.353765964508057,26.0,0.7474952722721637,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.96G>C (p.Lys32Asn),32,RING-type zinc finger,88.88,4.896831512451172,12.0,0.7470200535111188,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.94A>G (p.Lys32Glu),32,RING-type zinc finger,88.88,4.896831512451172,12.0,0.7470200535111188,Hereditary breast ovarian cancer syndrome
+PMS2,NM_000535.7(PMS2):c.2435G>T (p.Cys812Phe),812,Unannotated / linker,85.44,5.2984619140625,107.0,0.7463965237424138,Lynch syndrome 4; Mismatch repair cancer syndrome 4; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.2434T>C (p.Cys812Arg),812,Unannotated / linker,85.44,5.2984619140625,107.0,0.7463965237424138,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2435G>A (p.Cys812Tyr),812,Unannotated / linker,85.44,5.2984619140625,107.0,0.7463965237424138,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+TSC2,NM_000548.5(TSC2):c.5105T>G (p.Ile1702Ser),1702,Rap-GAP,87.0,4.767975807189941,20.0,0.7445787864846164,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5106C>G (p.Ile1702Met),1702,Rap-GAP,87.0,4.767975807189941,20.0,0.7445787864846164,Tuberous sclerosis 2; not provided
+TSC2,NM_000548.5(TSC2):c.5107G>C (p.Val1703Leu),1703,Rap-GAP,89.19,5.465693950653076,22.0,0.7433388059676779,not provided; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5108T>C (p.Val1703Ala),1703,Rap-GAP,89.19,5.465693950653076,22.0,0.7433388059676779,Tuberous sclerosis syndrome; Tuberous sclerosis 2; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.228T>G (p.Ser76Arg),76,Unannotated / linker,86.31,5.6471452713012695,41.0,0.7360012124300203,"Hereditary breast ovarian cancer syndrome, Hereditary cancer-predisposing syndrome"
+BRCA1,NM_007294.4(BRCA1):c.226A>G (p.Ser76Gly),76,Unannotated / linker,86.31,5.6471452713012695,41.0,0.7360012124300203,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5101A>C (p.Lys1701Gln),1701,Rap-GAP,84.69,5.199158191680908,18.0,0.7334783289057286,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5102A>G (p.Lys1701Arg),1701,Rap-GAP,84.69,5.199158191680908,18.0,0.7334783289057286,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5103G>C (p.Lys1701Asn),1701,Rap-GAP,84.69,5.199158191680908,18.0,0.7334783289057286,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5101A>G (p.Lys1701Glu),1701,Rap-GAP,84.69,5.199158191680908,18.0,0.7334783289057286,not provided; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5001C>G (p.Asn1667Lys),1667,Rap-GAP,83.88,5.488480567932129,21.0,0.7285500181822815,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4997T>C (p.Phe1666Ser),1666,Rap-GAP,82.75,5.284793853759766,23.0,0.7279140533245736,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4996T>G (p.Phe1666Val),1666,Rap-GAP,82.75,5.284793853759766,23.0,0.7279140533245736,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5098G>T (p.Ala1700Ser),1700,Rap-GAP,79.75,4.510853290557861,16.0,0.7270082786444293,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5098G>A (p.Ala1700Thr),1700,Rap-GAP,79.75,4.510853290557861,16.0,0.7270082786444293,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5099C>T (p.Ala1700Val),1700,Rap-GAP,79.75,4.510853290557861,16.0,0.7270082786444293,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4807G>A (p.Asp1603Asn),1603,Rap-GAP,79.38,5.265715599060059,22.0,0.7185592168090693,Tuberous sclerosis 2
+LDLR,NM_000527.5(LDLR):c.752G>A (p.Gly251Asp),251,LDL-receptor class A 6,71.12,4.254295349121094,11.0,0.7044164610025977,"Familial hypercholesterolemia; Hypercholesterolemia, familial, 1"
+MSH2,NM_000251.3(MSH2):c.2465G>T (p.Cys822Phe),822,Unannotated / linker,72.44,5.423943996429443,21.0,0.6965558723487854,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2466T>G (p.Cys822Trp),822,Unannotated / linker,72.44,5.423943996429443,21.0,0.6965558723487854,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2465G>A (p.Cys822Tyr),822,Unannotated / linker,72.44,5.423943996429443,21.0,0.6965558723487854,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2362A>G (p.Ile788Val),788,Unannotated / linker,94.94,4.495456218719482,369.0,0.6963812284461717,Inherited polyposis and early onset colorectal cancer - germline testing; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 5
+MSH6,NM_000179.3(MSH6):c.2363T>C (p.Ile788Thr),788,Unannotated / linker,94.94,4.495456218719482,369.0,0.6963812284461717,Hereditary cancer-predisposing syndrome; not provided
+TSC2,NM_000548.5(TSC2):c.4556T>C (p.Leu1519Pro),1519,Unannotated / linker,84.94,4.423882007598877,459.0,0.686010207194691,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4556T>G (p.Leu1519Arg),1519,Unannotated / linker,84.94,4.423882007598877,459.0,0.686010207194691,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2371C>T (p.Arg791Cys),791,Unannotated / linker,97.12,5.172011852264404,366.0,0.6829224106742573,Mismatch repair cancer syndrome 3; Endometrial carcinoma; Lynch syndrome 5; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.2371C>G (p.Arg791Gly),791,Unannotated / linker,97.12,5.172011852264404,366.0,0.6829224106742573,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.2371C>A (p.Arg791Ser),791,Unannotated / linker,97.12,5.172011852264404,366.0,0.6829224106742573,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2372G>C (p.Arg791Pro),791,Unannotated / linker,97.12,5.172011852264404,366.0,0.6829224106742573,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2374C>G (p.Leu792Val),792,Unannotated / linker,97.31,5.385964393615723,365.0,0.6777508920388332,Lynch syndrome
+MSH6,NM_000179.3(MSH6):c.2375T>G (p.Leu792Arg),792,Unannotated / linker,97.31,5.385964393615723,365.0,0.6777508920388332,Hereditary nonpolyposis colorectal neoplasms
+RB1,NM_000321.3(RB1):c.1025C>T (p.Thr342Ile),342,Unannotated / linker,93.5,4.065821647644043,215.0,0.6734430730926735,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1024A>T (p.Thr342Ser),342,Unannotated / linker,93.5,4.065821647644043,215.0,0.6734430730926735,not provided; not specified; Hereditary cancer-predisposing syndrome; Retinoblastoma
+MSH2,NM_000251.3(MSH2):c.905T>G (p.Leu302Trp),302,Unannotated / linker,92.62,5.393620491027832,406.0,0.6692719663112295,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.906G>C (p.Leu302Phe),302,Unannotated / linker,92.62,5.393620491027832,406.0,0.6692719663112295,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.905T>C (p.Leu302Ser),302,Unannotated / linker,92.62,5.393620491027832,406.0,0.6692719663112295,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 1
+TP53,NM_000546.6(TP53):c.307_309delinsCAG (p.Tyr103Gln),103,DNA-binding domain,98.12,4.885197639465332,164.0,0.6592308242935458,Li-Fraumeni syndrome
+TP53,NM_000546.6(TP53):c.308A>C (p.Tyr103Ser),103,DNA-binding domain,98.12,4.885197639465332,164.0,0.6592308242935458,Li-Fraumeni syndrome
+PTEN,NM_000314.8(PTEN):c.1034T>A (p.Leu345Gln),345,C2 (tensin-type) domain,97.12,4.670477867126465,147.0,0.6572056544361149,PTEN hamartoma tumor syndrome
+MSH6,NM_000179.3(MSH6):c.1703T>G (p.Phe568Cys),568,Unannotated / linker,98.12,4.760739803314209,138.0,0.6569641531874275,Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.1703T>C (p.Phe568Ser),568,Unannotated / linker,98.12,4.760739803314209,138.0,0.6569641531874275,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1702T>C (p.Phe568Leu),568,Unannotated / linker,98.12,4.760739803314209,138.0,0.6569641531874275,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1704T>A (p.Phe568Leu),568,Unannotated / linker,98.12,4.760739803314209,138.0,0.6569641531874275,not provided
+MSH6,NM_000179.3(MSH6):c.1702T>G (p.Phe568Val),568,Unannotated / linker,98.12,4.760739803314209,138.0,0.6569641531874275,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+PTEN,NM_000314.8(PTEN):c.1040T>C (p.Phe347Ser),347,C2 (tensin-type) domain,96.25,4.6008501052856445,152.0,0.6567893177231864,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.1028T>G (p.Val343Gly),343,C2 (tensin-type) domain,97.5,4.782336235046387,143.0,0.6555130542037029,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.1027G>A (p.Val343Met),343,C2 (tensin-type) domain,97.5,4.782336235046387,143.0,0.6555130542037029,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+ENG,NM_001114753.3(ENG):c.100C>G (p.Pro34Ala),34,Required for interaction with GDF2,92.56,4.365235805511475,171.0,0.6538911505469553,Cardiovascular phenotype
+TP53,NM_000546.6(TP53):c.482C>T (p.Ala161Val),161,DNA-binding domain,98.31,4.558974266052246,92.0,0.6524908307540225,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+TP53,NM_000546.6(TP53):c.482_483delinsGA (p.Ala161Gly),161,DNA-binding domain,98.31,4.558974266052246,92.0,0.6524908307540225,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1881T>G (p.Phe627Leu),627,Unannotated / linker,97.5,4.215640068054199,59.0,0.6487229269636797,Endometrial carcinoma
+MLH1,NM_000249.4(MLH1):c.526A>G (p.Ile176Val),176,Unannotated / linker,95.38,4.844263076782227,147.0,0.6483335311624475,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.526A>T (p.Ile176Phe),176,Unannotated / linker,95.38,4.844263076782227,147.0,0.6483335311624475,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.526A>C (p.Ile176Leu),176,Unannotated / linker,95.38,4.844263076782227,147.0,0.6483335311624475,not provided; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.527T>A (p.Ile176Asn),176,Unannotated / linker,95.38,4.844263076782227,147.0,0.6483335311624475,Hereditary cancer-predisposing syndrome
+RB1,NM_000321.3(RB1):c.1219T>C (p.Cys407Arg),407,Pocket; binds T and E1A,98.12,4.489761829376221,67.0,0.6480789257968382,Retinoblastoma
+RB1,NM_000321.3(RB1):c.1220G>A (p.Cys407Tyr),407,Pocket; binds T and E1A,98.12,4.489761829376221,67.0,0.6480789257968382,Hereditary cancer-predisposing syndrome
+TP53,NM_000546.6(TP53):c.304A>G (p.Thr102Ala),102,DNA-binding domain,97.5,5.436145305633545,165.0,0.6469818112611179,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.587A>G (p.Lys196Arg),196,Unannotated / linker,94.94,4.823838233947754,145.0,0.6469600380201205,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.1021T>A (p.Phe341Ile),341,C2 (tensin-type) domain,98.0,5.332069396972656,139.0,0.6464003739852231,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.1022T>G (p.Phe341Cys),341,C2 (tensin-type) domain,98.0,5.332069396972656,139.0,0.6464003739852231,PTEN hamartoma tumor syndrome
+RET,NM_020975.6(RET):c.2420C>T (p.Ala807Val),807,Protein kinase,93.69,3.912059545516968,76.0,0.6454901578187572,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+RET,NM_020975.6(RET):c.2419G>A (p.Ala807Thr),807,Protein kinase,93.69,3.912059545516968,76.0,0.6454901578187572,"See cases; Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+RET,NM_020975.6(RET):c.2419G>T (p.Ala807Ser),807,Protein kinase,93.69,3.912059545516968,76.0,0.6454901578187572,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2420C>G (p.Ala807Gly),807,Protein kinase,93.69,3.912059545516968,76.0,0.6454901578187572,Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia type 2A
+RB1,NM_000321.3(RB1):c.1472T>A (p.Leu491His),491,Pocket; binds T and E1A,98.69,4.452255725860596,42.0,0.6454231747787645,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1472T>C (p.Leu491Pro),491,Pocket; binds T and E1A,98.69,4.452255725860596,42.0,0.6454231747787645,not provided; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1471C>T (p.Leu491Phe),491,Pocket; binds T and E1A,98.69,4.452255725860596,42.0,0.6454231747787645,Hereditary cancer-predisposing syndrome
+VHL,NM_000551.4(VHL):c.439A>C (p.Ile147Leu),147,Involved in binding to CCT complex,97.5,4.651643753051758,73.0,0.6447297600519917,Chuvash polycythemia; Von Hippel-Lindau syndrome
+VHL,NM_000551.4(VHL):c.440T>G (p.Ile147Ser),147,Involved in binding to CCT complex,97.5,4.651643753051758,73.0,0.6447297600519917,not provided
+VHL,NM_000551.4(VHL):c.439A>G (p.Ile147Val),147,Involved in binding to CCT complex,97.5,4.651643753051758,73.0,0.6447297600519917,not specified; not provided; Chuvash polycythemia; Von Hippel-Lindau syndrome; Hereditary cancer-predisposing syndrome; Pheochromocytoma; Nonpapillary renal cell carcinoma; Chuvash polycythemia; Von Hippel-Lindau syndrome; Von Hippel-Lindau syndrome; Chuvash polycythemia
+VHL,NM_000551.4(VHL):c.440T>C (p.Ile147Thr),147,Involved in binding to CCT complex,97.5,4.651643753051758,73.0,0.6447297600519917,Chuvash polycythemia; Von Hippel-Lindau syndrome; Hereditary cancer-predisposing syndrome; not provided; Von Hippel-Lindau syndrome
+MSH6,NM_000179.3(MSH6):c.1783T>A (p.Leu595Ile),595,Unannotated / linker,98.0,4.523026466369629,54.0,0.6445952192659035,Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.1783T>G (p.Leu595Val),595,Unannotated / linker,98.0,4.523026466369629,54.0,0.6445952192659035,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1784T>C (p.Leu595Ser),595,Unannotated / linker,98.0,4.523026466369629,54.0,0.6445952192659035,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.2220C>G (p.Ile740Met),740,Unannotated / linker,91.75,4.875791549682617,190.0,0.6438362683841744,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.2218A>C (p.Ile740Leu),740,Unannotated / linker,91.75,4.875791549682617,190.0,0.6438362683841744,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.2219T>C (p.Ile740Thr),740,Unannotated / linker,91.75,4.875791549682617,190.0,0.6438362683841744,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided
+MLH1,NM_000249.4(MLH1):c.2219T>A (p.Ile740Asn),740,Unannotated / linker,91.75,4.875791549682617,190.0,0.6438362683841744,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.376C>G (p.His126Asp),126,Unannotated / linker,95.81,4.181015491485596,52.0,0.642320127396828,Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 4; Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.376C>T (p.His126Tyr),126,Unannotated / linker,95.81,4.181015491485596,52.0,0.642320127396828,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.378C>A (p.His126Gln),126,Unannotated / linker,95.81,4.181015491485596,52.0,0.642320127396828,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.378C>G (p.His126Gln),126,Unannotated / linker,95.81,4.181015491485596,52.0,0.642320127396828,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.967C>T (p.Leu323Phe),323,Unannotated / linker,96.69,4.420628070831299,52.0,0.6415172966402729,not provided
+PMS2,NM_000535.7(PMS2):c.967C>G (p.Leu323Val),323,Unannotated / linker,96.69,4.420628070831299,52.0,0.6415172966402729,Lynch syndrome; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.968T>G (p.Leu323Arg),323,Unannotated / linker,96.69,4.420628070831299,52.0,0.6415172966402729,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1385C>G (p.Pro462Arg),462,Unannotated / linker,97.12,4.195789337158203,30.0,0.6414511527654483,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1384C>G (p.Pro462Ala),462,Unannotated / linker,97.12,4.195789337158203,30.0,0.6414511527654483,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1384C>T (p.Pro462Ser),462,Unannotated / linker,97.12,4.195789337158203,30.0,0.6414511527654483,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3475T>A (p.Tyr1159Asn),1159,Unannotated / linker,96.75,4.825599670410156,83.0,0.6414254725273018,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.3475T>G (p.Tyr1159Asp),1159,Unannotated / linker,96.75,4.825599670410156,83.0,0.6414254725273018,not provided
+PTEN,NM_000314.8(PTEN):c.1031A>G (p.Lys344Arg),344,C2 (tensin-type) domain,96.94,5.564513683319092,146.0,0.6400031951171532,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.1025A>C (p.Lys342Thr),342,C2 (tensin-type) domain,97.75,5.705380916595459,142.0,0.6395892002914886,"Hereditary cancer-predisposing syndrome, not provided"
+RB1,NM_000321.3(RB1):c.1468G>T (p.Ala490Ser),490,Pocket; binds T and E1A,98.75,4.9269022941589355,41.0,0.6387676959979652,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1469C>A (p.Ala490Asp),490,Pocket; binds T and E1A,98.75,4.9269022941589355,41.0,0.6387676959979652,not provided
+RET,NM_020975.6(RET):c.113A>T (p.Glu38Val),38,Cadherin-like region 1 (CLD1),94.5,4.882510185241699,109.0,0.6379531407716651,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+TSC2,NM_000548.5(TSC2):c.4558C>G (p.Leu1520Val),1520,Unannotated / linker,83.88,5.8075690269470215,460.0,0.6379023066158624,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.943G>T (p.Val315Leu),315,Required for interaction with GDF2,96.0,5.053783416748047,94.0,0.6372692475673108,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.943G>C (p.Val315Leu),315,Required for interaction with GDF2,96.0,5.053783416748047,94.0,0.6372692475673108,Cardiovascular phenotype
+PTEN,NM_000314.8(PTEN):c.721T>G (p.Phe241Val),241,C2 (tensin-type) domain,98.44,4.995771884918213,43.0,0.6371653295200831,not provided
+PTEN,NM_000314.8(PTEN):c.721T>A (p.Phe241Ile),241,C2 (tensin-type) domain,98.44,4.995771884918213,43.0,0.6371653295200831,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+RET,NM_020975.6(RET):c.1558G>T (p.Ala520Ser),520,Unannotated / linker,96.62,5.2058210372924805,91.0,0.6363187247385146,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2231T>C (p.Leu744Ser),744,Unannotated / linker,97.81,4.821418285369873,36.0,0.6362790010435192,Hereditary cancer-predisposing syndrome
+RB1,NM_000321.3(RB1):c.1688G>C (p.Trp563Ser),563,Pocket; binds T and E1A,98.5,5.982241630554199,132.0,0.6359928264167946,Retinoblastoma
+PMS2,NM_000535.7(PMS2):c.2546C>T (p.Thr849Ile),849,Unannotated / linker,92.56,5.047046184539795,150.0,0.6359366958535825,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+PMS2,NM_000535.7(PMS2):c.2545A>T (p.Thr849Ser),849,Unannotated / linker,92.56,5.047046184539795,150.0,0.6359366958535825,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.2546C>G (p.Thr849Ser),849,Unannotated / linker,92.56,5.047046184539795,150.0,0.6359366958535825,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+TP53,NM_000546.6(TP53):c.590T>C (p.Val197Ala),197,DNA-binding domain,96.75,4.6129841804504395,37.0,0.6359212252812009,Hereditary cancer-predisposing syndrome
+TP53,NM_000546.6(TP53):c.589G>T (p.Val197Leu),197,DNA-binding domain,96.75,4.6129841804504395,37.0,0.6359212252812009,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+TP53,NM_000546.6(TP53):c.589G>C (p.Val197Leu),197,DNA-binding domain,96.75,4.6129841804504395,37.0,0.6359212252812009,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+MSH6,NM_000179.3(MSH6):c.1706T>C (p.Phe569Ser),569,Unannotated / linker,98.19,5.9743571281433105,137.0,0.6357956326783668,Inherited ovarian cancer (without breast cancer); Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1705T>G (p.Phe569Val),569,Unannotated / linker,98.19,5.9743571281433105,137.0,0.6357956326783668,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1707C>A (p.Phe569Leu),569,Unannotated / linker,98.19,5.9743571281433105,137.0,0.6357956326783668,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1705T>C (p.Phe569Leu),569,Unannotated / linker,98.19,5.9743571281433105,137.0,0.6357956326783668,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.524G>A (p.Arg175His),175,Cadherin,94.31,5.30385160446167,143.0,0.6356765452213455,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.523C>A (p.Arg175Ser),175,Cadherin,94.31,5.30385160446167,143.0,0.6356765452213455,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.524G>T (p.Arg175Leu),175,Cadherin,94.31,5.30385160446167,143.0,0.6356765452213455,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.524G>C (p.Arg175Pro),175,Cadherin,94.31,5.30385160446167,143.0,0.6356765452213455,not provided
+RET,NM_020975.6(RET):c.523C>T (p.Arg175Cys),175,Cadherin,94.31,5.30385160446167,143.0,0.6356765452213455,"Hereditary cancer-predisposing syndrome; not provided; Multiple endocrine neoplasia, type 2"
+PTEN,NM_000314.8(PTEN):c.652T>C (p.Cys218Arg),218,C2 (tensin-type) domain,98.5,5.040785789489746,36.0,0.6355214460194308,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.653G>T (p.Cys218Phe),218,C2 (tensin-type) domain,98.5,5.040785789489746,36.0,0.6355214460194308,"not provided, Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+PTEN,NM_000314.8(PTEN):c.653G>A (p.Cys218Tyr),218,C2 (tensin-type) domain,98.5,5.040785789489746,36.0,0.6355214460194308,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+PTEN,NM_000314.8(PTEN):c.653G>C (p.Cys218Ser),218,C2 (tensin-type) domain,98.5,5.040785789489746,36.0,0.6355214460194308,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+RB1,NM_000321.3(RB1):c.1672A>G (p.Met558Val),558,Pocket; binds T and E1A,98.12,5.6768879890441895,96.0,0.6345613521672074,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1673T>C (p.Met558Thr),558,Pocket; binds T and E1A,98.12,5.6768879890441895,96.0,0.6345613521672074,Hereditary cancer-predisposing syndrome
+RB1,NM_000321.3(RB1):c.1672A>C (p.Met558Leu),558,Pocket; binds T and E1A,98.12,5.6768879890441895,96.0,0.6345613521672074,Hereditary cancer-predisposing syndrome; Malignant tumor of urinary bladder; Retinoblastoma
+MSH6,NM_000179.3(MSH6):c.1187T>G (p.Leu396Arg),396,Unannotated / linker,96.81,4.512269973754883,22.0,0.6344986268989459,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1186C>T (p.Leu396Phe),396,Unannotated / linker,96.81,4.512269973754883,22.0,0.6344986268989459,Hereditary cancer-predisposing syndrome; Inherited MMR deficiency (Lynch syndrome); Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1187T>A (p.Leu396His),396,Unannotated / linker,96.81,4.512269973754883,22.0,0.6344986268989459,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1187T>C (p.Leu396Pro),396,Unannotated / linker,96.81,4.512269973754883,22.0,0.6344986268989459,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.553T>G (p.Phe185Val),185,Cadherin,94.94,5.582608699798584,153.0,0.6342712895291392,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.555C>A (p.Phe185Leu),185,Cadherin,94.94,5.582608699798584,153.0,0.6342712895291392,"Multiple endocrine neoplasia, type 2"
+PTEN,NM_000314.8(PTEN):c.716T>A (p.Met239Lys),239,C2 (tensin-type) domain,98.0,5.058765888214111,39.0,0.6341757617871489,Cowden syndrome 1
+PTEN,NM_000314.8(PTEN):c.716T>G (p.Met239Arg),239,C2 (tensin-type) domain,98.0,5.058765888214111,39.0,0.6341757617871489,"Inborn genetic diseases, PTEN hamartoma tumor syndrome"
+PMS2,NM_000535.7(PMS2):c.161T>C (p.Ile54Thr),54,Unannotated / linker,97.5,4.638208866119385,16.0,0.6339137091707451,Hereditary cancer-predisposing syndrome; Lynch syndrome; not specified; Hereditary nonpolyposis colorectal neoplasms; not provided
+PMS2,NM_000535.7(PMS2):c.162T>G (p.Ile54Met),54,Unannotated / linker,97.5,4.638208866119385,16.0,0.6339137091707451,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.160A>G (p.Ile54Val),54,Unannotated / linker,97.5,4.638208866119385,16.0,0.6339137091707451,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.257C>T (p.Ala86Val),86,Phosphatase (tensin-type) domain,98.31,4.901323318481445,18.0,0.6335574220631528,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.256G>A (p.Ala86Thr),86,Phosphatase (tensin-type) domain,98.31,4.901323318481445,18.0,0.6335574220631528,PTEN hamartoma tumor syndrome
+MSH6,NM_000179.3(MSH6):c.3625C>G (p.Leu1209Val),1209,Unannotated / linker,97.25,4.84825325012207,33.0,0.6335476571476153,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2000T>C (p.Ile667Thr),667,Interaction with EXO1,94.06,5.301371097564697,134.0,0.6334567494186236,not provided
+PTEN,NM_000314.8(PTEN):c.263A>T (p.Tyr88Phe),88,Phosphatase (tensin-type) domain,98.62,4.991693496704102,18.0,0.6334105342028734,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.593C>G (p.Pro198Arg),198,Required for interaction with GDF2,95.31,4.4180121421813965,33.0,0.6331652397982117,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.592C>A (p.Pro198Thr),198,Required for interaction with GDF2,95.31,4.4180121421813965,33.0,0.6331652397982117,Hereditary hemorrhagic telangiectasia; ENG-related disorder; Cardiovascular phenotype
+MSH6,NM_000179.3(MSH6):c.1267C>T (p.Leu423Phe),423,Unannotated / linker,97.94,5.334298133850098,57.0,0.6331142924692008,Hereditary nonpolyposis colorectal neoplasms
+VHL,NM_000551.4(VHL):c.437C>G (p.Pro146Arg),146,Involved in binding to CCT complex,96.25,5.137591361999512,72.0,0.6330015652769577,Hereditary cancer-predisposing syndrome; Chuvash polycythemia; Von Hippel-Lindau syndrome
+VHL,NM_000551.4(VHL):c.437C>T (p.Pro146Leu),146,Involved in binding to CCT complex,96.25,5.137591361999512,72.0,0.6330015652769577,Chuvash polycythemia; Von Hippel-Lindau syndrome
+MSH2,NM_000251.3(MSH2):c.1897A>C (p.Ile633Leu),633,Interaction with EXO1,98.56,5.595280647277832,67.0,0.6329183438578108,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1899A>G (p.Ile633Met),633,Interaction with EXO1,98.56,5.595280647277832,67.0,0.6329183438578108,Hereditary nonpolyposis colorectal neoplasms
+MYBPC3,NM_000256.3(MYBPC3):c.2333C>T (p.Pro778Leu),778,Fibronectin type-III 1,97.12,4.5887250900268555,14.0,0.632917470375849,Hypertrophic cardiomyopathy; Cardiovascular phenotype
+RET,NM_020975.6(RET):c.520T>G (p.Phe174Val),174,Cadherin,94.81,5.544073104858398,142.0,0.632871119643896,"Multiple endocrine neoplasia, type 2"
+TSC2,NM_000548.5(TSC2):c.4550C>G (p.Pro1517Arg),1517,Unannotated / linker,82.56,5.826752185821533,456.0,0.6325196652849933,not provided; Tuberous sclerosis 2
+PMS2,NM_000535.7(PMS2):c.374G>A (p.Cys125Tyr),125,Unannotated / linker,96.44,5.0245537757873535,51.0,0.6316770648320953,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.373T>C (p.Cys125Arg),125,Unannotated / linker,96.44,5.0245537757873535,51.0,0.6316770648320953,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.375C>G (p.Cys125Trp),125,Unannotated / linker,96.44,5.0245537757873535,51.0,0.6316770648320953,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1549A>G (p.Ile517Val),517,Unannotated / linker,97.38,5.084598064422607,37.0,0.6314645904288066,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1550T>C (p.Ile517Thr),517,Unannotated / linker,97.38,5.084598064422607,37.0,0.6314645904288066,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+MSH6,NM_000179.3(MSH6):c.1549A>C (p.Ile517Leu),517,Unannotated / linker,97.38,5.084598064422607,37.0,0.6314645904288066,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.199C>T (p.Leu67Phe),67,Required for interaction with GDF2,97.69,5.105880260467529,32.0,0.6313273420953116,not provided
+MSH6,NM_000179.3(MSH6):c.1675T>A (p.Cys559Ser),559,Unannotated / linker,98.5,5.127588748931885,18.0,0.6312904825729755,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1675T>C (p.Cys559Arg),559,Unannotated / linker,98.5,5.127588748931885,18.0,0.6312904825729755,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1677C>G (p.Cys559Trp),559,Unannotated / linker,98.5,5.127588748931885,18.0,0.6312904825729755,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.1676G>C (p.Cys559Ser),559,Unannotated / linker,98.5,5.127588748931885,18.0,0.6312904825729755,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1676G>A (p.Cys559Tyr),559,Unannotated / linker,98.5,5.127588748931885,18.0,0.6312904825729755,not provided; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1562T>C (p.Val521Ala),521,Unannotated / linker,96.19,5.457865238189697,90.0,0.6307923942883482,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2362A>G (p.Ile788Val),788,Protein kinase,96.0,5.556802749633789,103.0,0.6306083963967938,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2363T>A (p.Ile788Asn),788,Protein kinase,96.0,5.556802749633789,103.0,0.6306083963967938,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.137C>T (p.Thr46Ile),46,Required for interaction with GDF2,93.94,5.594384670257568,150.0,0.6303621943131358,not provided; Hereditary hemorrhagic telangiectasia
+MSH6,NM_000179.3(MSH6):c.1603T>G (p.Tyr535Asp),535,Unannotated / linker,90.06,5.642922878265381,237.0,0.6297742255076849,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1604A>G (p.Tyr535Cys),535,Unannotated / linker,90.06,5.642922878265381,237.0,0.6297742255076849,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1603T>A (p.Tyr535Asn),535,Unannotated / linker,90.06,5.642922878265381,237.0,0.6297742255076849,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1962C>G (p.Asp654Glu),654,Interaction with EXO1,98.06,5.139270305633545,18.0,0.6297093021787721,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1961A>T (p.Asp654Val),654,Interaction with EXO1,98.06,5.139270305633545,18.0,0.6297093021787721,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1961A>G (p.Asp654Gly),654,Interaction with EXO1,98.06,5.139270305633545,18.0,0.6297093021787721,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.712G>T (p.Val238Leu),238,Required for interaction with GDF2,93.38,4.923595905303955,87.0,0.6296575184184632,Hereditary hemorrhagic telangiectasia
+RET,NM_020975.6(RET):c.1552T>A (p.Ser518Thr),518,Unannotated / linker,95.81,4.535912990570068,15.0,0.6295288056865047,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1553C>A (p.Ser518Tyr),518,Unannotated / linker,95.81,4.535912990570068,15.0,0.6295288056865047,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1553C>T (p.Ser518Phe),518,Unannotated / linker,95.81,4.535912990570068,15.0,0.6295288056865047,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2437C>T (p.Arg813Trp),813,Protein kinase,94.38,4.879866123199463,64.0,0.629432675460863,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2438G>A (p.Arg813Gln),813,Protein kinase,94.38,4.879866123199463,64.0,0.629432675460863,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2437C>G (p.Arg813Gly),813,Protein kinase,94.38,4.879866123199463,64.0,0.629432675460863,Hereditary cancer-predisposing syndrome; not provided
+PMS2,NM_000535.7(PMS2):c.964G>A (p.Val322Ile),322,Unannotated / linker,97.12,5.358798503875732,51.0,0.6291368702666476,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not specified; not provided; Lynch syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.965T>C (p.Val322Ala),322,Unannotated / linker,97.12,5.358798503875732,51.0,0.6291368702666476,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.964G>T (p.Val322Phe),322,Unannotated / linker,97.12,5.358798503875732,51.0,0.6291368702666476,Mismatch repair cancer syndrome 1; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.3731T>C (p.Leu1244Ser),1244,Unannotated / linker,96.44,5.003627777099609,33.0,0.6288065035412059,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3730T>G (p.Leu1244Val),1244,Unannotated / linker,96.44,5.003627777099609,33.0,0.6288065035412059,not specified; Endometrial carcinoma; Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1678C>G (p.Pro560Ala),560,Unannotated / linker,96.38,4.801614284515381,19.0,0.628744008821175,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1679C>T (p.Pro560Leu),560,Unannotated / linker,96.38,4.801614284515381,19.0,0.628744008821175,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1699A>C (p.Lys567Gln),567,Unannotated / linker,95.81,5.954545021057129,139.0,0.6286648714825535,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1699A>G (p.Lys567Glu),567,Unannotated / linker,95.81,5.954545021057129,139.0,0.6286648714825535,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1700A>G (p.Lys567Arg),567,Unannotated / linker,95.81,5.954545021057129,139.0,0.6286648714825535,not specified; Hereditary cancer-predisposing syndrome; Lynch syndrome; Hereditary nonpolyposis colorectal neoplasms
+RB1,NM_000321.3(RB1):c.1373A>C (p.Glu458Ala),458,Pocket; binds T and E1A,98.19,5.72097635269165,58.0,0.6285884526093725,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1374A>C (p.Glu458Asp),458,Pocket; binds T and E1A,98.19,5.72097635269165,58.0,0.6285884526093725,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.1427A>G (p.Gln476Arg),476,ZP,93.0,4.529726982116699,53.0,0.6281277775788433,Hereditary hemorrhagic telangiectasia
+MYBPC3,NM_000256.3(MYBPC3):c.130C>T (p.Arg44Cys),44,Unannotated / linker,93.38,4.362310886383057,35.0,0.6280871315911591,Hypertrophic cardiomyopathy; Cardiomyopathy; not provided
+MYBPC3,NM_000256.3(MYBPC3):c.131G>A (p.Arg44His),44,Unannotated / linker,93.38,4.362310886383057,35.0,0.6280871315911591,Cardiovascular phenotype; not provided; Cardiomyopathy; Hypertrophic cardiomyopathy
+RB1,NM_000321.3(RB1):c.1223C>G (p.Thr408Arg),408,Pocket; binds T and E1A,97.5,5.689953804016113,66.0,0.6279497076445483,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1223C>T (p.Thr408Ile),408,Pocket; binds T and E1A,97.5,5.689953804016113,66.0,0.6279497076445483,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1222A>T (p.Thr408Ser),408,Pocket; binds T and E1A,97.5,5.689953804016113,66.0,0.6279497076445483,Retinoblastoma; Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.103G>T (p.Val35Leu),35,Required for interaction with GDF2,89.19,5.074446678161621,170.0,0.6279101170813267,Hereditary hemorrhagic telangiectasia
+MSH6,NM_000179.3(MSH6):c.3524C>A (p.Thr1175Asn),1175,Unannotated / linker,94.88,4.7399373054504395,36.0,0.6278824771021023,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3523A>G (p.Thr1175Ala),1175,Unannotated / linker,94.88,4.7399373054504395,36.0,0.6278824771021023,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.3524C>G (p.Thr1175Ser),1175,Unannotated / linker,94.88,4.7399373054504395,36.0,0.6278824771021023,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome
+MSH6,NM_000179.3(MSH6):c.1884G>T (p.Trp628Cys),628,Unannotated / linker,97.81,5.696272373199463,58.0,0.6276968990340592,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1882T>C (p.Trp628Arg),628,Unannotated / linker,97.81,5.696272373199463,58.0,0.6276968990340592,Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1882T>G (p.Trp628Gly),628,Unannotated / linker,97.81,5.696272373199463,58.0,0.6276968990340592,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2330C>T (p.Ala777Val),777,Fibronectin type-III 1,95.56,5.43684720993042,81.0,0.6276560612319924,Cardiovascular phenotype; Cardiomyopathy; not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2329G>A (p.Ala777Thr),777,Fibronectin type-III 1,95.56,5.43684720993042,81.0,0.6276560612319924,not specified
+ENG,NM_001114753.3(ENG):c.473C>G (p.Ser158Cys),158,Required for interaction with GDF2,94.56,5.481652736663818,105.0,0.6274308658874788,Cardiovascular phenotype
+RET,NM_020975.6(RET):c.1670C>T (p.Thr557Ile),557,Unannotated / linker,96.69,5.391651153564453,52.0,0.6274292498554274,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.2267C>A (p.Ala756Asp),756,Protein kinase,96.25,5.258381366729736,48.0,0.6272246422954556,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2267C>G (p.Ala756Gly),756,Protein kinase,96.25,5.258381366729736,48.0,0.6272246422954556,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1768A>G (p.Ile590Val),590,Unannotated / linker,94.69,4.6313252449035645,28.0,0.6272052694816375,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1769T>C (p.Ile590Thr),590,Unannotated / linker,94.69,4.6313252449035645,28.0,0.6272052694816375,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1769T>G (p.Ile590Ser),590,Unannotated / linker,94.69,4.6313252449035645,28.0,0.6272052694816375,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.772T>G (p.Phe258Val),258,Unannotated / linker,94.75,4.732215404510498,34.0,0.6271835586686344,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.772T>C (p.Phe258Leu),258,Unannotated / linker,94.75,4.732215404510498,34.0,0.6271835586686344,Malignant tumor of breast
+MLH1,NM_000249.4(MLH1):c.774C>A (p.Phe258Leu),258,Unannotated / linker,94.75,4.732215404510498,34.0,0.6271835586686344,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.774C>G (p.Phe258Leu),258,Unannotated / linker,94.75,4.732215404510498,34.0,0.6271835586686344,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+TP53,NM_000546.6(TP53):c.608T>A (p.Val203Glu),203,DNA-binding domain,96.0,4.796338081359863,15.0,0.6268221574353713,Li-Fraumeni syndrome
+TP53,NM_000546.6(TP53):c.607G>C (p.Val203Leu),203,DNA-binding domain,96.0,4.796338081359863,15.0,0.6268221574353713,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome 1, Li-Fraumeni syndrome"
+ENG,NM_001114753.3(ENG):c.194A>G (p.His65Arg),65,Required for interaction with GDF2,95.56,4.934412479400635,32.0,0.6266925808032386,Hereditary hemorrhagic telangiectasia
+PMS2,NM_000535.7(PMS2):c.2057T>A (p.Phe686Tyr),686,Unannotated / linker,95.38,4.623140335083008,13.0,0.6266141732782832,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2057T>G (p.Phe686Cys),686,Unannotated / linker,95.38,4.623140335083008,13.0,0.6266141732782832,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2058T>G (p.Phe686Leu),686,Unannotated / linker,95.38,4.623140335083008,13.0,0.6266141732782832,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2057T>C (p.Phe686Ser),686,Unannotated / linker,95.38,4.623140335083008,13.0,0.6266141732782832,Hereditary nonpolyposis colorectal neoplasms; not specified; Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2427G>C (p.Glu809Asp),809,Fibronectin type-III 1,93.88,4.214182376861572,11.0,0.6264856057987048,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2425G>C (p.Glu809Gln),809,Fibronectin type-III 1,93.88,4.214182376861572,11.0,0.6264856057987048,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2425G>A (p.Glu809Lys),809,Fibronectin type-III 1,93.88,4.214182376861572,11.0,0.6264856057987048,Hypertrophic cardiomyopathy
+PMS2,NM_000535.7(PMS2):c.371C>T (p.Thr124Ile),124,Unannotated / linker,97.12,5.541905403137207,50.0,0.626411982398081,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome
+PMS2,NM_000535.7(PMS2):c.370A>C (p.Thr124Pro),124,Unannotated / linker,97.12,5.541905403137207,50.0,0.626411982398081,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.371C>A (p.Thr124Asn),124,Unannotated / linker,97.12,5.541905403137207,50.0,0.626411982398081,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.370A>G (p.Thr124Ala),124,Unannotated / linker,97.12,5.541905403137207,50.0,0.626411982398081,Lynch syndrome; Mismatch repair cancer syndrome 4; Lynch syndrome 4; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+RET,NM_020975.6(RET):c.2819T>C (p.Leu940Pro),940,Protein kinase,98.06,5.897866725921631,63.0,0.6263747411432787,"Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2A"
+MYBPC3,NM_000256.3(MYBPC3):c.53C>T (p.Ser18Leu),18,Unannotated / linker,92.56,4.808986186981201,72.0,0.6260668340257171,Cardiomyopathy
+MSH6,NM_000179.3(MSH6):c.1780G>A (p.Val594Ile),594,Unannotated / linker,98.06,5.834895610809326,53.0,0.6258512813874244,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1780G>C (p.Val594Leu),594,Unannotated / linker,98.06,5.834895610809326,53.0,0.6258512813874244,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1781T>G (p.Val594Gly),594,Unannotated / linker,98.06,5.834895610809326,53.0,0.6258512813874244,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1780G>T (p.Val594Phe),594,Unannotated / linker,98.06,5.834895610809326,53.0,0.6258512813874244,Hereditary cancer-predisposing syndrome
+RB1,NM_000321.3(RB1):c.1225G>A (p.Val409Met),409,Pocket; binds T and E1A,97.81,5.908054351806641,65.0,0.6256908067781037,Hereditary cancer-predisposing syndrome; Retinoblastoma
+RB1,NM_000321.3(RB1):c.1225G>T (p.Val409Leu),409,Pocket; binds T and E1A,97.81,5.908054351806641,65.0,0.6256908067781037,Hereditary cancer-predisposing syndrome
+RB1,NM_000321.3(RB1):c.1226T>G (p.Val409Gly),409,Pocket; binds T and E1A,97.81,5.908054351806641,65.0,0.6256908067781037,Retinoblastoma
+RB1,NM_000321.3(RB1):c.1226T>C (p.Val409Ala),409,Pocket; binds T and E1A,97.81,5.908054351806641,65.0,0.6256908067781037,Retinal dystrophy
+BRCA1,NM_007294.4(BRCA1):c.5303G>C (p.Cys1768Ser),1768,BRCT domain 2,94.56,4.9113078117370605,41.0,0.6253698489805471,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5303G>A (p.Cys1768Tyr),1768,BRCT domain 2,94.56,4.9113078117370605,41.0,0.6253698489805471,"Hereditary breast ovarian cancer syndrome, not provided"
+MLH1,NM_000249.4(MLH1):c.166C>A (p.Leu56Met),56,Unannotated / linker,91.69,4.981406211853027,99.0,0.6253287274625343,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.166C>G (p.Leu56Val),56,Unannotated / linker,91.69,4.981406211853027,99.0,0.6253287274625343,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1382T>G (p.Phe461Cys),461,Unannotated / linker,97.38,5.446271896362305,29.0,0.6253049511403973,Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome; Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.1382T>C (p.Phe461Ser),461,Unannotated / linker,97.38,5.446271896362305,29.0,0.6253049511403973,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided
+MSH6,NM_000179.3(MSH6):c.1382T>A (p.Phe461Tyr),461,Unannotated / linker,97.38,5.446271896362305,29.0,0.6253049511403973,Hereditary nonpolyposis colorectal neoplasms
+PTEN,NM_000314.8(PTEN):c.647T>A (p.Val216Glu),216,C2 (tensin-type) domain,98.38,5.806030750274658,39.0,0.6252979670451895,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.646G>A (p.Val216Met),216,C2 (tensin-type) domain,98.38,5.806030750274658,39.0,0.6252979670451895,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+PTEN,NM_000314.8(PTEN):c.647T>C (p.Val216Ala),216,C2 (tensin-type) domain,98.38,5.806030750274658,39.0,0.6252979670451895,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.726T>A (p.Phe242Leu),242,Unannotated / linker,95.94,5.0949530601501465,29.0,0.6252465908188525,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.179A>C (p.Asp60Ala),60,Unannotated / linker,94.62,5.981323719024658,145.0,0.6251459647749602,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.179A>G (p.Asp60Gly),60,Unannotated / linker,94.62,5.981323719024658,145.0,0.6251459647749602,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+PMS2,NM_000535.7(PMS2):c.178G>T (p.Asp60Tyr),60,Unannotated / linker,94.62,5.981323719024658,145.0,0.6251459647749602,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.178G>A (p.Asp60Asn),60,Unannotated / linker,94.62,5.981323719024658,145.0,0.6251459647749602,Mismatch repair cancer syndrome 4; Lynch syndrome 4; Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; not specified; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 4
+RET,NM_020975.6(RET):c.158T>C (p.Val53Ala),53,Cadherin-like region 1 (CLD1),94.88,4.996810436248779,40.0,0.6250406682963209,"Hirschsprung disease, susceptibility to, 1"
+RET,NM_020975.6(RET):c.157G>A (p.Val53Ile),53,Cadherin-like region 1 (CLD1),94.88,4.996810436248779,40.0,0.6250406682963209,"Multiple endocrine neoplasia, type 2; Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Multiple endocrine neoplasia type 2A; Hirschsprung disease, susceptibility to, 1; Hereditary cancer-predisposing syndrome"
+MLH1,NM_000249.4(MLH1):c.160G>A (p.Gly54Arg),54,Unannotated / linker,90.25,4.952489376068115,118.0,0.624517565108477,"Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Colorectal cancer, hereditary nonpolyposis, type 2"
+MLH1,NM_000249.4(MLH1):c.160_161delinsAA (p.Gly54Lys),54,Unannotated / linker,90.25,4.952489376068115,118.0,0.624517565108477,Hereditary nonpolyposis colorectal neoplasms
+PTEN,NM_000314.8(PTEN):c.568C>A (p.Pro190Thr),190,C2 (tensin-type) domain,94.94,5.302945137023926,61.0,0.6244310854943345,"not provided, PTEN hamartoma tumor syndrome"
+PTEN,NM_000314.8(PTEN):c.569C>T (p.Pro190Leu),190,C2 (tensin-type) domain,94.94,5.302945137023926,61.0,0.6244310854943345,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.568C>T (p.Pro190Ser),190,C2 (tensin-type) domain,94.94,5.302945137023926,61.0,0.6244310854943345,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.569C>G (p.Pro190Arg),190,C2 (tensin-type) domain,94.94,5.302945137023926,61.0,0.6244310854943345,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+MLH1,NM_000249.4(MLH1):c.338T>C (p.Val113Ala),113,Unannotated / linker,97.0,5.26903772354126,17.0,0.6244252479381245,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2536G>A (p.Val846Ile),846,Fibronectin type-III 1,97.31,5.301773548126221,12.0,0.6242074307351013,Cardiomyopathy; Cardiovascular phenotype; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2536G>C (p.Val846Leu),846,Fibronectin type-III 1,97.31,5.301773548126221,12.0,0.6242074307351013,Cardiovascular phenotype; Cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2536G>T (p.Val846Phe),846,Fibronectin type-III 1,97.31,5.301773548126221,12.0,0.6242074307351013,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2537T>A (p.Val846Asp),846,Fibronectin type-III 1,97.31,5.301773548126221,12.0,0.6242074307351013,not specified; not provided; Hypertrophic cardiomyopathy
+MSH6,NM_000179.3(MSH6):c.3383A>C (p.Tyr1128Ser),1128,Unannotated / linker,89.81,4.866586208343506,114.0,0.6238871931117672,Breast and/or ovarian cancer; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3382T>C (p.Tyr1128His),1128,Unannotated / linker,89.81,4.866586208343506,114.0,0.6238871931117672,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+PTEN,NM_000314.8(PTEN):c.719A>G (p.Tyr240Cys),240,C2 (tensin-type) domain,98.12,5.880101203918457,42.0,0.6238760051848019,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+PTEN,NM_000314.8(PTEN):c.718T>G (p.Tyr240Asp),240,C2 (tensin-type) domain,98.12,5.880101203918457,42.0,0.6238760051848019,Hereditary cancer-predisposing syndrome
+VHL,NM_000551.4(VHL):c.418C>G (p.Leu140Val),140,Involved in binding to CCT complex,96.0,5.655167579650879,68.0,0.6238429073044173,Chuvash polycythemia; Von Hippel-Lindau syndrome; Hereditary cancer-predisposing syndrome
+VHL,NM_000551.4(VHL):c.418C>T (p.Leu140Phe),140,Involved in binding to CCT complex,96.0,5.655167579650879,68.0,0.6238429073044173,Chuvash polycythemia; Von Hippel-Lindau syndrome
+MSH6,NM_000179.3(MSH6):c.1786T>C (p.Phe596Leu),596,Unannotated / linker,97.56,5.897608280181885,55.0,0.6236227540851583,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not specified
+MSH6,NM_000179.3(MSH6):c.1787T>A (p.Phe596Tyr),596,Unannotated / linker,97.56,5.897608280181885,55.0,0.6236227540851583,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not specified; Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.1787T>G (p.Phe596Cys),596,Unannotated / linker,97.56,5.897608280181885,55.0,0.6236227540851583,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1787T>C (p.Phe596Ser),596,Unannotated / linker,97.56,5.897608280181885,55.0,0.6236227540851583,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided
+MSH6,NM_000179.3(MSH6):c.1788T>A (p.Phe596Leu),596,Unannotated / linker,97.56,5.897608280181885,55.0,0.6236227540851583,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.571G>T (p.Val191Leu),191,C2 (tensin-type) domain,95.44,5.736394882202148,86.0,0.6234474978469691,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+PTEN,NM_000314.8(PTEN):c.571G>C (p.Val191Leu),191,C2 (tensin-type) domain,95.44,5.736394882202148,86.0,0.6234474978469691,not provided
+MLH1,NM_000249.4(MLH1):c.614G>T (p.Arg205Met),205,Unannotated / linker,93.62,4.406192302703857,12.0,0.6234063941873226,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.614G>A (p.Arg205Lys),205,Unannotated / linker,93.62,4.406192302703857,12.0,0.6234063941873226,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.614G>C (p.Arg205Thr),205,Unannotated / linker,93.62,4.406192302703857,12.0,0.6234063941873226,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.615G>C (p.Arg205Ser),205,Unannotated / linker,93.62,4.406192302703857,12.0,0.6234063941873226,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.589C>G (p.Gln197Glu),197,Unannotated / linker,92.25,5.652232646942139,146.0,0.6232141291434743,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.590A>C (p.Gln197Pro),197,Unannotated / linker,92.25,5.652232646942139,146.0,0.6232141291434743,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.591A>T (p.Gln197His),197,Unannotated / linker,92.25,5.652232646942139,146.0,0.6232141291434743,Hereditary nonpolyposis colorectal neoplasms
+LDLR,NM_000527.5(LDLR):c.1790C>A (p.Thr597Asn),597,LDL-receptor class B 5,93.12,4.2888641357421875,11.0,0.6230458007947206,not specified
+RET,NM_020975.6(RET):c.155A>C (p.Tyr52Ser),52,Cadherin-like region 1 (CLD1),95.56,5.314209461212158,41.0,0.6230393544412165,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.154T>C (p.Tyr52His),52,Cadherin-like region 1 (CLD1),95.56,5.314209461212158,41.0,0.6230393544412165,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2387C>A (p.Thr796Asn),796,Unannotated / linker,93.38,5.830138206481934,136.0,0.6223878653952665,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2386A>C (p.Thr796Pro),796,Unannotated / linker,93.38,5.830138206481934,136.0,0.6223878653952665,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2386A>T (p.Thr796Ser),796,Unannotated / linker,93.38,5.830138206481934,136.0,0.6223878653952665,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 1
+PTEN,NM_000314.8(PTEN):c.574G>T (p.Ala192Ser),192,C2 (tensin-type) domain,96.88,5.87223482131958,57.0,0.6220267570394147,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.575C>G (p.Ala192Gly),192,C2 (tensin-type) domain,96.88,5.87223482131958,57.0,0.6220267570394147,PTEN hamartoma tumor syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2486T>C (p.Leu829Pro),829,Fibronectin type-III 1,96.44,5.556306838989258,37.0,0.6219956298855092,Hypertrophic cardiomyopathy
+TSC2,NM_000548.5(TSC2):c.3584C>G (p.Ala1195Gly),1195,Unannotated / linker,84.69,4.198291778564453,124.0,0.6219678026042311,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.3583G>C (p.Ala1195Pro),1195,Unannotated / linker,84.69,4.198291778564453,124.0,0.6219678026042311,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3583G>A (p.Ala1195Thr),1195,Unannotated / linker,84.69,4.198291778564453,124.0,0.6219678026042311,Tuberous sclerosis 2
+PTEN,NM_000314.8(PTEN):c.260A>T (p.Gln87Leu),87,Phosphatase (tensin-type) domain,98.25,5.815716743469238,19.0,0.6218831322959288,"Prostate cancer, hereditary, 1"
+MSH6,NM_000179.3(MSH6):c.1537A>C (p.Ile513Leu),513,Unannotated / linker,97.69,5.812234401702881,31.0,0.6218069555921869,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1539C>G (p.Ile513Met),513,Unannotated / linker,97.69,5.812234401702881,31.0,0.6218069555921869,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1538T>G (p.Ile513Ser),513,Unannotated / linker,97.69,5.812234401702881,31.0,0.6218069555921869,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not specified
+MYBPC3,NM_000256.3(MYBPC3):c.716G>A (p.Cys239Tyr),239,Ig-like C2-type 1,91.94,4.658025741577148,48.0,0.6217443147414287,Cardiovascular phenotype; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.716G>C (p.Cys239Ser),239,Ig-like C2-type 1,91.94,4.658025741577148,48.0,0.6217443147414287,Hypertrophic cardiomyopathy
+PMS2,NM_000535.7(PMS2):c.157A>C (p.Asn53His),53,Unannotated / linker,97.19,5.538962364196777,17.0,0.6216173526496177,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.158A>C (p.Asn53Thr),53,Unannotated / linker,97.19,5.538962364196777,17.0,0.6216173526496177,not provided
+PMS2,NM_000535.7(PMS2):c.157A>T (p.Asn53Tyr),53,Unannotated / linker,97.19,5.538962364196777,17.0,0.6216173526496177,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.157A>G (p.Asn53Asp),53,Unannotated / linker,97.19,5.538962364196777,17.0,0.6216173526496177,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5371G>A (p.Val1791Met),1791,BRCT domain 2,94.94,5.074275016784668,25.0,0.6215461696946059,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5372T>G (p.Val1791Gly),1791,BRCT domain 2,94.94,5.074275016784668,25.0,0.6215461696946059,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5372T>A (p.Val1791Glu),1791,BRCT domain 2,94.94,5.074275016784668,25.0,0.6215461696946059,Malignant tumor of breast
+MYBPC3,NM_000256.3(MYBPC3):c.2533C>T (p.Arg845Cys),845,Fibronectin type-III 1,97.0,5.452775955200195,13.0,0.6214583256431698,not specified; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2533C>A (p.Arg845Ser),845,Fibronectin type-III 1,97.0,5.452775955200195,13.0,0.6214583256431698,Hypertrophic cardiomyopathy; Hypertrophic cardiomyopathy 4
+MYBPC3,NM_000256.3(MYBPC3):c.2534G>T (p.Arg845Leu),845,Fibronectin type-III 1,97.0,5.452775955200195,13.0,0.6214583256431698,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2534G>C (p.Arg845Pro),845,Fibronectin type-III 1,97.0,5.452775955200195,13.0,0.6214583256431698,not provided; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2533C>G (p.Arg845Gly),845,Fibronectin type-III 1,97.0,5.452775955200195,13.0,0.6214583256431698,Hypertrophic cardiomyopathy
+MSH2,NM_000251.3(MSH2):c.2221A>G (p.Lys741Glu),741,Unannotated / linker,95.75,5.384698867797852,33.0,0.6214106842816833,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1672G>A (p.Val558Met),558,Unannotated / linker,98.12,5.809812545776367,17.0,0.6212439562840726,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1673T>G (p.Val558Gly),558,Unannotated / linker,98.12,5.809812545776367,17.0,0.6212439562840726,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1673T>C (p.Val558Ala),558,Unannotated / linker,98.12,5.809812545776367,17.0,0.6212439562840726,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1672G>T (p.Val558Leu),558,Unannotated / linker,98.12,5.809812545776367,17.0,0.6212439562840726,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2199G>C (p.Met733Ile),733,Unannotated / linker,94.06,5.175332546234131,48.0,0.6212220570006165,Lynch syndrome; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2199G>A (p.Met733Ile),733,Unannotated / linker,94.06,5.175332546234131,48.0,0.6212220570006165,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.2198T>C (p.Met733Thr),733,Unannotated / linker,94.06,5.175332546234131,48.0,0.6212220570006165,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1738G>C (p.Ala580Pro),580,Interaction with EXO1,93.06,5.058651447296143,56.0,0.6210029696746999,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome
+MLH1,NM_000249.4(MLH1):c.1738G>T (p.Ala580Ser),580,Interaction with EXO1,93.06,5.058651447296143,56.0,0.6210029696746999,Hereditary cancer-predisposing syndrome
+PTEN,NM_000314.8(PTEN):c.215C>G (p.Ala72Gly),72,Phosphatase (tensin-type) domain,94.94,5.031616687774658,18.0,0.620874692661265,PTEN hamartoma tumor syndrome
+PTEN,NM_000314.8(PTEN):c.214G>A (p.Ala72Thr),72,Phosphatase (tensin-type) domain,94.94,5.031616687774658,18.0,0.620874692661265,PTEN hamartoma tumor syndrome
+MSH2,NM_000251.3(MSH2):c.878C>T (p.Thr293Ile),293,Unannotated / linker,88.38,4.823130130767822,118.0,0.6207215729665624,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.877A>C (p.Thr293Pro),293,Unannotated / linker,88.38,4.823130130767822,118.0,0.6207215729665624,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.878C>A (p.Thr293Asn),293,Unannotated / linker,88.38,4.823130130767822,118.0,0.6207215729665624,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.457A>G (p.Arg153Gly),153,Unannotated / linker,95.5,5.866768836975098,79.0,0.620677436410683,Hereditary nonpolyposis colorectal neoplasms; not provided
+MSH6,NM_000179.3(MSH6):c.1184C>A (p.Thr395Lys),395,Unannotated / linker,95.81,5.346423149108887,23.0,0.6205018633857488,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1183A>G (p.Thr395Ala),395,Unannotated / linker,95.81,5.346423149108887,23.0,0.6205018633857488,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1184C>T (p.Thr395Ile),395,Unannotated / linker,95.81,5.346423149108887,23.0,0.6205018633857488,Lynch syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.359A>G (p.Tyr120Cys),120,Required for interaction with GDF2,94.5,5.001716136932373,21.0,0.6203473783220206,"Cardiovascular phenotype; Telangiectasia, hereditary hemorrhagic, type 1; Hereditary hemorrhagic telangiectasia"
+PTEN,NM_000314.8(PTEN):c.771C>A (p.Phe257Leu),257,C2 (tensin-type) domain,98.56,5.979287147521973,15.0,0.6202764785340695,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2431G>A (p.Ala811Thr),811,Unannotated / linker,90.81,5.189861297607422,106.0,0.620131278539906,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+PMS2,NM_000535.7(PMS2):c.2432C>T (p.Ala811Val),811,Unannotated / linker,90.81,5.189861297607422,106.0,0.620131278539906,not specified; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2431G>C (p.Ala811Pro),811,Unannotated / linker,90.81,5.189861297607422,106.0,0.620131278539906,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.486A>C (p.Leu162Phe),162,Unannotated / linker,92.38,4.832131862640381,44.0,0.6198908975067442,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.484T>A (p.Leu162Ile),162,Unannotated / linker,92.38,4.832131862640381,44.0,0.6198908975067442,Hereditary nonpolyposis colorectal neoplasms
+RET,NM_020975.6(RET):c.1675T>A (p.Ser559Thr),559,Unannotated / linker,97.25,5.7112555503845215,18.0,0.6197760590379786,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1676C>T (p.Ser559Phe),559,Unannotated / linker,97.25,5.7112555503845215,18.0,0.6197760590379786,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1300A>G (p.Ser434Gly),434,Cadherin-like region 4 (CLD4),91.12,5.64761209487915,147.0,0.6197307986736607,"not provided; Pheochromocytoma; Multiple endocrine neoplasia type 2B; Hirschsprung disease, susceptibility to, 1; Familial medullary thyroid carcinoma; Multiple endocrine neoplasia type 2A; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+MLH1,NM_000249.4(MLH1):c.644A>C (p.Asn215Thr),215,Unannotated / linker,94.88,5.265113353729248,30.0,0.6196613799116597,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.643A>G (p.Asn215Asp),215,Unannotated / linker,94.88,5.265113353729248,30.0,0.6196613799116597,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3386G>C (p.Cys1129Ser),1129,Unannotated / linker,94.19,5.965052127838135,113.0,0.6196023975568506,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3386G>A (p.Cys1129Tyr),1129,Unannotated / linker,94.19,5.965052127838135,113.0,0.6196023975568506,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.3387T>G (p.Cys1129Trp),1129,Unannotated / linker,94.19,5.965052127838135,113.0,0.6196023975568506,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+VHL,NM_000551.4(VHL):c.413C>T (p.Pro138Leu),138,Involved in binding to CCT complex,97.69,5.90603494644165,24.0,0.6195936464179386,Hereditary cancer-predisposing syndrome; Chuvash polycythemia; Von Hippel-Lindau syndrome; not provided; Von Hippel-Lindau syndrome
+MSH6,NM_000179.3(MSH6):c.1387G>A (p.Glu463Lys),463,Unannotated / linker,95.38,5.416468143463135,31.0,0.6194481650157518,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1389A>T (p.Glu463Asp),463,Unannotated / linker,95.38,5.416468143463135,31.0,0.6194481650157518,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.1387G>C (p.Glu463Gln),463,Unannotated / linker,95.38,5.416468143463135,31.0,0.6194481650157518,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1082A>G (p.Asn361Ser),361,Cadherin-like region 3 (CLD3),93.75,5.514462947845459,74.0,0.6194473536972599,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1082A>T (p.Asn361Ile),361,Cadherin-like region 3 (CLD3),93.75,5.514462947845459,74.0,0.6194473536972599,"Multiple endocrine neoplasia, type 2"
+MSH6,NM_000179.3(MSH6):c.1541G>C (p.Cys514Ser),514,Unannotated / linker,96.88,5.819767951965332,32.0,0.6191856539899387,Lynch syndrome
+MSH6,NM_000179.3(MSH6):c.1542T>G (p.Cys514Trp),514,Unannotated / linker,96.88,5.819767951965332,32.0,0.6191856539899387,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1541G>A (p.Cys514Tyr),514,Unannotated / linker,96.88,5.819767951965332,32.0,0.6191856539899387,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.418A>G (p.Lys140Glu),140,Unannotated / linker,95.0,5.150946617126465,13.0,0.6186781606024593,Lynch syndrome
+ENG,NM_001114753.3(ENG):c.821C>T (p.Thr274Ile),274,Required for interaction with GDF2,93.88,4.896555423736572,15.0,0.6185807439938747,Hereditary hemorrhagic telangiectasia
+MLH1,NM_000249.4(MLH1):c.180G>T (p.Gln60His),60,Unannotated / linker,97.31,5.749851226806641,11.0,0.6184605315069995,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.2184T>G (p.Ile728Met),728,Unannotated / linker,88.5,5.433468341827393,169.0,0.6184415759781368,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.2182A>T (p.Ile728Phe),728,Unannotated / linker,88.5,5.433468341827393,169.0,0.6184415759781368,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.341C>T (p.Thr114Ile),114,Unannotated / linker,97.06,5.723090648651123,14.0,0.6184111433009463,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.340A>G (p.Thr114Ala),114,Unannotated / linker,97.06,5.723090648651123,14.0,0.6184111433009463,Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1303G>A (p.Gly435Ser),435,Cadherin-like region 4 (CLD4),87.75,5.12591552734375,148.0,0.6183746285914504,"Multiple endocrine neoplasia, type 2; Hirschsprung disease, susceptibility to, 1"
+MSH2,NM_000251.3(MSH2):c.895T>C (p.Tyr299His),299,Unannotated / linker,93.94,5.375319004058838,50.0,0.6183138118839029,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.479A>C (p.Gln160Pro),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary cancer-predisposing syndrome; not specified
+PMS2,NM_000535.7(PMS2):c.479A>G (p.Gln160Arg),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.478C>A (p.Gln160Lys),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.480G>C (p.Gln160His),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.480G>T (p.Gln160His),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.479_480delinsCC (p.Gln160Pro),160,Unannotated / linker,95.75,5.741531848907471,42.0,0.6179599947089909,Hereditary nonpolyposis colorectal neoplasms
+BRCA1,NM_007294.4(BRCA1):c.5030C>T (p.Thr1677Ile),1677,BRCT domain 1,94.5,5.2546067237854,24.0,0.617550197549815,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+BRCA1,NM_007294.4(BRCA1):c.5029A>G (p.Thr1677Ala),1677,BRCT domain 1,94.5,5.2546067237854,24.0,0.617550197549815,Hereditary breast ovarian cancer syndrome
+PMS2,NM_000535.7(PMS2):c.972C>A (p.Asn324Lys),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,PMS2-related disorder; Hereditary nonpolyposis colorectal neoplasms; not specified; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.971A>G (p.Asn324Ser),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome
+PMS2,NM_000535.7(PMS2):c.972C>G (p.Asn324Lys),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.970A>T (p.Asn324Tyr),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+PMS2,NM_000535.7(PMS2):c.970A>C (p.Asn324His),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.971A>C (p.Asn324Thr),324,Unannotated / linker,95.81,5.906857967376709,53.0,0.6174550257340393,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2380C>A (p.Pro794Thr),794,Fibronectin type-III 1,95.19,5.3923444747924805,19.0,0.617218018493877,Cardiovascular phenotype; not specified; not provided; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2380C>T (p.Pro794Ser),794,Fibronectin type-III 1,95.19,5.3923444747924805,19.0,0.617218018493877,Cardiovascular phenotype; Hypertrophic cardiomyopathy
+MSH6,NM_000179.3(MSH6):c.1378G>A (p.Gly460Ser),460,Unannotated / linker,95.56,5.560874938964844,25.0,0.6171957184643897,Lynch syndrome; Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1378G>T (p.Gly460Cys),460,Unannotated / linker,95.56,5.560874938964844,25.0,0.6171957184643897,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.1379G>A (p.Gly460Asp),460,Unannotated / linker,95.56,5.560874938964844,25.0,0.6171957184643897,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.424T>A (p.Cys142Ser),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.425G>C (p.Cys142Ser),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.424T>C (p.Cys142Arg),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,"Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not specified; Colorectal cancer, hereditary nonpolyposis, type 2"
+MLH1,NM_000249.4(MLH1):c.424T>G (p.Cys142Gly),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.425G>T (p.Cys142Phe),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.426T>G (p.Cys142Trp),142,Unannotated / linker,94.88,5.290082931518555,17.0,0.6171826368146549,Lynch syndrome; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.2264T>C (p.Val755Ala),755,Protein kinase,95.5,5.8204121589660645,49.0,0.617065655078701,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2263G>A (p.Val755Met),755,Protein kinase,95.5,5.8204121589660645,49.0,0.617065655078701,"not provided; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2263G>T (p.Val755Leu),755,Protein kinase,95.5,5.8204121589660645,49.0,0.617065655078701,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.4952C>T (p.Ser1651Phe),1651,BRCT domain 1,94.06,5.341402053833008,34.0,0.6165868592961259,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+MLH1,NM_000249.4(MLH1):c.726G>A (p.Met242Ile),242,Unannotated / linker,94.56,5.6782941818237305,53.0,0.6165350914348869,"Hereditary nonpolyposis colorectal neoplasms; not provided; Hereditary cancer-predisposing syndrome; Muir-Torré syndrome; Mismatch repair cancer syndrome 1; Colorectal cancer, hereditary nonpolyposis, type 2"
+MLH1,NM_000249.4(MLH1):c.725T>G (p.Met242Arg),242,Unannotated / linker,94.56,5.6782941818237305,53.0,0.6165350914348869,"Colorectal cancer, hereditary nonpolyposis, type 2"
+MLH1,NM_000249.4(MLH1):c.724A>G (p.Met242Val),242,Unannotated / linker,94.56,5.6782941818237305,53.0,0.6165350914348869,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.2216A>G (p.Asn739Ser),739,Unannotated / linker,89.69,5.904433727264404,189.0,0.6164103873024877,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.2215A>C (p.Asn739His),739,Unannotated / linker,89.69,5.904433727264404,189.0,0.6164103873024877,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.2216A>C (p.Asn739Thr),739,Unannotated / linker,89.69,5.904433727264404,189.0,0.6164103873024877,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+ENG,NM_001114753.3(ENG):c.826G>A (p.Glu276Lys),276,Required for interaction with GDF2,93.31,4.941848278045654,13.0,0.6157539108692013,Cardiovascular phenotype
+MLH1,NM_000249.4(MLH1):c.691A>T (p.Ile231Phe),231,Unannotated / linker,94.44,5.236616611480713,13.0,0.6157444771593829,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.693T>G (p.Ile231Met),231,Unannotated / linker,94.44,5.236616611480713,13.0,0.6157444771593829,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.692T>A (p.Ile231Asn),231,Unannotated / linker,94.44,5.236616611480713,13.0,0.6157444771593829,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.692T>G (p.Ile231Ser),231,Unannotated / linker,94.44,5.236616611480713,13.0,0.6157444771593829,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.692T>C (p.Ile231Thr),231,Unannotated / linker,94.44,5.236616611480713,13.0,0.6157444771593829,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.635C>A (p.Thr212Asn),212,Unannotated / linker,94.62,5.46068811416626,27.0,0.6157180637395183,Hereditary nonpolyposis colorectal neoplasms; not provided
+MLH1,NM_000249.4(MLH1):c.635C>T (p.Thr212Ile),212,Unannotated / linker,94.62,5.46068811416626,27.0,0.6157180637395183,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1550T>G (p.Leu517Arg),517,Unannotated / linker,93.62,5.067898750305176,16.0,0.6157017574644617,"Multiple endocrine neoplasia type 2B; Pheochromocytoma; Familial medullary thyroid carcinoma; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2A; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1549C>A (p.Leu517Met),517,Unannotated / linker,93.62,5.067898750305176,16.0,0.6157017574644617,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1549C>G (p.Leu517Val),517,Unannotated / linker,93.62,5.067898750305176,16.0,0.6157017574644617,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2; Multiple endocrine neoplasia type 2A"
+RET,NM_020975.6(RET):c.1550T>C (p.Leu517Pro),517,Unannotated / linker,93.62,5.067898750305176,16.0,0.6157017574644617,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.721C>A (p.Pro241Thr),241,Unannotated / linker,95.88,5.824075222015381,30.0,0.6155405667325478,Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.721C>T (p.Pro241Ser),241,Unannotated / linker,95.88,5.824075222015381,30.0,0.6155405667325478,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.721C>G (p.Pro241Ala),241,Unannotated / linker,95.88,5.824075222015381,30.0,0.6155405667325478,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome; not provided
+PMS2,NM_000535.7(PMS2):c.722C>T (p.Pro241Leu),241,Unannotated / linker,95.88,5.824075222015381,30.0,0.6155405667325478,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.722C>G (p.Pro241Arg),241,Unannotated / linker,95.88,5.824075222015381,30.0,0.6155405667325478,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.3286C>T (p.His1096Tyr),1096,Unannotated / linker,90.56,4.802490711212158,50.0,0.6154462390593295,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided
+MSH6,NM_000179.3(MSH6):c.3287A>G (p.His1096Arg),1096,Unannotated / linker,90.56,4.802490711212158,50.0,0.6154462390593295,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.734T>G (p.Val245Gly),245,Cadherin,90.31,4.6565656661987305,43.0,0.6154071600416284,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.733G>T (p.Val245Leu),245,Cadherin,90.31,4.6565656661987305,43.0,0.6154071600416284,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.734T>C (p.Val245Ala),245,Cadherin,90.31,4.6565656661987305,43.0,0.6154071600416284,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1912G>C (p.Gly638Arg),638,Interaction with EXO1,92.88,5.517608165740967,64.0,0.6149731811406388,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1913G>A (p.Gly638Glu),638,Interaction with EXO1,92.88,5.517608165740967,64.0,0.6149731811406388,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1912_1913delinsTT (p.Gly638Leu),638,Interaction with EXO1,92.88,5.517608165740967,64.0,0.6149731811406388,not specified
+MLH1,NM_000249.4(MLH1):c.1823C>A (p.Ala608Asp),608,Interaction with EXO1,93.19,5.168379783630371,22.0,0.6140139027530264,Lynch syndrome 1
+MLH1,NM_000249.4(MLH1):c.1586C>T (p.Ser529Phe),529,Interaction with EXO1,93.38,5.112128734588623,13.0,0.6138172320192118,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1586C>G (p.Ser529Cys),529,Interaction with EXO1,93.38,5.112128734588623,13.0,0.6138172320192118,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.373G>C (p.Val125Leu),125,Required for interaction with GDF2,93.06,5.129855632781982,20.0,0.6137433269010282,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.374T>C (p.Val125Ala),125,Required for interaction with GDF2,93.06,5.129855632781982,20.0,0.6137433269010282,"not specified; not provided; Telangiectasia, hereditary hemorrhagic, type 1; Hereditary hemorrhagic telangiectasia"
+MYBPC3,NM_000256.3(MYBPC3):c.3548T>G (p.Phe1183Cys),1183,Ig-like C2-type 7,89.44,4.266852378845215,21.0,0.6134049241129521,not provided; Cardiomyopathy; Hypertrophic cardiomyopathy 4; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3547T>C (p.Phe1183Leu),1183,Ig-like C2-type 7,89.44,4.266852378845215,21.0,0.6134049241129521,Cardiomyopathy
+ENG,NM_001114753.3(ENG):c.1160T>C (p.Leu387Pro),387,ZP,90.0,4.711715221405029,40.0,0.6129944136380986,"Telangiectasia, hereditary hemorrhagic, type 1"
+BRCA1,NM_007294.4(BRCA1):c.5275_5276delinsTG (p.Lys1759Trp),1759,BRCT domain 2,92.88,5.277783393859863,29.0,0.6127158771925433,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome, Breast-ovarian cancer, familial, susceptibility to, 1"
+MLH1,NM_000249.4(MLH1):c.1879T>C (p.Ser627Pro),627,Interaction with EXO1,92.88,5.084880828857422,13.0,0.6125069735555311,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1880C>G (p.Ser627Cys),627,Interaction with EXO1,92.88,5.084880828857422,13.0,0.6125069735555311,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1879T>G (p.Ser627Ala),627,Interaction with EXO1,92.88,5.084880828857422,13.0,0.6125069735555311,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1880C>T (p.Ser627Phe),627,Interaction with EXO1,92.88,5.084880828857422,13.0,0.6125069735555311,Hereditary cancer-predisposing syndrome; not provided
+MLH1,NM_000249.4(MLH1):c.1879T>A (p.Ser627Thr),627,Interaction with EXO1,92.88,5.084880828857422,13.0,0.6125069735555311,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.422C>G (p.Pro141Arg),141,Unannotated / linker,95.69,5.866688251495361,16.0,0.6123545167396045,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+MLH1,NM_000249.4(MLH1):c.422C>T (p.Pro141Leu),141,Unannotated / linker,95.69,5.866688251495361,16.0,0.6123545167396045,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome
+MLH1,NM_000249.4(MLH1):c.421C>A (p.Pro141Thr),141,Unannotated / linker,95.69,5.866688251495361,16.0,0.6123545167396045,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.421C>T (p.Pro141Ser),141,Unannotated / linker,95.69,5.866688251495361,16.0,0.6123545167396045,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.868C>G (p.Pro290Ala),290,Unannotated / linker,93.75,5.768368721008301,43.0,0.6111186815494187,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.868C>T (p.Pro290Ser),290,Unannotated / linker,93.75,5.768368721008301,43.0,0.6111186815494187,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided
+TSC2,NM_000548.5(TSC2):c.3590T>A (p.Ile1197Asn),1197,Unannotated / linker,90.56,5.8998188972473145,129.0,0.6109022324633718,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3589A>C (p.Ile1197Leu),1197,Unannotated / linker,90.56,5.8998188972473145,129.0,0.6109022324633718,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3589A>G (p.Ile1197Val),1197,Unannotated / linker,90.56,5.8998188972473145,129.0,0.6109022324633718,Hereditary cancer-predisposing syndrome; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis; Tuberous sclerosis 2; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3591C>G (p.Ile1197Met),1197,Unannotated / linker,90.56,5.8998188972473145,129.0,0.6109022324633718,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3590T>G (p.Ile1197Ser),1197,Unannotated / linker,90.56,5.8998188972473145,129.0,0.6109022324633718,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2423T>C (p.Leu808Pro),808,Fibronectin type-III 1,95.31,5.836622714996338,12.0,0.6108999085557213,Cardiomyopathy
+RET,NM_020975.6(RET):c.163G>T (p.Ala55Ser),55,Cadherin-like region 1 (CLD1),93.94,5.627085208892822,23.0,0.6106597642142992,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.164C>T (p.Ala55Val),55,Cadherin-like region 1 (CLD1),93.94,5.627085208892822,23.0,0.6106597642142992,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.646A>G (p.Ile216Val),216,Unannotated / linker,94.88,5.977443695068359,31.0,0.6103409130546833,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.647T>A (p.Ile216Asn),216,Unannotated / linker,94.88,5.977443695068359,31.0,0.6103409130546833,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.647T>C (p.Ile216Thr),216,Unannotated / linker,94.88,5.977443695068359,31.0,0.6103409130546833,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.646A>C (p.Ile216Leu),216,Unannotated / linker,94.88,5.977443695068359,31.0,0.6103409130546833,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.596G>T (p.Arg199Leu),199,Required for interaction with GDF2,92.69,5.477550506591797,34.0,0.6102007055967029,Cardiovascular phenotype
+ENG,NM_001114753.3(ENG):c.595C>G (p.Arg199Gly),199,Required for interaction with GDF2,92.69,5.477550506591797,34.0,0.6102007055967029,Cardiovascular phenotype
+RET,NM_020975.6(RET):c.161A>G (p.His54Arg),54,Cadherin-like region 1 (CLD1),95.0,5.9430084228515625,22.0,0.6099337303628585,"Hereditary cancer-predisposing syndrome; not provided; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.160C>T (p.His54Tyr),54,Cadherin-like region 1 (CLD1),95.0,5.9430084228515625,22.0,0.6099337303628585,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2422A>G (p.Lys808Glu),808,Protein kinase,90.38,5.4275407791137695,75.0,0.6097725039127493,"Multiple endocrine neoplasia, type 2; Hereditary cancer-predisposing syndrome"
+RET,NM_020975.6(RET):c.2424A>C (p.Lys808Asn),808,Protein kinase,90.38,5.4275407791137695,75.0,0.6097725039127493,"Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.2423A>C (p.Lys808Thr),808,Protein kinase,90.38,5.4275407791137695,75.0,0.6097725039127493,"Pheochromocytoma; Multiple endocrine neoplasia type 2A; Hirschsprung disease, susceptibility to, 1; Multiple endocrine neoplasia type 2B; Familial medullary thyroid carcinoma; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+MSH2,NM_000251.3(MSH2):c.1651T>C (p.Phe551Leu),551,Unannotated / linker,91.69,5.190683364868164,28.0,0.6097660194977716,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1651T>A (p.Phe551Ile),551,Unannotated / linker,91.69,5.190683364868164,28.0,0.6097660194977716,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1653T>A (p.Phe551Leu),551,Unannotated / linker,91.69,5.190683364868164,28.0,0.6097660194977716,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1652T>A (p.Phe551Tyr),551,Unannotated / linker,91.69,5.190683364868164,28.0,0.6097660194977716,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.1775G>A (p.Gly592Glu),592,Unannotated / linker,90.81,4.982464790344238,28.0,0.6096524354354128,"Multiple endocrine neoplasia, type 2"
+MSH6,NM_000179.3(MSH6):c.2273T>C (p.Leu758Pro),758,Unannotated / linker,90.56,4.752170562744141,13.0,0.6090625675171262,Lynch syndrome 5
+MSH6,NM_000179.3(MSH6):c.2272C>G (p.Leu758Val),758,Unannotated / linker,90.56,4.752170562744141,13.0,0.6090625675171262,not specified; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.2272C>A (p.Leu758Ile),758,Unannotated / linker,90.56,4.752170562744141,13.0,0.6090625675171262,Hereditary nonpolyposis colorectal neoplasms
+BRCA1,NM_007294.4(BRCA1):c.5414A>G (p.His1805Arg),1805,BRCT domain 2,89.12,4.80294132232666,41.0,0.6089525690258386,Hereditary breast ovarian cancer syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2396G>A (p.Gly799Asp),799,Fibronectin type-III 1,87.31,4.2312822341918945,29.0,0.6086177659937363,Cardiomyopathy
+TSC2,NM_000548.5(TSC2):c.4826G>T (p.Cys1609Phe),1609,Rap-GAP,90.94,5.119985103607178,30.0,0.6085723394519029,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4826G>A (p.Cys1609Tyr),1609,Rap-GAP,90.94,5.119985103607178,30.0,0.6085723394519029,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1610A>T (p.Gln537Leu),537,Interaction with EXO1,91.75,5.151501178741455,15.0,0.6082466018265275,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1611G>T (p.Gln537His),537,Interaction with EXO1,91.75,5.151501178741455,15.0,0.6082466018265275,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.1456T>G (p.Trp486Gly),486,Ig-like C2-type 3,92.5,5.643965721130371,40.0,0.608225219686414,Cardiovascular phenotype; not provided; not specified; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1456T>C (p.Trp486Arg),486,Ig-like C2-type 3,92.5,5.643965721130371,40.0,0.608225219686414,not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1458G>T (p.Trp486Cys),486,Ig-like C2-type 3,92.5,5.643965721130371,40.0,0.608225219686414,Hypertrophic cardiomyopathy
+RET,NM_020975.6(RET):c.1585G>A (p.Glu529Lys),529,Unannotated / linker,93.56,5.588988780975342,12.0,0.6082031384883331,"Multiple endocrine neoplasia, type 2"
+MSH2,NM_000251.3(MSH2):c.694T>C (p.Phe232Leu),232,Unannotated / linker,92.62,5.655238628387451,37.0,0.6080161917606217,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.481C>G (p.Gln161Glu),161,Unannotated / linker,92.0,5.574987888336182,43.0,0.6079729570247825,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.483G>C (p.Gln161His),161,Unannotated / linker,92.0,5.574987888336182,43.0,0.6079729570247825,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.482A>G (p.Gln161Arg),161,Unannotated / linker,92.0,5.574987888336182,43.0,0.6079729570247825,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.482A>C (p.Gln161Pro),161,Unannotated / linker,92.0,5.574987888336182,43.0,0.6079729570247825,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.524C>T (p.Ser175Leu),175,Ig-like C2-type 1,91.69,5.1474151611328125,14.0,0.6079262273168432,Cardiomyopathy
+RET,NM_020975.6(RET):c.362T>A (p.Val121Asp),121,Cadherin-like region 1 (CLD1),91.69,5.305057525634766,26.0,0.6078976089495572,"Multiple endocrine neoplasia, type 2"
+TSC2,NM_000548.5(TSC2):c.1688C>T (p.Ala563Val),563,Unannotated / linker,92.12,5.783008098602295,54.0,0.6071019917387251,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.1688C>A (p.Ala563Asp),563,Unannotated / linker,92.12,5.783008098602295,54.0,0.6071019917387251,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.1022C>T (p.Ser341Phe),341,Required for interaction with TSC1,90.0,5.148503303527832,41.0,0.6069580598088363,Hereditary cancer-predisposing syndrome; not provided; Tuberous sclerosis 2
+RET,NM_020975.6(RET):c.731C>A (p.Thr244Asn),244,Cadherin,92.12,5.672701358795166,42.0,0.6068654141254688,"Multiple endocrine neoplasia, type 2"
+ENG,NM_001114753.3(ENG):c.745G>T (p.Ala249Ser),249,Required for interaction with GDF2,90.75,5.091526985168457,20.0,0.6065674710074915,Cardiovascular phenotype
+RET,NM_020975.6(RET):c.1801G>A (p.Gly601Arg),601,Unannotated / linker,91.19,5.165788650512695,16.0,0.6063686887989703,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.427G>A (p.Ala143Thr),143,Unannotated / linker,93.25,5.72310209274292,18.0,0.6063660524877638,not provided; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.428C>A (p.Ala143Asp),143,Unannotated / linker,93.25,5.72310209274292,18.0,0.6063660524877638,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.428C>T (p.Ala143Val),143,Unannotated / linker,93.25,5.72310209274292,18.0,0.6063660524877638,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.427G>T (p.Ala143Ser),143,Unannotated / linker,93.25,5.72310209274292,18.0,0.6063660524877638,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.427G>C (p.Ala143Pro),143,Unannotated / linker,93.25,5.72310209274292,18.0,0.6063660524877638,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1582C>T (p.His528Tyr),528,Interaction with EXO1,92.81,5.568564414978027,14.0,0.6062717955647057,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome
+MLH1,NM_000249.4(MLH1):c.1584C>G (p.His528Gln),528,Interaction with EXO1,92.81,5.568564414978027,14.0,0.6062717955647057,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1583A>G (p.His528Arg),528,Interaction with EXO1,92.81,5.568564414978027,14.0,0.6062717955647057,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.397G>C (p.Gly133Arg),133,Unannotated / linker,87.06,4.722307205200195,56.0,0.6061828425389433,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1655C>G (p.Thr552Ser),552,Unannotated / linker,92.56,5.697549343109131,29.0,0.6060418330134846,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1654A>G (p.Thr552Ala),552,Unannotated / linker,92.56,5.697549343109131,29.0,0.6060418330134846,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+MSH2,NM_000251.3(MSH2):c.1654A>T (p.Thr552Ser),552,Unannotated / linker,92.56,5.697549343109131,29.0,0.6060418330134846,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4823A>C (p.Tyr1608Ser),1608,Rap-GAP,91.81,5.522232532501221,29.0,0.6058801210790993,Tuberous sclerosis syndrome; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2; Lymphangiomyomatosis; Isolated focal cortical dysplasia type II
+MSH2,NM_000251.3(MSH2):c.2450T>C (p.Val817Ala),817,Unannotated / linker,92.38,5.517914772033691,16.0,0.6057977559545452,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2450T>G (p.Val817Gly),817,Unannotated / linker,92.38,5.517914772033691,16.0,0.6057977559545452,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5374G>C (p.Val1792Leu),1792,BRCT domain 2,93.06,5.815847396850586,26.0,0.6057014313445218,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5375T>A (p.Val1792Glu),1792,BRCT domain 2,93.06,5.815847396850586,26.0,0.6057014313445218,not specified
+TSC2,NM_000548.5(TSC2):c.4624A>G (p.Thr1542Ala),1542,Rap-GAP,87.88,5.148829936981201,74.0,0.6056038686473959,Tuberous sclerosis 2; Tuberous sclerosis 2; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis
+TSC2,NM_000548.5(TSC2):c.4625C>T (p.Thr1542Ile),1542,Rap-GAP,87.88,5.148829936981201,74.0,0.6056038686473959,Tuberous sclerosis 2; not provided; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4625C>G (p.Thr1542Ser),1542,Rap-GAP,87.88,5.148829936981201,74.0,0.6056038686473959,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4625C>A (p.Thr1542Asn),1542,Rap-GAP,87.88,5.148829936981201,74.0,0.6056038686473959,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+MYBPC3,NM_000256.3(MYBPC3):c.1122G>C (p.Gln374His),374,Ig-like C2-type 2,86.0,4.7670183181762695,74.0,0.6054354873183433,Cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1292_1293delinsCA (p.Asp431Ala),431,Ig-like C2-type 2,90.25,5.026021480560303,17.0,0.6052238547458229,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1293C>A (p.Asp431Glu),431,Ig-like C2-type 2,90.25,5.026021480560303,17.0,0.6052238547458229,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1291G>A (p.Asp431Asn),431,Ig-like C2-type 2,90.25,5.026021480560303,17.0,0.6052238547458229,Cardiomyopathy; Hypertrophic cardiomyopathy 4; Cardiovascular phenotype; Hypertrophic cardiomyopathy; not provided
+MYBPC3,NM_000256.3(MYBPC3):c.1291G>C (p.Asp431His),431,Ig-like C2-type 2,90.25,5.026021480560303,17.0,0.6052238547458229,Hypertrophic cardiomyopathy
+PMS2,NM_000535.7(PMS2):c.487T>C (p.Phe163Leu),163,Unannotated / linker,91.75,5.749846458435059,45.0,0.6050088775920897,Mismatch repair cancer syndrome 4; Lynch syndrome 4; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not specified; not provided; Lynch syndrome; Lynch syndrome 4; Mismatch repair cancer syndrome 1; Lynch syndrome 4
+PMS2,NM_000535.7(PMS2):c.487T>A (p.Phe163Ile),163,Unannotated / linker,91.75,5.749846458435059,45.0,0.6050088775920897,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.487T>G (p.Phe163Val),163,Unannotated / linker,91.75,5.749846458435059,45.0,0.6050088775920897,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1736C>A (p.Pro579Gln),579,Interaction with EXO1,90.31,5.553309917449951,57.0,0.6048162515074548,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1736C>T (p.Pro579Leu),579,Interaction with EXO1,90.31,5.553309917449951,57.0,0.6048162515074548,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.824G>A (p.Gly275Glu),275,Required for interaction with GDF2,90.38,5.061717510223389,14.0,0.6046589434447222,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+RET,NM_020975.6(RET):c.1819G>C (p.Gly607Arg),607,Unannotated / linker,92.19,5.961410045623779,52.0,0.6045282273499869,"not provided; Hereditary cancer-predisposing syndrome; Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1820G>T (p.Gly607Val),607,Unannotated / linker,92.19,5.961410045623779,52.0,0.6045282273499869,"Multiple endocrine neoplasia, type 2"
+RET,NM_020975.6(RET):c.1820G>A (p.Gly607Asp),607,Unannotated / linker,92.19,5.961410045623779,52.0,0.6045282273499869,"Hirschsprung disease, susceptibility to, 1"
+RET,NM_020975.6(RET):c.2335C>G (p.Leu779Val),779,Protein kinase,93.75,5.9234299659729,11.0,0.6044672083212203,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.756C>A (p.Phe252Leu),252,Ig-like C2-type 1,91.0,5.262790679931641,15.0,0.60431104609431,Cardiovascular phenotype; not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.754T>C (p.Phe252Leu),252,Ig-like C2-type 1,91.0,5.262790679931641,15.0,0.60431104609431,Cardiovascular phenotype; Cardiomyopathy; Hypertrophic cardiomyopathy
+MSH6,NM_000179.3(MSH6):c.2195G>T (p.Arg732Leu),732,Unannotated / linker,90.56,5.570977687835693,49.0,0.604153918470403,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.685A>C (p.Ile229Leu),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,not provided; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.684_685delinsTT (p.Ile229Leu),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.685A>G (p.Ile229Val),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.687A>G (p.Ile229Met),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.686T>G (p.Ile229Arg),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.686T>C (p.Ile229Thr),229,Unannotated / linker,93.62,5.997897148132324,18.0,0.604067697823993,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2345C>T (p.Thr782Ile),782,Unannotated / linker,88.69,4.951628684997559,33.0,0.6039190415850746,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2344A>G (p.Thr782Ala),782,Unannotated / linker,88.69,4.951628684997559,33.0,0.6039190415850746,not specified; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided; Lynch syndrome
+MSH2,NM_000251.3(MSH2):c.973T>A (p.Ser325Thr),325,Unannotated / linker,90.44,5.158439636230469,11.0,0.6030928964396014,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.973T>G (p.Ser325Ala),325,Unannotated / linker,90.44,5.158439636230469,11.0,0.6030928964396014,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.974C>G (p.Ser325Cys),325,Unannotated / linker,90.44,5.158439636230469,11.0,0.6030928964396014,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.973T>C (p.Ser325Pro),325,Unannotated / linker,90.44,5.158439636230469,11.0,0.6030928964396014,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.1702G>A (p.Val568Ile),568,Ig-like C2-type 4,89.44,5.156773567199707,29.0,0.6028921540607804,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1703T>A (p.Val568Asp),568,Ig-like C2-type 4,89.44,5.156773567199707,29.0,0.6028921540607804,Hypertrophic cardiomyopathy
+MLH1,NM_000249.4(MLH1):c.430G>A (p.Gly144Ser),144,Unannotated / linker,89.56,5.076116561889648,19.0,0.6026181022845785,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.431G>A (p.Gly144Asp),144,Unannotated / linker,89.56,5.076116561889648,19.0,0.6026181022845785,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.431G>T (p.Gly144Val),144,Unannotated / linker,89.56,5.076116561889648,19.0,0.6026181022845785,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.430G>T (p.Gly144Cys),144,Unannotated / linker,89.56,5.076116561889648,19.0,0.6026181022845785,Hereditary nonpolyposis colorectal neoplasms
+MYBPC3,NM_000256.3(MYBPC3):c.527C>G (p.Ala176Gly),176,Ig-like C2-type 1,90.62,5.3089094161987305,15.0,0.6024455231792203,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.527C>A (p.Ala176Asp),176,Ig-like C2-type 1,90.62,5.3089094161987305,15.0,0.6024455231792203,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.526_527delinsAG (p.Ala176Ser),176,Ig-like C2-type 1,90.62,5.3089094161987305,15.0,0.6024455231792203,Hypertrophic cardiomyopathy
+MLH1,NM_000249.4(MLH1):c.1711T>C (p.Phe571Leu),571,Interaction with EXO1,90.0,5.7686662673950195,69.0,0.6024349351127258,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1711T>G (p.Phe571Val),571,Interaction with EXO1,90.0,5.7686662673950195,69.0,0.6024349351127258,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5563A>G (p.Ile1855Val),1855,BRCT domain 2,90.75,5.439825534820557,22.0,0.6023198055023928,"Hereditary breast ovarian cancer syndrome, Breast-ovarian cancer, familial, susceptibility to, 1"
+BRCA1,NM_007294.4(BRCA1):c.5564T>A (p.Ile1855Lys),1855,BRCT domain 2,90.75,5.439825534820557,22.0,0.6023198055023928,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.534C>G (p.Phe178Leu),178,Unannotated / linker,91.44,5.563234806060791,17.0,0.6022282471835687,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.533T>A (p.Phe178Tyr),178,Unannotated / linker,91.44,5.563234806060791,17.0,0.6022282471835687,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+MSH2,NM_000251.3(MSH2):c.534C>A (p.Phe178Leu),178,Unannotated / linker,91.44,5.563234806060791,17.0,0.6022282471835687,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.532T>C (p.Phe178Leu),178,Unannotated / linker,91.44,5.563234806060791,17.0,0.6022282471835687,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.2035C>A (p.Pro679Thr),679,Ig-like C2-type 5,84.44,4.687800407409668,76.0,0.6019144947726318,not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.2035C>T (p.Pro679Ser),679,Ig-like C2-type 5,84.44,4.687800407409668,76.0,0.6019144947726318,Cardiovascular phenotype; Left ventricular noncompaction 10; Hypertrophic cardiomyopathy 4; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3538G>A (p.Ala1180Thr),1180,Unannotated / linker,84.81,4.816386699676514,80.0,0.6017971948080338,Cardiomyopathy
+MSH2,NM_000251.3(MSH2):c.869A>G (p.Glu290Gly),290,Unannotated / linker,88.25,5.89894437789917,117.0,0.601503760908605,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.870A>T (p.Glu290Asp),290,Unannotated / linker,88.25,5.89894437789917,117.0,0.601503760908605,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.870A>C (p.Glu290Asp),290,Unannotated / linker,88.25,5.89894437789917,117.0,0.601503760908605,Lynch syndrome 1
+MSH2,NM_000251.3(MSH2):c.868G>C (p.Glu290Gln),290,Unannotated / linker,88.25,5.89894437789917,117.0,0.601503760908605,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2453A>C (p.Lys818Thr),818,Unannotated / linker,90.88,5.489059925079346,17.0,0.6013126617661456,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.2453A>G (p.Lys818Arg),818,Unannotated / linker,90.88,5.489059925079346,17.0,0.6013126617661456,not specified; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 1
+MSH2,NM_000251.3(MSH2):c.2444A>G (p.Tyr815Cys),815,Unannotated / linker,85.75,5.641564846038818,141.0,0.6010878004420092,"Hereditary nonpolyposis colorectal neoplasms; not provided; Lynch syndrome 1; Colorectal cancer, hereditary nonpolyposis, type 2"
+MSH2,NM_000251.3(MSH2):c.2443T>C (p.Tyr815His),815,Unannotated / linker,85.75,5.641564846038818,141.0,0.6010878004420092,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.2444A>T (p.Tyr815Phe),815,Unannotated / linker,85.75,5.641564846038818,141.0,0.6010878004420092,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.3597G>A (p.Met1199Ile),1199,Ig-like C2-type 7,90.5,5.7213921546936035,39.0,0.6003268571488508,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3597G>T (p.Met1199Ile),1199,Ig-like C2-type 7,90.5,5.7213921546936035,39.0,0.6003268571488508,Cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3596T>C (p.Met1199Thr),1199,Ig-like C2-type 7,90.5,5.7213921546936035,39.0,0.6003268571488508,Cardiomyopathy; Hypertrophic cardiomyopathy
+BRCA1,NM_007294.4(BRCA1):c.5033A>G (p.Asn1678Ser),1678,BRCT domain 1,91.56,5.8403449058532715,25.0,0.6002154722212069,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5032A>T (p.Asn1678Tyr),1678,BRCT domain 1,91.56,5.8403449058532715,25.0,0.6002154722212069,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5032A>G (p.Asn1678Asp),1678,BRCT domain 1,91.56,5.8403449058532715,25.0,0.6002154722212069,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.5034T>G (p.Asn1678Lys),1678,BRCT domain 1,91.56,5.8403449058532715,25.0,0.6002154722212069,Hereditary breast ovarian cancer syndrome
+RET,NM_020975.6(RET):c.196T>A (p.Phe66Ile),66,Cadherin-like region 1 (CLD1),91.62,5.898731231689453,27.0,0.59993380029463,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.975G>C (p.Gln325His),325,Required for interaction with TSC1,89.62,5.615432262420654,44.0,0.59960623386109,Tuberous sclerosis syndrome; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.974A>C (p.Gln325Pro),325,Required for interaction with TSC1,89.62,5.615432262420654,44.0,0.59960623386109,Tuberous sclerosis 2
+MYBPC3,NM_000256.3(MYBPC3):c.1159C>G (p.Leu387Val),387,Ig-like C2-type 2,89.62,5.457381725311279,23.0,0.5984601688531508,Hypertrophic cardiomyopathy
+ENG,NM_001114753.3(ENG):c.223C>T (p.Pro75Ser),75,Required for interaction with GDF2,89.19,5.479639530181885,30.0,0.5978391296090576,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.223C>A (p.Pro75Thr),75,Required for interaction with GDF2,89.19,5.479639530181885,30.0,0.5978391296090576,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+PMS2,NM_000535.7(PMS2):c.491C>T (p.Ser164Phe),164,Unannotated / linker,90.56,5.993770599365234,46.0,0.5977740651731501,Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.491C>G (p.Ser164Cys),164,Unannotated / linker,90.56,5.993770599365234,46.0,0.5977740651731501,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+TSC2,NM_000548.5(TSC2):c.2375T>C (p.Leu792Pro),792,Unannotated / linker,89.88,5.455044746398926,12.0,0.5975958139329699,not provided; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.2374C>G (p.Leu792Val),792,Unannotated / linker,89.88,5.455044746398926,12.0,0.5975958139329699,Tuberous sclerosis 2
+MSH6,NM_000179.3(MSH6):c.2275C>G (p.Leu759Val),759,Unannotated / linker,91.5,5.91174840927124,14.0,0.5975027012006737,not provided; Lynch syndrome 5; Hereditary nonpolyposis colorectal neoplasms; Endometrial carcinoma; Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.1699A>G (p.Thr567Ala),567,Unannotated / linker,89.62,5.51436710357666,18.0,0.5969136597514099,Hereditary hemorrhagic telangiectasia
+MYBPC3,NM_000256.3(MYBPC3):c.3544A>C (p.Ser1182Arg),1182,Ig-like C2-type 7,89.44,5.533941745758057,22.0,0.5966838010350944,Hypertrophic cardiomyopathy 4; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3545G>C (p.Ser1182Thr),1182,Ig-like C2-type 7,89.44,5.533941745758057,22.0,0.5966838010350944,Hypertrophic cardiomyopathy; not provided
+MYBPC3,NM_000256.3(MYBPC3):c.3544A>G (p.Ser1182Gly),1182,Ig-like C2-type 7,89.44,5.533941745758057,22.0,0.5966838010350944,Hypertrophic cardiomyopathy
+ENG,NM_001114753.3(ENG):c.1273G>A (p.Ala425Thr),425,ZP,90.25,5.654905319213867,12.0,0.5962860679444509,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.1274C>T (p.Ala425Val),425,ZP,90.25,5.654905319213867,12.0,0.5962860679444509,"Hereditary hemorrhagic telangiectasia; Telangiectasia, hereditary hemorrhagic, type 1"
+ENG,NM_001114753.3(ENG):c.1274C>A (p.Ala425Glu),425,ZP,90.25,5.654905319213867,12.0,0.5962860679444509,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+TSC2,NM_000548.5(TSC2):c.194G>A (p.Cys65Tyr),65,Required for interaction with TSC1,87.88,5.3883891105651855,39.0,0.5961476551504464,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.194G>C (p.Cys65Ser),65,Required for interaction with TSC1,87.88,5.3883891105651855,39.0,0.5961476551504464,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.50G>A (p.Arg17Gln),17,Unannotated / linker,88.0,5.7979736328125,73.0,0.5958744687289418,Cardiovascular phenotype; not specified; not provided; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.49C>T (p.Arg17Trp),17,Unannotated / linker,88.0,5.7979736328125,73.0,0.5958744687289418,not specified; Hypertrophic cardiomyopathy; Cardiomyopathy; Cardiovascular phenotype; not provided
+MSH6,NM_000179.3(MSH6):c.2938G>A (p.Glu980Lys),980,Unannotated / linker,89.81,5.631503105163574,13.0,0.5952580524959535,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2939A>G (p.Glu980Gly),980,Unannotated / linker,89.81,5.631503105163574,13.0,0.5952580524959535,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2938G>C (p.Glu980Gln),980,Unannotated / linker,89.81,5.631503105163574,13.0,0.5952580524959535,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.665T>C (p.Ile222Thr),222,Unannotated / linker,87.88,5.279319763183594,24.0,0.5951460182673154,not provided
+MSH2,NM_000251.3(MSH2):c.664A>G (p.Ile222Val),222,Unannotated / linker,87.88,5.279319763183594,24.0,0.5951460182673154,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.1364T>G (p.Leu455Arg),455,Ig-like C2-type 3,83.81,5.011616230010986,76.0,0.5944967184494038,Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.1363C>T (p.Leu455Phe),455,Ig-like C2-type 3,83.81,5.011616230010986,76.0,0.5944967184494038,Hypertrophic cardiomyopathy 4; Hypertrophic cardiomyopathy; Hypertrophic cardiomyopathy 4; Left ventricular noncompaction 10; Cardiovascular phenotype; Cardiomyopathy
+RET,NM_020975.6(RET):c.359C>T (p.Thr120Ile),120,Cadherin-like region 1 (CLD1),88.31,5.496589183807373,27.0,0.5941705063711297,Hereditary cancer-predisposing syndrome
+RET,NM_020975.6(RET):c.358A>G (p.Thr120Ala),120,Cadherin-like region 1 (CLD1),88.31,5.496589183807373,27.0,0.5941705063711297,Hereditary cancer-predisposing syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.1985T>C (p.Val662Ala),662,Ig-like C2-type 5,84.5,5.528563499450684,108.0,0.5937157607924729,not provided
+MYBPC3,NM_000256.3(MYBPC3):c.1985_1986delinsCG (p.Val662Ala),662,Ig-like C2-type 5,84.5,5.528563499450684,108.0,0.5937157607924729,not provided; Cardiomyopathy; Hypertrophic cardiomyopathy; Cardiovascular phenotype
+MSH6,NM_000179.3(MSH6):c.2269A>G (p.Thr757Ala),757,Unannotated / linker,88.19,5.326990604400635,12.0,0.5935494470819433,Endometrial carcinoma
+MSH6,NM_000179.3(MSH6):c.2270C>T (p.Thr757Ile),757,Unannotated / linker,88.19,5.326990604400635,12.0,0.5935494470819433,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.2270C>G (p.Thr757Ser),757,Unannotated / linker,88.19,5.326990604400635,12.0,0.5935494470819433,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2270C>A (p.Thr757Asn),757,Unannotated / linker,88.19,5.326990604400635,12.0,0.5935494470819433,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.677A>G (p.Glu226Gly),226,Unannotated / linker,89.81,5.925457000732422,26.0,0.5933498071966821,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.538_540delinsAAC (p.Asp180Asn),180,Unannotated / linker,88.44,5.6180338859558105,27.0,0.5929778202372518,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.540T>G (p.Asp180Glu),180,Unannotated / linker,88.44,5.6180338859558105,27.0,0.5929778202372518,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.540T>A (p.Asp180Glu),180,Unannotated / linker,88.44,5.6180338859558105,27.0,0.5929778202372518,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.538G>C (p.Asp180His),180,Unannotated / linker,88.44,5.6180338859558105,27.0,0.5929778202372518,Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.538G>A (p.Asp180Asn),180,Unannotated / linker,88.44,5.6180338859558105,27.0,0.5929778202372518,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1645G>T (p.Val549Phe),549,Unannotated / linker,88.25,5.594444751739502,25.0,0.5923420824672391,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.1645G>C (p.Val549Leu),549,Unannotated / linker,88.25,5.594444751739502,25.0,0.5923420824672391,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4816T>G (p.Phe1606Val),1606,Rap-GAP,88.38,5.611316680908203,22.0,0.5920905633178414,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4817T>C (p.Phe1606Ser),1606,Rap-GAP,88.38,5.611316680908203,22.0,0.5920905633178414,Hereditary cancer-predisposing syndrome; not provided
+TSC2,NM_000548.5(TSC2):c.4818C>A (p.Phe1606Leu),1606,Rap-GAP,88.38,5.611316680908203,22.0,0.5920905633178414,Tuberous sclerosis 2
+MSH2,NM_000251.3(MSH2):c.1531A>T (p.Ile511Phe),511,Unannotated / linker,88.56,5.589034080505371,13.0,0.5915891070014785,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.1533T>G (p.Ile511Met),511,Unannotated / linker,88.56,5.589034080505371,13.0,0.5915891070014785,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome 1
+MSH2,NM_000251.3(MSH2):c.1532T>G (p.Ile511Ser),511,Unannotated / linker,88.56,5.589034080505371,13.0,0.5915891070014785,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1715G>A (p.Gly572Asp),572,Interaction with EXO1,87.19,5.857422351837158,68.0,0.5915227620317512,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.1715G>T (p.Gly572Val),572,Interaction with EXO1,87.19,5.857422351837158,68.0,0.5915227620317512,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.1715G>C (p.Gly572Ala),572,Interaction with EXO1,87.19,5.857422351837158,68.0,0.5915227620317512,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MYBPC3,NM_000256.3(MYBPC3):c.1360G>C (p.Val454Leu),454,Ig-like C2-type 3,81.88,4.81671667098999,77.0,0.5913625987101196,Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.752A>T (p.Asn251Ile),251,Ig-like C2-type 1,88.69,5.672264575958252,14.0,0.591110412318525,not provided; Cardiomyopathy; Hypertrophic cardiomyopathy; Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.533T>A (p.Val178Glu),178,Ig-like C2-type 1,87.0,5.578375339508057,41.0,0.5908394605823627,Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.532G>A (p.Val178Met),178,Ig-like C2-type 1,87.0,5.578375339508057,41.0,0.5908394605823627,Cardiovascular phenotype; not specified; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.758A>G (p.Asn253Ser),253,Ig-like C2-type 1,87.88,5.6152496337890625,16.0,0.5894190714530954,not specified; Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.757A>G (p.Asn253Asp),253,Ig-like C2-type 1,87.88,5.6152496337890625,16.0,0.5894190714530954,Hypertrophic cardiomyopathy
+TSC2,NM_000548.5(TSC2):c.3167G>A (p.Arg1056Lys),1056,Unannotated / linker,85.88,5.214956283569336,15.0,0.5877068515584754,Isolated focal cortical dysplasia type II
+TSC2,NM_000548.5(TSC2):c.3166A>G (p.Arg1056Gly),1056,Unannotated / linker,85.88,5.214956283569336,15.0,0.5877068515584754,Tuberous sclerosis syndrome; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+ENG,NM_001114753.3(ENG):c.839A>G (p.Lys280Arg),280,Required for interaction with GDF2,88.56,5.963763236999512,17.0,0.5873403601885386,Cardiovascular phenotype; Hereditary hemorrhagic telangiectasia
+MSH6,NM_000179.3(MSH6):c.2943T>G (p.Ile981Met),981,Unannotated / linker,86.31,5.362730503082275,14.0,0.5870671513309533,not provided; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+MSH6,NM_000179.3(MSH6):c.2941A>T (p.Ile981Phe),981,Unannotated / linker,86.31,5.362730503082275,14.0,0.5870671513309533,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2942T>G (p.Ile981Ser),981,Unannotated / linker,86.31,5.362730503082275,14.0,0.5870671513309533,Hereditary cancer-predisposing syndrome
+MSH6,NM_000179.3(MSH6):c.2942T>C (p.Ile981Thr),981,Unannotated / linker,86.31,5.362730503082275,14.0,0.5870671513309533,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+PMS2,NM_000535.7(PMS2):c.2422G>A (p.Ala808Thr),808,Unannotated / linker,87.56,5.992193698883057,36.0,0.5862649586547886,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome 4; Mismatch repair cancer syndrome 4; Hereditary cancer-predisposing syndrome
+PMS2,NM_000535.7(PMS2):c.2423C>T (p.Ala808Val),808,Unannotated / linker,87.56,5.992193698883057,36.0,0.5862649586547886,Hereditary cancer-predisposing syndrome
+ENG,NM_001114753.3(ENG):c.1529G>T (p.Arg510Leu),510,ZP,87.62,5.835883140563965,20.0,0.586258999074269,Cardiovascular phenotype
+ENG,NM_001114753.3(ENG):c.1528C>T (p.Arg510Trp),510,ZP,87.62,5.835883140563965,20.0,0.586258999074269,Hereditary hemorrhagic telangiectasia
+MSH2,NM_000251.3(MSH2):c.881T>G (p.Phe294Cys),294,Unannotated / linker,83.06,5.816204071044922,119.0,0.5856812236562631,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.881T>C (p.Phe294Ser),294,Unannotated / linker,83.06,5.816204071044922,119.0,0.5856812236562631,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.377G>A (p.Gly126Asp),126,Unannotated / linker,80.19,4.772129535675049,72.0,0.5854077201584449,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.376G>C (p.Gly126Arg),126,Unannotated / linker,80.19,4.772129535675049,72.0,0.5854077201584449,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+MSH2,NM_000251.3(MSH2):c.377G>T (p.Gly126Val),126,Unannotated / linker,80.19,4.772129535675049,72.0,0.5854077201584449,Hereditary nonpolyposis colorectal neoplasms
+TSC2,NM_000548.5(TSC2):c.4984A>G (p.Ile1662Val),1662,Rap-GAP,81.38,5.3960113525390625,104.0,0.5847563677415115,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4985T>C (p.Ile1662Thr),1662,Rap-GAP,81.38,5.3960113525390625,104.0,0.5847563677415115,Tuberous sclerosis 2
+MLH1,NM_000249.4(MLH1):c.944A>T (p.His315Leu),315,Unannotated / linker,84.75,5.1944146156311035,11.0,0.5834475359354068,Hereditary cancer-predisposing syndrome; Lynch syndrome
+MLH1,NM_000249.4(MLH1):c.944A>C (p.His315Pro),315,Unannotated / linker,84.75,5.1944146156311035,11.0,0.5834475359354068,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.943C>G (p.His315Asp),315,Unannotated / linker,84.75,5.1944146156311035,11.0,0.5834475359354068,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome
+TSC2,NM_000548.5(TSC2):c.3124C>A (p.Pro1042Thr),1042,Unannotated / linker,78.94,5.562305450439453,164.0,0.5831498284303313,not provided
+TSC2,NM_000548.5(TSC2):c.3124C>T (p.Pro1042Ser),1042,Unannotated / linker,78.94,5.562305450439453,164.0,0.5831498284303313,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.3125C>G (p.Pro1042Arg),1042,Unannotated / linker,78.94,5.562305450439453,164.0,0.5831498284303313,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3118G>A (p.Ala1040Thr),1040,Unannotated / linker,75.25,4.95080041885376,164.0,0.5828748114443597,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3119C>G (p.Ala1040Gly),1040,Unannotated / linker,75.25,4.95080041885376,164.0,0.5828748114443597,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.3118G>T (p.Ala1040Ser),1040,Unannotated / linker,75.25,4.95080041885376,164.0,0.5828748114443597,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3119C>T (p.Ala1040Val),1040,Unannotated / linker,75.25,4.95080041885376,164.0,0.5828748114443597,not provided; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome; Tuberous sclerosis syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.3550A>G (p.Thr1184Ala),1184,Ig-like C2-type 7,85.25,5.5782365798950195,20.0,0.5816114820158826,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3551C>T (p.Thr1184Ile),1184,Ig-like C2-type 7,85.25,5.5782365798950195,20.0,0.5816114820158826,Cardiovascular phenotype
+LDLR,NM_000527.5(LDLR):c.1367T>A (p.Leu456His),456,LDL-receptor class B 2,85.62,5.653194427490234,17.0,0.58141379867728,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1367T>C (p.Leu456Pro),456,LDL-receptor class B 2,85.62,5.653194427490234,17.0,0.58141379867728,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1366C>T (p.Leu456Phe),456,LDL-receptor class B 2,85.62,5.653194427490234,17.0,0.58141379867728,"Hypercholesterolemia, familial, 1"
+MSH2,NM_000251.3(MSH2):c.374C>T (p.Pro125Leu),125,Unannotated / linker,81.56,4.988340377807617,32.0,0.5791522394606277,Lynch syndrome 1; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not specified
+MSH2,NM_000251.3(MSH2):c.373C>A (p.Pro125Thr),125,Unannotated / linker,81.56,4.988340377807617,32.0,0.5791522394606277,Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.374C>G (p.Pro125Arg),125,Unannotated / linker,81.56,4.988340377807617,32.0,0.5791522394606277,Hereditary nonpolyposis colorectal neoplasms
+MSH2,NM_000251.3(MSH2):c.374C>A (p.Pro125His),125,Unannotated / linker,81.56,4.988340377807617,32.0,0.5791522394606277,Hereditary cancer-predisposing syndrome
+MSH2,NM_000251.3(MSH2):c.373C>G (p.Pro125Ala),125,Unannotated / linker,81.56,4.988340377807617,32.0,0.5791522394606277,Hereditary cancer-predisposing syndrome
+MLH1,NM_000249.4(MLH1):c.946T>C (p.Phe316Leu),316,Unannotated / linker,85.88,5.950472831726074,12.0,0.577690851908315,Hereditary nonpolyposis colorectal neoplasms
+MLH1,NM_000249.4(MLH1):c.948C>G (p.Phe316Leu),316,Unannotated / linker,85.88,5.950472831726074,12.0,0.577690851908315,Lynch syndrome
+MYBPC3,NM_000256.3(MYBPC3):c.502G>C (p.Val168Leu),168,Ig-like C2-type 1,79.88,5.453040599822998,90.0,0.5764029849988098,Hypertrophic cardiomyopathy; Cardiovascular phenotype
+TSC2,NM_000548.5(TSC2):c.4811G>A (p.Gly1604Asp),1604,Rap-GAP,80.81,4.872833728790283,21.0,0.576124573742478,Tuberous sclerosis syndrome
+LDLR,NM_000527.5(LDLR):c.1394A>G (p.Tyr465Cys),465,LDL-receptor class B 2,84.81,5.907573699951172,11.0,0.5744478188337959,"Hypercholesterolemia, familial, 1"
+LDLR,NM_000527.5(LDLR):c.1393T>A (p.Tyr465Asn),465,LDL-receptor class B 2,84.81,5.907573699951172,11.0,0.5744478188337959,"Hypercholesterolemia, familial, 1"
+TSC2,NM_000548.5(TSC2):c.4815G>T (p.Gln1605His),1605,Rap-GAP,83.0,5.62052059173584,21.0,0.5735353093091146,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4814A>C (p.Gln1605Pro),1605,Rap-GAP,83.0,5.62052059173584,21.0,0.5735353093091146,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+MYBPC3,NM_000256.3(MYBPC3):c.1396A>G (p.Met466Val),466,Ig-like C2-type 3,81.56,5.919809818267822,76.0,0.5726088384959012,Cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1397T>A (p.Met466Lys),466,Ig-like C2-type 3,81.56,5.919809818267822,76.0,0.5726088384959012,Cardiovascular phenotype; Left ventricular noncompaction 10; not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1128C>A (p.Ser376Arg),376,Ig-like C2-type 2,80.62,5.744743824005127,75.0,0.5719347869296766,not provided; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1358C>T (p.Pro453Leu),453,Ig-like C2-type 3,72.44,4.114938259124756,78.0,0.5717224769148135,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1357C>A (p.Pro453Thr),453,Ig-like C2-type 3,72.44,4.114938259124756,78.0,0.5717224769148135,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.1357C>G (p.Pro453Ala),453,Ig-like C2-type 3,72.44,4.114938259124756,78.0,0.5717224769148135,Hypertrophic cardiomyopathy 4; Left ventricular noncompaction 10; Cardiomyopathy; Hypertrophic cardiomyopathy; Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.535_536delinsAA (p.Ala179Asn),179,Ig-like C2-type 1,78.38,4.926948070526123,40.0,0.5706719496184397,Hypertrophic cardiomyopathy
+TSC2,NM_000548.5(TSC2):c.3163G>T (p.Gly1055Cys),1055,Unannotated / linker,80.44,5.201613426208496,16.0,0.5695244151542436,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.3163G>A (p.Gly1055Ser),1055,Unannotated / linker,80.44,5.201613426208496,16.0,0.5695244151542436,Tuberous sclerosis 2
+MSH2,NM_000251.3(MSH2):c.2461G>C (p.Val821Leu),821,Unannotated / linker,81.75,5.670291423797607,20.0,0.5684367963259147,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+TSC2,NM_000548.5(TSC2):c.4991G>A (p.Gly1664Asp),1664,Rap-GAP,74.75,4.10603666305542,22.0,0.5662538060785653,Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.4991G>C (p.Gly1664Ala),1664,Rap-GAP,74.75,4.10603666305542,22.0,0.5662538060785653,Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4990G>A (p.Gly1664Ser),1664,Rap-GAP,74.75,4.10603666305542,22.0,0.5662538060785653,not provided
+TSC2,NM_000548.5(TSC2):c.4990G>T (p.Gly1664Cys),1664,Rap-GAP,74.75,4.10603666305542,22.0,0.5662538060785653,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4991_4992delinsCT (p.Gly1664Ala),1664,Rap-GAP,74.75,4.10603666305542,22.0,0.5662538060785653,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+MYBPC3,NM_000256.3(MYBPC3):c.3701G>A (p.Gly1234Glu),1234,Ig-like C2-type 7,77.38,4.984326362609863,30.0,0.5645366115569349,Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3700G>A (p.Gly1234Arg),1234,Ig-like C2-type 7,77.38,4.984326362609863,30.0,0.5645366115569349,Hypertrophic cardiomyopathy 4; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.3701G>T (p.Gly1234Val),1234,Ig-like C2-type 7,77.38,4.984326362609863,30.0,0.5645366115569349,Cardiovascular phenotype; Hypertrophic cardiomyopathy
+BRCA1,NM_007294.4(BRCA1):c.5572A>G (p.Ile1858Val),1858,Unannotated / linker,80.44,5.812371253967285,35.0,0.564292818077016,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5573T>A (p.Ile1858Asn),1858,Unannotated / linker,80.44,5.812371253967285,35.0,0.564292818077016,Hereditary breast ovarian cancer syndrome
+BRCA1,NM_007294.4(BRCA1):c.5572A>T (p.Ile1858Phe),1858,Unannotated / linker,80.44,5.812371253967285,35.0,0.564292818077016,"Hereditary breast ovarian cancer syndrome, not provided, Hereditary cancer-predisposing syndrome"
+TSC2,NM_000548.5(TSC2):c.4796T>C (p.Val1599Ala),1599,Rap-GAP,75.81,5.142720699310303,15.0,0.554205194287893,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.4795G>T (p.Val1599Leu),1599,Rap-GAP,75.81,5.142720699310303,15.0,0.554205194287893,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+TSC2,NM_000548.5(TSC2):c.5090C>G (p.Thr1697Ser),1697,Rap-GAP,75.94,5.779774188995361,11.0,0.5455766325383195,Isolated focal cortical dysplasia type II; Tuberous sclerosis syndrome; Tuberous sclerosis 2
+TSC2,NM_000548.5(TSC2):c.5089A>G (p.Thr1697Ala),1697,Rap-GAP,75.94,5.779774188995361,11.0,0.5455766325383195,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+BRCA1,NM_007294.4(BRCA1):c.2309C>T (p.Ser770Leu),770,Unannotated / linker,25.86,4.583642959594727,671.0,0.5273457594670411,Hereditary breast ovarian cancer syndrome
+ENG,NM_001114753.3(ENG):c.728C>T (p.Ala243Val),243,Required for interaction with GDF2,66.38,5.761796474456787,86.0,0.5241003235073736,Hereditary hemorrhagic telangiectasia
+ENG,NM_001114753.3(ENG):c.728C>A (p.Ala243Glu),243,Required for interaction with GDF2,66.38,5.761796474456787,86.0,0.5241003235073736,Cardiovascular phenotype
+MYBPC3,NM_000256.3(MYBPC3):c.538G>A (p.Gly180Ser),180,Ig-like C2-type 1,65.25,5.145028114318848,39.0,0.5218454572252473,Cardiomyopathy; Hypertrophic cardiomyopathy
+MYBPC3,NM_000256.3(MYBPC3):c.539G>A (p.Gly180Asp),180,Ig-like C2-type 1,65.25,5.145028114318848,39.0,0.5218454572252473,Cardiovascular phenotype; Cardiomyopathy; Hypertrophic cardiomyopathy
+BRCA1,NM_007294.4(BRCA1):c.2305A>G (p.Ile769Val),769,Unannotated / linker,28.08,4.864906311035156,672.0,0.5205610712749632,Hereditary cancer-predisposing syndrome
+BRCA1,NM_007294.4(BRCA1):c.2305A>C (p.Ile769Leu),769,Unannotated / linker,28.08,4.864906311035156,672.0,0.5205610712749632,not provided
+HNF1A,NM_000545.8(HNF1A):c.539C>G (p.Ala180Gly),180,POU-specific atypical,61.34,5.813026428222656,70.0,0.5032470046518748,Monogenic diabetes

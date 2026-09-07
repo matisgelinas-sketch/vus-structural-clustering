@@ -1,0 +1,91 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000251.3(MSH2):c.905T>G (p.Leu302Trp),302,L,W,Unannotated / linker,92.62,False,708.0,5.393620491027832,406.0,75.27411331134105,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.905T>C (p.Leu302Ser),302,L,S,Unannotated / linker,92.62,False,708.0,5.393620491027832,406.0,75.27411331134105,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided; Lynch syndrome 1
+NM_000251.3(MSH2):c.906G>C (p.Leu302Phe),302,L,F,Unannotated / linker,92.62,False,708.0,5.393620491027832,406.0,75.27411331134105,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.796G>A (p.Ala266Thr),266,A,T,Unannotated / linker,93.25,False,162.0,3.713005781173706,104.0,28.009652052608683,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.797C>A (p.Ala266Glu),266,A,E,Unannotated / linker,93.25,False,162.0,3.713005781173706,104.0,28.009652052608683,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2000T>C (p.Ile667Thr),667,I,T,Interaction with EXO1,94.06,False,801.0,5.301371097564697,134.0,25.2764799018797,not provided
+NM_000251.3(MSH2):c.2443T>C (p.Tyr815His),815,Y,H,Unannotated / linker,85.75,False,674.0,5.641564846038818,141.0,24.993065549712163,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2444A>T (p.Tyr815Phe),815,Y,F,Unannotated / linker,85.75,False,674.0,5.641564846038818,141.0,24.993065549712163,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2444A>G (p.Tyr815Cys),815,Y,C,Unannotated / linker,85.75,False,674.0,5.641564846038818,141.0,24.993065549712163,"Hereditary nonpolyposis colorectal neoplasms; not provided; Lynch syndrome 1; Colorectal cancer, hereditary nonpolyposis, type 2"
+NM_000251.3(MSH2):c.877A>C (p.Thr293Pro),293,T,P,Unannotated / linker,88.38,False,175.0,4.823130130767822,118.0,24.46543982863985,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.878C>T (p.Thr293Ile),293,T,I,Unannotated / linker,88.38,False,175.0,4.823130130767822,118.0,24.46543982863985,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.878C>A (p.Thr293Asn),293,T,N,Unannotated / linker,88.38,False,175.0,4.823130130767822,118.0,24.46543982863985,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2387C>A (p.Thr796Asn),796,T,N,Unannotated / linker,93.38,False,660.0,5.830138206481934,136.0,23.327062787087197,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2386A>C (p.Thr796Pro),796,T,P,Unannotated / linker,93.38,False,660.0,5.830138206481934,136.0,23.327062787087197,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2386A>T (p.Thr796Ser),796,T,S,Unannotated / linker,93.38,False,660.0,5.830138206481934,136.0,23.327062787087197,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 1
+NM_000251.3(MSH2):c.881T>C (p.Phe294Ser),294,F,S,Unannotated / linker,83.06,False,175.0,5.816204071044922,119.0,20.46007989857564,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.881T>G (p.Phe294Cys),294,F,C,Unannotated / linker,83.06,False,175.0,5.816204071044922,119.0,20.46007989857564,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.870A>T (p.Glu290Asp),290,E,D,Unannotated / linker,88.25,False,173.0,5.89894437789917,117.0,19.834057164252833,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.869A>G (p.Glu290Gly),290,E,G,Unannotated / linker,88.25,False,173.0,5.89894437789917,117.0,19.834057164252833,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.870A>C (p.Glu290Asp),290,E,D,Unannotated / linker,88.25,False,173.0,5.89894437789917,117.0,19.834057164252833,Lynch syndrome 1
+NM_000251.3(MSH2):c.868G>C (p.Glu290Gln),290,E,Q,Unannotated / linker,88.25,False,173.0,5.89894437789917,117.0,19.834057164252833,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1856A>C (p.Tyr619Ser),619,Y,S,Interaction with EXO1,98.44,False,696.0,4.591196537017822,77.0,16.77122714725142,Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2
+NM_000251.3(MSH2):c.376G>C (p.Gly126Arg),126,G,R,Unannotated / linker,80.19,False,198.0,4.772129535675049,72.0,15.087603859398408,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+NM_000251.3(MSH2):c.377G>T (p.Gly126Val),126,G,V,Unannotated / linker,80.19,False,198.0,4.772129535675049,72.0,15.087603859398408,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.377G>A (p.Gly126Asp),126,G,D,Unannotated / linker,80.19,False,198.0,4.772129535675049,72.0,15.087603859398408,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1897A>C (p.Ile633Leu),633,I,L,Interaction with EXO1,98.56,False,700.0,5.595280647277832,67.0,11.974377019425516,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1899A>G (p.Ile633Met),633,I,M,Interaction with EXO1,98.56,False,700.0,5.595280647277832,67.0,11.974377019425516,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.440T>A (p.Val147Asp),147,V,D,Unannotated / linker,92.38,False,198.0,5.051132678985596,51.0,10.096745273030955,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.895T>C (p.Tyr299His),299,Y,H,Unannotated / linker,93.94,False,349.0,5.375319004058838,50.0,9.301773524928587,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2231T>C (p.Leu744Ser),744,L,S,Unannotated / linker,97.81,False,708.0,4.821418285369873,36.0,7.4666825961229115,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2342C>T (p.Ala781Val),781,A,V,Unannotated / linker,92.5,False,748.0,4.802622318267822,33.0,6.871246126200117,not specified
+NM_000251.3(MSH2):c.2341G>A (p.Ala781Thr),781,A,T,Unannotated / linker,92.5,False,748.0,4.802622318267822,33.0,6.871246126200117,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+NM_000251.3(MSH2):c.2344A>G (p.Thr782Ala),782,T,A,Unannotated / linker,88.69,False,749.0,4.951628684997559,33.0,6.664473873007356,not specified; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not provided; Lynch syndrome
+NM_000251.3(MSH2):c.2345C>T (p.Thr782Ile),782,T,I,Unannotated / linker,88.69,False,749.0,4.951628684997559,33.0,6.664473873007356,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.694T>C (p.Phe232Leu),232,F,L,Unannotated / linker,92.62,False,269.0,5.655238628387451,37.0,6.54260632155681,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.374C>T (p.Pro125Leu),125,P,L,Unannotated / linker,81.56,False,93.0,4.988340377807617,32.0,6.414959200130615,Lynch syndrome 1; Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; not specified
+NM_000251.3(MSH2):c.374C>G (p.Pro125Arg),125,P,R,Unannotated / linker,81.56,False,93.0,4.988340377807617,32.0,6.414959200130615,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.373C>A (p.Pro125Thr),125,P,T,Unannotated / linker,81.56,False,93.0,4.988340377807617,32.0,6.414959200130615,Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.374C>A (p.Pro125His),125,P,H,Unannotated / linker,81.56,False,93.0,4.988340377807617,32.0,6.414959200130615,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.373C>G (p.Pro125Ala),125,P,A,Unannotated / linker,81.56,False,93.0,4.988340377807617,32.0,6.414959200130615,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2221A>G (p.Lys741Glu),741,K,E,Unannotated / linker,95.75,False,774.0,5.384698867797852,33.0,6.128476412553004,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1649A>T (p.Lys550Ile),550,K,I,Unannotated / linker,92.25,False,524.0,4.642810821533203,26.0,5.600055871200451,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1649A>C (p.Lys550Thr),550,K,T,Unannotated / linker,92.25,False,524.0,4.642810821533203,26.0,5.600055871200451,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1648A>G (p.Lys550Glu),550,K,E,Unannotated / linker,92.25,False,524.0,4.642810821533203,26.0,5.600055871200451,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.667C>G (p.Leu223Val),223,L,V,Unannotated / linker,88.44,False,198.0,4.546609878540039,25.0,5.498602402198569,Hereditary nonpolyposis colorectal neoplasms; not specified
+NM_000251.3(MSH2):c.1653T>A (p.Phe551Leu),551,F,L,Unannotated / linker,91.69,False,523.0,5.190683364868164,28.0,5.394280103754924,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1651T>C (p.Phe551Leu),551,F,L,Unannotated / linker,91.69,False,523.0,5.190683364868164,28.0,5.394280103754924,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1652T>A (p.Phe551Tyr),551,F,Y,Unannotated / linker,91.69,False,523.0,5.190683364868164,28.0,5.394280103754924,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1651T>A (p.Phe551Ile),551,F,I,Unannotated / linker,91.69,False,523.0,5.190683364868164,28.0,5.394280103754924,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.674C>G (p.Thr225Arg),225,T,R,Unannotated / linker,89.31,False,200.0,4.726318836212158,25.0,5.289528884182494,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.674C>T (p.Thr225Ile),225,T,I,Unannotated / linker,89.31,False,200.0,4.726318836212158,25.0,5.289528884182494,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.673A>C (p.Thr225Pro),225,T,P,Unannotated / linker,89.31,False,200.0,4.726318836212158,25.0,5.289528884182494,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.673A>G (p.Thr225Ala),225,T,A,Unannotated / linker,89.31,False,200.0,4.726318836212158,25.0,5.289528884182494,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1654A>T (p.Thr552Ser),552,T,S,Unannotated / linker,92.56,False,523.0,5.697549343109131,29.0,5.0899076521511635,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1655C>G (p.Thr552Ser),552,T,S,Unannotated / linker,92.56,False,523.0,5.697549343109131,29.0,5.0899076521511635,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1654A>G (p.Thr552Ala),552,T,A,Unannotated / linker,92.56,False,523.0,5.697549343109131,29.0,5.0899076521511635,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome
+NM_000251.3(MSH2):c.671T>G (p.Ile224Ser),224,I,S,Unannotated / linker,89.94,False,199.0,4.929287910461426,25.0,5.071726475327706,Hereditary nonpolyposis colorectal neoplasms; not provided
+NM_000251.3(MSH2):c.664A>G (p.Ile222Val),222,I,V,Unannotated / linker,87.88,False,198.0,5.279319763183594,24.0,4.54604022422905,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.665T>C (p.Ile222Thr),222,I,T,Unannotated / linker,87.88,False,198.0,5.279319763183594,24.0,4.54604022422905,not provided
+NM_000251.3(MSH2):c.1645G>T (p.Val549Phe),549,V,F,Unannotated / linker,88.25,False,524.0,5.594444751739502,25.0,4.468718721768886,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1645G>C (p.Val549Leu),549,V,L,Unannotated / linker,88.25,False,524.0,5.594444751739502,25.0,4.468718721768886,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.677A>G (p.Glu226Gly),226,E,G,Unannotated / linker,89.81,False,200.0,5.925457000732422,26.0,4.387847215292634,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2465G>T (p.Cys822Phe),822,C,F,Unannotated / linker,72.44,False,801.0,5.423943996429443,21.0,3.8717213920026095,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2465G>A (p.Cys822Tyr),822,C,Y,Unannotated / linker,72.44,False,801.0,5.423943996429443,21.0,3.8717213920026095,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2466T>G (p.Cys822Trp),822,C,W,Unannotated / linker,72.44,False,801.0,5.423943996429443,21.0,3.8717213920026095,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2461G>C (p.Val821Leu),821,V,L,Unannotated / linker,81.75,False,801.0,5.670291423797607,20.0,3.5271555737086344,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1962C>G (p.Asp654Glu),654,D,E,Interaction with EXO1,98.06,False,636.0,5.139270305633545,18.0,3.502442745669328,not provided; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1961A>G (p.Asp654Gly),654,D,G,Interaction with EXO1,98.06,False,636.0,5.139270305633545,18.0,3.502442745669328,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1961A>T (p.Asp654Val),654,D,V,Interaction with EXO1,98.06,False,636.0,5.139270305633545,18.0,3.502442745669328,Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome 1; Muir-Torré syndrome; Mismatch repair cancer syndrome 2; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.530A>T (p.Glu177Val),177,E,V,Unannotated / linker,92.69,False,162.0,4.415143966674805,15.0,3.3973977096146677,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+NM_000251.3(MSH2):c.529G>A (p.Glu177Lys),177,E,K,Unannotated / linker,92.69,False,162.0,4.415143966674805,15.0,3.3973977096146677,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.530A>G (p.Glu177Gly),177,E,G,Unannotated / linker,92.69,False,162.0,4.415143966674805,15.0,3.3973977096146677,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.531A>T (p.Glu177Asp),177,E,D,Unannotated / linker,92.69,False,162.0,4.415143966674805,15.0,3.3973977096146677,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2453A>C (p.Lys818Thr),818,K,T,Unannotated / linker,90.88,False,801.0,5.489059925079346,17.0,3.0970694858563164,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.2453A>G (p.Lys818Arg),818,K,R,Unannotated / linker,90.88,False,801.0,5.489059925079346,17.0,3.0970694858563164,not specified; Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; Lynch syndrome 1
+NM_000251.3(MSH2):c.534C>A (p.Phe178Leu),178,F,L,Unannotated / linker,91.44,False,161.0,5.563234806060791,17.0,3.055776107361059,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.532T>C (p.Phe178Leu),178,F,L,Unannotated / linker,91.44,False,161.0,5.563234806060791,17.0,3.055776107361059,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.534C>G (p.Phe178Leu),178,F,L,Unannotated / linker,91.44,False,161.0,5.563234806060791,17.0,3.055776107361059,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.533T>A (p.Phe178Tyr),178,F,Y,Unannotated / linker,91.44,False,161.0,5.563234806060791,17.0,3.055776107361059,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome; not provided
+NM_000251.3(MSH2):c.2450T>G (p.Val817Gly),817,V,G,Unannotated / linker,92.38,False,801.0,5.517914772033691,16.0,2.899646091145227,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.2450T>C (p.Val817Ala),817,V,A,Unannotated / linker,92.38,False,801.0,5.517914772033691,16.0,2.899646091145227,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1535A>C (p.Lys512Thr),512,K,T,Unannotated / linker,90.81,False,524.0,5.112231254577637,12.0,2.3473116536453356,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1532T>G (p.Ile511Ser),511,I,S,Unannotated / linker,88.56,False,524.0,5.589034080505371,13.0,2.325983311739712,Hereditary nonpolyposis colorectal neoplasms
+NM_000251.3(MSH2):c.1531A>T (p.Ile511Phe),511,I,F,Unannotated / linker,88.56,False,524.0,5.589034080505371,13.0,2.325983311739712,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.1533T>G (p.Ile511Met),511,I,M,Unannotated / linker,88.56,False,524.0,5.589034080505371,13.0,2.325983311739712,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms; Lynch syndrome 1
+NM_000251.3(MSH2):c.973T>G (p.Ser325Ala),325,S,A,Unannotated / linker,90.44,False,314.0,5.158439636230469,11.0,2.1324277835377083,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.973T>A (p.Ser325Thr),325,S,T,Unannotated / linker,90.44,False,314.0,5.158439636230469,11.0,2.1324277835377083,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.973T>C (p.Ser325Pro),325,S,P,Unannotated / linker,90.44,False,314.0,5.158439636230469,11.0,2.1324277835377083,Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.974C>G (p.Ser325Cys),325,S,C,Unannotated / linker,90.44,False,314.0,5.158439636230469,11.0,2.1324277835377083,Hereditary nonpolyposis colorectal neoplasms; Hereditary cancer-predisposing syndrome
+NM_000251.3(MSH2):c.452A>C (p.Lys151Thr),151,K,T,Unannotated / linker,93.88,False,162.0,5.3222150802612305,11.0,2.0668086189895365,Hereditary cancer-predisposing syndrome; Hereditary nonpolyposis colorectal neoplasms

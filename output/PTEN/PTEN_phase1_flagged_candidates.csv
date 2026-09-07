@@ -1,0 +1,48 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000314.8(PTEN):c.1040T>C (p.Phe347Ser),347,F,S,C2 (tensin-type) domain,96.25,False,195.0,4.6008501052856445,152.0,33.03737277277871,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.1034T>A (p.Leu345Gln),345,L,Q,C2 (tensin-type) domain,97.12,False,198.0,4.670477867126465,147.0,31.474295389487093,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.1028T>G (p.Val343Gly),343,V,G,C2 (tensin-type) domain,97.5,False,200.0,4.782336235046387,143.0,29.9017034712142,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.1027G>A (p.Val343Met),343,V,M,C2 (tensin-type) domain,97.5,False,200.0,4.782336235046387,143.0,29.9017034712142,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.1031A>G (p.Lys344Arg),344,K,R,C2 (tensin-type) domain,96.94,False,198.0,5.564513683319092,146.0,26.23769269139701,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.1022T>G (p.Phe341Cys),341,F,C,C2 (tensin-type) domain,98.0,False,202.0,5.332069396972656,139.0,26.06867796561666,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.1021T>A (p.Phe341Ile),341,F,I,C2 (tensin-type) domain,98.0,False,202.0,5.332069396972656,139.0,26.06867796561666,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.1025A>C (p.Lys342Thr),342,K,T,C2 (tensin-type) domain,97.75,False,200.0,5.705380916595459,142.0,24.888785179436343,"Hereditary cancer-predisposing syndrome, not provided"
+NM_000314.8(PTEN):c.571G>T (p.Val191Leu),191,V,L,C2 (tensin-type) domain,95.44,False,277.0,5.736394882202148,86.0,14.991994408687814,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.571G>C (p.Val191Leu),191,V,L,C2 (tensin-type) domain,95.44,False,277.0,5.736394882202148,86.0,14.991994408687814,not provided
+NM_000314.8(PTEN):c.569C>T (p.Pro190Leu),190,P,L,C2 (tensin-type) domain,94.94,False,251.0,5.302945137023926,61.0,11.503041880277477,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.568C>T (p.Pro190Ser),190,P,S,C2 (tensin-type) domain,94.94,False,251.0,5.302945137023926,61.0,11.503041880277477,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.568C>A (p.Pro190Thr),190,P,T,C2 (tensin-type) domain,94.94,False,251.0,5.302945137023926,61.0,11.503041880277477,"not provided, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.569C>G (p.Pro190Arg),190,P,R,C2 (tensin-type) domain,94.94,False,251.0,5.302945137023926,61.0,11.503041880277477,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.574G>T (p.Ala192Ser),192,A,S,C2 (tensin-type) domain,96.88,False,249.0,5.87223482131958,57.0,9.706696297814473,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.575C>G (p.Ala192Gly),192,A,G,C2 (tensin-type) domain,96.88,False,249.0,5.87223482131958,57.0,9.706696297814473,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.721T>G (p.Phe241Val),241,F,V,C2 (tensin-type) domain,98.44,False,198.0,4.995771884918213,43.0,8.607278512818638,not provided
+NM_000314.8(PTEN):c.721T>A (p.Phe241Ile),241,F,I,C2 (tensin-type) domain,98.44,False,198.0,4.995771884918213,43.0,8.607278512818638,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.650T>G (p.Val217Gly),217,V,G,C2 (tensin-type) domain,98.69,False,255.0,4.643876552581787,38.0,8.182818722619512,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.649G>C (p.Val217Leu),217,V,L,C2 (tensin-type) domain,98.69,False,255.0,4.643876552581787,38.0,8.182818722619512,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.648_650delinsTGG (p.Val217Gly),217,V,G,C2 (tensin-type) domain,98.69,False,255.0,4.643876552581787,38.0,8.182818722619512,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.716T>A (p.Met239Lys),239,M,K,C2 (tensin-type) domain,98.0,False,200.0,5.058765888214111,39.0,7.709390167839555,Cowden syndrome 1
+NM_000314.8(PTEN):c.716T>G (p.Met239Arg),239,M,R,C2 (tensin-type) domain,98.0,False,200.0,5.058765888214111,39.0,7.709390167839555,"Inborn genetic diseases, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.718T>G (p.Tyr240Asp),240,Y,D,C2 (tensin-type) domain,98.12,False,198.0,5.880101203918457,42.0,7.142734205324817,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.719A>G (p.Tyr240Cys),240,Y,C,C2 (tensin-type) domain,98.12,False,198.0,5.880101203918457,42.0,7.142734205324817,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+NM_000314.8(PTEN):c.652T>C (p.Cys218Arg),218,C,R,C2 (tensin-type) domain,98.5,False,254.0,5.040785789489746,36.0,7.141743669223465,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.653G>T (p.Cys218Phe),218,C,F,C2 (tensin-type) domain,98.5,False,254.0,5.040785789489746,36.0,7.141743669223465,"not provided, Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.653G>A (p.Cys218Tyr),218,C,Y,C2 (tensin-type) domain,98.5,False,254.0,5.040785789489746,36.0,7.141743669223465,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+NM_000314.8(PTEN):c.653G>C (p.Cys218Ser),218,C,S,C2 (tensin-type) domain,98.5,False,254.0,5.040785789489746,36.0,7.141743669223465,"PTEN hamartoma tumor syndrome, Hereditary cancer-predisposing syndrome"
+NM_000314.8(PTEN):c.712T>G (p.Phe238Val),238,F,V,C2 (tensin-type) domain,97.06,False,200.0,5.448409080505371,38.0,6.974513007102485,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.713T>C (p.Phe238Ser),238,F,S,C2 (tensin-type) domain,97.06,False,200.0,5.448409080505371,38.0,6.974513007102485,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.647T>C (p.Val216Ala),216,V,A,C2 (tensin-type) domain,98.38,False,255.0,5.806030750274658,39.0,6.717153538698547,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.647T>A (p.Val216Glu),216,V,E,C2 (tensin-type) domain,98.38,False,255.0,5.806030750274658,39.0,6.717153538698547,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.646G>A (p.Val216Met),216,V,M,C2 (tensin-type) domain,98.38,False,255.0,5.806030750274658,39.0,6.717153538698547,"Hereditary cancer-predisposing syndrome, PTEN hamartoma tumor syndrome"
+NM_000314.8(PTEN):c.254T>G (p.Val85Gly),85,V,G,Phosphatase (tensin-type) domain,97.69,False,67.0,4.608462810516357,18.0,3.90585771006432,"Hereditary cancer-predisposing syndrome, not provided"
+NM_000314.8(PTEN):c.253G>A (p.Val85Ile),85,V,I,Phosphatase (tensin-type) domain,97.69,False,67.0,4.608462810516357,18.0,3.90585771006432,not provided
+NM_000314.8(PTEN):c.257C>T (p.Ala86Val),86,A,V,Phosphatase (tensin-type) domain,98.31,False,68.0,4.901323318481445,18.0,3.6724775801113356,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.256G>A (p.Ala86Thr),86,A,T,Phosphatase (tensin-type) domain,98.31,False,68.0,4.901323318481445,18.0,3.6724775801113356,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.263A>T (p.Tyr88Phe),88,Y,F,Phosphatase (tensin-type) domain,98.62,False,70.0,4.991693496704102,18.0,3.605990634618287,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.215C>G (p.Ala72Gly),72,A,G,Phosphatase (tensin-type) domain,94.94,False,90.0,5.031616687774658,18.0,3.5773790248638537,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.214G>A (p.Ala72Thr),72,A,T,Phosphatase (tensin-type) domain,94.94,False,90.0,5.031616687774658,18.0,3.5773790248638537,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.252A>C (p.Arg84Ser),84,R,S,Phosphatase (tensin-type) domain,94.44,False,66.0,5.137352466583252,18.0,3.5037502521160344,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.250A>G (p.Arg84Gly),84,R,G,Phosphatase (tensin-type) domain,94.44,False,66.0,5.137352466583252,18.0,3.5037502521160344,Hereditary cancer-predisposing syndrome
+NM_000314.8(PTEN):c.260A>T (p.Gln87Leu),87,Q,L,Phosphatase (tensin-type) domain,98.25,False,68.0,5.815716743469238,19.0,3.267009181858119,"Prostate cancer, hereditary, 1"
+NM_000314.8(PTEN):c.150T>G (p.Ile50Met),50,I,M,Phosphatase (tensin-type) domain,94.62,False,38.0,4.384884834289551,12.0,2.736673927251334,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.149T>A (p.Ile50Asn),50,I,N,Phosphatase (tensin-type) domain,94.62,False,38.0,4.384884834289551,12.0,2.736673927251334,PTEN hamartoma tumor syndrome
+NM_000314.8(PTEN):c.771C>A (p.Phe257Leu),257,F,L,C2 (tensin-type) domain,98.56,False,272.0,5.979287147521973,15.0,2.5086602516182097,Hereditary cancer-predisposing syndrome

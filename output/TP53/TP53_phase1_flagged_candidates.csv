@@ -1,0 +1,17 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000546.6(TP53):c.307_309delinsCAG (p.Tyr103Gln),103,Y,Q,DNA-binding domain,98.12,False,267.0,4.885197639465332,164.0,33.57080145030719,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.308A>C (p.Tyr103Ser),103,Y,S,DNA-binding domain,98.12,False,267.0,4.885197639465332,164.0,33.57080145030719,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.304A>G (p.Thr102Ala),102,T,A,DNA-binding domain,97.5,False,267.0,5.436145305633545,165.0,30.352389556071735,Hereditary cancer-predisposing syndrome
+NM_000546.6(TP53):c.482_483delinsGA (p.Ala161Gly),161,A,G,DNA-binding domain,98.31,False,253.0,4.558974266052246,92.0,20.179977914125317,Hereditary cancer-predisposing syndrome
+NM_000546.6(TP53):c.482C>T (p.Ala161Val),161,A,V,DNA-binding domain,98.31,False,253.0,4.558974266052246,92.0,20.179977914125317,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+NM_000546.6(TP53):c.280T>A (p.Ser94Thr),94,S,T,Disordered (TAD2/proline-rich linker),75.81,False,171.0,5.250022888183594,77.0,14.666602725353167,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.590T>C (p.Val197Ala),197,V,A,DNA-binding domain,96.75,False,234.0,4.6129841804504395,37.0,8.020838258410654,Hereditary cancer-predisposing syndrome
+NM_000546.6(TP53):c.589G>C (p.Val197Leu),197,V,L,DNA-binding domain,96.75,False,234.0,4.6129841804504395,37.0,8.020838258410654,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+NM_000546.6(TP53):c.589G>T (p.Val197Leu),197,V,L,DNA-binding domain,96.75,False,234.0,4.6129841804504395,37.0,8.020838258410654,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"
+NM_000546.6(TP53):c.320A>C (p.Tyr107Ser),107,Y,S,DNA-binding domain,97.56,False,147.0,5.458457946777344,40.0,7.328076975222622,Hereditary cancer-predisposing syndrome
+NM_000546.6(TP53):c.319T>A (p.Tyr107Asn),107,Y,N,DNA-binding domain,97.56,False,147.0,5.458457946777344,40.0,7.328076975222622,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.608T>A (p.Val203Glu),203,V,E,DNA-binding domain,96.0,False,218.0,4.796338081359863,15.0,3.127385881803224,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.607G>C (p.Val203Leu),203,V,L,DNA-binding domain,96.0,False,218.0,4.796338081359863,15.0,3.127385881803224,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome 1, Li-Fraumeni syndrome"
+NM_000546.6(TP53):c.767C>A (p.Thr256Lys),256,T,K,DNA-binding domain,98.69,False,267.0,4.408700466156006,11.0,2.495066309095619,Li-Fraumeni syndrome
+NM_000546.6(TP53):c.767C>T (p.Thr256Ile),256,T,I,DNA-binding domain,98.69,False,267.0,4.408700466156006,11.0,2.495066309095619,"Li-Fraumeni syndrome, Hereditary cancer-predisposing syndrome"
+NM_000546.6(TP53):c.647T>A (p.Val216Glu),216,V,E,DNA-binding domain,97.81,False,205.0,4.585881233215332,11.0,2.398666568232839,"Hereditary cancer-predisposing syndrome, Li-Fraumeni syndrome"

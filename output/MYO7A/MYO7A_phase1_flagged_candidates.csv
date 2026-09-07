@@ -1,0 +1,47 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000260.4(MYO7A):c.1906A>G (p.Ile636Val),636,I,V,Myosin motor,89.44,False,105.0,4.694604873657227,531.0,113.1085606329924,not provided
+NM_000260.4(MYO7A):c.1906A>C (p.Ile636Leu),636,I,L,Myosin motor,89.44,False,105.0,4.694604873657227,531.0,113.1085606329924,Inborn genetic diseases
+NM_000260.4(MYO7A):c.1297A>G (p.Ile433Val),433,I,V,Myosin motor,92.69,False,153.0,5.3002400398254395,280.0,52.82779608019822,not provided
+NM_000260.4(MYO7A):c.1300G>A (p.Gly434Ser),434,G,S,Myosin motor,91.75,False,218.0,4.195679187774658,216.0,51.48153381921558,not provided
+NM_000260.4(MYO7A):c.1439A>G (p.Glu480Gly),480,E,G,Myosin motor,87.81,False,722.0,4.716423988342285,242.0,51.31006046067064,not provided
+NM_000260.4(MYO7A):c.1445T>C (p.Ile482Thr),482,I,T,Myosin motor,85.25,False,722.0,5.244721412658691,240.0,45.76029518378889,Autosomal dominant nonsyndromic hearing loss 11
+NM_000260.4(MYO7A):c.1442G>T (p.Ser481Ile),481,S,I,Myosin motor,85.69,False,722.0,5.802511692047119,241.0,41.53373793805756,not provided
+NM_000260.4(MYO7A):c.1443C>A (p.Ser481Arg),481,S,R,Myosin motor,85.69,False,722.0,5.802511692047119,241.0,41.53373793805756,not provided
+NM_000260.4(MYO7A):c.5236A>G (p.Ser1746Gly),1746,S,G,Unannotated / linker,86.62,False,1822.0,4.855583667755127,76.0,15.652083292210458,not provided
+NM_000260.4(MYO7A):c.5237G>A (p.Ser1746Asn),1746,S,N,Unannotated / linker,86.62,False,1822.0,4.855583667755127,76.0,15.652083292210458,not provided
+NM_000260.4(MYO7A):c.5018T>A (p.Val1673Asp),1673,V,D,Unannotated / linker,83.0,False,1605.0,4.892727375030518,68.0,13.89817882496996,Autosomal dominant nonsyndromic hearing loss 11; not provided; Usher syndrome type 1; Autosomal recessive nonsyndromic hearing loss 2
+NM_000260.4(MYO7A):c.5241C>G (p.His1747Gln),1747,H,Q,MyTH4 2,91.12,False,1822.0,5.708133220672607,75.0,13.139146740370315,not provided
+NM_000260.4(MYO7A):c.5015C>G (p.Thr1672Ser),1672,T,S,SH3,86.62,False,1605.0,5.436006546020508,67.0,12.325224304420335,Inborn genetic diseases
+NM_000260.4(MYO7A):c.6349G>T (p.Val2117Leu),2117,V,L,FERM 2,92.25,False,2184.0,5.653576850891113,67.0,11.850904616152782,Autosomal recessive nonsyndromic hearing loss 2; Usher syndrome type 1
+NM_000260.4(MYO7A):c.6350T>C (p.Val2117Ala),2117,V,A,FERM 2,92.25,False,2184.0,5.653576850891113,67.0,11.850904616152782,Autosomal recessive nonsyndromic hearing loss 2; Usher syndrome type 1
+NM_000260.4(MYO7A):c.3899C>G (p.Ser1300Cys),1300,S,C,FERM 1,87.62,False,1347.0,5.711203098297119,47.0,8.229439435276563,not provided
+NM_000260.4(MYO7A):c.5528T>G (p.Leu1843Arg),1843,L,R,MyTH4 2,90.94,False,1883.0,5.216200351715088,40.0,7.668417104961851,Inborn genetic diseases; not specified; not provided
+NM_000260.4(MYO7A):c.6193C>A (p.Pro2065Thr),2065,P,T,FERM 2,91.19,False,2024.0,5.795280933380127,41.0,7.074721738482925,not provided
+NM_000260.4(MYO7A):c.6194C>G (p.Pro2065Arg),2065,P,R,FERM 2,91.19,False,2024.0,5.795280933380127,41.0,7.074721738482925,Autosomal recessive nonsyndromic hearing loss 2; Usher syndrome type 1
+NM_000260.4(MYO7A):c.4919G>A (p.Gly1640Asp),1640,G,D,SH3,82.81,False,1605.0,4.954015254974365,35.0,7.064976226073633,not provided
+NM_000260.4(MYO7A):c.202G>A (p.Glu68Lys),68,E,K,Myosin motor,86.88,False,96.0,5.41444206237793,28.0,5.171354624801892,not provided
+NM_000260.4(MYO7A):c.4481A>G (p.Asn1494Ser),1494,N,S,FERM 1,89.75,False,1471.0,4.495359420776367,23.0,5.116387333502201,not provided
+NM_000260.4(MYO7A):c.205G>A (p.Asp69Asn),69,D,N,Myosin motor,85.19,False,96.0,5.924177646636963,27.0,4.557594591264048,Inborn genetic diseases
+NM_000260.4(MYO7A):c.82G>A (p.Val28Met),28,V,M,Unannotated / linker,82.69,False,7.0,5.229635238647461,21.0,4.015576429653863,not provided
+NM_000260.4(MYO7A):c.4474G>A (p.Ala1492Thr),1492,A,T,FERM 1,88.06,False,1471.0,5.346245288848877,21.0,3.927990368081596,Inborn genetic diseases
+NM_000260.4(MYO7A):c.2618G>A (p.Arg873Gln),873,R,Q,SAH,73.06,False,893.0,5.471061706542969,20.0,3.6555975919777213,Inborn genetic diseases; not provided; not specified; Usher syndrome type 1; Autosomal recessive nonsyndromic hearing loss 2; Autosomal dominant nonsyndromic hearing loss 11; Usher syndrome type 1; Autosomal recessive nonsyndromic hearing loss 2; Autosomal dominant nonsyndromic hearing loss 11
+NM_000260.4(MYO7A):c.6497A>G (p.Tyr2166Cys),2166,Y,C,FERM 2,87.69,False,2184.0,4.964862823486328,18.0,3.625477810756591,not provided
+NM_000260.4(MYO7A):c.119A>G (p.Asp40Gly),40,D,G,Unannotated / linker,85.0,False,26.0,3.981891632080078,14.0,3.5159168791056774,not provided
+NM_000260.4(MYO7A):c.701A>G (p.Gln234Arg),234,Q,R,Myosin motor,85.69,False,214.0,5.967069149017334,20.0,3.351729215890456,Autosomal dominant nonsyndromic hearing loss 11; Autosomal recessive nonsyndromic hearing loss 2; Usher syndrome type 1
+NM_000260.4(MYO7A):c.29T>C (p.Val10Ala),10,V,A,Unannotated / linker,84.56,False,26.0,5.290309906005859,16.0,3.024397489802231,not specified; not provided
+NM_000260.4(MYO7A):c.25C>A (p.His9Asn),9,H,N,Unannotated / linker,82.0,False,26.0,5.809078216552734,17.0,2.926453968472861,Usher syndrome type 1B
+NM_000260.4(MYO7A):c.2629G>C (p.Glu877Gln),877,E,Q,SAH,67.94,True,893.0,5.55970573425293,16.0,2.8778501533678664,not provided
+NM_000260.4(MYO7A):c.4907A>C (p.Asp1636Ala),1636,D,A,SH3,81.88,False,1651.0,5.3878560066223145,15.0,2.7840387682156353,not provided
+NM_000260.4(MYO7A):c.6454C>T (p.His2152Tyr),2152,H,Y,FERM 2,88.56,False,2137.0,5.546158313751221,15.0,2.7045747978035166,not provided
+NM_000260.4(MYO7A):c.121G>T (p.Asp41Tyr),41,D,Y,Unannotated / linker,78.12,False,26.0,5.575474262237549,15.0,2.6903540926723246,not provided
+NM_000260.4(MYO7A):c.1612T>C (p.Tyr538His),538,Y,H,Myosin motor,91.69,False,551.0,4.931001663208008,13.0,2.6363811833603132,not provided; Inborn genetic diseases
+NM_000260.4(MYO7A):c.1610A>G (p.Asn537Ser),537,N,S,Myosin motor,88.69,False,551.0,5.730495452880859,14.0,2.443069733693246,not provided
+NM_000260.4(MYO7A):c.1611C>A (p.Asn537Lys),537,N,K,Myosin motor,88.69,False,551.0,5.730495452880859,14.0,2.443069733693246,not provided; Inborn genetic diseases
+NM_000260.4(MYO7A):c.1643A>G (p.Gln548Arg),548,Q,R,Myosin motor,88.44,False,560.0,5.390913486480713,12.0,2.2259678308868245,not provided
+NM_000260.4(MYO7A):c.598G>T (p.Gly200Trp),200,G,W,Myosin motor,88.56,False,212.0,5.675841331481934,12.0,2.1142240064816717,not provided
+NM_000260.4(MYO7A):c.599G>C (p.Gly200Ala),200,G,A,Myosin motor,88.56,False,212.0,5.675841331481934,12.0,2.1142240064816717,Usher syndrome type 1B
+NM_000260.4(MYO7A):c.1615A>T (p.Ile539Phe),539,I,F,Myosin motor,90.38,False,551.0,5.8638997077941895,12.0,2.046419720318514,not provided
+NM_000260.4(MYO7A):c.1617C>G (p.Ile539Met),539,I,M,Myosin motor,90.38,False,551.0,5.8638997077941895,12.0,2.046419720318514,not specified; not provided
+NM_000260.4(MYO7A):c.1615A>G (p.Ile539Val),539,I,V,Myosin motor,90.38,False,551.0,5.8638997077941895,12.0,2.046419720318514,not provided
+NM_000260.4(MYO7A):c.112G>A (p.Val38Met),38,V,M,Unannotated / linker,83.31,False,26.0,5.999650478363037,12.0,2.0001165139996817,Inborn genetic diseases
+NM_000260.4(MYO7A):c.5786A>G (p.Gln1929Arg),1929,Q,R,FERM 2,90.25,False,1940.0,5.660947799682617,11.0,1.9431375079305127,not provided; Hearing impairment

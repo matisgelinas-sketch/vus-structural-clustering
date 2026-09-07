@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: #2a78d6; }
+    a:hover { color: #184f95; }
+  </style>
+</helmet>
+<div style="width: 1280px; height: 720px; background: #fbfbfa; display: flex; flex-direction: column; padding: 100px 120px; box-sizing: border-box; font-family: 'IBM Plex Sans', system-ui, sans-serif;">
+  <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: #8892a0; margin-bottom: 14px;">06 &mdash; Key finding</div>
+  <h1 style="font-size: 38px; font-weight: 600; color: #14181c; margin: 0 0 48px 0; max-width: 880px;">The signal is real, not a proxy</h1>
+
+  <div style="display: flex; gap: 48px; flex: 1; align-items: center;">
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px;">
+      <div style="font-size: 19px; color: #14181c; line-height: 1.6;">A natural worry: maybe the model was just learning &ldquo;this is a well-structured, important part of the protein&rdquo; &mdash; not genuine spatial clustering.</div>
+      <div style="font-size: 19px; color: #14181c; line-height: 1.6;">We tested this directly: removed structural-confidence as a factor and re-ran the analysis.</div>
+    </div>
+
+    <div style="flex: none; width: 1px; height: 220px; background: #e3e7ed;"></div>
+
+    <div style="flex: 1;">
+      <div style="border: 1px solid #e3e7ed; background: #ffffff; border-radius: 4px; padding: 32px;">
+        <div style="font-size: 15px; color: #8892a0; margin-bottom: 16px;">Effect on accuracy</div>
+        <div style="display: flex; align-items: baseline; gap: 16px; margin-bottom: 8px;">
+          <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 32px; font-weight: 500; color: #14181c;">0.72</div>
+          <div style="font-size: 16px; color: #8892a0;">&rarr;</div>
+          <div style="font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 32px; font-weight: 500; color: #14181c;">0.71</div>
+        </div>
+        <div style="font-size: 15px; color: #4b5563;">Removing it cost almost nothing.</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="border-left: 3px solid #2a78d6; padding: 18px 28px; background: #eaf2fc; max-width: 900px;">
+    <div style="font-size: 19px; color: #14181c; font-weight: 500;">The clustering signal carries genuine, independent predictive weight.</div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

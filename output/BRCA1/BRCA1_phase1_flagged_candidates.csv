@@ -1,0 +1,35 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_007294.4(BRCA1):c.2309C>T (p.Ser770Leu),770,S,L,Unannotated / linker,25.86,True,1441.0,4.583642959594727,671.0,146.39011064232804,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.2305A>C (p.Ile769Leu),769,I,L,Unannotated / linker,28.08,True,1441.0,4.864906311035156,672.0,138.13215651772987,not provided
+NM_007294.4(BRCA1):c.2305A>G (p.Ile769Val),769,I,V,Unannotated / linker,28.08,True,1441.0,4.864906311035156,672.0,138.13215651772987,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.223G>C (p.Glu75Gln),75,E,Q,Unannotated / linker,88.88,False,35.0,4.4770989418029785,40.0,8.934356939605973,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.224A>T (p.Glu75Val),75,E,V,Unannotated / linker,88.88,False,35.0,4.4770989418029785,40.0,8.934356939605973,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+NM_007294.4(BRCA1):c.5414A>G (p.His1805Arg),1805,H,R,BRCT domain 2,89.12,False,1764.0,4.80294132232666,41.0,8.536435748113329,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5303G>A (p.Cys1768Tyr),1768,C,Y,BRCT domain 2,94.56,False,1809.0,4.9113078117370605,41.0,8.348081930849062,"Hereditary breast ovarian cancer syndrome, not provided"
+NM_007294.4(BRCA1):c.5303G>C (p.Cys1768Ser),1768,C,S,BRCT domain 2,94.56,False,1809.0,4.9113078117370605,41.0,8.348081930849062,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5419A>C (p.Ile1807Leu),1807,I,L,BRCT domain 2,94.5,False,1766.0,4.944842338562012,41.0,8.291467592457767,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+NM_007294.4(BRCA1):c.228T>G (p.Ser76Arg),76,S,R,Unannotated / linker,86.31,False,35.0,5.6471452713012695,41.0,7.260305522572892,"Hereditary breast ovarian cancer syndrome, Hereditary cancer-predisposing syndrome"
+NM_007294.4(BRCA1):c.226A>G (p.Ser76Gly),76,S,G,Unannotated / linker,86.31,False,35.0,5.6471452713012695,41.0,7.260305522572892,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.4952C>T (p.Ser1651Phe),1651,S,F,BRCT domain 1,94.06,False,1685.0,5.341402053833008,34.0,6.365369926722046,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+NM_007294.4(BRCA1):c.5573T>A (p.Ile1858Asn),1858,I,N,Unannotated / linker,80.44,False,1823.0,5.812371253967285,35.0,6.021638754769913,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5572A>G (p.Ile1858Val),1858,I,V,Unannotated / linker,80.44,False,1823.0,5.812371253967285,35.0,6.021638754769913,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5572A>T (p.Ile1858Phe),1858,I,F,Unannotated / linker,80.44,False,1823.0,5.812371253967285,35.0,6.021638754769913,"Hereditary breast ovarian cancer syndrome, not provided, Hereditary cancer-predisposing syndrome"
+NM_007294.4(BRCA1):c.5281T>C (p.Phe1761Leu),1761,F,L,BRCT domain 2,95.0,False,1789.0,4.855611801147461,28.0,5.766523590988707,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.5284A>T (p.Arg1762Trp),1762,R,W,BRCT domain 2,91.38,False,1788.0,4.657547473907471,26.0,5.582337087417207,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5275_5276delinsTG (p.Lys1759Trp),1759,K,W,BRCT domain 2,92.88,False,1788.0,5.277783393859863,29.0,5.4947309951633105,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome, Breast-ovarian cancer, familial, susceptibility to, 1"
+NM_007294.4(BRCA1):c.5371G>A (p.Val1791Met),1791,V,M,BRCT domain 2,94.94,False,1766.0,5.074275016784668,25.0,4.926812188402303,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.5372T>A (p.Val1791Glu),1791,V,E,BRCT domain 2,94.94,False,1766.0,5.074275016784668,25.0,4.926812188402303,Malignant tumor of breast
+NM_007294.4(BRCA1):c.5372T>G (p.Val1791Gly),1791,V,G,BRCT domain 2,94.94,False,1766.0,5.074275016784668,25.0,4.926812188402303,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.5030C>T (p.Thr1677Ile),1677,T,I,BRCT domain 1,94.5,False,1653.0,5.2546067237854,24.0,4.567420791238679,"Hereditary cancer-predisposing syndrome, Hereditary breast ovarian cancer syndrome"
+NM_007294.4(BRCA1):c.5029A>G (p.Thr1677Ala),1677,T,A,BRCT domain 1,94.5,False,1653.0,5.2546067237854,24.0,4.567420791238679,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5374G>C (p.Val1792Leu),1792,V,L,BRCT domain 2,93.06,False,1766.0,5.815847396850586,26.0,4.47054371029054,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.5375T>A (p.Val1792Glu),1792,V,E,BRCT domain 2,93.06,False,1766.0,5.815847396850586,26.0,4.47054371029054,not specified
+NM_007294.4(BRCA1):c.5417C>A (p.Pro1806Gln),1806,P,Q,BRCT domain 2,93.44,False,1830.0,5.543405055999756,24.0,4.329468937873166,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5034T>G (p.Asn1678Lys),1678,N,K,BRCT domain 1,91.56,False,1653.0,5.8403449058532715,25.0,4.280569110729174,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5033A>G (p.Asn1678Ser),1678,N,S,BRCT domain 1,91.56,False,1653.0,5.8403449058532715,25.0,4.280569110729174,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5032A>T (p.Asn1678Tyr),1678,N,Y,BRCT domain 1,91.56,False,1653.0,5.8403449058532715,25.0,4.280569110729174,Hereditary breast ovarian cancer syndrome
+NM_007294.4(BRCA1):c.5032A>G (p.Asn1678Asp),1678,N,D,BRCT domain 1,91.56,False,1653.0,5.8403449058532715,25.0,4.280569110729174,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.5563A>G (p.Ile1855Val),1855,I,V,BRCT domain 2,90.75,False,1833.0,5.439825534820557,22.0,4.044247349327116,"Hereditary breast ovarian cancer syndrome, Breast-ovarian cancer, familial, susceptibility to, 1"
+NM_007294.4(BRCA1):c.5564T>A (p.Ile1855Lys),1855,I,K,BRCT domain 2,90.75,False,1833.0,5.439825534820557,22.0,4.044247349327116,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.96G>C (p.Lys32Asn),32,K,N,RING-type zinc finger,88.88,False,44.0,4.896831512451172,12.0,2.4505642004401427,Hereditary cancer-predisposing syndrome
+NM_007294.4(BRCA1):c.94A>G (p.Lys32Glu),32,K,E,RING-type zinc finger,88.88,False,44.0,4.896831512451172,12.0,2.4505642004401427,Hereditary breast ovarian cancer syndrome

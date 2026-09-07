@@ -1,0 +1,2152 @@
+{
+  "VHL": {
+    "accession": "P40337",
+    "n_pathogenic": 180,
+    "n_benign": 35,
+    "n_vus": 382,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        14,
+        18,
+        "1"
+      ],
+      [
+        19,
+        23,
+        "2"
+      ],
+      [
+        24,
+        28,
+        "3"
+      ],
+      [
+        29,
+        33,
+        "4"
+      ],
+      [
+        34,
+        38,
+        "5"
+      ],
+      [
+        39,
+        43,
+        "6"
+      ],
+      [
+        44,
+        48,
+        "7"
+      ],
+      [
+        49,
+        53,
+        "8"
+      ],
+      [
+        1,
+        65,
+        "Disordered"
+      ],
+      [
+        14,
+        53,
+        "8 X 5 AA tandem repeats of G-[PAVG]-E-E-[DAYSLE]"
+      ],
+      [
+        100,
+        155,
+        "Involved in binding to CCT complex"
+      ],
+      [
+        157,
+        166,
+        "Interaction with Elongin BC complex"
+      ]
+    ],
+    "af_version": 6,
+    "length": 213
+  },
+  "APC": {
+    "accession": "P25054",
+    "n_pathogenic": 22,
+    "n_benign": 74,
+    "n_vus": 7583,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=22, Benign=74)"
+  },
+  "BMPR1A": {
+    "accession": "P36894",
+    "n_pathogenic": 28,
+    "n_benign": 4,
+    "n_vus": 1073,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=28, Benign=4)"
+  },
+  "CDH1": {
+    "accession": "P12830",
+    "n_pathogenic": 22,
+    "n_benign": 159,
+    "n_vus": 1817,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=22, Benign=159)"
+  },
+  "MEN1": {
+    "accession": "O00255",
+    "n_pathogenic": 154,
+    "n_benign": 9,
+    "n_vus": 1108,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=154, Benign=9)"
+  },
+  "MLH1": {
+    "accession": "P40692",
+    "n_pathogenic": 200,
+    "n_benign": 37,
+    "n_vus": 1774,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        355,
+        378,
+        "Disordered"
+      ],
+      [
+        400,
+        491,
+        "Disordered"
+      ],
+      [
+        410,
+        650,
+        "Interaction with EXO1"
+      ]
+    ],
+    "af_version": 6,
+    "length": 756
+  },
+  "MSH2": {
+    "accession": "P43246",
+    "n_pathogenic": 153,
+    "n_benign": 304,
+    "n_vus": 1724,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        601,
+        671,
+        "Interaction with EXO1"
+      ]
+    ],
+    "af_version": 6,
+    "length": 934
+  },
+  "MSH6": {
+    "accession": "P52701",
+    "n_pathogenic": 73,
+    "n_benign": 81,
+    "n_vus": 3988,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        92,
+        154,
+        "PWWP"
+      ],
+      [
+        1,
+        84,
+        "Disordered"
+      ],
+      [
+        195,
+        362,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1360
+  },
+  "PMS2": {
+    "accession": "P54278",
+    "n_pathogenic": 37,
+    "n_benign": 50,
+    "n_vus": 2539,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        391,
+        552,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 862
+  },
+  "MUTYH": {
+    "accession": "Q9UIF7",
+    "n_pathogenic": 57,
+    "n_benign": 148,
+    "n_vus": 1675,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "2247 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "NF2": {
+    "accession": "P35240",
+    "n_pathogenic": 9,
+    "n_benign": 4,
+    "n_vus": 995,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=9, Benign=4)"
+  },
+  "PALB2": {
+    "accession": "Q86YC2",
+    "n_pathogenic": 13,
+    "n_benign": 79,
+    "n_vus": 2547,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=13, Benign=79)"
+  },
+  "RB1": {
+    "accession": "P06400",
+    "n_pathogenic": 41,
+    "n_benign": 64,
+    "n_vus": 1475,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        1,
+        42,
+        "Disordered"
+      ],
+      [
+        373,
+        771,
+        "Pocket; binds T and E1A"
+      ],
+      [
+        373,
+        579,
+        "Domain A"
+      ],
+      [
+        580,
+        639,
+        "Spacer"
+      ],
+      [
+        610,
+        632,
+        "Disordered"
+      ],
+      [
+        640,
+        771,
+        "Domain B"
+      ],
+      [
+        763,
+        928,
+        "Interaction with LIMD1"
+      ],
+      [
+        771,
+        928,
+        "Domain C; mediates interaction with E4F1"
+      ],
+      [
+        860,
+        928,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 928
+  },
+  "RET": {
+    "accession": "P07949",
+    "n_pathogenic": 81,
+    "n_benign": 47,
+    "n_vus": 1861,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        168,
+        272,
+        "Cadherin"
+      ],
+      [
+        724,
+        1016,
+        "Protein kinase"
+      ],
+      [
+        29,
+        153,
+        "Cadherin-like region 1 (CLD1)"
+      ],
+      [
+        265,
+        379,
+        "Cadherin-like region 3 (CLD3)"
+      ],
+      [
+        405,
+        506,
+        "Cadherin-like region 4 (CLD4)"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1114
+  },
+  "SDHAF2": {
+    "accession": "Q9NX18",
+    "n_pathogenic": 2,
+    "n_benign": 6,
+    "n_vus": 337,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=2, Benign=6)"
+  },
+  "SDHB": {
+    "accession": "P21912",
+    "n_pathogenic": 77,
+    "n_benign": 6,
+    "n_vus": 625,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=77, Benign=6)"
+  },
+  "SDHC": {
+    "accession": "Q99643",
+    "n_pathogenic": 19,
+    "n_benign": 2,
+    "n_vus": 350,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=19, Benign=2)"
+  },
+  "SDHD": {
+    "accession": "O14521",
+    "n_pathogenic": 28,
+    "n_benign": 4,
+    "n_vus": 358,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=28, Benign=4)"
+  },
+  "SMAD4": {
+    "accession": "Q13485",
+    "n_pathogenic": 29,
+    "n_benign": 7,
+    "n_vus": 888,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=29, Benign=7)"
+  },
+  "STK11": {
+    "accession": "Q15831",
+    "n_pathogenic": 44,
+    "n_benign": 14,
+    "n_vus": 932,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=44, Benign=14)"
+  },
+  "TSC1": {
+    "accession": "Q92574",
+    "n_pathogenic": 23,
+    "n_benign": 87,
+    "n_vus": 1935,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=23, Benign=87)"
+  },
+  "TSC2": {
+    "accession": "P49815",
+    "n_pathogenic": 186,
+    "n_benign": 198,
+    "n_vus": 3776,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        1531,
+        1758,
+        "Rap-GAP"
+      ],
+      [
+        1,
+        400,
+        "Required for interaction with TSC1"
+      ],
+      [
+        655,
+        676,
+        "Disordered"
+      ],
+      [
+        930,
+        964,
+        "Disordered"
+      ],
+      [
+        1083,
+        1132,
+        "Disordered"
+      ],
+      [
+        1150,
+        1174,
+        "Disordered"
+      ],
+      [
+        1331,
+        1352,
+        "Disordered"
+      ],
+      [
+        1364,
+        1488,
+        "Disordered"
+      ],
+      [
+        1765,
+        1793,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1807
+  },
+  "WT1": {
+    "accession": "P19544",
+    "n_pathogenic": 53,
+    "n_benign": 22,
+    "n_vus": 869,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=53, Benign=22)"
+  },
+  "ACTA2": {
+    "accession": "P62736",
+    "n_pathogenic": 33,
+    "n_benign": 0,
+    "n_vus": 273,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=33, Benign=0)"
+  },
+  "ACTC1": {
+    "accession": "P68032",
+    "n_pathogenic": 21,
+    "n_benign": 1,
+    "n_vus": 312,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=21, Benign=1)"
+  },
+  "CACNA1S": {
+    "accession": "Q13698",
+    "n_pathogenic": 20,
+    "n_benign": 71,
+    "n_vus": 1332,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=20, Benign=71)"
+  },
+  "CASQ2": {
+    "accession": "O14958",
+    "n_pathogenic": 9,
+    "n_benign": 8,
+    "n_vus": 274,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=9, Benign=8)"
+  },
+  "COL3A1": {
+    "accession": "P02461",
+    "n_pathogenic": 581,
+    "n_benign": 20,
+    "n_vus": 1187,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=581, Benign=20)"
+  },
+  "DES": {
+    "accession": "P17661",
+    "n_pathogenic": 46,
+    "n_benign": 3,
+    "n_vus": 595,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=46, Benign=3)"
+  },
+  "DSC2": {
+    "accession": "Q02487",
+    "n_pathogenic": 1,
+    "n_benign": 19,
+    "n_vus": 923,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=1, Benign=19)"
+  },
+  "DSG2": {
+    "accession": "Q14126",
+    "n_pathogenic": 7,
+    "n_benign": 40,
+    "n_vus": 1065,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=7, Benign=40)"
+  },
+  "DSP": {
+    "accession": "P15924",
+    "n_pathogenic": 23,
+    "n_benign": 122,
+    "n_vus": 2456,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=23, Benign=122)"
+  },
+  "FBN1": {
+    "accession": "P35555",
+    "n_pathogenic": 1536,
+    "n_benign": 64,
+    "n_vus": 2343,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "AlphaFold API lookup failed: HTTP Error 404: Not Found"
+  },
+  "FLNC": {
+    "accession": "Q14315",
+    "n_pathogenic": 29,
+    "n_benign": 97,
+    "n_vus": 2491,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=29, Benign=97)"
+  },
+  "GLA": {
+    "accession": "P06280",
+    "n_pathogenic": 602,
+    "n_benign": 5,
+    "n_vus": 359,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=602, Benign=5)"
+  },
+  "KCNH2": {
+    "accession": "Q12809",
+    "n_pathogenic": 184,
+    "n_benign": 15,
+    "n_vus": 1322,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=184, Benign=15)"
+  },
+  "KCNQ1": {
+    "accession": "P51787",
+    "n_pathogenic": 232,
+    "n_benign": 14,
+    "n_vus": 646,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=232, Benign=14)"
+  },
+  "LDLR": {
+    "accession": "P01130",
+    "n_pathogenic": 739,
+    "n_benign": 41,
+    "n_vus": 857,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        25,
+        65,
+        "LDL-receptor class A 1"
+      ],
+      [
+        66,
+        106,
+        "LDL-receptor class A 2"
+      ],
+      [
+        107,
+        145,
+        "LDL-receptor class A 3"
+      ],
+      [
+        146,
+        186,
+        "LDL-receptor class A 4"
+      ],
+      [
+        195,
+        233,
+        "LDL-receptor class A 5"
+      ],
+      [
+        234,
+        272,
+        "LDL-receptor class A 6"
+      ],
+      [
+        274,
+        313,
+        "LDL-receptor class A 7"
+      ],
+      [
+        314,
+        353,
+        "EGF-like 1"
+      ],
+      [
+        354,
+        393,
+        "EGF-like 2; calcium-binding"
+      ],
+      [
+        397,
+        438,
+        "LDL-receptor class B 1"
+      ],
+      [
+        439,
+        485,
+        "LDL-receptor class B 2"
+      ],
+      [
+        486,
+        528,
+        "LDL-receptor class B 3"
+      ],
+      [
+        529,
+        572,
+        "LDL-receptor class B 4"
+      ],
+      [
+        573,
+        615,
+        "LDL-receptor class B 5"
+      ],
+      [
+        616,
+        658,
+        "LDL-receptor class B 6"
+      ],
+      [
+        663,
+        712,
+        "EGF-like 3"
+      ],
+      [
+        146,
+        233,
+        "Binding to Getah virus E1-E2 spike glycoproteins"
+      ],
+      [
+        721,
+        768,
+        "Clustered O-linked oligosaccharides"
+      ],
+      [
+        734,
+        755,
+        "Disordered"
+      ],
+      [
+        811,
+        860,
+        "Required for MYLIP-triggered down-regulation of LDLR"
+      ]
+    ],
+    "af_version": 6,
+    "length": 860
+  },
+  "LMNA": {
+    "accession": "P02545",
+    "n_pathogenic": 230,
+    "n_benign": 2,
+    "n_vus": 770,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=230, Benign=2)"
+  },
+  "MYBPC3": {
+    "accession": "Q14896",
+    "n_pathogenic": 37,
+    "n_benign": 35,
+    "n_vus": 1617,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        153,
+        256,
+        "Ig-like C2-type 1"
+      ],
+      [
+        362,
+        452,
+        "Ig-like C2-type 2"
+      ],
+      [
+        453,
+        543,
+        "Ig-like C2-type 3"
+      ],
+      [
+        544,
+        633,
+        "Ig-like C2-type 4"
+      ],
+      [
+        645,
+        771,
+        "Ig-like C2-type 5"
+      ],
+      [
+        774,
+        870,
+        "Fibronectin type-III 1"
+      ],
+      [
+        872,
+        967,
+        "Fibronectin type-III 2"
+      ],
+      [
+        971,
+        1065,
+        "Ig-like C2-type 6"
+      ],
+      [
+        1068,
+        1163,
+        "Fibronectin type-III 3"
+      ],
+      [
+        1181,
+        1274,
+        "Ig-like C2-type 7"
+      ],
+      [
+        107,
+        153,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1274
+  },
+  "MYH11": {
+    "accession": "P35749",
+    "n_pathogenic": 5,
+    "n_benign": 23,
+    "n_vus": 1842,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=5, Benign=23)"
+  },
+  "MYH7": {
+    "accession": "P12883",
+    "n_pathogenic": 388,
+    "n_benign": 21,
+    "n_vus": 2390,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=388, Benign=21)"
+  },
+  "MYL2": {
+    "accession": "P10916",
+    "n_pathogenic": 12,
+    "n_benign": 0,
+    "n_vus": 241,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=12, Benign=0)"
+  },
+  "MYL3": {
+    "accession": "P08590",
+    "n_pathogenic": 4,
+    "n_benign": 0,
+    "n_vus": 236,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=4, Benign=0)"
+  },
+  "PCSK9": {
+    "accession": "Q8NBP7",
+    "n_pathogenic": 16,
+    "n_benign": 29,
+    "n_vus": 620,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=16, Benign=29)"
+  },
+  "PKP2": {
+    "accession": "Q99959",
+    "n_pathogenic": 13,
+    "n_benign": 26,
+    "n_vus": 897,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=13, Benign=26)"
+  },
+  "PRKAG2": {
+    "accession": "Q9UGJ0",
+    "n_pathogenic": 24,
+    "n_benign": 13,
+    "n_vus": 534,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=24, Benign=13)"
+  },
+  "SCN5A": {
+    "accession": "Q14524",
+    "n_pathogenic": 120,
+    "n_benign": 29,
+    "n_vus": 2119,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=120, Benign=29)"
+  },
+  "TGFBR1": {
+    "accession": "P36897",
+    "n_pathogenic": 55,
+    "n_benign": 6,
+    "n_vus": 474,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=55, Benign=6)"
+  },
+  "TGFBR2": {
+    "accession": "P37173",
+    "n_pathogenic": 105,
+    "n_benign": 10,
+    "n_vus": 512,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=105, Benign=10)"
+  },
+  "TMEM43": {
+    "accession": "Q9BTV4",
+    "n_pathogenic": 1,
+    "n_benign": 16,
+    "n_vus": 464,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=1, Benign=16)"
+  },
+  "TNNC1": {
+    "accession": "P63316",
+    "n_pathogenic": 9,
+    "n_benign": 0,
+    "n_vus": 168,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=9, Benign=0)"
+  },
+  "TNNI3": {
+    "accession": "P19429",
+    "n_pathogenic": 56,
+    "n_benign": 2,
+    "n_vus": 322,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=56, Benign=2)"
+  },
+  "TNNT2": {
+    "accession": "P45379",
+    "n_pathogenic": 50,
+    "n_benign": 3,
+    "n_vus": 359,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=50, Benign=3)"
+  },
+  "TPM1": {
+    "accession": "P09493",
+    "n_pathogenic": 51,
+    "n_benign": 3,
+    "n_vus": 346,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=51, Benign=3)"
+  },
+  "TRDN": {
+    "accession": "Q13061",
+    "n_pathogenic": 3,
+    "n_benign": 40,
+    "n_vus": 430,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=3, Benign=40)"
+  },
+  "ATP7B": {
+    "accession": "P35670",
+    "n_pathogenic": 208,
+    "n_benign": 28,
+    "n_vus": 1070,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=208, Benign=28)"
+  },
+  "BTD": {
+    "accession": "P43251",
+    "n_pathogenic": 110,
+    "n_benign": 6,
+    "n_vus": 175,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=110, Benign=6)"
+  },
+  "CASR": {
+    "accession": "P41180",
+    "n_pathogenic": 139,
+    "n_benign": 14,
+    "n_vus": 1468,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=139, Benign=14)"
+  },
+  "GAA": {
+    "accession": "P10253",
+    "n_pathogenic": 251,
+    "n_benign": 21,
+    "n_vus": 979,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=251, Benign=21)"
+  },
+  "HNF1A": {
+    "accession": "P20823",
+    "n_pathogenic": 143,
+    "n_benign": 35,
+    "n_vus": 332,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        1,
+        32,
+        "HNF-p1"
+      ],
+      [
+        87,
+        182,
+        "POU-specific atypical"
+      ],
+      [
+        199,
+        279,
+        "Homeobox; HNF1-type"
+      ],
+      [
+        1,
+        31,
+        "Dimerization"
+      ],
+      [
+        40,
+        81,
+        "Disordered"
+      ],
+      [
+        130,
+        132,
+        "Interaction with DNA"
+      ],
+      [
+        143,
+        149,
+        "Interaction with DNA"
+      ],
+      [
+        155,
+        158,
+        "Interaction with DNA"
+      ],
+      [
+        183,
+        205,
+        "Disordered"
+      ],
+      [
+        203,
+        206,
+        "Interaction with DNA"
+      ],
+      [
+        263,
+        265,
+        "Interaction with DNA"
+      ],
+      [
+        270,
+        273,
+        "Interaction with DNA"
+      ],
+      [
+        283,
+        358,
+        "Disordered"
+      ],
+      [
+        545,
+        567,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 631
+  },
+  "OTC": {
+    "accession": "P00480",
+    "n_pathogenic": 272,
+    "n_benign": 10,
+    "n_vus": 166,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=272, Benign=10)"
+  },
+  "TTR": {
+    "accession": "P02766",
+    "n_pathogenic": 131,
+    "n_benign": 3,
+    "n_vus": 90,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=131, Benign=3)"
+  },
+  "ACVRL1": {
+    "accession": "P37023",
+    "n_pathogenic": 237,
+    "n_benign": 14,
+    "n_vus": 193,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=237, Benign=14)"
+  },
+  "ENG": {
+    "accession": "P17813",
+    "n_pathogenic": 94,
+    "n_benign": 110,
+    "n_vus": 420,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        363,
+        533,
+        "ZP"
+      ],
+      [
+        26,
+        337,
+        "Required for interaction with GDF2"
+      ],
+      [
+        26,
+        46,
+        "OR1, N-terminal part"
+      ],
+      [
+        47,
+        199,
+        "OR2"
+      ],
+      [
+        200,
+        330,
+        "OR1, C-terminal part"
+      ],
+      [
+        270,
+        282,
+        "Essential for interaction with GDF2"
+      ],
+      [
+        626,
+        658,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 658
+  },
+  "CHEK2": {
+    "gene": "CHEK2",
+    "accession": "O96017",
+    "n_pathogenic": 9,
+    "n_benign": 10,
+    "n_vus": 1777,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=9, Benign=10)"
+  },
+  "ATM": {
+    "gene": "ATM",
+    "accession": "Q13315",
+    "bar_passed": null,
+    "structure_passed": false,
+    "length": 3056,
+    "reason": "Too large for single-chain AlphaFold model (3056 > 3000 aa)"
+  },
+  "BARD1": {
+    "gene": "BARD1",
+    "accession": "Q99728",
+    "n_pathogenic": 2,
+    "n_benign": 57,
+    "n_vus": 1917,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=2, Benign=57)"
+  },
+  "BRIP1": {
+    "gene": "BRIP1",
+    "accession": "Q9BX63",
+    "n_pathogenic": 12,
+    "n_benign": 55,
+    "n_vus": 2809,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=12, Benign=55)"
+  },
+  "RAD51C": {
+    "gene": "RAD51C",
+    "accession": "O43502",
+    "n_pathogenic": 17,
+    "n_benign": 70,
+    "n_vus": 608,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=17, Benign=70)"
+  },
+  "RAD51D": {
+    "gene": "RAD51D",
+    "accession": "O75771",
+    "n_pathogenic": 1,
+    "n_benign": 13,
+    "n_vus": 764,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=1, Benign=13)"
+  },
+  "NBN": {
+    "gene": "NBN",
+    "accession": "O60934",
+    "n_pathogenic": 2,
+    "n_benign": 30,
+    "n_vus": 1619,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=2, Benign=30)"
+  },
+  "NF1": {
+    "gene": "NF1",
+    "accession": "P21359",
+    "n_pathogenic": 460,
+    "n_benign": 92,
+    "n_vus": 5094,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "AlphaFold sequence length (593) != UniProt canonical length (2839) -- likely fragment/isoform mismatch"
+  },
+  "XRCC2": {
+    "gene": "XRCC2",
+    "accession": "O43543",
+    "n_pathogenic": 1,
+    "n_benign": 14,
+    "n_vus": 471,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=1, Benign=14)"
+  },
+  "POLE": {
+    "gene": "POLE",
+    "accession": "Q07864",
+    "n_pathogenic": 12,
+    "n_benign": 65,
+    "n_vus": 4833,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=12, Benign=65)"
+  },
+  "POLD1": {
+    "gene": "POLD1",
+    "accession": "P28340",
+    "n_pathogenic": 5,
+    "n_benign": 44,
+    "n_vus": 2198,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=5, Benign=44)"
+  },
+  "AXIN2": {
+    "gene": "AXIN2",
+    "accession": "Q9Y2T1",
+    "n_pathogenic": 2,
+    "n_benign": 30,
+    "n_vus": 2085,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=2, Benign=30)"
+  },
+  "BAP1": {
+    "gene": "BAP1",
+    "accession": "Q92560",
+    "n_pathogenic": 28,
+    "n_benign": 28,
+    "n_vus": 1201,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=28, Benign=28)"
+  },
+  "CDKN2A": {
+    "gene": "CDKN2A",
+    "accession": "P42771",
+    "n_pathogenic": 40,
+    "n_benign": 17,
+    "n_vus": 595,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=40, Benign=17)"
+  },
+  "PTCH1": {
+    "gene": "PTCH1",
+    "accession": "Q13635",
+    "n_pathogenic": 54,
+    "n_benign": 131,
+    "n_vus": 2408,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "20 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "MITF": {
+    "gene": "MITF",
+    "accession": "O75030",
+    "n_pathogenic": 28,
+    "n_benign": 6,
+    "n_vus": 628,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=28, Benign=6)"
+  },
+  "CFTR": {
+    "gene": "CFTR",
+    "accession": "P13569",
+    "n_pathogenic": 277,
+    "n_benign": 16,
+    "n_vus": 2032,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=277, Benign=16)"
+  },
+  "GJB2": {
+    "gene": "GJB2",
+    "accession": "P29033",
+    "n_pathogenic": 147,
+    "n_benign": 9,
+    "n_vus": 128,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=147, Benign=9)"
+  },
+  "PAH": {
+    "gene": "PAH",
+    "accession": "P00439",
+    "n_pathogenic": 509,
+    "n_benign": 1,
+    "n_vus": 237,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=509, Benign=1)"
+  },
+  "G6PD": {
+    "gene": "G6PD",
+    "accession": "P11413",
+    "n_pathogenic": 194,
+    "n_benign": 4,
+    "n_vus": 143,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=194, Benign=4)"
+  },
+  "SERPINA1": {
+    "gene": "SERPINA1",
+    "accession": "P01009",
+    "n_pathogenic": 21,
+    "n_benign": 47,
+    "n_vus": 84,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=21, Benign=47)"
+  },
+  "F9": {
+    "gene": "F9",
+    "accession": "P00740",
+    "n_pathogenic": 209,
+    "n_benign": 21,
+    "n_vus": 102,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=209, Benign=21)"
+  },
+  "GBA": {
+    "gene": "GBA",
+    "accession": "P04062",
+    "n_pathogenic": 0,
+    "n_benign": 0,
+    "n_vus": 0,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=0, Benign=0)"
+  },
+  "GALT": {
+    "gene": "GALT",
+    "accession": "P07902",
+    "n_pathogenic": 145,
+    "n_benign": 1,
+    "n_vus": 165,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=145, Benign=1)"
+  },
+  "HEXA": {
+    "gene": "HEXA",
+    "accession": "P06865",
+    "n_pathogenic": 74,
+    "n_benign": 4,
+    "n_vus": 364,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=74, Benign=4)"
+  },
+  "ACADM": {
+    "gene": "ACADM",
+    "accession": "P11310",
+    "n_pathogenic": 142,
+    "n_benign": 2,
+    "n_vus": 193,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=142, Benign=2)"
+  },
+  "ASPA": {
+    "gene": "ASPA",
+    "accession": "P45381",
+    "n_pathogenic": 64,
+    "n_benign": 6,
+    "n_vus": 104,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=64, Benign=6)"
+  },
+  "ATP7A": {
+    "gene": "ATP7A",
+    "accession": "Q04656",
+    "n_pathogenic": 42,
+    "n_benign": 202,
+    "n_vus": 670,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        8,
+        74,
+        "HMA 1"
+      ],
+      [
+        85,
+        151,
+        "HMA 2"
+      ],
+      [
+        171,
+        237,
+        "HMA 3"
+      ],
+      [
+        277,
+        343,
+        "HMA 4"
+      ],
+      [
+        377,
+        443,
+        "HMA 5"
+      ],
+      [
+        488,
+        554,
+        "HMA 6"
+      ],
+      [
+        564,
+        630,
+        "HMA 7"
+      ],
+      [
+        1486,
+        1500,
+        "PDZD11-binding"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1500
+  },
+  "JPH2": {
+    "gene": "JPH2",
+    "accession": "Q9BR39",
+    "n_pathogenic": 3,
+    "n_benign": 21,
+    "n_vus": 566,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=3, Benign=21)"
+  },
+  "ANK2": {
+    "gene": "ANK2",
+    "accession": "Q01484",
+    "bar_passed": null,
+    "structure_passed": false,
+    "length": 3957,
+    "reason": "Too large for single-chain AlphaFold model (3957 > 3000 aa)"
+  },
+  "CALM1": {
+    "gene": "CALM1",
+    "accession": "P0DP23",
+    "n_pathogenic": 20,
+    "n_benign": 0,
+    "n_vus": 30,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=20, Benign=0)"
+  },
+  "CALM2": {
+    "gene": "CALM2",
+    "accession": "P0DP24",
+    "n_pathogenic": 20,
+    "n_benign": 0,
+    "n_vus": 38,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=20, Benign=0)"
+  },
+  "CALM3": {
+    "gene": "CALM3",
+    "accession": "P0DP25",
+    "n_pathogenic": 8,
+    "n_benign": 0,
+    "n_vus": 33,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=8, Benign=0)"
+  },
+  "RBM20": {
+    "gene": "RBM20",
+    "accession": "Q5T481",
+    "n_pathogenic": 13,
+    "n_benign": 88,
+    "n_vus": 898,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=13, Benign=88)"
+  },
+  "BAG3": {
+    "gene": "BAG3",
+    "accession": "O95817",
+    "n_pathogenic": 7,
+    "n_benign": 18,
+    "n_vus": 678,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=7, Benign=18)"
+  },
+  "ACTN2": {
+    "gene": "ACTN2",
+    "accession": "P35609",
+    "n_pathogenic": 8,
+    "n_benign": 32,
+    "n_vus": 655,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=8, Benign=32)"
+  },
+  "NEXN": {
+    "gene": "NEXN",
+    "accession": "Q0ZGT2",
+    "n_pathogenic": 1,
+    "n_benign": 12,
+    "n_vus": 417,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=1, Benign=12)"
+  },
+  "SCN1A": {
+    "gene": "SCN1A",
+    "accession": "P35498",
+    "n_pathogenic": 1037,
+    "n_benign": 63,
+    "n_vus": 1320,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        110,
+        454,
+        "I"
+      ],
+      [
+        750,
+        1022,
+        "II"
+      ],
+      [
+        1200,
+        1514,
+        "III"
+      ],
+      [
+        1523,
+        1821,
+        "IV"
+      ],
+      [
+        1915,
+        1944,
+        "IQ"
+      ],
+      [
+        28,
+        60,
+        "Disordered"
+      ],
+      [
+        455,
+        529,
+        "Disordered"
+      ],
+      [
+        584,
+        627,
+        "Disordered"
+      ],
+      [
+        1129,
+        1163,
+        "Disordered"
+      ],
+      [
+        1561,
+        1571,
+        "S1-S2 loop of repeat IV"
+      ],
+      [
+        1619,
+        1636,
+        "S3b-S4 loop of repeat IV"
+      ],
+      [
+        1986,
+        2009,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 2009
+  },
+  "POLG": {
+    "gene": "POLG",
+    "accession": "P54098",
+    "n_pathogenic": 121,
+    "n_benign": 19,
+    "n_vus": 1285,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=121, Benign=19)"
+  },
+  "PRNP": {
+    "gene": "PRNP",
+    "accession": "P04156",
+    "n_pathogenic": 20,
+    "n_benign": 7,
+    "n_vus": 66,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=20, Benign=7)"
+  },
+  "CACNA1A": {
+    "gene": "CACNA1A",
+    "accession": "O00555",
+    "n_pathogenic": 165,
+    "n_benign": 107,
+    "n_vus": 1581,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "33 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "MECP2": {
+    "gene": "MECP2",
+    "accession": "P51608",
+    "n_pathogenic": 138,
+    "n_benign": 181,
+    "n_vus": 356,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "648 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "SCN2A": {
+    "gene": "SCN2A",
+    "accession": "Q99250",
+    "n_pathogenic": 420,
+    "n_benign": 31,
+    "n_vus": 1140,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        111,
+        456,
+        "I"
+      ],
+      [
+        741,
+        1013,
+        "II"
+      ],
+      [
+        1190,
+        1504,
+        "III"
+      ],
+      [
+        1513,
+        1811,
+        "IV"
+      ],
+      [
+        1905,
+        1934,
+        "IQ"
+      ],
+      [
+        28,
+        61,
+        "Disordered"
+      ],
+      [
+        494,
+        529,
+        "Disordered"
+      ],
+      [
+        590,
+        610,
+        "Disordered"
+      ],
+      [
+        917,
+        918,
+        "Binds SCN2B"
+      ],
+      [
+        1120,
+        1165,
+        "Disordered"
+      ],
+      [
+        1935,
+        2005,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 2005
+  },
+  "SCN8A": {
+    "gene": "SCN8A",
+    "accession": "Q9UQD0",
+    "n_pathogenic": 284,
+    "n_benign": 39,
+    "n_vus": 990,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        114,
+        442,
+        "I"
+      ],
+      [
+        735,
+        1007,
+        "II"
+      ],
+      [
+        1180,
+        1495,
+        "III"
+      ],
+      [
+        1504,
+        1801,
+        "IV"
+      ],
+      [
+        1895,
+        1924,
+        "IQ"
+      ],
+      [
+        1,
+        20,
+        "Disordered"
+      ],
+      [
+        28,
+        62,
+        "Disordered"
+      ],
+      [
+        446,
+        530,
+        "Disordered"
+      ],
+      [
+        568,
+        602,
+        "Disordered"
+      ],
+      [
+        1107,
+        1148,
+        "Disordered"
+      ],
+      [
+        1922,
+        1980,
+        "Disordered"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1980
+  },
+  "KCNQ2": {
+    "gene": "KCNQ2",
+    "accession": "O43526",
+    "n_pathogenic": 390,
+    "n_benign": 14,
+    "n_vus": 573,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=390, Benign=14)"
+  },
+  "STXBP1": {
+    "gene": "STXBP1",
+    "accession": "P61764",
+    "n_pathogenic": 131,
+    "n_benign": 53,
+    "n_vus": 263,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "14 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "MYO7A": {
+    "gene": "MYO7A",
+    "accession": "Q13402",
+    "n_pathogenic": 176,
+    "n_benign": 39,
+    "n_vus": 1353,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        65,
+        741,
+        "Myosin motor"
+      ],
+      [
+        745,
+        765,
+        "IQ 1"
+      ],
+      [
+        768,
+        788,
+        "IQ 2"
+      ],
+      [
+        791,
+        811,
+        "IQ 3"
+      ],
+      [
+        814,
+        834,
+        "IQ 4"
+      ],
+      [
+        837,
+        857,
+        "IQ 5"
+      ],
+      [
+        1017,
+        1253,
+        "MyTH4 1"
+      ],
+      [
+        1258,
+        1602,
+        "FERM 1"
+      ],
+      [
+        1603,
+        1672,
+        "SH3"
+      ],
+      [
+        1747,
+        1896,
+        "MyTH4 2"
+      ],
+      [
+        1902,
+        2205,
+        "FERM 2"
+      ],
+      [
+        632,
+        639,
+        "Actin-binding"
+      ],
+      [
+        858,
+        935,
+        "SAH"
+      ]
+    ],
+    "af_version": 6,
+    "length": 2215
+  },
+  "ABCA4": {
+    "gene": "ABCA4",
+    "accession": "P78363",
+    "n_pathogenic": 659,
+    "n_benign": 33,
+    "n_vus": 938,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        929,
+        1160,
+        "ABC transporter 1"
+      ],
+      [
+        1938,
+        2170,
+        "ABC transporter 2"
+      ],
+      [
+        891,
+        911,
+        "Disordered"
+      ],
+      [
+        1284,
+        1345,
+        "Disordered"
+      ],
+      [
+        2244,
+        2249,
+        "Essential for ATP binding and ATPase activity"
+      ]
+    ],
+    "af_version": 6,
+    "length": 2273
+  },
+  "RPGR": {
+    "gene": "RPGR",
+    "accession": "Q92834",
+    "n_pathogenic": 56,
+    "n_benign": 82,
+    "n_vus": 336,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "182 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "BEST1": {
+    "gene": "BEST1",
+    "accession": "O76090",
+    "n_pathogenic": 252,
+    "n_benign": 5,
+    "n_vus": 270,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=252, Benign=5)"
+  },
+  "RPE65": {
+    "gene": "RPE65",
+    "accession": "Q16518",
+    "n_pathogenic": 128,
+    "n_benign": 6,
+    "n_vus": 299,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=128, Benign=6)"
+  },
+  "COL1A1": {
+    "gene": "COL1A1",
+    "accession": "P02452",
+    "n_pathogenic": 500,
+    "n_benign": 82,
+    "n_vus": 596,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        38,
+        96,
+        "VWFC"
+      ],
+      [
+        1229,
+        1464,
+        "Fibrillar collagen NC1"
+      ],
+      [
+        98,
+        1214,
+        "Disordered"
+      ],
+      [
+        162,
+        178,
+        "Nonhelical region (N-terminal)"
+      ],
+      [
+        179,
+        1192,
+        "Triple-helical region"
+      ],
+      [
+        1193,
+        1218,
+        "Nonhelical region (C-terminal)"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1464
+  },
+  "COL1A2": {
+    "gene": "COL1A2",
+    "accession": "P08123",
+    "n_pathogenic": 563,
+    "n_benign": 15,
+    "n_vus": 711,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=563, Benign=15)"
+  },
+  "COL2A1": {
+    "gene": "COL2A1",
+    "accession": "P02458",
+    "n_pathogenic": 489,
+    "n_benign": 129,
+    "n_vus": 666,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        32,
+        90,
+        "VWFC"
+      ],
+      [
+        1253,
+        1487,
+        "Fibrillar collagen NC1"
+      ],
+      [
+        97,
+        1237,
+        "Disordered"
+      ],
+      [
+        201,
+        1214,
+        "Triple-helical region"
+      ],
+      [
+        1215,
+        1241,
+        "Nonhelical region (C-terminal)"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1487
+  },
+  "COL5A1": {
+    "gene": "COL5A1",
+    "accession": "P20908",
+    "n_pathogenic": 41,
+    "n_benign": 205,
+    "n_vus": 914,
+    "bar_passed": true,
+    "structure_passed": true,
+    "reason": null,
+    "domain_features": [
+      [
+        72,
+        244,
+        "Laminin G-like"
+      ],
+      [
+        1609,
+        1837,
+        "Fibrillar collagen NC1"
+      ],
+      [
+        231,
+        443,
+        "Nonhelical region"
+      ],
+      [
+        242,
+        269,
+        "Disordered"
+      ],
+      [
+        281,
+        457,
+        "Disordered"
+      ],
+      [
+        444,
+        558,
+        "Interrupted collagenous region"
+      ],
+      [
+        470,
+        520,
+        "Disordered"
+      ],
+      [
+        526,
+        545,
+        "Disordered"
+      ],
+      [
+        559,
+        1574,
+        "Disordered"
+      ],
+      [
+        559,
+        1570,
+        "Triple-helical region"
+      ],
+      [
+        1571,
+        1605,
+        "Nonhelical region"
+      ]
+    ],
+    "af_version": 6,
+    "length": 1838
+  },
+  "PTPN11": {
+    "gene": "PTPN11",
+    "accession": "Q06124",
+    "n_pathogenic": 134,
+    "n_benign": 12,
+    "n_vus": 447,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=134, Benign=12)"
+  },
+  "SOS1": {
+    "gene": "SOS1",
+    "accession": "Q07889",
+    "n_pathogenic": 70,
+    "n_benign": 65,
+    "n_vus": 897,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "1 ClinVar/UniProt/structure numbering mismatches"
+  },
+  "RAF1": {
+    "gene": "RAF1",
+    "accession": "P04049",
+    "n_pathogenic": 52,
+    "n_benign": 24,
+    "n_vus": 512,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=52, Benign=24)"
+  },
+  "PKD2": {
+    "gene": "PKD2",
+    "accession": "Q13563",
+    "n_pathogenic": 18,
+    "n_benign": 17,
+    "n_vus": 616,
+    "bar_passed": false,
+    "structure_passed": null,
+    "reason": "Failed 30/30 bar (Pathogenic=18, Benign=17)"
+  },
+  "COL4A5": {
+    "gene": "COL4A5",
+    "accession": "P29400",
+    "n_pathogenic": 725,
+    "n_benign": 110,
+    "n_vus": 442,
+    "bar_passed": true,
+    "structure_passed": false,
+    "reason": "192 ClinVar/UniProt/structure numbering mismatches"
+  }
+}

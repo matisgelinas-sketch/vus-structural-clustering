@@ -1,0 +1,87 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000548.5(TSC2):c.3604C>T (p.Pro1202Ser),1202,P,S,Unannotated / linker,89.0,False,1744.0,5.052975654602051,542.0,107.26352886865145,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3605C>T (p.Pro1202Leu),1202,P,L,Unannotated / linker,89.0,False,1744.0,5.052975654602051,542.0,107.26352886865145,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4556T>C (p.Leu1519Pro),1519,L,P,Unannotated / linker,84.94,False,1060.0,4.423882007598877,459.0,103.75502764575961,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4556T>G (p.Leu1519Arg),1519,L,R,Unannotated / linker,84.94,False,1060.0,4.423882007598877,459.0,103.75502764575961,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4554C>G (p.Ile1518Met),1518,I,M,Unannotated / linker,83.25,False,1061.0,5.108318328857422,457.0,89.46192672025927,not provided; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4552A>T (p.Ile1518Phe),1518,I,F,Unannotated / linker,83.25,False,1061.0,5.108318328857422,457.0,89.46192672025927,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4552A>C (p.Ile1518Leu),1518,I,L,Unannotated / linker,83.25,False,1061.0,5.108318328857422,457.0,89.46192672025927,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4558C>G (p.Leu1520Val),1520,L,V,Unannotated / linker,83.88,False,1060.0,5.8075690269470215,460.0,79.2069793515338,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4550C>G (p.Pro1517Arg),1517,P,R,Unannotated / linker,82.56,False,1061.0,5.826752185821533,456.0,78.25972093160283,not provided; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3119C>T (p.Ala1040Val),1040,A,V,Unannotated / linker,75.25,False,1204.0,4.95080041885376,164.0,33.12595663833492,not provided; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome; Tuberous sclerosis syndrome
+NM_000548.5(TSC2):c.3119C>G (p.Ala1040Gly),1040,A,G,Unannotated / linker,75.25,False,1204.0,4.95080041885376,164.0,33.12595663833492,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.3118G>A (p.Ala1040Thr),1040,A,T,Unannotated / linker,75.25,False,1204.0,4.95080041885376,164.0,33.12595663833492,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3118G>T (p.Ala1040Ser),1040,A,S,Unannotated / linker,75.25,False,1204.0,4.95080041885376,164.0,33.12595663833492,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3583G>A (p.Ala1195Thr),1195,A,T,Unannotated / linker,84.69,False,1071.0,4.198291778564453,124.0,29.535822315427552,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3584C>G (p.Ala1195Gly),1195,A,G,Unannotated / linker,84.69,False,1071.0,4.198291778564453,124.0,29.535822315427552,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.3583G>C (p.Ala1195Pro),1195,A,P,Unannotated / linker,84.69,False,1071.0,4.198291778564453,124.0,29.535822315427552,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3124C>A (p.Pro1042Thr),1042,P,T,Unannotated / linker,78.94,False,1206.0,5.562305450439453,164.0,29.484177282468924,not provided
+NM_000548.5(TSC2):c.3124C>T (p.Pro1042Ser),1042,P,S,Unannotated / linker,78.94,False,1206.0,5.562305450439453,164.0,29.484177282468924,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.3125C>G (p.Pro1042Arg),1042,P,R,Unannotated / linker,78.94,False,1206.0,5.562305450439453,164.0,29.484177282468924,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4655_4656delinsGC (p.Glu1552Gly),1552,E,G,Rap-GAP,85.06,False,1653.0,3.936871290206909,101.0,25.65489002681918,Isolated focal cortical dysplasia type II; not provided
+NM_000548.5(TSC2):c.4656A>T (p.Glu1552Asp),1552,E,D,Rap-GAP,85.06,False,1653.0,3.936871290206909,101.0,25.65489002681918,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4655A>G (p.Glu1552Gly),1552,E,G,Rap-GAP,85.06,False,1653.0,3.936871290206909,101.0,25.65489002681918,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3591C>G (p.Ile1197Met),1197,I,M,Unannotated / linker,90.56,False,1068.0,5.8998188972473145,129.0,21.86507793657661,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3590T>A (p.Ile1197Asn),1197,I,N,Unannotated / linker,90.56,False,1068.0,5.8998188972473145,129.0,21.86507793657661,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3590T>G (p.Ile1197Ser),1197,I,S,Unannotated / linker,90.56,False,1068.0,5.8998188972473145,129.0,21.86507793657661,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.3589A>C (p.Ile1197Leu),1197,I,L,Unannotated / linker,90.56,False,1068.0,5.8998188972473145,129.0,21.86507793657661,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3589A>G (p.Ile1197Val),1197,I,V,Unannotated / linker,90.56,False,1068.0,5.8998188972473145,129.0,21.86507793657661,Hereditary cancer-predisposing syndrome; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis; Tuberous sclerosis 2; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4652G>C (p.Gly1551Ala),1551,G,A,Rap-GAP,89.62,False,1653.0,4.843456268310547,102.0,21.05934158368664,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4652G>A (p.Gly1551Glu),1551,G,E,Rap-GAP,89.62,False,1653.0,4.843456268310547,102.0,21.05934158368664,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4984A>G (p.Ile1662Val),1662,I,V,Rap-GAP,81.38,False,1558.0,5.3960113525390625,104.0,19.273495403426715,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4985T>C (p.Ile1662Thr),1662,I,T,Rap-GAP,81.38,False,1558.0,5.3960113525390625,104.0,19.273495403426715,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4625C>G (p.Thr1542Ser),1542,T,S,Rap-GAP,87.88,False,1616.0,5.148829936981201,74.0,14.372197354684193,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4625C>T (p.Thr1542Ile),1542,T,I,Rap-GAP,87.88,False,1616.0,5.148829936981201,74.0,14.372197354684193,Tuberous sclerosis 2; not provided; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4625C>A (p.Thr1542Asn),1542,T,N,Rap-GAP,87.88,False,1616.0,5.148829936981201,74.0,14.372197354684193,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4624A>G (p.Thr1542Ala),1542,T,A,Rap-GAP,87.88,False,1616.0,5.148829936981201,74.0,14.372197354684193,Tuberous sclerosis 2; Tuberous sclerosis 2; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis
+NM_000548.5(TSC2):c.1688C>T (p.Ala563Val),563,A,V,Unannotated / linker,92.12,False,509.0,5.783008098602295,54.0,9.337700912618702,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.1688C>A (p.Ala563Asp),563,A,D,Unannotated / linker,92.12,False,509.0,5.783008098602295,54.0,9.337700912618702,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.1022C>T (p.Ser341Phe),341,S,F,Required for interaction with TSC1,90.0,False,300.0,5.148503303527832,41.0,7.96347940029604,Hereditary cancer-predisposing syndrome; not provided; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.974A>C (p.Gln325Pro),325,Q,P,Required for interaction with TSC1,89.62,False,281.0,5.615432262420654,44.0,7.835549953020507,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.975G>C (p.Gln325His),325,Q,H,Required for interaction with TSC1,89.62,False,281.0,5.615432262420654,44.0,7.835549953020507,Tuberous sclerosis syndrome; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.194G>A (p.Cys65Tyr),65,C,Y,Required for interaction with TSC1,87.88,False,104.0,5.3883891105651855,39.0,7.237784651359246,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.194G>C (p.Cys65Ser),65,C,S,Required for interaction with TSC1,87.88,False,104.0,5.3883891105651855,39.0,7.237784651359246,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4829G>T (p.Trp1610Leu),1610,W,L,Rap-GAP,91.25,False,1579.0,4.313307762145996,31.0,7.187059609346447,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4828T>G (p.Trp1610Gly),1610,W,G,Rap-GAP,91.25,False,1579.0,4.313307762145996,31.0,7.187059609346447,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4826G>A (p.Cys1609Tyr),1609,C,Y,Rap-GAP,90.94,False,1579.0,5.119985103607178,30.0,5.8593920476182895,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4826G>T (p.Cys1609Phe),1609,C,F,Rap-GAP,90.94,False,1579.0,5.119985103607178,30.0,5.8593920476182895,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4990G>A (p.Gly1664Ser),1664,G,S,Rap-GAP,74.75,False,1642.0,4.10603666305542,22.0,5.35796482236697,not provided
+NM_000548.5(TSC2):c.4990G>T (p.Gly1664Cys),1664,G,C,Rap-GAP,74.75,False,1642.0,4.10603666305542,22.0,5.35796482236697,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4991G>C (p.Gly1664Ala),1664,G,A,Rap-GAP,74.75,False,1642.0,4.10603666305542,22.0,5.35796482236697,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4991_4992delinsCT (p.Gly1664Ala),1664,G,A,Rap-GAP,74.75,False,1642.0,4.10603666305542,22.0,5.35796482236697,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4991G>A (p.Gly1664Asp),1664,G,D,Rap-GAP,74.75,False,1642.0,4.10603666305542,22.0,5.35796482236697,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4823A>C (p.Tyr1608Ser),1608,Y,S,Rap-GAP,91.81,False,1579.0,5.522232532501221,29.0,5.25149924950097,Tuberous sclerosis syndrome; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2; Lymphangiomyomatosis; Isolated focal cortical dysplasia type II
+NM_000548.5(TSC2):c.5006_5007delinsAT (p.Val1669Asp),1669,V,D,Rap-GAP,91.06,False,1646.0,4.966275215148926,23.0,4.63123749764043,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5005G>A (p.Val1669Ile),1669,V,I,Rap-GAP,91.06,False,1646.0,4.966275215148926,23.0,4.63123749764043,Tuberous sclerosis 2; not provided; Tuberous sclerosis syndrome
+NM_000548.5(TSC2):c.5005G>T (p.Val1669Phe),1669,V,F,Rap-GAP,91.06,False,1646.0,4.966275215148926,23.0,4.63123749764043,Hereditary cancer-predisposing syndrome; not provided
+NM_000548.5(TSC2):c.4996T>G (p.Phe1666Val),1666,F,V,Rap-GAP,82.75,False,1643.0,5.284793853759766,23.0,4.352109209262172,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4997T>C (p.Phe1666Ser),1666,F,S,Rap-GAP,82.75,False,1643.0,5.284793853759766,23.0,4.352109209262172,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4811G>A (p.Gly1604Asp),1604,G,D,Rap-GAP,80.81,False,1625.0,4.872833728790283,21.0,4.309607339139274,Tuberous sclerosis syndrome
+NM_000548.5(TSC2):c.5105T>G (p.Ile1702Ser),1702,I,S,Rap-GAP,87.0,False,1682.0,4.767975807189941,20.0,4.194652156128959,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5106C>G (p.Ile1702Met),1702,I,M,Rap-GAP,87.0,False,1682.0,4.767975807189941,20.0,4.194652156128959,Tuberous sclerosis 2; not provided
+NM_000548.5(TSC2):c.4807G>A (p.Asp1603Asn),1603,D,N,Rap-GAP,79.38,False,1625.0,5.265715599060059,22.0,4.1779696578993075,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5108T>C (p.Val1703Ala),1703,V,A,Rap-GAP,89.19,False,1681.0,5.465693950653076,22.0,4.025106454665523,Tuberous sclerosis syndrome; Tuberous sclerosis 2; Isolated focal cortical dysplasia type II; Lymphangiomyomatosis; Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5107G>C (p.Val1703Leu),1703,V,L,Rap-GAP,89.19,False,1681.0,5.465693950653076,22.0,4.025106454665523,not provided; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4816T>G (p.Phe1606Val),1606,F,V,Rap-GAP,88.38,False,1584.0,5.611316680908203,22.0,3.920648441541755,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4817T>C (p.Phe1606Ser),1606,F,S,Rap-GAP,88.38,False,1584.0,5.611316680908203,22.0,3.920648441541755,Hereditary cancer-predisposing syndrome; not provided
+NM_000548.5(TSC2):c.4818C>A (p.Phe1606Leu),1606,F,L,Rap-GAP,88.38,False,1584.0,5.611316680908203,22.0,3.920648441541755,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5001C>G (p.Asn1667Lys),1667,N,K,Rap-GAP,83.88,False,1646.0,5.488480567932129,21.0,3.826195563613352,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4814A>C (p.Gln1605Pro),1605,Q,P,Rap-GAP,83.0,False,1584.0,5.62052059173584,21.0,3.7363087025919723,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4815G>T (p.Gln1605His),1605,Q,H,Rap-GAP,83.0,False,1584.0,5.62052059173584,21.0,3.7363087025919723,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5098G>T (p.Ala1700Ser),1700,A,S,Rap-GAP,79.75,False,1684.0,4.510853290557861,16.0,3.547000748947272,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5099C>T (p.Ala1700Val),1700,A,V,Rap-GAP,79.75,False,1684.0,4.510853290557861,16.0,3.547000748947272,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5098G>A (p.Ala1700Thr),1700,A,T,Rap-GAP,79.75,False,1684.0,4.510853290557861,16.0,3.547000748947272,Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5103G>C (p.Lys1701Asn),1701,K,N,Rap-GAP,84.69,False,1683.0,5.199158191680908,18.0,3.4620989276305383,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.5101A>G (p.Lys1701Glu),1701,K,E,Rap-GAP,84.69,False,1683.0,5.199158191680908,18.0,3.4620989276305383,not provided; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5101A>C (p.Lys1701Gln),1701,K,Q,Rap-GAP,84.69,False,1683.0,5.199158191680908,18.0,3.4620989276305383,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5102A>G (p.Lys1701Arg),1701,K,R,Rap-GAP,84.69,False,1683.0,5.199158191680908,18.0,3.4620989276305383,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3163G>A (p.Gly1055Ser),1055,G,S,Unannotated / linker,80.44,False,1071.0,5.201613426208496,16.0,3.075968682982762,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3163G>T (p.Gly1055Cys),1055,G,C,Unannotated / linker,80.44,False,1071.0,5.201613426208496,16.0,3.075968682982762,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.4795G>T (p.Val1599Leu),1599,V,L,Rap-GAP,75.81,False,1584.0,5.142720699310303,15.0,2.916744049897882,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.4796T>C (p.Val1599Ala),1599,V,A,Rap-GAP,75.81,False,1584.0,5.142720699310303,15.0,2.916744049897882,Tuberous sclerosis 2; Hereditary cancer-predisposing syndrome
+NM_000548.5(TSC2):c.3166A>G (p.Arg1056Gly),1056,R,G,Unannotated / linker,85.88,False,1071.0,5.214956283569336,15.0,2.8763424244341635,Tuberous sclerosis syndrome; Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.3167G>A (p.Arg1056Lys),1056,R,K,Unannotated / linker,85.88,False,1071.0,5.214956283569336,15.0,2.8763424244341635,Isolated focal cortical dysplasia type II
+NM_000548.5(TSC2):c.2374C>G (p.Leu792Val),792,L,V,Unannotated / linker,89.88,False,804.0,5.455044746398926,12.0,2.199798637384531,Tuberous sclerosis 2
+NM_000548.5(TSC2):c.2375T>C (p.Leu792Pro),792,L,P,Unannotated / linker,89.88,False,804.0,5.455044746398926,12.0,2.199798637384531,not provided; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5090C>G (p.Thr1697Ser),1697,T,S,Rap-GAP,75.94,False,1686.0,5.779774188995361,11.0,1.9031885399509036,Isolated focal cortical dysplasia type II; Tuberous sclerosis syndrome; Tuberous sclerosis 2
+NM_000548.5(TSC2):c.5089A>G (p.Thr1697Ala),1697,T,A,Rap-GAP,75.94,False,1686.0,5.779774188995361,11.0,1.9031885399509036,Hereditary cancer-predisposing syndrome; Tuberous sclerosis 2

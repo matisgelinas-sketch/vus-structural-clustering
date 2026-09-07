@@ -1,0 +1,18 @@
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
+NM_000052.7(ATP7A):c.3007T>C (p.Ser1003Pro),1003,S,P,Unannotated / linker,77.88,False,1397.0,4.565009117126465,394.0,86.30869947703655,"X-linked distal spinal muscular atrophy type 3; Menkes kinky-hair syndrome; Cutis laxa, X-linked"
+NM_000052.7(ATP7A):c.3086G>T (p.Gly1029Val),1029,G,V,Unannotated / linker,73.31,False,927.0,5.548597812652588,102.0,18.383022782333796,not provided
+NM_000052.7(ATP7A):c.3547G>A (p.Gly1183Ser),1183,G,S,Unannotated / linker,91.5,False,1118.0,3.8667969703674316,65.0,16.80977835094961,"Cutis laxa, X-linked"
+NM_000052.7(ATP7A):c.3545T>C (p.Ile1182Thr),1182,I,T,Unannotated / linker,93.25,False,1118.0,5.56850528717041,64.0,11.493209882991971,"Cutis laxa, X-linked; X-linked distal spinal muscular atrophy type 3; Menkes kinky-hair syndrome; Inborn genetic diseases"
+NM_000052.7(ATP7A):c.2687A>G (p.Gln896Arg),896,Q,R,Unannotated / linker,81.38,False,852.0,5.206201076507568,44.0,8.451459971176554,"Menkes kinky-hair syndrome; X-linked distal spinal muscular atrophy type 3; Cutis laxa, X-linked; not provided"
+NM_000052.7(ATP7A):c.2695T>A (p.Ser899Thr),899,S,T,Unannotated / linker,82.69,False,852.0,5.680556774139404,47.0,8.273836855916368,"Menkes kinky-hair syndrome; Cutis laxa, X-linked; X-linked distal spinal muscular atrophy type 3"
+NM_000052.7(ATP7A):c.2711C>T (p.Ala904Val),904,A,V,Unannotated / linker,92.5,False,859.0,5.932985305786133,45.0,7.5847145544274035,not provided
+NM_000052.7(ATP7A):c.2669T>C (p.Ile890Thr),890,I,T,Unannotated / linker,87.75,False,859.0,4.747378826141357,31.0,6.529919169142148,not provided
+NM_000052.7(ATP7A):c.2666T>C (p.Val889Ala),889,V,A,Unannotated / linker,90.94,False,859.0,5.677010536193848,30.0,5.284471432408774,"Menkes kinky-hair syndrome; Cutis laxa, X-linked; X-linked distal spinal muscular atrophy type 3"
+NM_000052.7(ATP7A):c.3836C>T (p.Pro1279Leu),1279,P,L,Unannotated / linker,73.5,False,1304.0,5.439671039581299,25.0,4.595866150377412,Menkes kinky-hair syndrome
+NM_000052.7(ATP7A):c.3974C>T (p.Ala1325Val),1325,A,V,Unannotated / linker,73.81,False,1301.0,5.897475242614746,24.0,4.069538067167738,Menkes kinky-hair syndrome
+NM_000052.7(ATP7A):c.3894G>C (p.Met1298Ile),1298,M,I,Unannotated / linker,94.19,False,1315.0,5.004705905914307,17.0,3.396802992941157,"X-linked distal spinal muscular atrophy type 3; Menkes kinky-hair syndrome; Cutis laxa, X-linked; not provided; Inborn genetic diseases"
+NM_000052.7(ATP7A):c.3894G>T (p.Met1298Ile),1298,M,I,Unannotated / linker,94.19,False,1315.0,5.004705905914307,17.0,3.396802992941157,"Menkes kinky-hair syndrome; Cutis laxa, X-linked; X-linked distal spinal muscular atrophy type 3"
+NM_000052.7(ATP7A):c.3952A>G (p.Ile1318Val),1318,I,V,Unannotated / linker,85.25,False,1301.0,5.424977779388428,17.0,3.1336533883308286,"Menkes kinky-hair syndrome; Cutis laxa, X-linked; X-linked distal spinal muscular atrophy type 3; not provided"
+NM_000052.7(ATP7A):c.3989A>G (p.Asp1330Gly),1330,D,G,Unannotated / linker,85.94,False,1315.0,4.9384765625,15.0,3.0373739371168678,"Menkes kinky-hair syndrome; X-linked distal spinal muscular atrophy type 3; Cutis laxa, X-linked"
+NM_000052.7(ATP7A):c.3949G>C (p.Ala1317Pro),1317,A,P,Unannotated / linker,89.38,False,1301.0,5.52806282043457,16.0,2.8943231145738344,"Menkes kinky-hair syndrome; X-linked distal spinal muscular atrophy type 3; Cutis laxa, X-linked"
+NM_000052.7(ATP7A):c.3950C>A (p.Ala1317Asp),1317,A,D,Unannotated / linker,89.38,False,1301.0,5.52806282043457,16.0,2.8943231145738344,not provided
