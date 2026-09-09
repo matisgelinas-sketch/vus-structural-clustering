@@ -23,6 +23,7 @@ import json
 from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent  # project root
 sys.path.insert(0, str(Path(__file__).parent))
+import numpy as np
 import pandas as pd
 from clustering_lib import extract_fasta, parse_structure, cross_check_numbering, compute_distances
 from domains import annotate_domain
@@ -75,10 +76,20 @@ for gene in GENES:
     dist_df['low_confidence'] = dist_df['plddt'] < LOW_PLDDT_THRESHOLD
     dist_df['domain'] = dist_df['position'].apply(lambda p: annotate_domain(gene, p))
 
-    vus = dist_df[dist_df['bucket'] == 'VUS'].dropna(subset=['dist3d_A']).copy()
-    vus['flagged_candidate'] = (vus['dist3d_A'] <= DIST_THRESHOLD_A) & (vus['seqdist_nearest3d'] > MIN_SEQDIST_RESIDUES)
+    # Ca OR Cb qualifies; nearest-QUALIFYING logic in compute_distances
+    # already excludes trivial chain-adjacent cases and fixes the
+    # nearest-neighbor masking bug found via the Cb sensitivity check.
+    vus = dist_df[dist_df['bucket'] == 'VUS'].copy()
+    vus['flagged_ca'] = vus['dist3d_A'] <= DIST_THRESHOLD_A
+    vus['flagged_cb'] = vus['dist3d_cb_A'] <= DIST_THRESHOLD_A
+    vus['flagged_candidate'] = vus['flagged_ca'] | vus['flagged_cb']
+    vus['confirmed_by_both_atoms'] = vus['flagged_ca'] & vus['flagged_cb']
     flagged = vus[vus['flagged_candidate']].copy()
-    flagged['seq_over_3d'] = flagged['seqdist_nearest3d'] / flagged['dist3d_A'].replace(0, 0.01)
+    flagged['seq_over_3d'] = np.where(
+        flagged['flagged_ca'],
+        flagged['seqdist_nearest3d'] / flagged['dist3d_A'].replace(0, 0.01),
+        flagged['seqdist_cb'] / flagged['dist3d_cb_A'].replace(0, 0.01),
+    )
     flagged = flagged.sort_values('seq_over_3d', ascending=False)
 
     n_patho = (clinvar_df['bucket'] == 'Pathogenic').sum()
@@ -87,16 +98,20 @@ for gene in GENES:
     low_conf_pb = merged[(merged['low_confidence']) & (merged['bucket'].isin(['Pathogenic', 'VUS']))]
 
     summary_cols = ['variation', 'position', 'wt_aa', 'mt_aa', 'domain', 'plddt',
-                     'low_confidence', 'nearest_pathogenic_pos', 'dist3d_A',
-                     'seqdist_nearest3d', 'seq_over_3d', 'condition']
+                     'low_confidence', 'nearest_pathogenic_pos', 'dist3d_A', 'seqdist_nearest3d',
+                     'nearest_pathogenic_pos_cb', 'dist3d_cb_A', 'seqdist_cb',
+                     'confirmed_by_both_atoms', 'seq_over_3d', 'condition']
     flagged[summary_cols].rename(columns={
-        'dist3d_A': 'dist3d_angstrom', 'plddt': 'pLDDT',
-        'nearest_pathogenic_pos': 'nearest_pathogenic_residue',
+        'dist3d_A': 'dist3d_ca_angstrom', 'plddt': 'pLDDT',
+        'nearest_pathogenic_pos': 'nearest_pathogenic_residue_ca',
+        'dist3d_cb_A': 'dist3d_cb_angstrom',
+        'nearest_pathogenic_pos_cb': 'nearest_pathogenic_residue_cb',
     }).to_csv(odir / f"{gene}_phase1_flagged_candidates.csv", index=False)
 
     vus_full_cols = ['variation', 'position', 'wt_aa', 'mt_aa', 'domain', 'plddt',
-                      'low_confidence', 'nearest_pathogenic_pos', 'dist3d_A',
-                      'seqdist_nearest3d', 'flagged_candidate', 'condition']
+                      'low_confidence', 'nearest_pathogenic_pos', 'dist3d_A', 'seqdist_nearest3d',
+                      'nearest_pathogenic_pos_cb', 'dist3d_cb_A', 'seqdist_cb',
+                      'flagged_candidate', 'confirmed_by_both_atoms', 'condition']
     vus[vus_full_cols].sort_values('dist3d_A').to_csv(odir / f"{gene}_all_VUS_annotated.csv", index=False)
 
     low_conf_pb.to_csv(odir / "low_confidence_flagged.csv", index=False)
@@ -127,10 +142,11 @@ for gene in GENES:
   </p>
   <ul>
     <li><span style="color:red;">&#9679;</span> Red = known Pathogenic/Likely pathogenic (germline, ClinVar)</li>
-    <li><span style="color:green;">&#9679;</span> Green = VUS flagged as candidate (&le;6&Aring; in 3D AND &gt;10 residues away in sequence, high-confidence structure region)</li>
+    <li><span style="color:green;">&#9679;</span> Green = VUS flagged as candidate (&le;6&Aring; by backbone Ca <em>or</em> side-chain Cb distance, AND &gt;10 residues away in sequence, high-confidence structure region)</li>
     <li><span style="color:blue;">&#9679;</span> Blue = VUS flagged as candidate but in a LOW-CONFIDENCE (pLDDT&lt;70) structure region</li>
     <li>Grey cartoon = rest of the modeled protein</li>
   </ul>
+  <p style="font-size:0.9em; color:#555;">Distance is computed both ways (backbone Ca and side-chain Cb); a candidate confirmed by both is stronger evidence &mdash; see the flagged-candidates CSV for the <code>confirmed_by_both_atoms</code> column.</p>
 </div>
 """
     (odir / f"{gene}_structure_viz.html").write_text(legend + html)
@@ -163,9 +179,12 @@ verdict.
   length {len(seq)}).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **{len(mismatches)} mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 

@@ -1,7 +1,8 @@
 """
 Builds the standalone HTML performance dashboard for the VUS structural
-clustering project (Phase 1 + Phase 2, 15 genes). Reads dashboard_data.json,
-embeds fonts as base64, writes a self-contained artifact-ready HTML file.
+clustering project (Phase 1 + Phase 2, 24 genes, dual Ca/Cb distance).
+Reads dashboard_data.json, embeds fonts as base64, writes a
+self-contained artifact-ready HTML file.
 """
 import json
 from pathlib import Path
@@ -50,20 +51,22 @@ panelA_html = "\n".join(bar_row_pair(r) for r in panelA_sorted)
 
 # ---- Panel B: dumbbell, feature importance shift ----
 FEATURE_LABELS = {
-    "dist3d_A": "3D distance to nearest pathogenic residue",
+    "dist3d_A": "Backbone (Ca) distance to nearest pathogenic residue",
+    "dist3d_cb_A": "Side-chain (Cb) distance to nearest pathogenic residue",
     "n_pathogenic_within_threshold": "Pathogenic residues within 6Å",
     "plddt": "pLDDT (structural confidence)",
-    "seqdist_nearest3d": "Sequence distance to nearest pathogenic residue",
+    "seqdist_nearest3d": "Sequence distance to nearest pathogenic residue (Ca)",
+    "seqdist_cb": "Sequence distance to nearest pathogenic residue (Cb)",
     "seq_minus_3d_diff": "Sequence − 3D distance",
     "seq_over_3d_ratio": "Sequence / 3D distance ratio",
     "disordered_region": "Disordered region flag",
 }
-feat_order = sorted(DATA["panelB_15"].keys(), key=lambda k: -DATA["panelB_15"][k])
-maxB = max(max(DATA["panelB_15"].values()), max(DATA["panelB_3gene"].values()))
+feat_order = sorted(DATA["panelB_after"].keys(), key=lambda k: -DATA["panelB_after"][k])
+maxB = max(max(DATA["panelB_after"].values()), max(DATA["panelB_before"].values()))
 
 def dumbbell_row(feat):
-    before = DATA["panelB_3gene"][feat]
-    after = DATA["panelB_15"][feat]
+    before = DATA["panelB_before"][feat]
+    after = DATA["panelB_after"][feat]
     b_pct = before / maxB * 100
     a_pct = after / maxB * 100
     lo, hi = (b_pct, a_pct) if b_pct <= a_pct else (a_pct, b_pct)
@@ -572,7 +575,7 @@ footer {{
     <div class="kpi">
       <div class="kpi-label">Mean balanced accuracy</div>
       <div class="kpi-value">{mean_rf_bal_acc:.2f}</div>
-      <div class="kpi-sub">random forest, 15 gene-held-out folds</div>
+      <div class="kpi-sub">random forest, {n_genes} gene-held-out folds</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Cross-validated candidates</div>
@@ -585,7 +588,7 @@ footer {{
     <div class="section-head">
       <div class="section-num">01 &mdash; Phase 2, task 4</div>
       <h2>Gene-held-out validation: how well does it generalize?</h2>
-      <p class="section-desc">Each gene is held out in turn, the model trained on the other 14, then tested on the held-out gene. Balanced accuracy averages Pathogenic recall and Benign recall, so per-gene class imbalance doesn't distort the picture. Sorted by random forest score.</p>
+      <p class="section-desc">Each gene is held out in turn, the model trained on the other {n_genes - 1}, then tested on the held-out gene. Balanced accuracy averages Pathogenic recall and Benign recall, so per-gene class imbalance doesn't distort the picture. Sorted by random forest score.</p>
     </div>
     <div class="legend">
       <div class="legend-item"><span class="swatch" style="background:var(--s-logreg)"></span>Logistic regression</div>
@@ -599,15 +602,15 @@ footer {{
   <div class="section">
     <div class="section-head">
       <div class="section-num">02 &mdash; Phase 2, task 5 + ablation</div>
-      <h2>What the model actually learned, before and after scaling to 15 genes</h2>
-      <p class="section-desc">Random-forest feature importance, averaged across held-out folds. Light dot = the original 3-gene run; dark dot = the current 15-gene run. Sorted by current importance.</p>
+      <h2>What the model actually learned, before and after the Cα/Cβ dual-atom fix</h2>
+      <p class="section-desc">Random-forest feature importance, averaged across held-out folds. Light dot = the earlier 15-gene, Cα-only run (also affected by a nearest-neighbor masking bug, since fixed); dark dot = the current 24-gene, dual Cα/Cβ run. Sorted by current importance.</p>
     </div>
     <div class="legend">
-      <div class="legend-item"><span class="swatch" style="background:var(--dumb-before);border-radius:50%"></span>3 genes (original)</div>
-      <div class="legend-item"><span class="swatch" style="background:var(--dumb-after);border-radius:50%"></span>15 genes (current)</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--dumb-before);border-radius:50%"></span>Earlier run (15 genes, Cα-only)</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--dumb-after);border-radius:50%"></span>Current run ({n_genes} genes, Cα + Cβ)</div>
     </div>
     {panelB_html}
-    <div class="finding"><b>pLDDT's rank fell from 1st to 3rd as more genes were added.</b> The two features that measure spatial clustering directly &mdash; 3D distance and pathogenic-residue density &mdash; are now clearly dominant. Removing pLDDT entirely from the model costs only ~0.01 balanced accuracy: the clustering signal is real and largely independent of structural confidence, not a proxy for it.</div>
+    <div class="finding"><b>Side-chain (Cβ) distance is now the single most important feature in both models</b> &mdash; ahead of backbone (Cα) distance, which itself outranks pLDDT. Removing pLDDT entirely from the model costs less than 0.001 balanced accuracy: the clustering signal is real and largely independent of structural confidence, not a proxy for it.</div>
   </div>
 
   <div class="section">
@@ -645,7 +648,7 @@ footer {{
   </div>
 
   <footer>
-    Data: ClinVar (NCBI, germline classifications only) &middot; AlphaFold DB structures &middot; UniProt canonical sequences &middot; 15/65 ACMG SF v3.2 candidate genes cleared the 30 Pathogenic / 30 Benign data bar and structure validation. Variants with "Conflicting classifications of pathogenicity" or no classification are excluded throughout (~5,300 rows across the 12 newly-sourced genes) &mdash; for the original 3 genes this was done at the ClinVar search stage; for the 12 sourced via the NCBI API this round it happens in the same parsing step, same end result.
+    Data: ClinVar (NCBI, germline classifications only) &middot; AlphaFold DB structures &middot; UniProt canonical sequences &middot; {n_genes}/125 ACMG SF v3.2 candidate genes cleared the 30 Pathogenic / 30 Benign data bar and structure validation. Variants with "Conflicting classifications of pathogenicity" or no classification are excluded throughout &mdash; for the original 3 genes this was done at the ClinVar search stage; for genes sourced via the NCBI API it happens in the same parsing step, same end result. 3D distance is computed by both backbone (Cα) and side-chain (Cβ) atom position; a VUS is flagged if either is within 6&#8491; of a known pathogenic residue and &gt;10 residues away in sequence.
   </footer>
 
 </div>

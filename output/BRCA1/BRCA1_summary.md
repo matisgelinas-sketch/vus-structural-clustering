@@ -33,11 +33,15 @@ itself justify a classification change. Every flagged variant below is a
   and replaced with the canonical full-length model from AlphaFold DB.
 - Residue numbering cross-checked across ClinVar, UniProt, and structure
   for all 2330 rows: **zero mismatches**.
-- Same 3D/sequence distance definitions as TP53. Flagging threshold:
-  **≤ 6 Å in 3D AND > 10 residues apart in sequence** — the sequence-
-  separation requirement was added after TP53's initial ≤6 Å-only pass
-  showed 91% of flagged cases were just chain-adjacent (trivial), not
-  genuine tertiary clustering; applied identically here for consistency.
+- Same 3D/sequence distance definitions as TP53, including both
+  backbone (Cα) and side-chain (Cβ) distance to the nearest *qualifying*
+  pathogenic residue. Flagging threshold: **≤ 6 Å by either Cα or Cβ
+  AND > 10 residues apart in sequence** — the sequence-separation
+  requirement was added after TP53's initial ≤6 Å-only pass showed 91%
+  of flagged cases were just chain-adjacent (trivial), not genuine
+  tertiary clustering; applied identically here for consistency. A
+  candidate confirmed by both atom types (`confirmed_by_both_atoms`
+  column) is stronger evidence than one found by only one.
 
 ## Structural confidence caveat — bigger factor here than in TP53
 
@@ -50,8 +54,8 @@ tandem BRCT domains at the C-terminus (1642–1736, 1756–1855). Most of
 the protein between those domains has no stable fold to predict
 confidently.
 
-The flagged candidates don't inherit that problem proportionally: of 34
-flagged VUS, only 3 (9%) are low-confidence — because both pathogenic
+The flagged candidates don't inherit that problem proportionally: of 111
+flagged VUS, only 3 (2.7%) are low-confidence — because both pathogenic
 residues and their close-in-3D VUS neighbors concentrate almost
 entirely in the folded RING/BRCT regions, where pLDDT is high.
 Low-confidence residues are kept in every table, explicitly flagged,
@@ -59,19 +63,22 @@ not excluded.
 
 ## Results
 
-- **34 of 1832 VUS (1.9%)** flagged as candidates under the dual
-  criterion (≤6 Å in 3D, >10 residues apart in sequence) — a much
-  smaller fraction than TP53's 3%, consistent with BRCA1 being an
-  extended multi-domain protein rather than one compact folded domain.
-- By domain: 15 in BRCT domain 2, 7 in BRCT domain 1, 2 in the RING
-  domain, 10 in unannotated/linker regions immediately flanking those
-  domains.
+- **111 of 1832 VUS (6.1%)** flagged as candidates under the dual
+  criterion (≤6 Å by Cα or Cβ, >10 residues apart in sequence; 65
+  confirmed by both atom types) — a smaller fraction than TP53's 26%,
+  consistent with BRCA1 being an extended multi-domain protein rather
+  than one compact folded domain. (An earlier, Cα-only pass with a
+  nearest-neighbor masking bug found far fewer — see project-level
+  `PHASE2_summary.md`.)
+- By domain: 45 in BRCT domain 1, 32 in BRCT domain 2, 24 in
+  unannotated/linker regions immediately flanking those domains, 10 in
+  the RING domain.
 - Ranking is by (sequence distance / 3D distance) ratio — prioritizing
   cases where 3D proximity isn't just linear adjacency.
 
 ## Outputs
 
-- `BRCA1_phase1_flagged_candidates.csv` — 34 flagged candidates
+- `BRCA1_phase1_flagged_candidates.csv` — 111 flagged candidates
 - `BRCA1_all_VUS_annotated.csv` — all 1832 VUS, with a `flagged_candidate`
   column, flagged or not (nothing silently dropped)
 - `numbering_mismatches.csv` — empty for BRCA1

@@ -48,7 +48,9 @@ cross-gene contamination, which a few raw datasets actually had.
 ### Slide 5 — Flagging by structure, not sequence
 
 Core rule for phase one: flag a VUS if it's within 6 angstroms of a known
-pathogenic residue in 3D, but more than 10 positions away in the linear
+pathogenic residue in 3D — checking both the backbone position and the
+side-chain position, since a residue's side chain is often what's actually
+close, not its backbone — but more than 10 positions away in the linear
 sequence. That sequence-distance condition matters — without it, almost
 everything flagged was just next to a pathogenic spot in the sequence
 anyway, which isn't interesting. Requiring both is what isolates cases the
@@ -58,13 +60,13 @@ sequence alone would never suggest.
 
 ### Slide 6 — What the model actually checks
 
-Phase two reduces every variant to seven numbers: 3D distance and sequence
-distance to a pathogenic residue, their ratio and difference, how many
-pathogenic residues are nearby, structural confidence, and whether the
-region is disordered. We train on variants we already know are pathogenic
-or benign, then score new ones. We used simple models — logistic
-regression and a small random forest — specifically so we could see which
-measurements actually mattered, instead of trusting a black box.
+Phase two reduces every variant to nine numbers: backbone and side-chain 3D
+distance and sequence distance to a pathogenic residue, their ratio and
+difference, how many pathogenic residues are nearby, structural confidence,
+and whether the region is disordered. We train on variants we already know
+are pathogenic or benign, then score new ones. We used simple models —
+logistic regression and a small random forest — specifically so we could
+see which measurements actually mattered, instead of trusting a black box.
 
 ---
 
@@ -72,10 +74,10 @@ measurements actually mattered, instead of trusting a black box.
 
 We tested generalization by holding out one gene at a time, training on
 the rest, and checking performance on the held-out gene — repeated for all
-24. Average balanced accuracy: about 0.72, where 0.50 is chance. But it's
-uneven — genes like SCN2A, TP53, and BRCA1 hit 0.8 or higher; others like
-RB1, COL5A1, and MYBPC3 land near chance. That spread is the honest
-finding — this doesn't work the same way on every gene.
+24. Average balanced accuracy: about 0.70, where 0.50 is chance. But it's
+uneven — genes like SCN1A, SCN2A, and TP53 hit 0.8 or higher; the collagen
+genes — COL1A1, COL2A1, COL5A1 — land closer to chance. That spread is the
+honest finding — this doesn't work the same way on every gene.
 
 ---
 
@@ -85,8 +87,9 @@ Before trusting this, we had to rule something out: maybe the model wasn't
 detecting real 3D clustering — just learning "this is an important,
 well-folded region," a weaker signal. So we removed the
 structural-confidence measurement entirely and reran everything. Accuracy
-barely moved — 0.72 to 0.71. That tells us the clustering signal is doing
-real, independent work — not just riding on a proxy for structure quality.
+barely moved — 0.703 to 0.702. That tells us the clustering signal is
+doing real, independent work — not just riding on a proxy for structure
+quality.
 
 ---
 
@@ -103,15 +106,15 @@ model overfitting itself.
 We're not trying to do the same job, though: AlphaMissense is broad and
 general, trained on tens of millions of variants; mine only checks one
 thing — 3D closeness to a known pathogenic spot. So it's no surprise it's
-more accurate alone, 0.86 versus my 0.72.
+more accurate alone, 0.86 versus my 0.70.
 
 Correlation between us was moderate — expected, since we use different
 evidence and should agree on obvious cases, diverge on subtle ones. The
 number I care about most: of my highest-confidence candidates,
-AlphaMissense independently agrees on about half — versus a baseline of
+AlphaMissense independently agrees on nearly 60% — versus a baseline of
 about a third across all uncertain variants. So my flagging is
-meaningfully enriched for cases an independent model also flags as
-concerning.
+meaningfully enriched — about 1.75 times the baseline rate — for cases an
+independent model also flags as concerning.
 
 The disagreements are interesting too — either new signal, or false
 positives worth checking by hand. I don't know which yet, and I'd rather

@@ -144,8 +144,14 @@ def cross_check_numbering(clinvar_df: pd.DataFrame, seq: str, struct_df: pd.Data
 def parse_structure(struct_path: str):
     """
     Parse an AlphaFold PDB/mmCIF model. Returns a DataFrame indexed by
-    residue position with Ca x/y/z coordinates, pLDDT (stored in the
-    B-factor field by AlphaFold DB), and 1-letter residue name.
+    residue position with both backbone (Ca) and side-chain (Cb) x/y/z
+    coordinates, pLDDT (stored in the B-factor field by AlphaFold DB), and
+    1-letter residue name.
+
+    Glycine has no side chain (just a hydrogen), so it has no Cb atom --
+    falls back to using Ca for glycine's "cb_*" columns, flagged via
+    is_glycine_cb_fallback. This is the standard convention wherever
+    Cb-based distance is used in structural biology.
     """
     path = Path(struct_path)
     if path.suffix.lower() in ('.cif', '.mmcif'):
@@ -161,59 +167,110 @@ def parse_structure(struct_path: str):
         if 'CA' not in residue:
             continue
         ca = residue['CA']
+        cb = residue['CB'] if 'CB' in residue else ca
         resname3 = residue.get_resname().capitalize()
         rows.append({
             'position': residue.id[1],
             'resname_1letter': AA3TO1.get(resname3, 'X'),
             'x': ca.coord[0], 'y': ca.coord[1], 'z': ca.coord[2],
+            'cb_x': cb.coord[0], 'cb_y': cb.coord[1], 'cb_z': cb.coord[2],
+            'is_glycine_cb_fallback': resname3 == 'Gly',
             'plddt': ca.get_bfactor(),
         })
     return pd.DataFrame(rows).sort_values('position').reset_index(drop=True)
 
 
-def compute_distances(clinvar_df: pd.DataFrame, struct_df: pd.DataFrame):
+def _nearest_qualifying(pos, ref_positions, ref_coords, v, min_seqdist, count_threshold_A):
+    """
+    Shared core: among ref_positions/ref_coords, find the CLOSEST one that
+    is more than min_seqdist residues away in sequence -- not simply the
+    globally closest one, which is almost always a trivial sequence
+    neighbor (adjacent residues' backbones/side-chains are always close by
+    construction) and would silently mask a real, more distant structural
+    contact that also falls within range and would otherwise qualify.
+
+    (Found via a Cb sensitivity check on TP53: several VUS had a valid,
+    sequence-distant pathogenic residue within 6A, but the globally-nearest
+    match was always a same-neighborhood residue that failed the sequence
+    filter, so the real candidate was never even considered.)
+
+    Returns None if no reference position qualifies (nothing to report),
+    else a dict with dist3d, seqdist, nearest_pos, n_within_threshold
+    (count of ALL ref_positions within count_threshold_A, qualifying or
+    not -- local density is informative on its own, independent of the
+    trivial-neighbor question).
+    """
+    d3 = np.linalg.norm(ref_coords - v, axis=1)
+    seqd = np.abs(np.array(ref_positions) - pos)
+    qualifies = seqd > min_seqdist
+    n_within = int((d3 <= count_threshold_A).sum())
+    if not qualifies.any():
+        return None
+    d3q = np.where(qualifies, d3, np.inf)
+    best = int(np.argmin(d3q))
+    return dict(dist3d=float(d3[best]), seqdist=float(seqd[best]),
+                nearest_pos=ref_positions[best], n_within=n_within)
+
+
+def compute_distances(clinvar_df: pd.DataFrame, struct_df: pd.DataFrame,
+                       min_seqdist: int = 10, count_threshold_A: float = 6.0):
     """
     For every VUS residue, compute 3D distance (Angstrom) to the nearest
-    Pathogenic-bucket residue and the linear sequence distance to that same
-    residue. Adds columns to a copy of clinvar_df (VUS rows only get values;
+    QUALIFYING Pathogenic-bucket residue -- one that is also more than
+    min_seqdist residues away in sequence -- and the linear sequence
+    distance to that same residue. Computed independently for backbone
+    (Ca) and side-chain (Cb) coordinates, since they can identify a
+    different "nearest" residue (a residue's backbone can be moderately
+    close while its side chain points toward or away from a given site).
+    Adds columns to a copy of clinvar_df (VUS rows only get values;
     non-VUS rows get NaN).
     """
-    coords_by_pos = struct_df.set_index('position')[['x', 'y', 'z']]
+    coords_ca = struct_df.set_index('position')[['x', 'y', 'z']]
+    coords_cb = struct_df.set_index('position')[['cb_x', 'cb_y', 'cb_z']]
     patho_positions = sorted(
         clinvar_df.loc[clinvar_df['bucket'] == 'Pathogenic', 'position'].unique()
     )
-    patho_positions = [p for p in patho_positions if p in coords_by_pos.index]
+    patho_positions = [p for p in patho_positions if p in coords_ca.index]
     if not patho_positions:
         raise ValueError('No pathogenic residues with structure coordinates found.')
-    patho_coords = coords_by_pos.loc[patho_positions].to_numpy()
+    patho_coords_ca = coords_ca.loc[patho_positions].to_numpy()
+    patho_coords_cb = coords_cb.loc[patho_positions].to_numpy()
 
     out = clinvar_df.copy()
-    out['dist3d_A'] = np.nan
-    out['seqdist_nearest3d'] = np.nan
-    out['nearest_pathogenic_pos'] = np.nan
+    for col in ['dist3d_A', 'seqdist_nearest3d', 'nearest_pathogenic_pos',
+                'dist3d_cb_A', 'seqdist_cb', 'nearest_pathogenic_pos_cb']:
+        out[col] = np.nan
 
     vus_mask = out['bucket'] == 'VUS'
     for idx, row in out[vus_mask].iterrows():
         pos = row['position']
-        if pos not in coords_by_pos.index:
+        if pos not in coords_ca.index:
             continue
-        v = coords_by_pos.loc[pos].to_numpy()
-        d3 = np.linalg.norm(patho_coords - v, axis=1)
-        best = int(np.argmin(d3))
-        nearest_pos = patho_positions[best]
-        out.loc[idx, 'dist3d_A'] = d3[best]
-        out.loc[idx, 'seqdist_nearest3d'] = abs(pos - nearest_pos)
-        out.loc[idx, 'nearest_pathogenic_pos'] = nearest_pos
+        ca_res = _nearest_qualifying(pos, patho_positions, patho_coords_ca,
+                                      coords_ca.loc[pos].to_numpy(), min_seqdist, count_threshold_A)
+        if ca_res:
+            out.loc[idx, 'dist3d_A'] = ca_res['dist3d']
+            out.loc[idx, 'seqdist_nearest3d'] = ca_res['seqdist']
+            out.loc[idx, 'nearest_pathogenic_pos'] = ca_res['nearest_pos']
+
+        cb_res = _nearest_qualifying(pos, patho_positions, patho_coords_cb,
+                                      coords_cb.loc[pos].to_numpy(), min_seqdist, count_threshold_A)
+        if cb_res:
+            out.loc[idx, 'dist3d_cb_A'] = cb_res['dist3d']
+            out.loc[idx, 'seqdist_cb'] = cb_res['seqdist']
+            out.loc[idx, 'nearest_pathogenic_pos_cb'] = cb_res['nearest_pos']
 
     return out
 
 
 def compute_distances_leave_one_out(clinvar_df: pd.DataFrame, struct_df: pd.DataFrame,
-                                     count_threshold_A: float = 6.0):
+                                     count_threshold_A: float = 6.0, min_seqdist: int = 10):
     """
     Phase 2 feature builder. For EVERY row (Pathogenic, Benign, or VUS),
-    compute distance to the nearest Pathogenic-bucket residue at a
-    DIFFERENT sequence position than the row's own position.
+    compute distance to the nearest QUALIFYING Pathogenic-bucket residue
+    (more than min_seqdist residues away in sequence, at a DIFFERENT
+    sequence position than the row's own position), independently for
+    backbone (Ca) and side-chain (Cb) coordinates.
 
     The "different position" exclusion matters for Pathogenic-labeled
     rows: without it, every Pathogenic row would trivially match itself
@@ -231,28 +288,33 @@ def compute_distances_leave_one_out(clinvar_df: pd.DataFrame, struct_df: pd.Data
     logic) -- it must NOT be excluded, or real evidence gets thrown away
     in favor of a much more distant, weaker match.
 
-    Adds: dist3d_A, seqdist_nearest3d, nearest_pathogenic_pos, and
-    n_pathogenic_within_threshold (count of distinct pathogenic
-    positions, excluding this row's own position, within
-    count_threshold_A of this residue in 3D).
+    The min_seqdist requirement (fixed alongside the Ca/Cb addition) stops
+    a trivial sequence-adjacent pathogenic residue from masking a real,
+    more distant structural contact that also falls within range -- see
+    _nearest_qualifying's docstring.
+
+    Adds: dist3d_A, seqdist_nearest3d, nearest_pathogenic_pos,
+    n_pathogenic_within_threshold (Ca-based), and the Cb-based
+    equivalents dist3d_cb_A, seqdist_cb, nearest_pathogenic_pos_cb,
+    n_pathogenic_within_threshold_cb.
     """
-    coords_by_pos = struct_df.set_index('position')[['x', 'y', 'z']]
+    coords_ca = struct_df.set_index('position')[['x', 'y', 'z']]
+    coords_cb = struct_df.set_index('position')[['cb_x', 'cb_y', 'cb_z']]
     all_patho_positions = sorted(
         clinvar_df.loc[clinvar_df['bucket'] == 'Pathogenic', 'position'].unique()
     )
-    all_patho_positions = [p for p in all_patho_positions if p in coords_by_pos.index]
+    all_patho_positions = [p for p in all_patho_positions if p in coords_ca.index]
     if not all_patho_positions:
         raise ValueError('No pathogenic residues with structure coordinates found.')
 
     out = clinvar_df.copy()
-    out['dist3d_A'] = np.nan
-    out['seqdist_nearest3d'] = np.nan
-    out['nearest_pathogenic_pos'] = np.nan
-    out['n_pathogenic_within_threshold'] = np.nan
+    for col in ['dist3d_A', 'seqdist_nearest3d', 'nearest_pathogenic_pos', 'n_pathogenic_within_threshold',
+                'dist3d_cb_A', 'seqdist_cb', 'nearest_pathogenic_pos_cb', 'n_pathogenic_within_threshold_cb']:
+        out[col] = np.nan
 
     for idx, row in out.iterrows():
         pos = row['position']
-        if pos not in coords_by_pos.index:
+        if pos not in coords_ca.index:
             continue
         if row['bucket'] == 'Pathogenic':
             ref_positions = [p for p in all_patho_positions if p != pos]
@@ -260,13 +322,23 @@ def compute_distances_leave_one_out(clinvar_df: pd.DataFrame, struct_df: pd.Data
             ref_positions = all_patho_positions
         if not ref_positions:
             continue
-        ref_coords = coords_by_pos.loc[ref_positions].to_numpy()
-        v = coords_by_pos.loc[pos].to_numpy()
-        d3 = np.linalg.norm(ref_coords - v, axis=1)
-        best = int(np.argmin(d3))
-        out.loc[idx, 'dist3d_A'] = d3[best]
-        out.loc[idx, 'seqdist_nearest3d'] = abs(pos - ref_positions[best])
-        out.loc[idx, 'nearest_pathogenic_pos'] = ref_positions[best]
-        out.loc[idx, 'n_pathogenic_within_threshold'] = int((d3 <= count_threshold_A).sum())
+
+        ref_coords_ca = coords_ca.loc[ref_positions].to_numpy()
+        ca_res = _nearest_qualifying(pos, ref_positions, ref_coords_ca,
+                                      coords_ca.loc[pos].to_numpy(), min_seqdist, count_threshold_A)
+        if ca_res:
+            out.loc[idx, 'dist3d_A'] = ca_res['dist3d']
+            out.loc[idx, 'seqdist_nearest3d'] = ca_res['seqdist']
+            out.loc[idx, 'nearest_pathogenic_pos'] = ca_res['nearest_pos']
+            out.loc[idx, 'n_pathogenic_within_threshold'] = ca_res['n_within']
+
+        ref_coords_cb = coords_cb.loc[ref_positions].to_numpy()
+        cb_res = _nearest_qualifying(pos, ref_positions, ref_coords_cb,
+                                      coords_cb.loc[pos].to_numpy(), min_seqdist, count_threshold_A)
+        if cb_res:
+            out.loc[idx, 'dist3d_cb_A'] = cb_res['dist3d']
+            out.loc[idx, 'seqdist_cb'] = cb_res['seqdist']
+            out.loc[idx, 'nearest_pathogenic_pos_cb'] = cb_res['nearest_pos']
+            out.loc[idx, 'n_pathogenic_within_threshold_cb'] = cb_res['n_within']
 
     return out

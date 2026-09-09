@@ -22,23 +22,26 @@ verdict.
   length 1487).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 975 of 1155
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 11 flagged candidates,
-1 are low-confidence.
+in every table, not excluded. Of the 24 flagged candidates,
+2 are low-confidence.
 
 ## Results
 
-**11 of 666 VUS (1.7%)**
+**24 of 666 VUS (3.6%)**
 flagged as candidates.
 
-By domain: {'Fibrillar collagen NC1': 6, 'VWFC': 4, 'Disordered': 1}
+By domain: {'Fibrillar collagen NC1': 15, 'VWFC': 7, 'Disordered': 2}
 
 ## Outputs
 

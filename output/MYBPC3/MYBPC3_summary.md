@@ -22,23 +22,26 @@ verdict.
   length 1274).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 306 of 1654
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 83 flagged candidates,
+in every table, not excluded. Of the 127 flagged candidates,
 2 are low-confidence.
 
 ## Results
 
-**83 of 1617 VUS (5.1%)**
+**127 of 1617 VUS (7.9%)**
 flagged as candidates.
 
-By domain: {'Fibronectin type-III 1': 20, 'Ig-like C2-type 1': 19, 'Ig-like C2-type 7': 13, 'Ig-like C2-type 3': 12, 'Ig-like C2-type 2': 7, 'Unannotated / linker': 6, 'Ig-like C2-type 5': 4, 'Ig-like C2-type 4': 2}
+By domain: {'Fibronectin type-III 1': 35, 'Ig-like C2-type 1': 24, 'Ig-like C2-type 7': 22, 'Ig-like C2-type 3': 12, 'Ig-like C2-type 2': 11, 'Unannotated / linker': 11, 'Ig-like C2-type 5': 10, 'Ig-like C2-type 4': 2}
 
 ## Outputs
 

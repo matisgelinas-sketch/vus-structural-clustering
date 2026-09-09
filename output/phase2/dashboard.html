@@ -424,22 +424,22 @@ footer {
   <div class="kpi-row">
     <div class="kpi">
       <div class="kpi-label">Genes covered</div>
-      <div class="kpi-value">15</div>
+      <div class="kpi-value">24</div>
       <div class="kpi-sub">up from 3 at project start</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Classified missense variants</div>
-      <div class="kpi-value">27,703</div>
+      <div class="kpi-value">40,761</div>
       <div class="kpi-sub">germline, structure- &amp; numbering-validated</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Mean balanced accuracy</div>
-      <div class="kpi-value">0.72</div>
-      <div class="kpi-sub">random forest, 15 gene-held-out folds</div>
+      <div class="kpi-value">0.70</div>
+      <div class="kpi-sub">random forest, 24 gene-held-out folds</div>
     </div>
     <div class="kpi">
       <div class="kpi-label">Cross-validated candidates</div>
-      <div class="kpi-value">861</div>
+      <div class="kpi-value">3505</div>
       <div class="kpi-sub">flagged by geometry <i>and</i> the model</div>
     </div>
   </div>
@@ -448,7 +448,7 @@ footer {
     <div class="section-head">
       <div class="section-num">01 &mdash; Phase 2, task 4</div>
       <h2>Gene-held-out validation: how well does it generalize?</h2>
-      <p class="section-desc">Each gene is held out in turn, the model trained on the other 14, then tested on the held-out gene. Balanced accuracy averages Pathogenic recall and Benign recall, so per-gene class imbalance doesn't distort the picture. Sorted by random forest score.</p>
+      <p class="section-desc">Each gene is held out in turn, the model trained on the other 23, then tested on the held-out gene. Balanced accuracy averages Pathogenic recall and Benign recall, so per-gene class imbalance doesn't distort the picture. Sorted by random forest score.</p>
     </div>
     <div class="legend">
       <div class="legend-item"><span class="swatch" style="background:var(--s-logreg)"></span>Logistic regression</div>
@@ -456,11 +456,11 @@ footer {
     </div>
     
     <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">TP53</span></div>
+      <div class="pair-label"><span class="gene-name">SCN1A</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:84.0%"></div>
-          <span class="pair-val">0.84</span>
+          <div class="pair-bar s-logreg" style="width:82.2%"></div>
+          <span class="pair-val">0.82</span>
         </div>
         <div class="pair-bar-track">
           <div class="pair-bar s-rf" style="width:84.7%"></div>
@@ -470,57 +470,29 @@ footer {
     </div>
 
     <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">BRCA1</span></div>
+      <div class="pair-label"><span class="gene-name">SCN2A</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:79.3%"></div>
-          <span class="pair-val">0.79</span>
+          <div class="pair-bar s-logreg" style="width:86.3%"></div>
+          <span class="pair-val">0.86</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:81.5%"></div>
-          <span class="pair-val">0.81</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="pair-row unreliable">
-      <div class="pair-label"><span class="gene-name">PTEN</span><span class="tag-warn">n=3 Benign</span></div>
-      <div class="pair-bars">
-        <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:63.9%"></div>
-          <span class="pair-val">0.64</span>
-        </div>
-        <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:81.1%"></div>
-          <span class="pair-val">0.81</span>
+          <div class="pair-bar s-rf" style="width:83.9%"></div>
+          <span class="pair-val">0.84</span>
         </div>
       </div>
     </div>
 
     <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">MSH2</span></div>
+      <div class="pair-label"><span class="gene-name">TP53</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:78.5%"></div>
-          <span class="pair-val">0.79</span>
+          <div class="pair-bar s-logreg" style="width:78.4%"></div>
+          <span class="pair-val">0.78</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:79.0%"></div>
-          <span class="pair-val">0.79</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">RET</span></div>
-      <div class="pair-bars">
-        <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:74.9%"></div>
-          <span class="pair-val">0.75</span>
-        </div>
-        <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:76.8%"></div>
-          <span class="pair-val">0.77</span>
+          <div class="pair-bar s-rf" style="width:83.1%"></div>
+          <span class="pair-val">0.83</span>
         </div>
       </div>
     </div>
@@ -529,12 +501,40 @@ footer {
       <div class="pair-label"><span class="gene-name">HNF1A</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:70.4%"></div>
-          <span class="pair-val">0.70</span>
+          <div class="pair-bar s-logreg" style="width:78.2%"></div>
+          <span class="pair-val">0.78</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:76.3%"></div>
-          <span class="pair-val">0.76</span>
+          <div class="pair-bar s-rf" style="width:82.8%"></div>
+          <span class="pair-val">0.83</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">SCN8A</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:77.6%"></div>
+          <span class="pair-val">0.78</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:81.8%"></div>
+          <span class="pair-val">0.82</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">BRCA1</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:80.3%"></div>
+          <span class="pair-val">0.80</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:81.5%"></div>
+          <span class="pair-val">0.81</span>
         </div>
       </div>
     </div>
@@ -543,26 +543,54 @@ footer {
       <div class="pair-label"><span class="gene-name">TSC2</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:69.8%"></div>
-          <span class="pair-val">0.70</span>
+          <div class="pair-bar s-logreg" style="width:75.3%"></div>
+          <span class="pair-val">0.75</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:75.6%"></div>
+          <div class="pair-bar s-rf" style="width:77.5%"></div>
+          <span class="pair-val">0.78</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">MSH2</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:77.8%"></div>
+          <span class="pair-val">0.78</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:75.9%"></div>
           <span class="pair-val">0.76</span>
         </div>
       </div>
     </div>
 
     <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">VHL</span></div>
+      <div class="pair-label"><span class="gene-name">ATP7A</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:64.6%"></div>
-          <span class="pair-val">0.65</span>
+          <div class="pair-bar s-logreg" style="width:76.5%"></div>
+          <span class="pair-val">0.77</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:72.3%"></div>
-          <span class="pair-val">0.72</span>
+          <div class="pair-bar s-rf" style="width:73.9%"></div>
+          <span class="pair-val">0.74</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">MYO7A</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:68.0%"></div>
+          <span class="pair-val">0.68</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:73.9%"></div>
+          <span class="pair-val">0.74</span>
         </div>
       </div>
     </div>
@@ -571,54 +599,26 @@ footer {
       <div class="pair-label"><span class="gene-name">MLH1</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:70.2%"></div>
-          <span class="pair-val">0.70</span>
+          <div class="pair-bar s-logreg" style="width:75.4%"></div>
+          <span class="pair-val">0.75</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:72.3%"></div>
+          <div class="pair-bar s-rf" style="width:71.5%"></div>
+          <span class="pair-val">0.71</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">VHL</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:71.7%"></div>
           <span class="pair-val">0.72</span>
         </div>
-      </div>
-    </div>
-
-    <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">ENG</span></div>
-      <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:64.4%"></div>
-          <span class="pair-val">0.64</span>
-        </div>
-        <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:69.3%"></div>
-          <span class="pair-val">0.69</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">MSH6</span></div>
-      <div class="pair-bars">
-        <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:62.1%"></div>
-          <span class="pair-val">0.62</span>
-        </div>
-        <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:69.0%"></div>
-          <span class="pair-val">0.69</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="pair-row">
-      <div class="pair-label"><span class="gene-name">RB1</span></div>
-      <div class="pair-bars">
-        <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:62.7%"></div>
-          <span class="pair-val">0.63</span>
-        </div>
-        <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:66.0%"></div>
-          <span class="pair-val">0.66</span>
+          <div class="pair-bar s-rf" style="width:70.6%"></div>
+          <span class="pair-val">0.71</span>
         </div>
       </div>
     </div>
@@ -627,12 +627,26 @@ footer {
       <div class="pair-label"><span class="gene-name">LDLR</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:66.8%"></div>
+          <div class="pair-bar s-logreg" style="width:65.5%"></div>
+          <span class="pair-val">0.66</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:69.7%"></div>
+          <span class="pair-val">0.70</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">MSH6</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:66.6%"></div>
           <span class="pair-val">0.67</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:65.3%"></div>
-          <span class="pair-val">0.65</span>
+          <div class="pair-bar s-rf" style="width:69.7%"></div>
+          <span class="pair-val">0.70</span>
         </div>
       </div>
     </div>
@@ -641,12 +655,82 @@ footer {
       <div class="pair-label"><span class="gene-name">PMS2</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:60.2%"></div>
-          <span class="pair-val">0.60</span>
+          <div class="pair-bar s-logreg" style="width:63.9%"></div>
+          <span class="pair-val">0.64</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:63.2%"></div>
-          <span class="pair-val">0.63</span>
+          <div class="pair-bar s-rf" style="width:66.6%"></div>
+          <span class="pair-val">0.67</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">RB1</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:69.2%"></div>
+          <span class="pair-val">0.69</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:64.4%"></div>
+          <span class="pair-val">0.64</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row unreliable">
+      <div class="pair-label"><span class="gene-name">PTEN</span><span class="tag-warn">n=3 Benign</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:47.2%"></div>
+          <span class="pair-val">0.47</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:63.9%"></div>
+          <span class="pair-val">0.64</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">ENG</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:70.2%"></div>
+          <span class="pair-val">0.70</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:61.3%"></div>
+          <span class="pair-val">0.61</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">ABCA4</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:66.6%"></div>
+          <span class="pair-val">0.67</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:61.2%"></div>
+          <span class="pair-val">0.61</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">RET</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:69.0%"></div>
+          <span class="pair-val">0.69</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:60.7%"></div>
+          <span class="pair-val">0.61</span>
         </div>
       </div>
     </div>
@@ -655,12 +739,54 @@ footer {
       <div class="pair-label"><span class="gene-name">MYBPC3</span></div>
       <div class="pair-bars">
         <div class="pair-bar-track">
-          <div class="pair-bar s-logreg" style="width:52.5%"></div>
-          <span class="pair-val">0.53</span>
+          <div class="pair-bar s-logreg" style="width:53.7%"></div>
+          <span class="pair-val">0.54</span>
         </div>
         <div class="pair-bar-track">
-          <div class="pair-bar s-rf" style="width:51.0%"></div>
+          <div class="pair-bar s-rf" style="width:60.6%"></div>
+          <span class="pair-val">0.61</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">COL5A1</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:51.2%"></div>
           <span class="pair-val">0.51</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:57.8%"></div>
+          <span class="pair-val">0.58</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">COL1A1</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:48.4%"></div>
+          <span class="pair-val">0.48</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:56.5%"></div>
+          <span class="pair-val">0.56</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pair-row">
+      <div class="pair-label"><span class="gene-name">COL2A1</span></div>
+      <div class="pair-bars">
+        <div class="pair-bar-track">
+          <div class="pair-bar s-logreg" style="width:44.9%"></div>
+          <span class="pair-val">0.45</span>
+        </div>
+        <div class="pair-bar-track">
+          <div class="pair-bar s-rf" style="width:53.0%"></div>
+          <span class="pair-val">0.53</span>
         </div>
       </div>
     </div>
@@ -671,77 +797,95 @@ footer {
   <div class="section">
     <div class="section-head">
       <div class="section-num">02 &mdash; Phase 2, task 5 + ablation</div>
-      <h2>What the model actually learned, before and after scaling to 15 genes</h2>
-      <p class="section-desc">Random-forest feature importance, averaged across held-out folds. Light dot = the original 3-gene run; dark dot = the current 15-gene run. Sorted by current importance.</p>
+      <h2>What the model actually learned, before and after the Cα/Cβ dual-atom fix</h2>
+      <p class="section-desc">Random-forest feature importance, averaged across held-out folds. Light dot = the earlier 15-gene, Cα-only run (also affected by a nearest-neighbor masking bug, since fixed); dark dot = the current 24-gene, dual Cα/Cβ run. Sorted by current importance.</p>
     </div>
     <div class="legend">
-      <div class="legend-item"><span class="swatch" style="background:var(--dumb-before);border-radius:50%"></span>3 genes (original)</div>
-      <div class="legend-item"><span class="swatch" style="background:var(--dumb-after);border-radius:50%"></span>15 genes (current)</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--dumb-before);border-radius:50%"></span>Earlier run (15 genes, Cα-only)</div>
+      <div class="legend-item"><span class="swatch" style="background:var(--dumb-after);border-radius:50%"></span>Current run (24 genes, Cα + Cβ)</div>
     </div>
     
-    <div class="dumb-row highlight">
-      <div class="dumb-label">3D distance to nearest pathogenic residue</div>
+    <div class="dumb-row">
+      <div class="dumb-label">Side-chain (Cb) distance to nearest pathogenic residue</div>
       <div class="dumb-track">
-        <div class="dumb-connector" style="left:80.6%; width:19.4%"></div>
-        <div class="dumb-dot before" style="left:80.6%"></div>
+        <div class="dumb-connector" style="left:0.0%; width:100.0%"></div>
+        <div class="dumb-dot before" style="left:0.0%"></div>
         <div class="dumb-dot after" style="left:100.0%"></div>
+      </div>
+    </div>
+
+    <div class="dumb-row highlight">
+      <div class="dumb-label">Backbone (Ca) distance to nearest pathogenic residue</div>
+      <div class="dumb-track">
+        <div class="dumb-connector" style="left:59.0%; width:37.4%"></div>
+        <div class="dumb-dot before" style="left:96.4%"></div>
+        <div class="dumb-dot after" style="left:59.0%"></div>
       </div>
     </div>
 
     <div class="dumb-row highlight">
       <div class="dumb-label">Pathogenic residues within 6Å</div>
       <div class="dumb-track">
-        <div class="dumb-connector" style="left:42.1%; width:22.0%"></div>
-        <div class="dumb-dot before" style="left:42.1%"></div>
-        <div class="dumb-dot after" style="left:64.1%"></div>
+        <div class="dumb-connector" style="left:54.1%; width:7.7%"></div>
+        <div class="dumb-dot before" style="left:61.8%"></div>
+        <div class="dumb-dot after" style="left:54.1%"></div>
       </div>
     </div>
 
     <div class="dumb-row">
       <div class="dumb-label">pLDDT (structural confidence)</div>
       <div class="dumb-track">
-        <div class="dumb-connector" style="left:42.1%; width:31.7%"></div>
-        <div class="dumb-dot before" style="left:73.8%"></div>
-        <div class="dumb-dot after" style="left:42.1%"></div>
-      </div>
-    </div>
-
-    <div class="dumb-row">
-      <div class="dumb-label">Sequence distance to nearest pathogenic residue</div>
-      <div class="dumb-track">
-        <div class="dumb-connector" style="left:24.9%; width:2.9%"></div>
-        <div class="dumb-dot before" style="left:24.9%"></div>
-        <div class="dumb-dot after" style="left:27.8%"></div>
-      </div>
-    </div>
-
-    <div class="dumb-row">
-      <div class="dumb-label">Sequence − 3D distance</div>
-      <div class="dumb-track">
-        <div class="dumb-connector" style="left:19.7%; width:8.3%"></div>
-        <div class="dumb-dot before" style="left:28.0%"></div>
-        <div class="dumb-dot after" style="left:19.7%"></div>
-      </div>
-    </div>
-
-    <div class="dumb-row">
-      <div class="dumb-label">Sequence / 3D distance ratio</div>
-      <div class="dumb-track">
-        <div class="dumb-connector" style="left:13.6%; width:4.8%"></div>
-        <div class="dumb-dot before" style="left:13.6%"></div>
-        <div class="dumb-dot after" style="left:18.4%"></div>
+        <div class="dumb-connector" style="left:22.1%; width:18.5%"></div>
+        <div class="dumb-dot before" style="left:40.6%"></div>
+        <div class="dumb-dot after" style="left:22.1%"></div>
       </div>
     </div>
 
     <div class="dumb-row">
       <div class="dumb-label">Disordered region flag</div>
       <div class="dumb-track">
-        <div class="dumb-connector" style="left:1.4%; width:9.1%"></div>
-        <div class="dumb-dot before" style="left:10.5%"></div>
-        <div class="dumb-dot after" style="left:1.4%"></div>
+        <div class="dumb-connector" style="left:1.3%; width:11.7%"></div>
+        <div class="dumb-dot before" style="left:1.3%"></div>
+        <div class="dumb-dot after" style="left:13.0%"></div>
       </div>
     </div>
-    <div class="finding"><b>pLDDT's rank fell from 1st to 3rd as more genes were added.</b> The two features that measure spatial clustering directly &mdash; 3D distance and pathogenic-residue density &mdash; are now clearly dominant. Removing pLDDT entirely from the model costs only ~0.01 balanced accuracy: the clustering signal is real and largely independent of structural confidence, not a proxy for it.</div>
+
+    <div class="dumb-row">
+      <div class="dumb-label">Sequence / 3D distance ratio</div>
+      <div class="dumb-track">
+        <div class="dumb-connector" style="left:6.4%; width:11.3%"></div>
+        <div class="dumb-dot before" style="left:17.7%"></div>
+        <div class="dumb-dot after" style="left:6.4%"></div>
+      </div>
+    </div>
+
+    <div class="dumb-row">
+      <div class="dumb-label">Sequence distance to nearest pathogenic residue (Cb)</div>
+      <div class="dumb-track">
+        <div class="dumb-connector" style="left:0.0%; width:3.8%"></div>
+        <div class="dumb-dot before" style="left:0.0%"></div>
+        <div class="dumb-dot after" style="left:3.8%"></div>
+      </div>
+    </div>
+
+    <div class="dumb-row">
+      <div class="dumb-label">Sequence distance to nearest pathogenic residue (Ca)</div>
+      <div class="dumb-track">
+        <div class="dumb-connector" style="left:2.8%; width:24.0%"></div>
+        <div class="dumb-dot before" style="left:26.8%"></div>
+        <div class="dumb-dot after" style="left:2.8%"></div>
+      </div>
+    </div>
+
+    <div class="dumb-row">
+      <div class="dumb-label">Sequence − 3D distance</div>
+      <div class="dumb-track">
+        <div class="dumb-connector" style="left:2.4%; width:16.6%"></div>
+        <div class="dumb-dot before" style="left:19.0%"></div>
+        <div class="dumb-dot after" style="left:2.4%"></div>
+      </div>
+    </div>
+    <div class="finding"><b>Side-chain (Cβ) distance is now the single most important feature in both models</b> &mdash; ahead of backbone (Cα) distance, which itself outranks pLDDT. Removing pLDDT entirely from the model costs less than 0.001 balanced accuracy: the clustering signal is real and largely independent of structural confidence, not a proxy for it.</div>
   </div>
 
   <div class="section">
@@ -756,19 +900,55 @@ footer {
     </div>
     
     <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">SCN1A</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:94.3%"></div>
+        <div class="stack-seg s-benign" style="width:5.7%"></div>
+      </div>
+      <div class="stack-meta">1037P / 63B <span class="muted">+1,320 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
       <div class="stack-label"><span class="gene-name">LDLR</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:94.7%"></div>
-        <div class="stack-seg s-benign" style="width:5.3%"></div>
+        <div class="stack-seg s-patho" style="width:67.2%"></div>
+        <div class="stack-seg s-benign" style="width:3.7%"></div>
       </div>
       <div class="stack-meta">739P / 41B <span class="muted">+857 VUS</span></div>
     </div>
 
     <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">ABCA4</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:59.9%"></div>
+        <div class="stack-seg s-benign" style="width:3.0%"></div>
+      </div>
+      <div class="stack-meta">659P / 33B <span class="muted">+938 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">COL2A1</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:44.5%"></div>
+        <div class="stack-seg s-benign" style="width:11.7%"></div>
+      </div>
+      <div class="stack-meta">489P / 129B <span class="muted">+666 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">COL1A1</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:45.5%"></div>
+        <div class="stack-seg s-benign" style="width:7.5%"></div>
+      </div>
+      <div class="stack-meta">500P / 82B <span class="muted">+596 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
       <div class="stack-label"><span class="gene-name">BRCA1</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:15.4%"></div>
-        <div class="stack-seg s-benign" style="width:46.2%"></div>
+        <div class="stack-seg s-patho" style="width:10.9%"></div>
+        <div class="stack-seg s-benign" style="width:32.7%"></div>
       </div>
       <div class="stack-meta">120P / 360B <span class="muted">+1,832 VUS</span></div>
     </div>
@@ -776,26 +956,62 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">MSH2</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:19.6%"></div>
-        <div class="stack-seg s-benign" style="width:39.0%"></div>
+        <div class="stack-seg s-patho" style="width:13.9%"></div>
+        <div class="stack-seg s-benign" style="width:27.6%"></div>
       </div>
       <div class="stack-meta">153P / 304B <span class="muted">+1,724 VUS</span></div>
     </div>
 
     <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">SCN2A</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:38.2%"></div>
+        <div class="stack-seg s-benign" style="width:2.8%"></div>
+      </div>
+      <div class="stack-meta">420P / 31B <span class="muted">+1,140 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
       <div class="stack-label"><span class="gene-name">TSC2</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:23.8%"></div>
-        <div class="stack-seg s-benign" style="width:25.4%"></div>
+        <div class="stack-seg s-patho" style="width:16.9%"></div>
+        <div class="stack-seg s-benign" style="width:18.0%"></div>
       </div>
       <div class="stack-meta">186P / 198B <span class="muted">+3,776 VUS</span></div>
     </div>
 
     <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">SCN8A</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:25.8%"></div>
+        <div class="stack-seg s-benign" style="width:3.5%"></div>
+      </div>
+      <div class="stack-meta">284P / 39B <span class="muted">+990 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">COL5A1</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:3.7%"></div>
+        <div class="stack-seg s-benign" style="width:18.6%"></div>
+      </div>
+      <div class="stack-meta">41P / 205B <span class="muted">+914 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">ATP7A</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:3.8%"></div>
+        <div class="stack-seg s-benign" style="width:18.4%"></div>
+      </div>
+      <div class="stack-meta">42P / 202B <span class="muted">+670 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
       <div class="stack-label"><span class="gene-name">TP53</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:18.2%"></div>
-        <div class="stack-seg s-benign" style="width:12.4%"></div>
+        <div class="stack-seg s-patho" style="width:12.9%"></div>
+        <div class="stack-seg s-benign" style="width:8.8%"></div>
       </div>
       <div class="stack-meta">142P / 97B <span class="muted">+508 VUS</span></div>
     </div>
@@ -803,17 +1019,26 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">MLH1</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:25.6%"></div>
-        <div class="stack-seg s-benign" style="width:4.7%"></div>
+        <div class="stack-seg s-patho" style="width:18.2%"></div>
+        <div class="stack-seg s-benign" style="width:3.4%"></div>
       </div>
       <div class="stack-meta">200P / 37B <span class="muted">+1,774 VUS</span></div>
     </div>
 
     <div class="stack-row">
+      <div class="stack-label"><span class="gene-name">MYO7A</span></div>
+      <div class="stack-track">
+        <div class="stack-seg s-patho" style="width:16.0%"></div>
+        <div class="stack-seg s-benign" style="width:3.5%"></div>
+      </div>
+      <div class="stack-meta">176P / 39B <span class="muted">+1,353 VUS</span></div>
+    </div>
+
+    <div class="stack-row">
       <div class="stack-label"><span class="gene-name">VHL</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:23.1%"></div>
-        <div class="stack-seg s-benign" style="width:4.5%"></div>
+        <div class="stack-seg s-patho" style="width:16.4%"></div>
+        <div class="stack-seg s-benign" style="width:3.2%"></div>
       </div>
       <div class="stack-meta">180P / 35B <span class="muted">+382 VUS</span></div>
     </div>
@@ -821,8 +1046,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">ENG</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:12.1%"></div>
-        <div class="stack-seg s-benign" style="width:14.1%"></div>
+        <div class="stack-seg s-patho" style="width:8.5%"></div>
+        <div class="stack-seg s-benign" style="width:10.0%"></div>
       </div>
       <div class="stack-meta">94P / 110B <span class="muted">+420 VUS</span></div>
     </div>
@@ -830,8 +1055,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">PTEN</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:23.1%"></div>
-        <div class="stack-seg s-benign" style="width:0.4%"></div>
+        <div class="stack-seg s-patho" style="width:16.4%"></div>
+        <div class="stack-seg s-benign" style="width:0.3%"></div>
       </div>
       <div class="stack-meta">180P / 3B <span class="muted">+715 VUS</span></div>
     </div>
@@ -839,8 +1064,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">HNF1A</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:18.3%"></div>
-        <div class="stack-seg s-benign" style="width:4.5%"></div>
+        <div class="stack-seg s-patho" style="width:13.0%"></div>
+        <div class="stack-seg s-benign" style="width:3.2%"></div>
       </div>
       <div class="stack-meta">143P / 35B <span class="muted">+332 VUS</span></div>
     </div>
@@ -848,8 +1073,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">MSH6</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:9.4%"></div>
-        <div class="stack-seg s-benign" style="width:10.4%"></div>
+        <div class="stack-seg s-patho" style="width:6.6%"></div>
+        <div class="stack-seg s-benign" style="width:7.4%"></div>
       </div>
       <div class="stack-meta">73P / 81B <span class="muted">+3,988 VUS</span></div>
     </div>
@@ -857,8 +1082,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">RET</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:10.4%"></div>
-        <div class="stack-seg s-benign" style="width:6.0%"></div>
+        <div class="stack-seg s-patho" style="width:7.4%"></div>
+        <div class="stack-seg s-benign" style="width:4.3%"></div>
       </div>
       <div class="stack-meta">81P / 47B <span class="muted">+1,861 VUS</span></div>
     </div>
@@ -866,8 +1091,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">RB1</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:5.3%"></div>
-        <div class="stack-seg s-benign" style="width:8.2%"></div>
+        <div class="stack-seg s-patho" style="width:3.7%"></div>
+        <div class="stack-seg s-benign" style="width:5.8%"></div>
       </div>
       <div class="stack-meta">41P / 64B <span class="muted">+1,475 VUS</span></div>
     </div>
@@ -875,8 +1100,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">PMS2</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:4.7%"></div>
-        <div class="stack-seg s-benign" style="width:6.4%"></div>
+        <div class="stack-seg s-patho" style="width:3.4%"></div>
+        <div class="stack-seg s-benign" style="width:4.5%"></div>
       </div>
       <div class="stack-meta">37P / 50B <span class="muted">+2,539 VUS</span></div>
     </div>
@@ -884,8 +1109,8 @@ footer {
     <div class="stack-row">
       <div class="stack-label"><span class="gene-name">MYBPC3</span></div>
       <div class="stack-track">
-        <div class="stack-seg s-patho" style="width:4.7%"></div>
-        <div class="stack-seg s-benign" style="width:4.5%"></div>
+        <div class="stack-seg s-patho" style="width:3.4%"></div>
+        <div class="stack-seg s-benign" style="width:3.2%"></div>
       </div>
       <div class="stack-meta">37P / 35B <span class="muted">+1,617 VUS</span></div>
     </div>
@@ -901,123 +1126,195 @@ footer {
       </div>
       
     <div class="single-row">
-      <div class="single-label"><span class="gene-name">ENG</span></div>
+      <div class="single-label"><span class="gene-name">LDLR</span></div>
       <div class="single-track">
         <div class="single-bar" style="width:100.0%"></div>
       </div>
-      <div class="single-val">9.5% <span class="muted">(40)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MLH1</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:75.2%"></div>
-      </div>
-      <div class="single-val">7.2% <span class="muted">(127)</span></div>
+      <div class="single-val">37.6% <span class="muted">(322)</span></div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">PTEN</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:69.3%"></div>
+        <div class="single-bar" style="width:83.4%"></div>
       </div>
-      <div class="single-val">6.6% <span class="muted">(47)</span></div>
+      <div class="single-val">31.3% <span class="muted">(224)</span></div>
     </div>
 
     <div class="single-row">
-      <div class="single-label"><span class="gene-name">MSH2</span></div>
+      <div class="single-label"><span class="gene-name">ABCA4</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:54.8%"></div>
+        <div class="single-bar" style="width:69.2%"></div>
       </div>
-      <div class="single-val">5.2% <span class="muted">(90)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MYBPC3</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:53.9%"></div>
-      </div>
-      <div class="single-val">5.1% <span class="muted">(83)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">RET</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:41.2%"></div>
-      </div>
-      <div class="single-val">3.9% <span class="muted">(73)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MSH6</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:33.9%"></div>
-      </div>
-      <div class="single-val">3.2% <span class="muted">(129)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">LDLR</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:33.1%"></div>
-      </div>
-      <div class="single-val">3.1% <span class="muted">(27)</span></div>
+      <div class="single-val">26.0% <span class="muted">(244)</span></div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">TP53</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:32.6%"></div>
+        <div class="single-bar" style="width:69.2%"></div>
       </div>
-      <div class="single-val">3.1% <span class="muted">(16)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">PMS2</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:31.4%"></div>
-      </div>
-      <div class="single-val">3.0% <span class="muted">(76)</span></div>
+      <div class="single-val">26.0% <span class="muted">(132)</span></div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">VHL</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:30.3%"></div>
+        <div class="single-bar" style="width:62.7%"></div>
       </div>
-      <div class="single-val">2.9% <span class="muted">(11)</span></div>
+      <div class="single-val">23.6% <span class="muted">(90)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MLH1</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:58.7%"></div>
+      </div>
+      <div class="single-val">22.0% <span class="muted">(391)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">ENG</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:58.3%"></div>
+      </div>
+      <div class="single-val">21.9% <span class="muted">(92)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN1A</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:54.4%"></div>
+      </div>
+      <div class="single-val">20.4% <span class="muted">(270)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MSH2</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:47.6%"></div>
+      </div>
+      <div class="single-val">17.9% <span class="muted">(308)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MYO7A</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:26.0%"></div>
+      </div>
+      <div class="single-val">9.8% <span class="muted">(132)</span></div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">TSC2</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:23.9%"></div>
+        <div class="single-bar" style="width:24.7%"></div>
       </div>
-      <div class="single-val">2.3% <span class="muted">(86)</span></div>
+      <div class="single-val">9.3% <span class="muted">(350)</span></div>
     </div>
 
     <div class="single-row">
-      <div class="single-label"><span class="gene-name">BRCA1</span></div>
+      <div class="single-label"><span class="gene-name">COL1A1</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:20.0%"></div>
+        <div class="single-bar" style="width:24.1%"></div>
       </div>
-      <div class="single-val">1.9% <span class="muted">(34)</span></div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">RB1</span></div>
-      <div class="single-track">
-        <div class="single-bar" style="width:15.7%"></div>
-      </div>
-      <div class="single-val">1.5% <span class="muted">(22)</span></div>
+      <div class="single-val">9.1% <span class="muted">(54)</span></div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">HNF1A</span></div>
       <div class="single-track">
-        <div class="single-bar" style="width:6.3%"></div>
+        <div class="single-bar" style="width:22.4%"></div>
       </div>
-      <div class="single-val">0.6% <span class="muted">(2)</span></div>
+      <div class="single-val">8.4% <span class="muted">(28)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN2A</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:22.4%"></div>
+      </div>
+      <div class="single-val">8.4% <span class="muted">(96)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MYBPC3</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:20.9%"></div>
+      </div>
+      <div class="single-val">7.8% <span class="muted">(127)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN8A</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:18.6%"></div>
+      </div>
+      <div class="single-val">7.0% <span class="muted">(69)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MSH6</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:17.1%"></div>
+      </div>
+      <div class="single-val">6.4% <span class="muted">(257)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">BRCA1</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:16.1%"></div>
+      </div>
+      <div class="single-val">6.1% <span class="muted">(111)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">ATP7A</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:15.1%"></div>
+      </div>
+      <div class="single-val">5.7% <span class="muted">(38)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">RET</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:13.6%"></div>
+      </div>
+      <div class="single-val">5.1% <span class="muted">(95)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">PMS2</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:12.8%"></div>
+      </div>
+      <div class="single-val">4.8% <span class="muted">(122)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">COL2A1</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:9.6%"></div>
+      </div>
+      <div class="single-val">3.6% <span class="muted">(24)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">RB1</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:8.5%"></div>
+      </div>
+      <div class="single-val">3.2% <span class="muted">(47)</span></div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">COL5A1</span></div>
+      <div class="single-track">
+        <div class="single-bar" style="width:7.6%"></div>
+      </div>
+      <div class="single-val">2.8% <span class="muted">(26)</span></div>
     </div>
     </div>
 
@@ -1025,133 +1322,205 @@ footer {
       <div class="section-head">
         <div class="section-num">05 &mdash; Phase 2, task 6</div>
         <h2>Cross-validated candidates</h2>
-        <p class="section-desc">VUS flagged by <i>both</i> the geometric rule and the statistical model &mdash; the strongest candidate list this project currently produces, 861 variants across 15 genes.</p>
+        <p class="section-desc">VUS flagged by <i>both</i> the geometric rule and the statistical model &mdash; the strongest candidate list this project currently produces, 3505 variants across 24 genes.</p>
       </div>
       
     <div class="single-row">
-      <div class="single-label"><span class="gene-name">MSH6</span></div>
+      <div class="single-label"><span class="gene-name">MLH1</span></div>
       <div class="single-track">
         <div class="single-bar s-candidate" style="width:100.0%"></div>
       </div>
-      <div class="single-val">129</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MLH1</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:98.4%"></div>
-      </div>
-      <div class="single-val">127</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MSH2</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:69.8%"></div>
-      </div>
-      <div class="single-val">90</div>
+      <div class="single-val">380</div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">TSC2</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:66.7%"></div>
+        <div class="single-bar s-candidate" style="width:90.0%"></div>
       </div>
-      <div class="single-val">86</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">MYBPC3</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:64.3%"></div>
-      </div>
-      <div class="single-val">83</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">PMS2</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:58.9%"></div>
-      </div>
-      <div class="single-val">76</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">RET</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:56.6%"></div>
-      </div>
-      <div class="single-val">73</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">PTEN</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:36.4%"></div>
-      </div>
-      <div class="single-val">47</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">ENG</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:31.0%"></div>
-      </div>
-      <div class="single-val">40</div>
-    </div>
-
-    <div class="single-row">
-      <div class="single-label"><span class="gene-name">BRCA1</span></div>
-      <div class="single-track">
-        <div class="single-bar s-candidate" style="width:26.4%"></div>
-      </div>
-      <div class="single-val">34</div>
+      <div class="single-val">342</div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">LDLR</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:20.9%"></div>
+        <div class="single-bar s-candidate" style="width:84.7%"></div>
       </div>
-      <div class="single-val">27</div>
+      <div class="single-val">322</div>
     </div>
 
     <div class="single-row">
-      <div class="single-label"><span class="gene-name">RB1</span></div>
+      <div class="single-label"><span class="gene-name">MSH2</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:17.1%"></div>
+        <div class="single-bar s-candidate" style="width:77.1%"></div>
       </div>
-      <div class="single-val">22</div>
+      <div class="single-val">293</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN1A</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:71.1%"></div>
+      </div>
+      <div class="single-val">270</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">ABCA4</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:62.9%"></div>
+      </div>
+      <div class="single-val">239</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MSH6</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:60.8%"></div>
+      </div>
+      <div class="single-val">231</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">PTEN</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:56.8%"></div>
+      </div>
+      <div class="single-val">216</div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">TP53</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:11.6%"></div>
+        <div class="single-bar s-candidate" style="width:34.7%"></div>
       </div>
-      <div class="single-val">15</div>
+      <div class="single-val">132</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MYO7A</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:31.8%"></div>
+      </div>
+      <div class="single-val">121</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">PMS2</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:31.3%"></div>
+      </div>
+      <div class="single-val">119</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">MYBPC3</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:27.9%"></div>
+      </div>
+      <div class="single-val">106</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">BRCA1</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:27.4%"></div>
+      </div>
+      <div class="single-val">104</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN2A</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:25.0%"></div>
+      </div>
+      <div class="single-val">95</div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">VHL</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:8.5%"></div>
+        <div class="single-bar s-candidate" style="width:23.7%"></div>
       </div>
-      <div class="single-val">11</div>
+      <div class="single-val">90</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">ENG</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:22.1%"></div>
+      </div>
+      <div class="single-val">84</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">RET</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:22.1%"></div>
+      </div>
+      <div class="single-val">84</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">SCN8A</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:17.6%"></div>
+      </div>
+      <div class="single-val">67</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">COL1A1</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:13.4%"></div>
+      </div>
+      <div class="single-val">51</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">RB1</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:12.4%"></div>
+      </div>
+      <div class="single-val">47</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">ATP7A</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:9.2%"></div>
+      </div>
+      <div class="single-val">35</div>
     </div>
 
     <div class="single-row">
       <div class="single-label"><span class="gene-name">HNF1A</span></div>
       <div class="single-track">
-        <div class="single-bar s-candidate" style="width:0.8%"></div>
+        <div class="single-bar s-candidate" style="width:7.4%"></div>
       </div>
-      <div class="single-val">1</div>
+      <div class="single-val">28</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">COL5A1</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:6.8%"></div>
+      </div>
+      <div class="single-val">26</div>
+    </div>
+
+    <div class="single-row">
+      <div class="single-label"><span class="gene-name">COL2A1</span></div>
+      <div class="single-track">
+        <div class="single-bar s-candidate" style="width:6.1%"></div>
+      </div>
+      <div class="single-val">23</div>
     </div>
     </div>
   </div>
 
   <footer>
-    Data: ClinVar (NCBI, germline classifications only) &middot; AlphaFold DB structures &middot; UniProt canonical sequences &middot; 15/65 ACMG SF v3.2 candidate genes cleared the 30 Pathogenic / 30 Benign data bar and structure validation. Variants with "Conflicting classifications of pathogenicity" or no classification are excluded throughout (~5,300 rows across the 12 newly-sourced genes) &mdash; for the original 3 genes this was done at the ClinVar search stage; for the 12 sourced via the NCBI API this round it happens in the same parsing step, same end result.
+    Data: ClinVar (NCBI, germline classifications only) &middot; AlphaFold DB structures &middot; UniProt canonical sequences &middot; 24/125 ACMG SF v3.2 candidate genes cleared the 30 Pathogenic / 30 Benign data bar and structure validation. Variants with "Conflicting classifications of pathogenicity" or no classification are excluded throughout &mdash; for the original 3 genes this was done at the ClinVar search stage; for genes sourced via the NCBI API it happens in the same parsing step, same end result. 3D distance is computed by both backbone (Cα) and side-chain (Cβ) atom position; a VUS is flagged if either is within 6&#8491; of a known pathogenic residue and &gt;10 residues away in sequence.
   </footer>
 
 </div>

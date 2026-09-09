@@ -1,23 +1,27 @@
-variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
-NM_000093.5(COL5A1):c.3511G>A (p.Gly1171Arg),1171,G,R,Disordered,36.84,True,1489.0,4.879009246826172,318.0,65.17716690265777,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.3509A>G (p.Lys1170Arg),1170,K,R,Disordered,36.44,True,1489.0,5.062907695770264,319.0,63.007271546053296,"Familial thoracic aortic aneurysm and aortic dissection; Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.5065G>A (p.Gly1689Arg),1689,G,R,Fibrillar collagen NC1,90.12,False,1829.0,5.197854518890381,140.0,26.934189768336704,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.5066G>T (p.Gly1689Val),1689,G,V,Fibrillar collagen NC1,90.12,False,1829.0,5.197854518890381,140.0,26.934189768336704,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.5498C>T (p.Pro1833Leu),1833,P,L,Fibrillar collagen NC1,95.12,False,1680.0,5.947785377502441,153.0,25.72386027557821,Familial thoracic aortic aneurysm and aortic dissection
-NM_000093.5(COL5A1):c.5497C>T (p.Pro1833Ser),1833,P,S,Fibrillar collagen NC1,95.12,False,1680.0,5.947785377502441,153.0,25.72386027557821,"Familial thoracic aortic aneurysm and aortic dissection; Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.365A>G (p.Glu122Gly),122,E,G,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.364G>A (p.Glu122Lys),122,E,K,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.364G>C (p.Glu122Gln),122,E,Q,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.256C>T (p.Pro86Ser),86,P,S,Laminin G-like,91.06,False,203.0,5.899282455444336,117.0,19.832920509175302,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.259A>C (p.Thr87Pro),87,T,P,Laminin G-like,90.0,False,203.0,5.8514838218688965,116.0,19.82403156725313,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.5213C>T (p.Ala1738Val),1738,A,V,Fibrillar collagen NC1,95.56,False,1835.0,5.614169597625732,97.0,17.27771103335067,Familial thoracic aortic aneurysm and aortic dissection
-NM_000093.5(COL5A1):c.5228C>G (p.Thr1743Ser),1743,T,S,Fibrillar collagen NC1,96.69,False,1829.0,5.556229114532471,86.0,15.478123422784101,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.5228C>T (p.Thr1743Ile),1743,T,I,Fibrillar collagen NC1,96.69,False,1829.0,5.556229114532471,86.0,15.478123422784101,not provided
-NM_000093.5(COL5A1):c.5234A>T (p.His1745Leu),1745,H,L,Fibrillar collagen NC1,96.25,False,1829.0,5.5074262619018555,84.0,15.25213339324722,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.298T>G (p.Phe100Val),100,F,V,Laminin G-like,95.31,False,172.0,5.270344257354736,72.0,13.661346675698537,"Ehlers-Danlos syndrome, classic type, 1; not provided"
-NM_000093.5(COL5A1):c.296A>G (p.Asp99Gly),99,D,G,Laminin G-like,94.31,False,172.0,5.413705825805664,73.0,13.484293818114173,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.690C>A (p.His230Gln),230,H,Q,Laminin G-like,94.44,False,172.0,5.727100849151611,58.0,10.127288051613737,not provided
-NM_000093.5(COL5A1):c.5434A>G (p.Ile1812Val),1812,I,V,Fibrillar collagen NC1,95.75,False,1767.0,5.8052449226379395,45.0,7.751610931094311,not provided
-NM_000093.5(COL5A1):c.4954G>A (p.Gly1652Ser),1652,G,S,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,3.44754087963847,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.4955G>A (p.Gly1652Asp),1652,G,D,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,3.44754087963847,"Ehlers-Danlos syndrome, classic type, 1"
-NM_000093.5(COL5A1):c.4955G>C (p.Gly1652Ala),1652,G,A,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,3.44754087963847,not provided
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue_ca,dist3d_ca_angstrom,seqdist_nearest3d,nearest_pathogenic_residue_cb,dist3d_cb_angstrom,seqdist_cb,confirmed_by_both_atoms,seq_over_3d,condition
+NM_000093.5(COL5A1):c.3511G>A (p.Gly1171Arg),1171,G,R,Disordered,36.84,True,1489.0,4.879009246826172,318.0,1489.0,4.879009246826172,318.0,True,65.17716690265777,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.3509A>G (p.Lys1170Arg),1170,K,R,Disordered,36.44,True,1489.0,5.062907695770264,319.0,1489.0,4.588516712188721,319.0,True,63.007271546053296,"Familial thoracic aortic aneurysm and aortic dissection; Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5039G>T (p.Cys1680Phe),1680,C,F,Fibrillar collagen NC1,95.81,False,1835.0,4.014475345611572,155.0,1835.0,4.125977039337158,155.0,True,38.61027572866736,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5065G>A (p.Gly1689Arg),1689,G,R,Fibrillar collagen NC1,90.12,False,1829.0,5.197854518890381,140.0,1829.0,5.554190158843994,140.0,True,26.934189768336704,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5066G>T (p.Gly1689Val),1689,G,V,Fibrillar collagen NC1,90.12,False,1829.0,5.197854518890381,140.0,1829.0,5.554190158843994,140.0,True,26.934189768336704,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5498C>T (p.Pro1833Leu),1833,P,L,Fibrillar collagen NC1,95.12,False,1680.0,5.947785377502441,153.0,1680.0,4.301590919494629,153.0,True,25.72386027557821,Familial thoracic aortic aneurysm and aortic dissection
+NM_000093.5(COL5A1):c.5497C>T (p.Pro1833Ser),1833,P,S,Fibrillar collagen NC1,95.12,False,1680.0,5.947785377502441,153.0,1680.0,4.301590919494629,153.0,True,25.72386027557821,"Familial thoracic aortic aneurysm and aortic dissection; Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.365A>G (p.Glu122Gly),122,E,G,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,203.0,4.616074562072754,81.0,True,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.364G>A (p.Glu122Lys),122,E,K,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,203.0,4.616074562072754,81.0,True,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.364G>C (p.Glu122Gln),122,E,Q,Laminin G-like,88.19,False,203.0,3.9988412857055664,81.0,203.0,4.616074562072754,81.0,True,20.25586769085989,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.256C>T (p.Pro86Ser),86,P,S,Laminin G-like,91.06,False,203.0,5.899282455444336,117.0,203.0,6.348000526428223,117.0,False,19.832920509175302,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.259A>C (p.Thr87Pro),87,T,P,Laminin G-like,90.0,False,203.0,5.8514838218688965,116.0,203.0,5.11040735244751,116.0,True,19.82403156725313,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5213C>T (p.Ala1738Val),1738,A,V,Fibrillar collagen NC1,95.56,False,1835.0,5.614169597625732,97.0,1835.0,6.699713706970215,97.0,False,17.27771103335067,Familial thoracic aortic aneurysm and aortic dissection
+NM_000093.5(COL5A1):c.5228C>G (p.Thr1743Ser),1743,T,S,Fibrillar collagen NC1,96.69,False,1829.0,5.556229114532471,86.0,1829.0,6.562000274658203,86.0,False,15.478123422784101,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5228C>T (p.Thr1743Ile),1743,T,I,Fibrillar collagen NC1,96.69,False,1829.0,5.556229114532471,86.0,1829.0,6.562000274658203,86.0,False,15.478123422784101,not provided
+NM_000093.5(COL5A1):c.5234A>T (p.His1745Leu),1745,H,L,Fibrillar collagen NC1,96.25,False,1829.0,5.5074262619018555,84.0,1829.0,6.4321208000183105,84.0,False,15.25213339324722,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.298T>G (p.Phe100Val),100,F,V,Laminin G-like,95.31,False,172.0,5.270344257354736,72.0,172.0,5.287603855133057,72.0,True,13.661346675698537,"Ehlers-Danlos syndrome, classic type, 1; not provided"
+NM_000093.5(COL5A1):c.296A>G (p.Asp99Gly),99,D,G,Laminin G-like,94.31,False,172.0,5.413705825805664,73.0,172.0,6.050166606903076,73.0,False,13.484293818114173,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.690C>A (p.His230Gln),230,H,Q,Laminin G-like,94.44,False,172.0,5.727100849151611,58.0,172.0,5.90468692779541,58.0,True,10.127288051613737,not provided
+NM_000093.5(COL5A1):c.5434A>G (p.Ile1812Val),1812,I,V,Fibrillar collagen NC1,95.75,False,1767.0,5.8052449226379395,45.0,1767.0,6.834601879119873,45.0,False,7.751610931094311,not provided
+NM_000093.5(COL5A1):c.5036C>A (p.Thr1679Lys),1679,T,K,Fibrillar collagen NC1,96.88,False,1639.0,5.238147258758545,40.0,1639.0,4.165554523468018,40.0,True,7.636287798728306,"Familial thoracic aortic aneurysm and aortic dissection; Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.5036C>T (p.Thr1679Ile),1679,T,I,Fibrillar collagen NC1,96.88,False,1639.0,5.238147258758545,40.0,1639.0,4.165554523468018,40.0,True,7.636287798728306,not specified
+NM_000093.5(COL5A1):c.5012G>T (p.Cys1671Phe),1671,C,F,Fibrillar collagen NC1,96.31,False,1639.0,5.253030776977539,32.0,1639.0,3.5240702629089355,32.0,True,6.091721400195563,"Ehlers-Danlos syndrome, classic type, 1; Familial thoracic aortic aneurysm and aortic dissection"
+NM_000093.5(COL5A1):c.4954G>A (p.Gly1652Ser),1652,G,S,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,1671.0,5.5835089683532715,19.0,True,3.44754087963847,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.4955G>A (p.Gly1652Asp),1652,G,D,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,1671.0,5.5835089683532715,19.0,True,3.44754087963847,"Ehlers-Danlos syndrome, classic type, 1"
+NM_000093.5(COL5A1):c.4955G>C (p.Gly1652Ala),1652,G,A,Fibrillar collagen NC1,94.88,False,1671.0,5.51117467880249,19.0,1671.0,5.5835089683532715,19.0,True,3.44754087963847,not provided

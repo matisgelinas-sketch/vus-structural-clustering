@@ -247,11 +247,14 @@ def screen_and_fetch_gene(gene: str, gene_tag: str, accession: str, out_base: Pa
         if 'CA' not in residue:
             continue
         ca = residue['CA']
+        cb = residue['CB'] if 'CB' in residue else ca
         resname3 = residue.get_resname().capitalize()
         struct_rows.append({
             'position': residue.id[1],
             'resname_1letter': AA3TO1.get(resname3, 'X'),
             'x': ca.coord[0], 'y': ca.coord[1], 'z': ca.coord[2],
+            'cb_x': cb.coord[0], 'cb_y': cb.coord[1], 'cb_z': cb.coord[2],
+            'is_glycine_cb_fallback': resname3 == 'Gly',
             'plddt': ca.get_bfactor(),
         })
     struct_df = pd.DataFrame(struct_rows).sort_values('position').reset_index(drop=True)

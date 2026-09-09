@@ -36,6 +36,7 @@ DIST_THRESHOLD_A = 6.0
 
 FEATURES = [
     'dist3d_A', 'seqdist_nearest3d', 'seq_over_3d_ratio', 'seq_minus_3d_diff',
+    'dist3d_cb_A', 'seqdist_cb',
     'plddt', 'n_pathogenic_within_threshold', 'disordered_region',
 ]
 

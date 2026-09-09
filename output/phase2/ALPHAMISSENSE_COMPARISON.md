@@ -27,26 +27,26 @@ genuine gap in AlphaMissense itself, not a bug in this pipeline).
 
 | | This project (RF, gene-held-out) | AlphaMissense (own classification) |
 |---|---|---|
-| Mean balanced accuracy | ~0.72 | **0.862** |
+| Mean balanced accuracy | ~0.70 | **0.862** |
 
 AlphaMissense is meaningfully more accurate — expected, and consistent
-with the framing maintained throughout this project: a 7-feature
+with the framing maintained throughout this project: a 9-feature
 structural-clustering model trained on ~8,000 variants was never going
 to outperform a genome-scale deep learning model. This number is the
 honest ceiling this project is working under, not a competition it wins.
 
-Per-gene range: 0.70 (MYBPC3) to 0.92 (TP53, SCN2A, COL2A1) — full table
-in `alphamissense_per_gene_accuracy.csv`. Notably, MYBPC3 and RB1 were
-also two of this project's own weakest folds (0.51 and 0.62) — a sign
-those genes may simply be harder to predict in general, by any method,
-not a project-specific weakness.
+Per-gene range: 0.70 (MYBPC3) to 0.92 (TP53) — full table in
+`alphamissense_per_gene_accuracy.csv`. Notably, MYBPC3 was also this
+project's own weakest fold (dropping the LogReg/RF held-out result well
+below the mean) — a sign that gene may simply be harder to predict in
+general, by any method, not a project-specific weakness.
 
 ## 2. Correlation with this project's model, across all VUS
 
 31,459 VUS scored by both methods.
 
-- Pearson r = **0.362** (p ≈ 0)
-- Spearman r = **0.381** (p ≈ 0)
+- Pearson r = **0.368** (p ≈ 0)
+- Spearman r = **0.376** (p ≈ 0)
 
 A moderate, highly significant positive correlation — real partial
 overlap in signal, but far from redundant. This project's model is
@@ -56,22 +56,39 @@ amount of what each method sees, the other doesn't.
 
 ## 3. The key number: does AlphaMissense back up this project's own top candidates?
 
-Of the **1,062 VUS** flagged by *both* this project's geometric rule
-*and* its trained model (the project's highest-confidence output),
-AlphaMissense independently rates **525 (49.4%)** as pathogenic-like
+Of the **3,426 VUS** flagged by *both* this project's geometric rule
+*and* its trained model (the project's highest-confidence output, now
+using dual Cα/Cβ distance — see the pipeline-wide fix note below),
+AlphaMissense independently rates **2,023 (59.0%)** as pathogenic-like
 (score ≥ 0.564, AlphaMissense's own published threshold).
 
-**Context matters here — this is not "half wrong."** Among *all* VUS in
-these same 22 genes, regardless of this project's flagging, only 33.8%
-score AlphaMissense-pathogenic-like. So the flagged candidate list is
-enriched **1.46x** over the baseline rate — a real, quantifiable signal
-that this project's flagging concentrates AlphaMissense-supported
-candidates well above chance, even though it doesn't reach majority
-agreement.
+Among *all* VUS in these same genes, regardless of this project's
+flagging, 33.8% score AlphaMissense-pathogenic-like. So the flagged
+candidate list is enriched **1.75×** over the baseline rate — a real,
+quantifiable signal that this project's flagging concentrates
+AlphaMissense-supported candidates well above chance, and (unlike the
+earlier pre-fix run) a clear majority of the top candidate list is now
+independently corroborated.
 
-## 4. The genuinely divergent cases
+## 4. A pipeline-wide fix that changed these numbers substantially
 
-537 of the 1,062 candidates are ones this project's model rates highly
+Between the previous version of this comparison and this one, two
+changes were made to the core distance calculation: (1) side-chain (Cβ)
+distance was added alongside backbone (Cα) distance — a candidate now
+qualifies if *either* atom type is within 6 Å; (2) a masking bug was
+fixed where the pipeline only ever considered the single globally-nearest
+pathogenic residue, so a trivial sequence-adjacent neighbor could hide a
+more distant, and more informative, qualifying candidate that was also
+within 6 Å. Both changes substantially increased the number of flagged
+candidates across every gene (Phase 1 flagged-VUS rate roughly tripled
+project-wide) and, as a result, both this project's own cross-validated
+accuracy and the AlphaMissense enrichment factor above reflect the
+corrected pipeline, not the earlier Cα-only, single-nearest-neighbor
+version.
+
+## 5. The genuinely divergent cases
+
+1,403 of the 3,426 candidates are ones this project's model rates highly
 confident (often >0.9 probability) while AlphaMissense rates as
 Likely-benign or Ambiguous with a low score. Two honest interpretations,
 not favored over the other without further work:
@@ -89,11 +106,11 @@ Top divergent examples (full list in
 
 | Gene | Variant | This project | AlphaMissense |
 |---|---|---|---|
-| ABCA4 | p.Thr1595Ala | 0.98 | 0.16 (Likely benign) |
-| ABCA4 | p.Gly92Glu | 0.97 | 0.43 (Ambiguous) |
-| ABCA4 | p.Asn1345Ser | 0.97 | 0.12 (Likely benign) |
-| BRCA1 | p.Ser770Leu | 0.91 | 0.09 (Likely benign) |
-| LDLR | p.Lys617Glu | 0.90 | 0.15 (Likely benign) |
+| SCN1A | p.Gln1719Glu | 1.00 | 0.38 (Ambiguous) |
+| SCN8A | p.Ile1624Val | 1.00 | 0.51 (Ambiguous) |
+| MSH2 | p.Ile691Ser | 0.99 | 0.49 (Ambiguous) |
+| VHL | p.Arg64Cys | 0.99 | 0.28 (Likely benign) |
+| ABCA4 | p.Val1774Ala | 0.99 | 0.50 (Ambiguous) |
 
 These are exactly the kind of cases worth a closer manual look (same
 process as the TSC2 lead) — not because either method is "right," but
@@ -106,7 +123,7 @@ unrelated predictors is itself informative.
   buckets, with AlphaMissense score/class merged in
 - `alphamissense_per_gene_accuracy.csv` — AlphaMissense's own accuracy
   per gene against ClinVar truth
-- `high_confidence_candidates_vs_alphamissense.csv` — the 1,062
+- `high_confidence_candidates_vs_alphamissense.csv` — the 3,426
   candidates with AlphaMissense's verdict alongside
 - `ALPHAMISSENSE_COMPARISON.md` — this document
 

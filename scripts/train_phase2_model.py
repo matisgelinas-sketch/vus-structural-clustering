@@ -32,6 +32,7 @@ df['disordered_region'] = df['domain'].str.contains('Disordered', na=False).asty
 EXCLUDE_PLDDT = '--no-plddt' in sys.argv
 FEATURES = [
     'dist3d_A', 'seqdist_nearest3d', 'seq_over_3d_ratio', 'seq_minus_3d_diff',
+    'dist3d_cb_A', 'seqdist_cb',
     'n_pathogenic_within_threshold', 'disordered_region',
 ]
 if not EXCLUDE_PLDDT:

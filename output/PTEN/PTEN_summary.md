@@ -27,16 +27,19 @@ verdict.
   matches UniProt P60484 exactly).
 - Residue numbering cross-checked across ClinVar, UniProt, and structure
   for all 898 rows: **zero mismatches**.
-- Same distance definitions as the other two genes. Flagging threshold:
-  **≤ 6 Å in 3D AND > 10 residues apart in sequence**. A first pass with
-  ≤6 Å alone flagged 408/715 VUS (57%) — even more than TP53's original
-  8–10 Å-only result — because PTEN is an even more compact,
-  single-domain protein, so a distance-only rule barely discriminates.
-  Checking showed the same pattern as TP53: the great majority of those
-  were just chain-adjacent to a pathogenic residue, not genuine tertiary
+- Same distance definitions as the other two genes, including both
+  backbone (Cα) and side-chain (Cβ) distance to the nearest *qualifying*
+  pathogenic residue. Flagging threshold: **≤ 6 Å by either Cα or Cβ
+  AND > 10 residues apart in sequence**. A first pass with ≤6 Å alone
+  flagged 408/715 VUS (57%) — even more than TP53's original 8–10
+  Å-only result — because PTEN is an even more compact, single-domain
+  protein, so a distance-only rule barely discriminates. Checking showed
+  the same pattern as TP53: the great majority of those were just
+  chain-adjacent to a pathogenic residue, not genuine tertiary
   clustering. Adding the >10-residue sequence-separation requirement
-  (confirmed with you, applied identically across all three genes) fixes
-  this.
+  (applied identically across all genes) fixes this. A candidate
+  confirmed by both atom types (`confirmed_by_both_atoms` column) is
+  stronger evidence than one found by only one.
 
 ## Worth flagging honestly
 
@@ -54,20 +57,25 @@ gene will have essentially no Benign cases to evaluate against.
 
 146 of 895 Pathogenic+VUS residues (16.3%) fall in low-confidence
 regions (pLDDT<70) — almost entirely the disordered C-terminal tail
-(residues ~352–403). None of the 47 flagged candidates are
+(residues ~352–403). Only 4 of the 224 flagged candidates are
 low-confidence.
 
 ## Results
 
-- **47 of 715 VUS (6.6%)** flagged as candidates under the dual
-  criterion (≤6 Å in 3D, >10 residues apart in sequence).
-- By domain: 35 in the C2 domain, 12 in the phosphatase domain.
+- **224 of 715 VUS (31%)** flagged as candidates under the dual
+  criterion (≤6 Å by Cα or Cβ, >10 residues apart in sequence; 126
+  confirmed by both atom types) — much higher than an earlier, Cα-only
+  pass (47 flagged), most of the increase traceable to a
+  nearest-neighbor masking-bug fix (see project-level `PHASE2_summary.md`)
+  rather than the Cβ addition alone.
+- By domain: 129 in the phosphatase domain, 78 in the C2 domain, 17
+  unannotated/linker.
 - Ranked by (sequence distance / 3D distance) ratio, same as the other
   two genes.
 
 ## Outputs
 
-- `PTEN_phase1_flagged_candidates.csv` — 47 flagged candidates
+- `PTEN_phase1_flagged_candidates.csv` — 224 flagged candidates
 - `PTEN_all_VUS_annotated.csv` — all 715 VUS, with a `flagged_candidate`
   column, flagged or not (nothing silently dropped)
 - `numbering_mismatches.csv` — empty for PTEN

@@ -22,23 +22,26 @@ verdict.
   length 1114).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 519 of 1942
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 73 flagged candidates,
+in every table, not excluded. Of the 95 flagged candidates,
 0 are low-confidence.
 
 ## Results
 
-**73 of 1861 VUS (3.9%)**
+**95 of 1861 VUS (5.1%)**
 flagged as candidates.
 
-By domain: {'Unannotated / linker': 24, 'Protein kinase': 20, 'Cadherin-like region 1 (CLD1)': 13, 'Cadherin': 12, 'Cadherin-like region 4 (CLD4)': 2, 'Cadherin-like region 3 (CLD3)': 2}
+By domain: {'Unannotated / linker': 32, 'Protein kinase': 28, 'Cadherin-like region 1 (CLD1)': 13, 'Cadherin': 12, 'Cadherin-like region 3 (CLD3)': 6, 'Cadherin-like region 4 (CLD4)': 4}
 
 ## Outputs
 

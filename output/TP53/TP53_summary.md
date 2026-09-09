@@ -33,17 +33,27 @@ variant below is **candidate for further investigation**.
 - Residue numbering was cross-checked across ClinVar, the UniProt
   canonical sequence, and the AlphaFold structure for all 748 rows:
   **zero mismatches**.
-- 3D distance = Cα–Cα Euclidean distance (Å) from each VUS residue to
-  its nearest Pathogenic-bucket residue. Sequence distance = linear
-  residue-number difference to that same nearest pathogenic residue.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in sequence**
-  (tightened from an initial 8–10 Å, 3D-distance-only starting point —
-  at 8–10 Å alone, 57–62% of all VUS were flagged, which turned out to
-  be mostly a trivial artifact: 91% of those flagged cases were within 5
-  residues of their nearest pathogenic residue *in sequence*, i.e.
-  simply chain-adjacent, not evidence of tertiary-structure clustering.
-  Requiring >10 residues of sequence separation removes that noise and
-  keeps only proximity that isn't explained by linear adjacency.)
+- 3D distance = both **backbone (Cα–Cα)** and **side-chain (Cβ–Cβ,
+  glycine falls back to Cα since it has no side chain)** Euclidean
+  distance (Å) from each VUS residue to its nearest *qualifying*
+  Pathogenic-bucket residue. "Qualifying" is important: the search only
+  considers candidates that already satisfy the sequence-separation
+  requirement below, so a genuinely close but non-trivial pathogenic
+  residue is never masked by a closer, trivially-adjacent one (an
+  earlier version of this pipeline had that bug — fixed).
+- Flagging threshold: **≤ 6 Å by either Cα or Cβ distance AND > 10
+  residues apart in sequence** (tightened from an initial 8–10 Å,
+  3D-distance-only starting point — at 8–10 Å alone, 57–62% of all VUS
+  were flagged, which turned out to be mostly a trivial artifact: 91% of
+  those flagged cases were within 5 residues of their nearest pathogenic
+  residue *in sequence*, i.e. simply chain-adjacent, not evidence of
+  tertiary-structure clustering. Requiring >10 residues of sequence
+  separation removes that noise and keeps only proximity that isn't
+  explained by linear adjacency.) Checking both atom types matters
+  because a residue's side chain, not its backbone, is often what's
+  actually close to a pathogenic residue; a candidate confirmed by
+  *both* atom types (`confirmed_by_both_atoms` column) is stronger
+  evidence than one found by only one.
 
 ## Structural confidence caveat
 
@@ -60,19 +70,22 @@ the 16 flagged candidates fall in low-confidence regions.
 
 ## Results
 
-- **16 of 508 VUS (3%)** flagged as candidates under the dual criterion
-  (≤6 Å in 3D, >10 residues apart in sequence).
-- By domain: 15 in the DNA-binding domain, 1 in a disordered linker.
-- These are the cases with a **large sequence distance but small 3D
-  distance** — proximity that isn't explained by simply being near a
-  pathogenic residue in the linear sequence. The top case (Tyr103, 4.9 Å
-  in 3D from Arg267 but 164 residues away in sequence) sits in the
-  high-confidence DNA-binding domain, which is reassuring — the
-  clustering isn't a low-pLDDT artifact.
+- **132 of 508 VUS (26%)** flagged as candidates under the dual
+  criterion (≤6 Å by Cα or Cβ, >10 residues apart in sequence); 63 of
+  those are confirmed by both atom types. This is a substantially
+  higher count than an earlier, Cα-only pass (16 flagged) — most of the
+  increase traces to a masking-bug fix (see project-level `PHASE2_summary.md`)
+  rather than the Cβ addition alone.
+- By domain: 127 in the DNA-binding domain, 3 in the TAD2/proline-rich
+  linker, 1 in the DBD-tetramerization linker, 1 unannotated. None are
+  in low-confidence (pLDDT<70) regions.
+- Ranked by (sequence distance / 3D distance) ratio — prioritizing cases
+  where 3D proximity isn't explained by simply being near a pathogenic
+  residue in the linear sequence.
 
 ## Outputs
 
-- `TP53_phase1_flagged_candidates.csv` — the 16 flagged candidates,
+- `TP53_phase1_flagged_candidates.csv` — the 132 flagged candidates,
   sorted by (sequence distance / 3D distance) ratio, most non-trivial
   clustering first.
 - `TP53_all_VUS_annotated.csv` — all 508 VUS with distances, domain, and
@@ -97,6 +110,7 @@ the 16 flagged candidates fall in low-confidence regions.
   because same functional pocket" from "near a pathogenic residue by
   packing coincidence."
 - No amino-acid-substitution severity (e.g. side chain size/charge
-  change) is factored in yet — only Cα distance.
+  change) is factored in — Cβ distance captures side-chain *position*,
+  not substitution severity or rotamer flexibility.
 - This is one gene's output in isolation; Phase 2 will test whether this
   signal is predictive when pooled and validated across genes.

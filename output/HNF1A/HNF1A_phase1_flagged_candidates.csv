@@ -1,3 +1,29 @@
-variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue,dist3d_angstrom,seqdist_nearest3d,seq_over_3d,condition
-NM_000545.8(HNF1A):c.542G>A (p.Gly181Glu),181,G,E,POU-specific atypical,48.31,True,250.0,5.554740905761719,69.0,12.421821498178062,"Type 1 diabetes mellitus 20; Type 2 diabetes mellitus; Diabetes mellitus type 1; Nonpapillary renal cell carcinoma; Maturity-onset diabetes of the young type 3; Hepatic adenomas, familial"
-NM_000545.8(HNF1A):c.539C>G (p.Ala180Gly),180,A,G,POU-specific atypical,61.34,True,250.0,5.813026428222656,70.0,12.041920136496374,Monogenic diabetes
+variation,position,wt_aa,mt_aa,domain,pLDDT,low_confidence,nearest_pathogenic_residue_ca,dist3d_ca_angstrom,seqdist_nearest3d,nearest_pathogenic_residue_cb,dist3d_cb_angstrom,seqdist_cb,confirmed_by_both_atoms,seq_over_3d,condition
+NM_000545.8(HNF1A):c.731G>T (p.Arg244Ile),244,R,I,Homeobox; HNF1-type,89.88,False,126.0,5.913084983825684,118.0,126.0,5.640396595001221,118.0,True,19.955742277131225,Monogenic diabetes
+NM_000545.8(HNF1A):c.732A>T (p.Arg244Ser),244,R,S,Homeobox; HNF1-type,89.88,False,126.0,5.913084983825684,118.0,126.0,5.640396595001221,118.0,True,19.955742277131225,Monogenic diabetes
+NM_000545.8(HNF1A):c.379A>G (p.Asn127Asp),127,N,D,POU-specific atypical,91.88,False,207.0,6.117007732391357,80.0,207.0,4.801881790161133,80.0,False,16.660135233632126,not provided
+NM_000545.8(HNF1A):c.542G>A (p.Gly181Glu),181,G,E,POU-specific atypical,48.31,True,250.0,5.554740905761719,69.0,250.0,5.67972993850708,69.0,True,12.421821498178062,"Type 1 diabetes mellitus 20; Type 2 diabetes mellitus; Diabetes mellitus type 1; Nonpapillary renal cell carcinoma; Maturity-onset diabetes of the young type 3; Hepatic adenomas, familial"
+NM_000545.8(HNF1A):c.539C>G (p.Ala180Gly),180,A,G,POU-specific atypical,61.34,True,250.0,5.813026428222656,70.0,250.0,4.942067623138428,70.0,True,12.041920136496374,Monogenic diabetes
+NM_000545.8(HNF1A):c.611T>A (p.Phe204Tyr),204,F,Y,Homeobox; HNF1-type,93.19,False,257.0,5.0009989738464355,53.0,257.0,6.143866539001465,53.0,False,10.597882598491303,Monogenic diabetes
+NM_000545.8(HNF1A):c.518T>C (p.Val173Ala),173,V,A,POU-specific atypical,86.69,False,126.0,8.381973266601562,47.0,126.0,5.651004791259766,47.0,False,8.317104963827575,not provided
+NM_000545.8(HNF1A):c.727C>G (p.Gln243Glu),243,Q,E,Homeobox; HNF1-type,89.81,False,209.0,7.285131454467773,34.0,209.0,4.604683876037598,34.0,False,7.383785926528692,Monogenic diabetes
+NM_000545.8(HNF1A):c.793T>C (p.Tyr265His),265,Y,H,Homeobox; HNF1-type,97.25,False,229.0,7.044923782348633,36.0,229.0,5.881269454956055,36.0,False,6.121127466734815,Monogenic diabetes
+NM_000545.8(HNF1A):c.794A>C (p.Tyr265Ser),265,Y,S,Homeobox; HNF1-type,97.25,False,229.0,7.044923782348633,36.0,229.0,5.881269454956055,36.0,False,6.121127466734815,Monogenic diabetes
+NM_000545.8(HNF1A):c.794A>G (p.Tyr265Cys),265,Y,C,Homeobox; HNF1-type,97.25,False,229.0,7.044923782348633,36.0,229.0,5.881269454956055,36.0,False,6.121127466734815,Monogenic diabetes
+NM_000545.8(HNF1A):c.346G>C (p.Ala116Pro),116,A,P,POU-specific atypical,97.31,False,147.0,6.852929592132568,31.0,147.0,5.485852241516113,31.0,False,5.650899556753755,not provided
+NM_000545.8(HNF1A):c.441C>A (p.His147Gln),147,H,Q,POU-specific atypical,97.56,False,116.0,6.852929592132568,31.0,116.0,5.485852241516113,31.0,False,5.650899556753755,Monogenic diabetes
+NM_000545.8(HNF1A):c.410C>G (p.Thr137Ser),137,T,S,POU-specific atypical,93.69,False,162.0,6.526485919952393,25.0,165.0,5.008880138397217,28.0,False,5.590071877615277,Monogenic diabetes
+NM_000545.8(HNF1A):c.397G>T (p.Val133Leu),133,V,L,POU-specific atypical,94.81,False,165.0,7.1870646476745605,32.0,165.0,5.957419395446777,32.0,False,5.371453288055802,Monogenic diabetes
+NM_000545.8(HNF1A):c.716C>A (p.Ala239Glu),239,A,E,Homeobox; HNF1-type,95.19,False,209.0,5.9269256591796875,30.0,209.0,4.05610990524292,30.0,True,5.061646075066872,not provided
+NM_000545.8(HNF1A):c.778A>G (p.Thr260Ala),260,T,A,Homeobox; HNF1-type,96.12,False,233.0,5.577876567840576,27.0,233.0,6.001539707183838,27.0,False,4.840551717416867,not provided
+NM_000545.8(HNF1A):c.698T>C (p.Val233Ala),233,V,A,Homeobox; HNF1-type,96.69,False,260.0,5.577876567840576,27.0,261.0,5.569147109985352,28.0,True,4.840551717416867,not provided
+NM_000545.8(HNF1A):c.638T>C (p.Ile213Thr),213,I,T,Homeobox; HNF1-type,96.88,False,232.0,7.625704765319824,19.0,239.0,5.959270000457764,26.0,False,4.362950495279254,Monogenic diabetes
+NM_000545.8(HNF1A):c.707G>A (p.Cys236Tyr),236,C,Y,Homeobox; HNF1-type,96.62,False,213.0,6.648874282836914,23.0,213.0,5.324492931365967,23.0,False,4.319660162286945,Monogenic diabetes
+NM_000545.8(HNF1A):c.706T>G (p.Cys236Gly),236,C,G,Homeobox; HNF1-type,96.62,False,213.0,6.648874282836914,23.0,213.0,5.324492931365967,23.0,False,4.319660162286945,not provided
+NM_000545.8(HNF1A):c.703G>C (p.Glu235Gln),235,E,Q,Homeobox; HNF1-type,95.88,False,213.0,7.553853511810303,22.0,213.0,5.344913482666016,22.0,False,4.11606288321556,Monogenic diabetes
+NM_000545.8(HNF1A):c.711T>G (p.Asn237Lys),237,N,K,Homeobox; HNF1-type,95.69,False,251.0,6.030694484710693,14.0,251.0,4.224292278289795,14.0,False,3.314164616864035,not provided
+NM_000545.8(HNF1A):c.710A>C (p.Asn237Thr),237,N,T,Homeobox; HNF1-type,95.69,False,251.0,6.030694484710693,14.0,251.0,4.224292278289795,14.0,False,3.314164616864035,Monogenic diabetes
+NM_000545.8(HNF1A):c.473A>G (p.Lys158Arg),158,K,R,POU-specific atypical,95.75,False,139.0,7.0091023445129395,19.0,139.0,5.975693225860596,19.0,False,3.1795474235148165,not provided
+NM_000545.8(HNF1A):c.650C>A (p.Ala217Asp),217,A,D,Homeobox; HNF1-type,96.44,False,232.0,8.02367877960205,15.0,232.0,5.4589080810546875,15.0,False,2.7478022669145084,not specified; not provided
+NM_000545.8(HNF1A):c.650C>G (p.Ala217Gly),217,A,G,Homeobox; HNF1-type,96.44,False,232.0,8.02367877960205,15.0,232.0,5.4589080810546875,15.0,False,2.7478022669145084,Monogenic diabetes
+NM_000545.8(HNF1A):c.649G>C (p.Ala217Pro),217,A,P,Homeobox; HNF1-type,96.44,False,232.0,8.02367877960205,15.0,232.0,5.4589080810546875,15.0,False,2.7478022669145084,not provided

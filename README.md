@@ -18,38 +18,52 @@ sequence.
 
 **Phase 1 — structural flagging.** For each gene, every VUS in ClinVar is
 mapped onto its AlphaFold structure and flagged if it sits within 6 Å of a
-known pathogenic residue in 3D space *and* more than 10 residues away from
-it in the linear sequence — the second condition matters, since without it
-almost everything flagged turns out to be trivially adjacent in the chain,
-not a meaningful structural signal.
+known pathogenic residue in 3D space — by **either backbone (Cα) or
+side-chain (Cβ) distance** — *and* more than 10 residues away from it in
+the linear sequence. The sequence-separation condition matters, since
+without it almost everything flagged turns out to be trivially adjacent
+in the chain, not a meaningful structural signal. Checking both atom
+types matters too: a residue's side chain, not its backbone, is often
+what's actually close to a known pathogenic residue, and a candidate
+confirmed by both atom types is stronger evidence than one found by only
+one (`confirmed_by_both_atoms` column). The "nearest qualifying residue"
+search only considers candidates that already pass the sequence-distance
+filter, so a genuinely close but non-trivial pathogenic residue is never
+masked by a closer, trivially-adjacent one.
 
 **Phase 2 — cross-gene validation.** The structural-clustering signal is
 pooled across genes and used to train a simple, interpretable model
-(logistic regression / small random forest) on seven features per variant
-(3D distance, sequence distance, their ratio and difference, count of
-nearby pathogenic residues, structural confidence, and whether the region
-is disordered). Validated with **gene-held-out cross-validation** — the
-model is tested only on genes it never saw during training — and benchmarked
-against [AlphaMissense](https://github.com/google-deepmind/alphamissense)
-as an independent external check.
+(logistic regression / small random forest) on nine features per variant
+(Cα and Cβ 3D distance, sequence distance, their ratio and difference,
+count of nearby pathogenic residues, structural confidence, and whether
+the region is disordered). Validated with **gene-held-out cross-validation**
+— the model is tested only on genes it never saw during training — and
+benchmarked against
+[AlphaMissense](https://github.com/google-deepmind/alphamissense) as an
+independent external check.
 
 ## Key results
 
 - **24 genes** analyzed, screened from 125 candidates against a 30
   Pathogenic / 30 Benign data-bar plus structure/numbering validation
-  (~48,000 classified germline missense variants total)
-- **Balanced accuracy ≈ 0.72** across gene-held-out folds — real signal,
+  (~48,000 classified germline missense variants total, 8,374 labeled
+  Pathogenic/Benign used for training)
+- **Balanced accuracy ≈ 0.70** across gene-held-out folds — real signal,
   clearly above the 0.50 random baseline, but genuinely uneven gene to
-  gene (0.52–0.90)
+  gene. Side-chain (Cβ) distance is the single strongest feature in both
+  models, ahead of backbone (Cα) distance.
 - Confirmed the clustering signal is **not just a proxy for structural
-  confidence** — removing pLDDT as a feature cost almost nothing (0.72 → 0.71)
+  confidence** — removing pLDDT as a feature cost almost nothing
+  (0.703 → 0.702 balanced accuracy)
 - Benchmarked against AlphaMissense: the project's highest-confidence
-  candidates are **1.46× enriched** for independent AlphaMissense agreement
-  over the baseline rate — real external validation, not proof of any
-  single candidate
+  candidates are **1.75× enriched** for independent AlphaMissense agreement
+  over the baseline VUS rate (59.0% vs. 33.8%) — real external validation,
+  not proof of any single candidate
 - Also validated on genes deliberately *excluded* from training (rejected
-  for having unbalanced ClinVar data) — performance held at roughly the
-  same level, evidence this isn't just overfit to hand-picked genes
+  for having unbalanced ClinVar data) — of 20 such genes, 14 had enough
+  data to test, and mean balanced accuracy (0.686) held within ~0.02 of
+  the curated 24-gene set — evidence this isn't just overfit to
+  hand-picked genes
 
 Full write-ups: [`output/phase2/PHASE2_summary.md`](output/phase2/PHASE2_summary.md),
 [`output/phase2/ALPHAMISSENSE_COMPARISON.md`](output/phase2/ALPHAMISSENSE_COMPARISON.md).
@@ -117,13 +131,15 @@ Every script is resumable/idempotent — safe to interrupt and rerun.
 
 ## Limitations
 
-- ~48,000 labeled variants vs. ~71M for genome-scale tools like
+- 8,374 labeled variants vs. ~71M for genome-scale tools like
   AlphaMissense — this project speaks to whether a structural-clustering
   signal exists and generalizes, not to real-world predictive performance
   at that scale.
 - Performance varies substantially by gene; there is no single "accuracy"
   number that honestly represents the whole model.
 - Single static AlphaFold structure per gene — no conformational
-  flexibility, complexes, or bound states modeled.
+  flexibility, complexes, or bound states modeled. Cβ is a reasonable
+  static proxy for side-chain position but still can't capture side-chain
+  rotamer flexibility.
 - BRCA2 is excluded project-wide: no usable single-chain AlphaFold model
   is available due to protein size.

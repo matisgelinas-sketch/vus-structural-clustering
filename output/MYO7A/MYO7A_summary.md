@@ -22,23 +22,26 @@ verdict.
   length 2215).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 300 of 1529
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 46 flagged candidates,
+in every table, not excluded. Of the 132 flagged candidates,
 1 are low-confidence.
 
 ## Results
 
-**46 of 1353 VUS (3.4%)**
+**132 of 1353 VUS (9.8%)**
 flagged as candidates.
 
-By domain: {'Myosin motor': 20, 'Unannotated / linker': 9, 'FERM 2': 7, 'SH3': 3, 'FERM 1': 3, 'MyTH4 2': 2, 'SAH': 2}
+By domain: {'Myosin motor': 65, 'FERM 1': 15, 'Unannotated / linker': 14, 'FERM 2': 13, 'MyTH4 2': 12, 'MyTH4 1': 8, 'SH3': 3, 'SAH': 2}
 
 ## Outputs
 

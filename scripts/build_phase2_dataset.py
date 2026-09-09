@@ -56,6 +56,9 @@ for gene, cfg in RAW_TSV_GENES.items():
     safe_dist3d = dist_df['dist3d_A'].replace(0, 0.01)
     dist_df['seq_over_3d_ratio'] = dist_df['seqdist_nearest3d'] / safe_dist3d
     dist_df['seq_minus_3d_diff'] = dist_df['seqdist_nearest3d'] - dist_df['dist3d_A']
+    safe_dist3d_cb = dist_df['dist3d_cb_A'].replace(0, 0.01)
+    dist_df['seq_over_3d_ratio_cb'] = dist_df['seqdist_cb'] / safe_dist3d_cb
+    dist_df['seq_minus_3d_diff_cb'] = dist_df['seqdist_cb'] - dist_df['dist3d_cb_A']
 
     all_frames.append(dist_df)
     print(f"{gene}: {len(dist_df)} rows with features "
@@ -83,6 +86,9 @@ for gene in PREPARSED_CSV_GENES:
     safe_dist3d = dist_df['dist3d_A'].replace(0, 0.01)
     dist_df['seq_over_3d_ratio'] = dist_df['seqdist_nearest3d'] / safe_dist3d
     dist_df['seq_minus_3d_diff'] = dist_df['seqdist_nearest3d'] - dist_df['dist3d_A']
+    safe_dist3d_cb = dist_df['dist3d_cb_A'].replace(0, 0.01)
+    dist_df['seq_over_3d_ratio_cb'] = dist_df['seqdist_cb'] / safe_dist3d_cb
+    dist_df['seq_minus_3d_diff_cb'] = dist_df['seqdist_cb'] - dist_df['dist3d_cb_A']
 
     all_frames.append(dist_df)
     print(f"{gene}: {len(dist_df)} rows with features "
@@ -97,7 +103,10 @@ FEATURE_COLS = [
     'gene', 'variation', 'position', 'wt_aa', 'mt_aa', 'bucket', 'domain',
     'plddt', 'low_confidence', 'dist3d_A', 'seqdist_nearest3d',
     'seq_over_3d_ratio', 'seq_minus_3d_diff', 'n_pathogenic_within_threshold',
-    'nearest_pathogenic_pos', 'condition',
+    'nearest_pathogenic_pos', 'dist3d_cb_A', 'seqdist_cb',
+    'seq_over_3d_ratio_cb', 'seq_minus_3d_diff_cb',
+    'n_pathogenic_within_threshold_cb', 'nearest_pathogenic_pos_cb',
+    'condition',
 ]
 pooled_all = pooled_all[FEATURE_COLS]
 pooled_all.to_csv(OUT / "all_genes_features.csv", index=False)

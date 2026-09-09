@@ -22,23 +22,26 @@ verdict.
   length 860).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 284 of 1596
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 27 flagged candidates,
-0 are low-confidence.
+in every table, not excluded. Of the 322 flagged candidates,
+6 are low-confidence.
 
 ## Results
 
-**27 of 857 VUS (3.2%)**
+**322 of 857 VUS (37.6%)**
 flagged as candidates.
 
-By domain: {'LDL-receptor class B 2': 9, 'LDL-receptor class B 5': 5, 'LDL-receptor class B 6': 4, 'LDL-receptor class B 3': 3, 'LDL-receptor class B 4': 2, 'EGF-like 3': 2, 'LDL-receptor class A 6': 1, 'LDL-receptor class A 3': 1}
+By domain: {'LDL-receptor class B 3': 40, 'LDL-receptor class B 6': 39, 'LDL-receptor class B 5': 37, 'LDL-receptor class B 2': 33, 'LDL-receptor class B 1': 29, 'EGF-like 3': 20, 'LDL-receptor class A 7': 20, 'LDL-receptor class B 4': 18, 'EGF-like 2; calcium-binding': 15, 'EGF-like 1': 13, 'LDL-receptor class A 2': 12, 'LDL-receptor class A 1': 12, 'LDL-receptor class A 5': 9, 'LDL-receptor class A 3': 9, 'LDL-receptor class A 4': 7, 'LDL-receptor class A 6': 6, 'Unannotated / linker': 3}
 
 ## Outputs
 

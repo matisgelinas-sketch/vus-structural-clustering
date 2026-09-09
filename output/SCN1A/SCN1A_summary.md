@@ -22,23 +22,26 @@ verdict.
   length 2009).
 - Residue numbering cross-checked across ClinVar, UniProt, and
   structure: **0 mismatches** found.
-- Flagging threshold: **≤ 6 Å in 3D AND > 10 residues apart in
-  sequence** (same dual criterion validated on TP53, to exclude trivial
-  chain-adjacent cases).
+- Flagging threshold: **≤ 6 Å (backbone Cα *or* side-chain Cβ distance)
+  AND > 10 residues apart in sequence** (same dual criterion validated on
+  TP53, to exclude trivial chain-adjacent cases; computing both atom
+  types catches cases where a residue's side chain, not its backbone,
+  is what's actually close — a candidate confirmed by both is stronger
+  evidence than one found by only one).
 
 ## Structural confidence
 
 642 of 2357
 Pathogenic+VUS residues fall in low-confidence regions (pLDDT<70). Kept
-in every table, not excluded. Of the 25 flagged candidates,
-2 are low-confidence.
+in every table, not excluded. Of the 270 flagged candidates,
+20 are low-confidence.
 
 ## Results
 
-**25 of 1320 VUS (1.9%)**
+**270 of 1320 VUS (20.5%)**
 flagged as candidates.
 
-By domain: {'IV': 8, 'III': 8, 'II': 7, 'Unannotated / linker': 2}
+By domain: {'III': 71, 'IV': 66, 'I': 60, 'II': 42, 'Unannotated / linker': 28, 'Disordered': 3}
 
 ## Outputs
 
